@@ -1,0 +1,79 @@
+<changelist name="Uncommitted_changes_before_Checkout_at_14_05_2023_16_33_[Changes]1" date="1684071198008" recycled="true" deleted="true">
+  <option name="PATH" value="$PROJECT_DIR$/.idea/.idea.AppleStore/.idea/shelf/Uncommitted_changes_before_Checkout_at_14_05_2023_16_33_[Changes]1/shelved.patch" />
+  <option name="DESCRIPTION" value="Uncommitted changes before Checkout at 14.05.2023 16:33 [Changes]" />
+  <binary>
+    <option name="BEFORE_PATH" value="AppleStore.DAL/obj/Debug/net7.0/AppleStore.DAL.dll" />
+    <option name="AFTER_PATH" value="AppleStore.DAL/obj/Debug/net7.0/AppleStore.DAL.dll" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.AppleStore/.idea/shelf/Uncommitted_changes_before_Checkout_at_14_05_2023_16_33_[Changes]1/AppleStore.DAL.dll" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="AppleStore.Domain/bin/Debug/net7.0/AppleStore.Domain.pdb" />
+    <option name="AFTER_PATH" value="AppleStore.Domain/bin/Debug/net7.0/AppleStore.Domain.pdb" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.AppleStore/.idea/shelf/Uncommitted_changes_before_Checkout_at_14_05_2023_16_33_[Changes]1/AppleStore.Domain.pdb" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="AppleStore/bin/Debug/net7.0/AppleStore.Service.dll" />
+    <option name="AFTER_PATH" value="AppleStore/bin/Debug/net7.0/AppleStore.Service.dll" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.AppleStore/.idea/shelf/Uncommitted_changes_before_Checkout_at_14_05_2023_16_33_[Changes]1/AppleStore.Service.dll" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="AppleStore/bin/Debug/net7.0/AppleStore.DAL.pdb" />
+    <option name="AFTER_PATH" value="AppleStore/bin/Debug/net7.0/AppleStore.DAL.pdb" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.AppleStore/.idea/shelf/Uncommitted_changes_before_Checkout_at_14_05_2023_16_33_[Changes]1/AppleStore.DAL.pdb" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="AppleStore.Service/obj/Debug/net7.0/AppleStore.Service.csproj.AssemblyReference.cache" />
+    <option name="AFTER_PATH" value="AppleStore.Service/obj/Debug/net7.0/AppleStore.Service.csproj.AssemblyReference.cache" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.AppleStore/.idea/shelf/Uncommitted_changes_before_Checkout_at_14_05_2023_16_33_[Changes]1/AppleStore.Service.csproj.AssemblyReference.cache" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="AppleStore/obj/Debug/net7.0/AppleStore.dll" />
+    <option name="AFTER_PATH" value="AppleStore/obj/Debug/net7.0/AppleStore.dll" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.AppleStore/.idea/shelf/Uncommitted_changes_before_Checkout_at_14_05_2023_16_33_[Changes]1/AppleStore.dll" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="AppleStore.Service/bin/Debug/net7.0/AppleStore.Service.pdb" />
+    <option name="AFTER_PATH" value="AppleStore.Service/bin/Debug/net7.0/AppleStore.Service.pdb" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.AppleStore/.idea/shelf/Uncommitted_changes_before_Checkout_at_14_05_2023_16_33_[Changes]1/AppleStore.Service.pdb" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="AppleStore/bin/Debug/net7.0/AppleStore.Domain.dll" />
+    <option name="AFTER_PATH" value="AppleStore/bin/Debug/net7.0/AppleStore.Domain.dll" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.AppleStore/.idea/shelf/Uncommitted_changes_before_Checkout_at_14_05_2023_16_33_[Changes]1/AppleStore.Domain.dll" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="AppleStore/obj/Debug/net7.0/AppleStore.pdb" />
+    <option name="AFTER_PATH" value="AppleStore/obj/Debug/net7.0/AppleStore.pdb" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.AppleStore/.idea/shelf/Uncommitted_changes_before_Checkout_at_14_05_2023_16_33_[Changes]1/AppleStore.pdb" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="AppleStore.DAL/obj/Debug/net7.0/AppleStore.DAL.csproj.AssemblyReference.cache" />
+    <option name="AFTER_PATH" value="AppleStore.DAL/obj/Debug/net7.0/AppleStore.DAL.csproj.AssemblyReference.cache" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.AppleStore/.idea/shelf/Uncommitted_changes_before_Checkout_at_14_05_2023_16_33_[Changes]1/AppleStore.DAL.csproj.AssemblyReference.cache" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="AppleStore/obj/Debug/net7.0/AppleStore.csproj.AssemblyReference.cache" />
+    <option name="AFTER_PATH" value="AppleStore/obj/Debug/net7.0/AppleStore.csproj.AssemblyReference.cache" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.AppleStore/.idea/shelf/Uncommitted_changes_before_Checkout_at_14_05_2023_16_33_[Changes]1/AppleStore.csproj.AssemblyReference.cache" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="AppleStore.Service/obj/Debug/net7.0/AppleStore.Service.csproj.CoreCompileInputs.cache" />
+    <option name="AFTER_PATH" value="AppleStore.Service/obj/Debug/net7.0/AppleStore.Service.csproj.CoreCompileInputs.cache" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.AppleStore/.idea/shelf/Uncommitted_changes_before_Checkout_at_14_05_2023_16_33_[Changes]1/AppleStore.Service.csproj.CoreCompileInputs.cache" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="AppleStore/obj/Debug/net7.0/AppleStore.genruntimeconfig.cache" />
+    <option name="AFTER_PATH" value="AppleStore/obj/Debug/net7.0/AppleStore.genruntimeconfig.cache" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.AppleStore/.idea/shelf/Uncommitted_changes_before_Checkout_at_14_05_2023_16_33_[Changes]1/AppleStore.genruntimeconfig.cache" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="AppleStore.DAL/obj/Debug/net7.0/AppleStore.DAL.csproj.CoreCompileInputs.cache" />
+    <option name="AFTER_PATH" value="AppleStore.DAL/obj/Debug/net7.0/AppleStore.DAL.csproj.CoreCompileInputs.cache" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.AppleStore/.idea/shelf/Uncommitted_changes_before_Checkout_at_14_05_2023_16_33_[Changes]1/AppleStore.DAL.csproj.CoreCompileInputs.cache" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="AppleStore/obj/Debug/net7.0/AppleStore.csproj.CoreCompileInputs.cache" />
+    <option name="AFTER_PATH" value="AppleStore/obj/Debug/net7.0/AppleStore.csproj.CoreCompileInputs.cache" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.AppleStore/.idea/shelf/Uncommitted_changes_before_Checkout_at_14_05_2023_16_33_[Changes]1/AppleStore.csproj.CoreCompileInputs.cache" />
+  </binary>
+</changelist>
