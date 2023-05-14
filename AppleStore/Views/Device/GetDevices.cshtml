@@ -1,0 +1,5 @@
+﻿@model IEnumerable<AppleStore.Domain.Entity.Device>
+@foreach (var device in Model)
+{
+    <h1>@device.Name - @device.ReleaseDate</h1>
+}
