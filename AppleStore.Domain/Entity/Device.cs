@@ -9,4 +9,5 @@ public class Device
     public DeviceType.DeviceType Type { get; set; }
     public string? Model { get; set; }
     public DateOnly ReleaseDate { get; set; }
+    public object AndeyLox;
 }
