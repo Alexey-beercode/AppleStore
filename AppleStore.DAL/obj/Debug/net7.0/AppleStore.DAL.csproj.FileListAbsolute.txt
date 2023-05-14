@@ -1,0 +1,15 @@
+C:\ASProggs\NormProjects\AppleStore\AppleStore.DAL\bin\Debug\net7.0\AppleStore.DAL.deps.json
+C:\ASProggs\NormProjects\AppleStore\AppleStore.DAL\bin\Debug\net7.0\AppleStore.DAL.dll
+C:\ASProggs\NormProjects\AppleStore\AppleStore.DAL\bin\Debug\net7.0\AppleStore.DAL.pdb
+C:\ASProggs\NormProjects\AppleStore\AppleStore.DAL\bin\Debug\net7.0\AppleStore.Domain.dll
+C:\ASProggs\NormProjects\AppleStore\AppleStore.DAL\bin\Debug\net7.0\AppleStore.Domain.pdb
+C:\ASProggs\NormProjects\AppleStore\AppleStore.DAL\obj\Debug\net7.0\AppleStore.DAL.csproj.AssemblyReference.cache
+C:\ASProggs\NormProjects\AppleStore\AppleStore.DAL\obj\Debug\net7.0\AppleStore.DAL.GeneratedMSBuildEditorConfig.editorconfig
+C:\ASProggs\NormProjects\AppleStore\AppleStore.DAL\obj\Debug\net7.0\AppleStore.DAL.AssemblyInfoInputs.cache
+C:\ASProggs\NormProjects\AppleStore\AppleStore.DAL\obj\Debug\net7.0\AppleStore.DAL.AssemblyInfo.cs
+C:\ASProggs\NormProjects\AppleStore\AppleStore.DAL\obj\Debug\net7.0\AppleStore.DAL.csproj.CoreCompileInputs.cache
+C:\ASProggs\NormProjects\AppleStore\AppleStore.DAL\obj\Debug\net7.0\AppleStore.DAL.csproj.CopyComplete
+C:\ASProggs\NormProjects\AppleStore\AppleStore.DAL\obj\Debug\net7.0\AppleStore.DAL.dll
+C:\ASProggs\NormProjects\AppleStore\AppleStore.DAL\obj\Debug\net7.0\refint\AppleStore.DAL.dll
+C:\ASProggs\NormProjects\AppleStore\AppleStore.DAL\obj\Debug\net7.0\AppleStore.DAL.pdb
+C:\ASProggs\NormProjects\AppleStore\AppleStore.DAL\obj\Debug\net7.0\ref\AppleStore.DAL.dll
