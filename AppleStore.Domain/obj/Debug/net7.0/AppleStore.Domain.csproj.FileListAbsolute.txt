@@ -1,0 +1,12 @@
+C:\ASProggs\NormProjects\AppleStore\AppleStore.Domain\bin\Debug\net7.0\AppleStore.Domain.deps.json
+C:\ASProggs\NormProjects\AppleStore\AppleStore.Domain\bin\Debug\net7.0\AppleStore.Domain.dll
+C:\ASProggs\NormProjects\AppleStore\AppleStore.Domain\bin\Debug\net7.0\AppleStore.Domain.pdb
+C:\ASProggs\NormProjects\AppleStore\AppleStore.Domain\obj\Debug\net7.0\AppleStore.Domain.csproj.AssemblyReference.cache
+C:\ASProggs\NormProjects\AppleStore\AppleStore.Domain\obj\Debug\net7.0\AppleStore.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\ASProggs\NormProjects\AppleStore\AppleStore.Domain\obj\Debug\net7.0\AppleStore.Domain.AssemblyInfoInputs.cache
+C:\ASProggs\NormProjects\AppleStore\AppleStore.Domain\obj\Debug\net7.0\AppleStore.Domain.AssemblyInfo.cs
+C:\ASProggs\NormProjects\AppleStore\AppleStore.Domain\obj\Debug\net7.0\AppleStore.Domain.csproj.CoreCompileInputs.cache
+C:\ASProggs\NormProjects\AppleStore\AppleStore.Domain\obj\Debug\net7.0\AppleStore.Domain.dll
+C:\ASProggs\NormProjects\AppleStore\AppleStore.Domain\obj\Debug\net7.0\refint\AppleStore.Domain.dll
+C:\ASProggs\NormProjects\AppleStore\AppleStore.Domain\obj\Debug\net7.0\AppleStore.Domain.pdb
+C:\ASProggs\NormProjects\AppleStore\AppleStore.Domain\obj\Debug\net7.0\ref\AppleStore.Domain.dll
