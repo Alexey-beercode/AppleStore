@@ -4,7 +4,7 @@ using Microsoft.EntityFrameworkCore;
 
 namespace AppleStore.DAL.Repositories;
 
-public class DeviceRepository : IDeviceRepository
+public class DeviceRepository : IBaseRepository<Device>
 {
     public readonly ApplicationDbContext db;
 

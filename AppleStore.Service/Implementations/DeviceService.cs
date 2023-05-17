@@ -1,10 +1,12 @@
-﻿namespace AppleStore.Service.Implementations;
+﻿using AppleStore.DAL.Repositories;
+
+namespace AppleStore.Service.Implementations;
 
 public class DeviceService:IDeviceService
 {
-    private readonly IDeviceRepository _deviceRepository;
+    private readonly DeviceRepository _deviceRepository;
 
-    public DeviceService(IDeviceRepository deviceRepository)
+    public DeviceService(DeviceRepository deviceRepository)
     {
         _deviceRepository = deviceRepository;
     }

@@ -1,8 +1,4 @@
-﻿using AppleStore.Domain.Entity;
-using AppleStore.Domain.Response;
-using AppleStore.Domain.ViewModels;
-
-namespace AppleStore.Service.Interfaces;
+﻿namespace AppleStore.Service.Interfaces;
 
 public interface IDeviceService
 {
