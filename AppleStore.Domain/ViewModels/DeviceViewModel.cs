@@ -9,5 +9,4 @@ public class DeviceViewModel
     public string? Type { get; set; }
     public string? Model { get; set; }
     public DateOnly ReleaseDate { get; set; }
-    public object AndrewLox;
 }
