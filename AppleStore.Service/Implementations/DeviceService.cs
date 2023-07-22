@@ -1,12 +1,10 @@
-﻿using AppleStore.DAL.Repositories;
+﻿namespace AppleStore.Service.Implementations;
 
-namespace AppleStore.Service.Implementations;
-
-public class DeviceService:IDeviceService
+public class DeviceService : IDeviceService
 {
-    private readonly DeviceRepository _deviceRepository;
+    private readonly IDeviceRepository _deviceRepository;
 
-    public DeviceService(DeviceRepository deviceRepository)
+    public DeviceService(IDeviceRepository deviceRepository)
     {
         _deviceRepository = deviceRepository;
     }
@@ -14,26 +12,9 @@ public class DeviceService:IDeviceService
     public async Task<BaseResponse<Device>> GetById(int id)
     {
         var baseResponse = new BaseResponse<Device>();
-        
-            var device = await _deviceRepository.GetById(id);
-            if (device==null)
-            {
-                baseResponse.Description = "Девайс не найден";
-                baseResponse.StatusCode = HttpStatusCode.NoContent;
-                return baseResponse;
-            }
 
-            baseResponse.StatusCode = HttpStatusCode.OK;
-            baseResponse.Data = device;
-            return baseResponse;
-    }
-    
-    public async Task<BaseResponse<Device>> GetByName(string name)
-    {
-        var baseResponse = new BaseResponse<Device>();
-        
-        var device = await _deviceRepository.GetByName(name);
-        if (device==null)
+        var device = await _deviceRepository.GetById(id);
+        if (device == null)
         {
             baseResponse.Description = "Девайс не найден";
             baseResponse.StatusCode = HttpStatusCode.NoContent;
@@ -44,17 +25,32 @@ public class DeviceService:IDeviceService
         baseResponse.Data = device;
         return baseResponse;
     }
-    
+
+    public async Task<BaseResponse<Device>> GetByName(string name)
+    {
+        var baseResponse = new BaseResponse<Device>();
+
+        var device = await _deviceRepository.GetByName(name);
+        if (device == null)
+        {
+            baseResponse.Description = "Девайс не найден";
+            baseResponse.StatusCode = HttpStatusCode.NoContent;
+            return baseResponse;
+        }
+
+        baseResponse.StatusCode = HttpStatusCode.OK;
+        baseResponse.Data = device;
+        return baseResponse;
+    }
+
     public async Task<BaseResponse<bool>> CreateDevice(DeviceViewModel model)
     {
         var baseResponse = new BaseResponse<bool>();
         var device = new Device()
         {
-            Model = model.Model,
             Name = model.Name,
             Description = model.Description,
             Price = model.Price,
-            ReleaseDate = model.ReleaseDate,
             Type = (DeviceType)Convert.ToInt32(model.Type)
         };
         await _deviceRepository.Create(device);
@@ -62,13 +58,13 @@ public class DeviceService:IDeviceService
         baseResponse.Data = true;
         return baseResponse;
     }
-    
+
     public async Task<BaseResponse<bool>> DeleteDevice(int id)
     {
         var baseResponse = new BaseResponse<bool>();
-        
+
         var device = await _deviceRepository.GetById(id);
-        if (device==null)
+        if (device == null)
         {
             baseResponse.Description = "Девайс не найден";
             baseResponse.StatusCode = HttpStatusCode.NoContent;
@@ -80,20 +76,20 @@ public class DeviceService:IDeviceService
         baseResponse.Data = true;
         return baseResponse;
     }
-    
+
     public async Task<BaseResponse<IEnumerable<Device>>> GetDevices()
     {
         var baseResponse = new BaseResponse<IEnumerable<Device>>();
         try
         {
-            var devices=await _deviceRepository.Select();
+            var devices = await _deviceRepository.Select();
             if (devices.Count == 0)
             {
                 baseResponse.Description = "Найдено 0 элементов";
                 baseResponse.StatusCode = HttpStatusCode.NoContent;
                 return baseResponse;
             }
-            
+
             baseResponse.Data = devices;
             baseResponse.StatusCode = HttpStatusCode.OK;
 
@@ -114,7 +110,7 @@ public class DeviceService:IDeviceService
         try
         {
             var device = await _deviceRepository.GetById(model.Id);
-            if (device==null)
+            if (device == null)
             {
                 baseResponse.Description = "Девайс не найден";
                 baseResponse.StatusCode = HttpStatusCode.NoContent;
@@ -123,8 +119,6 @@ public class DeviceService:IDeviceService
 
             device.Description = model.Description;
             device.Name = model.Name;
-            device.ReleaseDate = model.ReleaseDate;
-            device.Model = model.Model;
             device.Price = model.Price;
             device.Type = (DeviceType)Convert.ToInt32(model.Type);
             await _deviceRepository.Update(device);

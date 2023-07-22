@@ -1,4 +1,6 @@
-﻿namespace AppleStore.Domain.ViewModels;
+﻿using System.Net.Mime;
+
+namespace AppleStore.Domain.ViewModels;
 
 public class DeviceViewModel
 {
@@ -7,6 +9,5 @@ public class DeviceViewModel
     public string? Name { get; set; }
     public string? Description { get; set; }
     public string? Type { get; set; }
-    public string? Model { get; set; }
-    public DateOnly ReleaseDate { get; set; }
+    public string ImageUrl { get; set; }
 }

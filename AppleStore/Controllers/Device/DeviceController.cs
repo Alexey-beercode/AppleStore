@@ -77,4 +77,10 @@ public class DeviceController : Controller
         
         return RedirectToAction("GetDevices");
     }
+
+    public async Task<IActionResult> Catalog()
+    {
+        BaseResponse<IEnumerable<Domain.Entity.Device>> devices = await _deviceService.GetDevices();
+        return View(devices.Data);
+    }
 }

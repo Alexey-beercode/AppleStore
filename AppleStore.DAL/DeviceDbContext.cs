@@ -3,11 +3,11 @@ using Microsoft.EntityFrameworkCore;
 
 namespace AppleStore.DAL;
 
-public class ApplicationDbContext: DbContext
+public class DeviceDbContext: DbContext
 {
     public DbSet<Device?> Device { get; set; } = null!;
 
-    public ApplicationDbContext(DbContextOptions<ApplicationDbContext> options)
+    public DeviceDbContext(DbContextOptions<DeviceDbContext> options)
         : base(options)
     {
         Database.EnsureCreated();

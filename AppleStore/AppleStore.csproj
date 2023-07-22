@@ -20,4 +20,9 @@
       <_ContentIncludedByDefault Remove="Pages\Home\Index.cshtml" />
     </ItemGroup>
 
+    <ItemGroup>
+      <Folder Include="Helpers" />
+      <Folder Include="Views\Home" />
+    </ItemGroup>
+
 </Project>

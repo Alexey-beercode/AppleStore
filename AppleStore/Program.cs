@@ -1,10 +1,16 @@
+using AppleStore.Domain.Entity;
+
 var builder = WebApplication.CreateBuilder(args);
+string? deviceConnection = builder.Configuration.GetConnectionString("DeviceConnection");
+string? orderConnection = builder.Configuration.GetConnectionString("OrderConnection");
 
 builder.Services.AddControllersWithViews();
-string? connection = builder.Configuration.GetConnectionString("DefaultConnection");
-
-builder.Services.AddDbContext<ApplicationDbContext>(options => options.UseNpgsql(connection));
+builder.Services.AddDbContext<DeviceDbContext>(options => options.UseNpgsql(deviceConnection));
 builder.Services.AddScoped<IDeviceService, DeviceService>();
+builder.Services.AddScoped<IDeviceRepository, DeviceRepository>();
+builder.Services.AddDbContext<OrderDbContext>(options => options.UseNpgsql(orderConnection));
+builder.Services.AddScoped<IOrderService, OrderService>();
+builder.Services.AddScoped<OrderRepository>();
 
 var app = builder.Build();
 
@@ -22,7 +28,7 @@ app.UseRouting();
 app.UseAuthorization();
 
 app.MapControllerRoute(
-    name: "default",
-    pattern: "{controller=Home}/{action=Index}/{id?}");
+    name: "default", 
+    pattern: "{controller=Device}/{action=Catalog}/{id?}");
 
 app.Run();

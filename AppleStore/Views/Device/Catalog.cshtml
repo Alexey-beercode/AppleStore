@@ -1,0 +1,27 @@
+﻿@model IEnumerable<AppleStore.Domain.Entity.Device>?
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Онлайн магазин телефонов</title>
+    <link rel="stylesheet" href="css/styles.css"> <!-- Путь к файлу стилей -->
+</head>
+<body>
+    <header>
+        <h1>Онлайн магазин телефонов</h1>
+    </header>
+    <div class="catalog">
+        <ul>
+            @foreach (var phone in Model)
+            {
+                <li>
+                    <a href="@Url.Action("Getorder", "Order", new { id = phone.Id })"> <!-- Переход к странице товара -->
+                        <img src="@phone.ImageUrl" alt="@phone.Name">
+                        <p>@phone.Name</p>
+                    </a>
+                </li>
+            }
+        </ul>
+    </div>
+</body>
+</html>
