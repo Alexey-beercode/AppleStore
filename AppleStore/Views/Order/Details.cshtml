@@ -1,4 +1,5 @@
-﻿@model AppleStore.Domain.Entity.Device
+﻿@using AppleStore.Domain.Entity
+@model AppleStore.Domain.Entity.Device
 
 <!DOCTYPE html>
 <html>
@@ -11,10 +12,11 @@
     <h1>Онлайн магазин телефонов</h1>
 </header>
 <div class="product">
-    <img src="@Model.Description" alt="@Model.Name">
+    <img src="@Model.ImageUrl" alt="@Model.Name">
     <h2>@Model.Name</h2>
-    <p>@Model.Description</p>
-    <a href="@Url.Action("Index", "Home", new { id = Model.Id })">Заказать</a>
+    <p>@Model.Description</p><br/>
+    <p>@Model.Price</p>
+    <a href="@Url.Action("PlaceOrder", "Order",new {id=@Model.Id})">Заказать</a>
 </div>
 </body>
 </html>

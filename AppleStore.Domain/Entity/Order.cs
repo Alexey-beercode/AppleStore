@@ -10,5 +10,5 @@ public class Order
     [Required]
     [EmailAddress]
     public string? Address { get; set; }
-    public string? DeviceName { get; set; }
+    public int DeviceId { get; set; }
 }

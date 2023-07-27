@@ -43,7 +43,7 @@ public class DeviceService : IDeviceService
         return baseResponse;
     }
 
-    public async Task<BaseResponse<bool>> CreateDevice(DeviceViewModel model)
+    public async Task<BaseResponse<bool>> CreateDevice(Device model)
     {
         var baseResponse = new BaseResponse<bool>();
         var device = new Device()
@@ -104,7 +104,7 @@ public class DeviceService : IDeviceService
         }
     }
 
-    public async Task<BaseResponse<Device>> Edit(DeviceViewModel model)
+    public async Task<BaseResponse<Device>> Edit(Device model)
     {
         var baseResponse = new BaseResponse<Device>();
         try

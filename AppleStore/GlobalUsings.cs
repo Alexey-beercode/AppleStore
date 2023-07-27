@@ -1,6 +1,5 @@
 ﻿global using System.Net;
 global using AppleStore.Domain.Response;
-global using AppleStore.Domain.ViewModels;
 global using AppleStore.Models;
 global using AppleStore.Service.Interfaces;
 global using Microsoft.AspNetCore.Authorization;

@@ -1,4 +1,5 @@
-﻿@model IEnumerable<AppleStore.Domain.Entity.Device>?
+﻿@using AppleStore.Domain.Entity
+@model IEnumerable<AppleStore.Domain.Entity.Device>?
 
 <!DOCTYPE html>
 <html>
@@ -15,9 +16,9 @@
             @foreach (var phone in Model)
             {
                 <li>
-                    <a href="@Url.Action("Getorder", "Order", new { id = phone.Id })"> <!-- Переход к странице товара -->
-                        <img src="@phone.ImageUrl" alt="@phone.Name">
-                        <p>@phone.Name</p>
+                    <a href="@Url.Action("Details", "Order", new {id=@phone.Id})"> <!-- Переход к странице товара -->
+                        <img src="@phone.ImageUrl">
+                        <p>@phone.Name <br/>@phone.Price  руб</p>
                     </a>
                 </li>
             }

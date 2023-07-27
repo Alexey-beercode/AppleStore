@@ -46,6 +46,6 @@ public class DeviceRepository : IDeviceRepository
 
     public async Task<Device> GetByName(string? name)
     {
-        return await db.Device.FirstOrDefaultAsync(x => x.Name==name);
+        return await db.Device.FirstOrDefaultAsync(x => x.Name == name);
     }
 }

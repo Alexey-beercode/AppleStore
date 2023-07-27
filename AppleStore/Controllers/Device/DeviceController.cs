@@ -24,6 +24,12 @@ public class DeviceController : Controller
     {
         return View(new ErrorViewModel() { RequestId = "Ошибка получения данных" });
     }
+    
+    public IActionResult Error(ErrorViewModel model)
+    {
+        return View(model);
+    }
+    
 
     public async Task<IActionResult> GetDeviceById(int id)
     {
@@ -61,7 +67,7 @@ public class DeviceController : Controller
     }
 
     [HttpPost]
-    public async Task<IActionResult> Save(DeviceViewModel model)
+    public async Task<IActionResult> Save(Domain.Entity.Device model)
     {
         if (ModelState.IsValid)
         {

@@ -51,7 +51,7 @@ public class OrderService : IOrderService
         var order = new Order()
         {
             Name = orderModel.Name,
-            DeviceName = orderModel.DeviceName,
+            DeviceId = orderModel.DeviceId,
             Email = orderModel.Email,
             Address = orderModel.Address
         };
@@ -120,7 +120,7 @@ public class OrderService : IOrderService
             }
 
             order.Name = orderModel.Name;
-            order.DeviceName = orderModel.DeviceName;
+            order.DeviceId = orderModel.DeviceId;
             order.Email = orderModel.Email;
             order.Address = orderModel.Address;
             await _orderRepository.Update(order);
