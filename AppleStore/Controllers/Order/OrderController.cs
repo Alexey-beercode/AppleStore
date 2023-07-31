@@ -1,6 +1,4 @@
-﻿using Microsoft.EntityFrameworkCore.Metadata.Internal;
-
-namespace AppleStore.Controllers.Order;
+﻿namespace AppleStore.Controllers.Order;
 
 public class OrderController:Controller
 {
@@ -22,22 +20,20 @@ public class OrderController:Controller
     public async Task<IActionResult> PlaceOrder(int id)
     {
         BaseResponse < Domain.Entity.Device > response = await _deviceService.GetById(id);
-        return View(new DeviceOrderViewModel(){Device = response.Data, Order = default});
+        return View(new DeviceOrderViewModel(){Device = response.Data});
     }
 
     [HttpPost]
     public async Task<IActionResult> PlaceOrder(DeviceOrderViewModel viewModel)
     {
-        await _orderService.CreateOrder(viewModel.Order);
-        /*
         if (ModelState.IsValid)
         {
+            await _orderService.CreateOrder(viewModel.Order);
         }
         else
         {
             return RedirectToRoute("~/Device/Error",new ErrorViewModel(){RequestId = "Неверно введенные данные"});
         }
-        */
         return View("FinishOrder");
     }
 }
