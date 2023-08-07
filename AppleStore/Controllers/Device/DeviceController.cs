@@ -23,15 +23,8 @@ public class DeviceController : Controller
 
     public IActionResult Error()
     {
-        return View(new ErrorViewModel() { RequestId = "Ошибка получения данных" });
+        return View();
     }
-    
-    public IActionResult Error(ErrorViewModel model)
-    {
-        return View(model);
-    }
-    
-
     public async Task<IActionResult> GetDeviceById(int id)
     {
         BaseResponse <Domain.Entity.Device> response= await _deviceService.GetById(id);
