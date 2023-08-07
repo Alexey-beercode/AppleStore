@@ -87,8 +87,12 @@ public class DeviceController : Controller
 
     public async Task<IActionResult> Catalog()
     {
-        BaseResponse<IEnumerable<Domain.Entity.Device>> devices = await _deviceService.GetDevices();
+        BaseResponse<IEnumerable<Domain.Entity.Device>> response = await _deviceService.GetDevices();
         _logger.LogDebug("Catalog open");
-        return View(devices.Data);
+        if (response.StatusCode!=HttpStatusCode.OK)
+        {
+            return View("Error", response.Description);
+        }
+        return View(response.Data);
     }
 }
