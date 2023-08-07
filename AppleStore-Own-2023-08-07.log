@@ -1,0 +1,72 @@
+2023-08-07 22:42:33.8408|0|DEBUG| |url: |action: |Program.<Main>$| body: 
+2023-08-07 22:42:34.0105|0|INFO| |url: |action: |Microsoft.Extensions.Hosting.Internal.ConsoleLifetime.OnApplicationStarted| body: 
+2023-08-07 22:42:34.0105|0|INFO| |url: |action: |Microsoft.Extensions.Hosting.Internal.ConsoleLifetime.OnApplicationStarted| body: 
+2023-08-07 22:42:34.0105|0|INFO| |url: |action: |Microsoft.Extensions.Hosting.Internal.ApplicationLifetime.NotifyStarted| body: 
+2023-08-07 22:42:34.6440|0|DEBUG| |url: https://localhost/|action: Catalog|AppleStore.Controllers.Device.DeviceController..ctor| body: 
+2023-08-07 22:42:35.1548|0|DEBUG| |url: https://localhost/|action: Catalog|AppleStore.Controllers.Device.DeviceController..ctor| body: 
+2023-08-07 22:42:41.4807|0|INFO| |url: |action: |Microsoft.Extensions.Hosting.Internal.ApplicationLifetime.StopApplication| body: 
+2023-08-07 22:43:48.2177|0|DEBUG|Program|Init |url: |action: |Program.<Main>$| body: 
+2023-08-07 22:43:48.3883|0|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. |url: |action: |Microsoft.Extensions.Hosting.Internal.ConsoleLifetime.OnApplicationStarted| body: 
+2023-08-07 22:43:48.3883|0|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development |url: |action: |Microsoft.Extensions.Hosting.Internal.ConsoleLifetime.OnApplicationStarted| body: 
+2023-08-07 22:43:48.3883|0|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\AProject\AppleStore\AppleStore |url: |action: |Microsoft.Extensions.Hosting.Internal.ApplicationLifetime.NotifyStarted| body: 
+2023-08-07 22:43:49.0000|0|DEBUG|AppleStore.Controllers.Device.DeviceController|Nlog is good |url: https://localhost/|action: Catalog|AppleStore.Controllers.Device.DeviceController..ctor| body: 
+2023-08-07 22:43:49.3531|0|DEBUG|AppleStore.Controllers.Device.DeviceController|Nlog is good |url: https://localhost/|action: Catalog|AppleStore.Controllers.Device.DeviceController..ctor| body: 
+2023-08-07 22:44:18.0921|0|INFO|Microsoft.Hosting.Lifetime|Application is shutting down... |url: |action: |Microsoft.Extensions.Hosting.Internal.ApplicationLifetime.StopApplication| body: 
+2023-08-07 22:49:08.8586|0|DEBUG|Program|Init |url: |action: |Program.<Main>$| body: 
+2023-08-07 22:49:09.0245|0|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. |url: |action: |Microsoft.Extensions.Hosting.Internal.ConsoleLifetime.OnApplicationStarted| body: 
+2023-08-07 22:49:09.0245|0|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development |url: |action: |Microsoft.Extensions.Hosting.Internal.ConsoleLifetime.OnApplicationStarted| body: 
+2023-08-07 22:49:09.0245|0|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\AProject\AppleStore\AppleStore |url: |action: |Microsoft.Extensions.Hosting.Internal.ApplicationLifetime.NotifyStarted| body: 
+2023-08-07 22:49:09.6245|0|DEBUG|AppleStore.Controllers.Device.DeviceController|Nlog is good |url: https://localhost/|action: Catalog|AppleStore.Controllers.Device.DeviceController..ctor| body: 
+2023-08-07 22:49:10.1504|0|DEBUG|AppleStore.Controllers.Device.DeviceController|Nlog is good |url: https://localhost/|action: Catalog|AppleStore.Controllers.Device.DeviceController..ctor| body: 
+2023-08-07 22:59:13.8666|0|INFO|Microsoft.Hosting.Lifetime|Application is shutting down... |url: |action: |Microsoft.Extensions.Hosting.Internal.ApplicationLifetime.StopApplication| body: 
+2023-08-07 23:00:59.0144|0|DEBUG|Program|Init |url: |action: |Program.<Main>$| body: 
+2023-08-07 23:00:59.1837|0|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. |url: |action: |Microsoft.Extensions.Hosting.Internal.ConsoleLifetime.OnApplicationStarted| body: 
+2023-08-07 23:00:59.1837|0|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development |url: |action: |Microsoft.Extensions.Hosting.Internal.ConsoleLifetime.OnApplicationStarted| body: 
+2023-08-07 23:00:59.1837|0|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\AProject\AppleStore\AppleStore |url: |action: |Microsoft.Extensions.Hosting.Internal.ApplicationLifetime.NotifyStarted| body: 
+2023-08-07 23:00:59.8262|0|DEBUG|AppleStore.Controllers.Device.DeviceController|Nlog is good |url: https://localhost/|action: Catalog|AppleStore.Controllers.Device.DeviceController..ctor| body: 
+2023-08-07 23:01:00.2001|0|DEBUG|AppleStore.Controllers.Device.DeviceController|Nlog is good |url: https://localhost/|action: Catalog|AppleStore.Controllers.Device.DeviceController..ctor| body: 
+2023-08-07 23:01:13.0902|0|INFO|Microsoft.Hosting.Lifetime|Application is shutting down... |url: |action: |Microsoft.Extensions.Hosting.Internal.ApplicationLifetime.StopApplication| body: 
+2023-08-07 23:02:16.2268|0|DEBUG|Program|Init |url: |action: |Program.<Main>$| body: 
+2023-08-07 23:02:16.4294|0|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. |url: |action: |Microsoft.Extensions.Hosting.Internal.ConsoleLifetime.OnApplicationStarted| body: 
+2023-08-07 23:02:16.4450|0|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development |url: |action: |Microsoft.Extensions.Hosting.Internal.ConsoleLifetime.OnApplicationStarted| body: 
+2023-08-07 23:02:16.4450|0|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\AProject\AppleStore\AppleStore |url: |action: |Microsoft.Extensions.Hosting.Internal.ApplicationLifetime.NotifyStarted| body: 
+2023-08-07 23:02:17.1094|0|DEBUG|AppleStore.Controllers.Device.DeviceController|Nlog is good |url: https://localhost/|action: Catalog|AppleStore.Controllers.Device.DeviceController..ctor| body: 
+2023-08-07 23:02:17.5812|0|DEBUG|AppleStore.Controllers.Device.DeviceController|Nlog is good |url: https://localhost/|action: Catalog|AppleStore.Controllers.Device.DeviceController..ctor| body: 
+2023-08-07 23:03:06.4230|0|DEBUG|AppleStore.Controllers.Device.DeviceController|Catalog open |url: https://localhost/|action: Catalog|AppleStore.Controllers.Device.DeviceController.Catalog| body: 
+2023-08-07 23:03:06.5211|0|DEBUG|AppleStore.Controllers.Device.DeviceController|Catalog open |url: https://localhost/|action: Catalog|AppleStore.Controllers.Device.DeviceController.Catalog| body: 
+2023-08-07 23:03:46.7907|0|DEBUG|AppleStore.Controllers.Device.DeviceController|Catalog open |url: https://localhost/|action: Catalog|AppleStore.Controllers.Device.DeviceController.Catalog| body: 
+2023-08-07 23:03:46.8735|0|DEBUG|AppleStore.Controllers.Device.DeviceController|Catalog open |url: https://localhost/|action: Catalog|AppleStore.Controllers.Device.DeviceController.Catalog| body: 
+2023-08-07 23:04:09.5416|0|INFO|Microsoft.Hosting.Lifetime|Application is shutting down... |url: |action: |Microsoft.Extensions.Hosting.Internal.ApplicationLifetime.StopApplication| body: 
+2023-08-07 23:04:19.3539|0|DEBUG|Program|Init |url: |action: |Program.<Main>$| body: 
+2023-08-07 23:04:19.5737|0|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. |url: |action: |Microsoft.Extensions.Hosting.Internal.ConsoleLifetime.OnApplicationStarted| body: 
+2023-08-07 23:04:19.5737|0|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development |url: |action: |Microsoft.Extensions.Hosting.Internal.ConsoleLifetime.OnApplicationStarted| body: 
+2023-08-07 23:04:19.5737|0|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\AProject\AppleStore\AppleStore |url: |action: |Microsoft.Extensions.Hosting.Internal.ApplicationLifetime.NotifyStarted| body: 
+2023-08-07 23:04:20.3289|0|DEBUG|AppleStore.Controllers.Device.DeviceController|Catalog open |url: https://localhost/|action: Catalog|AppleStore.Controllers.Device.DeviceController.Catalog| body: 
+2023-08-07 23:04:20.5334|0|DEBUG|AppleStore.Controllers.Device.DeviceController|Catalog open |url: https://localhost/|action: Catalog|AppleStore.Controllers.Device.DeviceController.Catalog| body: 
+2023-08-07 23:04:24.7559|0|INFO|Microsoft.Hosting.Lifetime|Application is shutting down... |url: |action: |Microsoft.Extensions.Hosting.Internal.ApplicationLifetime.StopApplication| body: 
+2023-08-07 23:04:54.7649|0|DEBUG|Program|Init |url: |action: |Program.<Main>$| body: 
+2023-08-07 23:04:54.9358|0|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. |url: |action: |Microsoft.Extensions.Hosting.Internal.ConsoleLifetime.OnApplicationStarted| body: 
+2023-08-07 23:04:54.9358|0|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development |url: |action: |Microsoft.Extensions.Hosting.Internal.ConsoleLifetime.OnApplicationStarted| body: 
+2023-08-07 23:04:54.9358|0|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\AProject\AppleStore\AppleStore |url: |action: |Microsoft.Extensions.Hosting.Internal.ApplicationLifetime.NotifyStarted| body: 
+2023-08-07 23:04:55.6937|0|DEBUG|AppleStore.Controllers.Device.DeviceController|Catalog open |url: https://localhost/|action: Catalog|AppleStore.Controllers.Device.DeviceController.Catalog| body: 
+2023-08-07 23:04:56.0268|0|DEBUG|AppleStore.Controllers.Device.DeviceController|Catalog open |url: https://localhost/|action: Catalog|AppleStore.Controllers.Device.DeviceController.Catalog| body: 
+2023-08-07 23:05:01.9067|0|DEBUG|AppleStore.Controllers.Device.DeviceController|Catalog open |url: https://localhost/|action: Catalog|AppleStore.Controllers.Device.DeviceController.Catalog| body: 
+2023-08-07 23:05:21.3012|0|DEBUG|AppleStore.Controllers.Device.DeviceController|Catalog open |url: https://localhost/|action: Catalog|AppleStore.Controllers.Device.DeviceController.Catalog| body: 
+2023-08-07 23:05:37.0411|0|DEBUG|AppleStore.Controllers.Device.DeviceController|Catalog open |url: https://localhost/|action: Catalog|AppleStore.Controllers.Device.DeviceController.Catalog| body: 
+2023-08-07 23:05:37.1965|0|DEBUG|AppleStore.Controllers.Device.DeviceController|Catalog open |url: https://localhost/|action: Catalog|AppleStore.Controllers.Device.DeviceController.Catalog| body: 
+2023-08-07 23:06:20.6491|0|DEBUG|AppleStore.Controllers.Device.DeviceController|Catalog open |url: https://localhost/|action: Catalog|AppleStore.Controllers.Device.DeviceController.Catalog| body: 
+2023-08-07 23:06:46.8522|0|DEBUG|AppleStore.Controllers.Device.DeviceController|Catalog open |url: https://localhost/|action: Catalog|AppleStore.Controllers.Device.DeviceController.Catalog| body: 
+2023-08-07 23:06:47.0528|0|DEBUG|AppleStore.Controllers.Device.DeviceController|Catalog open |url: https://localhost/|action: Catalog|AppleStore.Controllers.Device.DeviceController.Catalog| body: 
+2023-08-07 23:07:26.0417|0|INFO|Microsoft.Hosting.Lifetime|Application is shutting down... |url: |action: |Microsoft.Extensions.Hosting.Internal.ApplicationLifetime.StopApplication| body: 
+2023-08-07 23:37:32.9710|0|DEBUG|Program|Init |url: |action: |Program.<Main>$| body: 
+2023-08-07 23:37:33.3055|0|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. |url: |action: |Microsoft.Extensions.Hosting.Internal.ConsoleLifetime.OnApplicationStarted| body: 
+2023-08-07 23:37:33.3055|0|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development |url: |action: |Microsoft.Extensions.Hosting.Internal.ConsoleLifetime.OnApplicationStarted| body: 
+2023-08-07 23:37:33.3055|0|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\AProject\AppleStore\AppleStore |url: |action: |Microsoft.Extensions.Hosting.Internal.ApplicationLifetime.NotifyStarted| body: 
+2023-08-07 23:37:34.8881|0|DEBUG|AppleStore.Controllers.Device.DeviceController|Catalog open |url: https://localhost/|action: Catalog|AppleStore.Controllers.Device.DeviceController.Catalog| body: 
+2023-08-07 23:37:43.6356|0|INFO|Microsoft.Hosting.Lifetime|Application is shutting down... |url: |action: |Microsoft.Extensions.Hosting.Internal.ApplicationLifetime.StopApplication| body: 
+2023-08-07 23:49:22.6186|0|DEBUG|Program|Init |url: |action: |Program.<Main>$| body: 
+2023-08-07 23:49:22.9302|0|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. |url: |action: |Microsoft.Extensions.Hosting.Internal.ConsoleLifetime.OnApplicationStarted| body: 
+2023-08-07 23:49:22.9302|0|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development |url: |action: |Microsoft.Extensions.Hosting.Internal.ConsoleLifetime.OnApplicationStarted| body: 
+2023-08-07 23:49:22.9302|0|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\AProject\AppleStore\AppleStore |url: |action: |Microsoft.Extensions.Hosting.Internal.ApplicationLifetime.NotifyStarted| body: 
+2023-08-07 23:49:25.1746|0|DEBUG|AppleStore.Controllers.Device.DeviceController|Catalog open |url: https://localhost/|action: Catalog|AppleStore.Controllers.Device.DeviceController.Catalog| body: 
+2023-08-07 23:50:14.3538|0|INFO|Microsoft.Hosting.Lifetime|Application is shutting down... |url: |action: |Microsoft.Extensions.Hosting.Internal.ApplicationLifetime.StopApplication| body: 
