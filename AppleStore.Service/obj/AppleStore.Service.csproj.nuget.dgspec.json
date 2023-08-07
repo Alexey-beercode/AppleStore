@@ -57,6 +57,14 @@
               "target": "Package",
               "version": "[8.0.0-preview.2.23128.3, )"
             },
+            "NLog": {
+              "target": "Package",
+              "version": "[5.2.3, )"
+            },
+            "NLog.Web.AspNetCore": {
+              "target": "Package",
+              "version": "[5.3.3, )"
+            },
             "Npgsql.EntityFrameworkCore.PostgreSQL": {
               "target": "Package",
               "version": "[8.0.0-preview.2, )"
@@ -131,6 +139,14 @@
               "target": "Package",
               "version": "[8.0.0-preview.2.23128.3, )"
             },
+            "NLog": {
+              "target": "Package",
+              "version": "[5.2.3, )"
+            },
+            "NLog.Web.AspNetCore": {
+              "target": "Package",
+              "version": "[5.3.3, )"
+            },
             "Npgsql.EntityFrameworkCore.PostgreSQL": {
               "target": "Package",
               "version": "[8.0.0-preview.2, )"
@@ -203,6 +219,16 @@
       "frameworks": {
         "net7.0": {
           "targetAlias": "net7.0",
+          "dependencies": {
+            "NLog": {
+              "target": "Package",
+              "version": "[5.2.3, )"
+            },
+            "NLog.Web.AspNetCore": {
+              "target": "Package",
+              "version": "[5.3.3, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",

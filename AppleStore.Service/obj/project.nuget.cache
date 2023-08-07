@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "dedbJDAA/OTPq40aF8SqkvQJypIZcwOBOFZAguj1GhFuAEtbhudi2dt48jkZ200EBwTe5MPlNlXWoms+xhsS5g==",
+  "dgSpecHash": "9+6pKd20pmWHXQOGdkJLRyIhkVJDVbOWKmDX9mgpgWFxv3E2egH21yni0rNsJofEALFbefV879eEv8SJ53MQ1Q==",
   "success": true,
   "projectFilePath": "C:\\AProject\\AppleStore\\AppleStore.Service\\AppleStore.Service.csproj",
   "expectedPackageFiles": [
@@ -23,6 +23,9 @@
     "C:\\Users\\Алексей\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\8.0.0-preview.2.23128.3\\microsoft.extensions.logging.abstractions.8.0.0-preview.2.23128.3.nupkg.sha512",
     "C:\\Users\\Алексей\\.nuget\\packages\\microsoft.extensions.options\\8.0.0-preview.2.23128.3\\microsoft.extensions.options.8.0.0-preview.2.23128.3.nupkg.sha512",
     "C:\\Users\\Алексей\\.nuget\\packages\\microsoft.extensions.primitives\\8.0.0-preview.2.23128.3\\microsoft.extensions.primitives.8.0.0-preview.2.23128.3.nupkg.sha512",
+    "C:\\Users\\Алексей\\.nuget\\packages\\nlog\\5.2.3\\nlog.5.2.3.nupkg.sha512",
+    "C:\\Users\\Алексей\\.nuget\\packages\\nlog.extensions.logging\\5.3.3\\nlog.extensions.logging.5.3.3.nupkg.sha512",
+    "C:\\Users\\Алексей\\.nuget\\packages\\nlog.web.aspnetcore\\5.3.3\\nlog.web.aspnetcore.5.3.3.nupkg.sha512",
     "C:\\Users\\Алексей\\.nuget\\packages\\npgsql\\8.0.0-preview.2\\npgsql.8.0.0-preview.2.nupkg.sha512",
     "C:\\Users\\Алексей\\.nuget\\packages\\npgsql.entityframeworkcore.postgresql\\8.0.0-preview.2\\npgsql.entityframeworkcore.postgresql.8.0.0-preview.2.nupkg.sha512",
     "C:\\Users\\Алексей\\.nuget\\packages\\system.text.encodings.web\\8.0.0-preview.2.23128.3\\system.text.encodings.web.8.0.0-preview.2.23128.3.nupkg.sha512",

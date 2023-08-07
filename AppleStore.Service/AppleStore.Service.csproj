@@ -11,4 +11,9 @@
       <ProjectReference Include="..\AppleStore.Domain\AppleStore.Domain.csproj" />
     </ItemGroup>
 
+    <ItemGroup>
+      <PackageReference Include="NLog" Version="5.2.3" />
+      <PackageReference Include="NLog.Web.AspNetCore" Version="5.3.3" />
+    </ItemGroup>
+
 </Project>

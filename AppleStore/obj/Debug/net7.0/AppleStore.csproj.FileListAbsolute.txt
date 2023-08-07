@@ -120,3 +120,7 @@ C:\AProject\AppleStore\AppleStore\obj\Debug\net7.0\refint\AppleStore.dll
 C:\AProject\AppleStore\AppleStore\obj\Debug\net7.0\AppleStore.pdb
 C:\AProject\AppleStore\AppleStore\obj\Debug\net7.0\AppleStore.genruntimeconfig.cache
 C:\AProject\AppleStore\AppleStore\obj\Debug\net7.0\ref\AppleStore.dll
+C:\AProject\AppleStore\AppleStore\bin\Debug\net7.0\nlog.config
+C:\AProject\AppleStore\AppleStore\bin\Debug\net7.0\NLog.dll
+C:\AProject\AppleStore\AppleStore\bin\Debug\net7.0\NLog.Extensions.Logging.dll
+C:\AProject\AppleStore\AppleStore\bin\Debug\net7.0\NLog.Web.AspNetCore.dll

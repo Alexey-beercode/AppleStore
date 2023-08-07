@@ -10,3 +10,5 @@ global using AppleStore.DAL.Repositories;
 global using AppleStore.Service.Implementations;
 global using AppleStore.Service.Interfaces;
 global using Microsoft.EntityFrameworkCore;
+global using NLog;
+global using NLog.Web;
