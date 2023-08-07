@@ -14,6 +14,7 @@ var logger = LogManager.Setup().LoadConfigurationFromAppSettings().GetCurrentCla
 logger.Debug("Init");
 builder.Logging.ClearProviders();
 builder.Host.UseNLog();
+
 var app = builder.Build();
 
 if (!app.Environment.IsDevelopment())
