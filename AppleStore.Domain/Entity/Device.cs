@@ -1,7 +1,10 @@
-﻿namespace AppleStore.Domain.Entity;
+﻿using System.ComponentModel.DataAnnotations;
+
+namespace AppleStore.Domain.Entity;
 
 public class Device
 {
+    [Required]
     public int? Id { get; set; }
     public decimal? Price { get; set; }
     public string? Name { get; set; }

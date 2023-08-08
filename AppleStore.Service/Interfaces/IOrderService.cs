@@ -12,5 +12,5 @@ public interface IOrderService
 
     Task<BaseResponse<bool>> DeleteOrder(int id);
 
-    Task<BaseResponse<Order>> Edit(Order order);
+    Task<BaseResponse<Order>> Edit(Order model);
 }

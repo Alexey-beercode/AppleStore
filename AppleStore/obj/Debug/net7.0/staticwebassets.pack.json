@@ -5,8 +5,8 @@
       "PackagePath": "staticwebassets\\AppleStore.bundle.scp.css"
     },
     {
-      "Id": "C:\\AProject\\AppleStore\\AppleStore\\wwwroot\\css\\styles.css",
-      "PackagePath": "staticwebassets\\css\\styles.css"
+      "Id": "C:\\AProject\\AppleStore\\AppleStore\\wwwroot\\css\\style.css",
+      "PackagePath": "staticwebassets\\css\\style.css"
     },
     {
       "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.AppleStore.Microsoft.AspNetCore.StaticWebAssets.props",

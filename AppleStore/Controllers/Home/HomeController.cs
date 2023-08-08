@@ -1,6 +1,4 @@
-﻿using AppleStore.Domain.Entity;
-
-namespace AppleStore.Controllers.Home;
+﻿namespace AppleStore.Controllers.Home;
 
 public class HomeController : Controller
 {

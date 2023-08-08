@@ -1,10 +1,9 @@
-﻿using AppleStore.DAL.Interfaces;
-using AppleStore.Domain.Entity;
+﻿using AppleStore.Domain.Entity;
 using Microsoft.EntityFrameworkCore;
 
 namespace AppleStore.DAL.Repositories;
 
-public class OrderRepository
+public class OrderRepository 
 {
     public readonly OrderDbContext db;
 
@@ -13,28 +12,21 @@ public class OrderRepository
         this.db = db;
     }
 
-    public async Task<bool> Create(Order? entity)
+    public async Task Create(Order? entity)
     {
         await db.Order.AddAsync(entity);
         await db.SaveChangesAsync();
-        return true;
     }
 
-    public async Task<Order?> GetById(int? id)
-    {
-        return await db.Order.FirstOrDefaultAsync(x => x.Id == id);
-    }
-
-    public Task<List<Order?>> Select()
+    public Task<List<Order?>> GetAll()
     {
         return db.Order.ToListAsync();
     }
     
-    public async Task<bool> Delete(Order entity)
+    public async Task Delete(Order entity)
     {
         db.Order.Remove(entity);
         await db.SaveChangesAsync();
-        return true;
     }
 
     public async Task<Order> Update(Order entity)
@@ -42,10 +34,5 @@ public class OrderRepository
         db.Order.Update(entity);
         await db.SaveChangesAsync();
         return entity;
-    }
-
-    public async Task<Order> GetByName(string? name)
-    {
-        return await db.Order.FirstOrDefaultAsync(x => x.Name==name);
     }
 }

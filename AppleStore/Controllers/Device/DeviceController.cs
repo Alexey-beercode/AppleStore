@@ -15,21 +15,23 @@ public class DeviceController : Controller
         BaseResponse<IEnumerable<Domain.Entity.Device>> response = await _deviceService.GetDevices();
         if (response.StatusCode != HttpStatusCode.OK)
         {
+            _logger.LogError($"Error : {response.Description}");
             return RedirectToAction("Error");
         }
 
         return View(response.Data);
     }
 
-    public IActionResult Error()
+    public IActionResult Error(string errorMessage)
     {
-        return View();
+        return View(errorMessage);
     }
     public async Task<IActionResult> GetDeviceById(int id)
     {
         BaseResponse <Domain.Entity.Device> response= await _deviceService.GetById(id);
         if (response.StatusCode!=HttpStatusCode.OK)
         {
+            _logger.LogError($"Error : {response.Description}");
             return RedirectToAction("Error");
         }
 
@@ -42,6 +44,7 @@ public class DeviceController : Controller
         BaseResponse<bool> response= await _deviceService.DeleteDevice(id);
         if (response.StatusCode!=HttpStatusCode.OK)
         {
+            _logger.LogError($"Error : {response.Description}");
             return RedirectToAction("Error");
         }
         return RedirectToAction("GetDevices");
@@ -54,6 +57,7 @@ public class DeviceController : Controller
         var response =await _deviceService.GetById(id);
         if (response.StatusCode!=HttpStatusCode.OK)
         {
+            _logger.LogError($"Error : {response.Description}");
             return RedirectToAction("Error");
         }
 
@@ -81,9 +85,9 @@ public class DeviceController : Controller
     public async Task<IActionResult> Catalog()
     {
         BaseResponse<IEnumerable<Domain.Entity.Device>> response = await _deviceService.GetDevices();
-        _logger.LogDebug("Catalog open");
         if (response.StatusCode!=HttpStatusCode.OK)
         {
+            _logger.LogError($"Error : {response.Description}");
             return View("Error", response.Description);
         }
         return View(response.Data);

@@ -5,7 +5,7 @@
 <html>
 <head>
     <title>@Model.Name</title>
-    <link rel="stylesheet" href="css/styles.css"> <!-- Путь к файлу стилей -->
+    <link rel="stylesheet" href="~/css/style.css"> <!-- Путь к файлу стилей -->
 </head>
 <body>
 <header>
@@ -18,5 +18,8 @@
     <p>@Model.Price</p>
     <a href="@Url.Action("PlaceOrder", "Order",new {id=@Model.Id})">Заказать</a>
 </div>
+<div class="navigation-button">
+        <a href="@Url.Action("Catalog", "Device")" class="btn">Вернуться в каталог</a>
+    </div>
 </body>
 </html>

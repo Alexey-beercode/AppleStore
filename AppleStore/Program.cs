@@ -1,4 +1,4 @@
-using NLog.Fluent;
+using LogLevel = NLog.LogLevel;
 
 var builder = WebApplication.CreateBuilder(args);
 string? deviceConnection = builder.Configuration.GetConnectionString("DeviceConnection");
@@ -6,12 +6,11 @@ string? orderConnection = builder.Configuration.GetConnectionString("OrderConnec
 builder.Services.AddControllersWithViews();
 builder.Services.AddDbContext<DeviceDbContext>(options => options.UseNpgsql(deviceConnection));
 builder.Services.AddScoped<IDeviceService, DeviceService>();
-builder.Services.AddScoped<IDeviceRepository, DeviceRepository>();
 builder.Services.AddDbContext<OrderDbContext>(options => options.UseNpgsql(orderConnection));
 builder.Services.AddScoped<IOrderService, OrderService>();
 builder.Services.AddScoped<OrderRepository>();
+builder.Services.AddScoped<DeviceRepository>();
 var logger = LogManager.Setup().LoadConfigurationFromAppSettings().GetCurrentClassLogger();
-logger.Debug("Init");
 builder.Logging.ClearProviders();
 builder.Host.UseNLog();
 
@@ -33,4 +32,5 @@ app.MapControllerRoute(
     name: "default", 
     pattern: "{controller=Device}/{action=Catalog}/{id?}");
 
+logger.Log(LogLevel.Info, "Инициализация программы");
 app.Run();

@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "wgpMr14F5CdWdK7GELrZUTOhPvOorsgytxlb3ClKY2k=",
+  "Hash": "buMTUmiUH1r20ksVuam17ufynjR8CNBCR3w/xq6eboE=",
   "Source": "AppleStore",
   "BasePath": "_content/AppleStore",
   "Mode": "Default",
@@ -51,12 +51,12 @@
       "OriginalItemSpec": "C:\\AProject\\AppleStore\\AppleStore\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\AppleStore.bundle.scp.css"
     },
     {
-      "Identity": "C:\\AProject\\AppleStore\\AppleStore\\wwwroot\\css\\styles.css",
+      "Identity": "C:\\AProject\\AppleStore\\AppleStore\\wwwroot\\css\\style.css",
       "SourceId": "AppleStore",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\AProject\\AppleStore\\AppleStore\\wwwroot\\",
       "BasePath": "_content/AppleStore",
-      "RelativePath": "css/styles.css",
+      "RelativePath": "css/style.css",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -65,7 +65,7 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\css\\styles.css"
+      "OriginalItemSpec": "wwwroot\\css\\style.css"
     }
   ]
 }

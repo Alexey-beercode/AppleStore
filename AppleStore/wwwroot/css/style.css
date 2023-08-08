@@ -3,7 +3,6 @@
     margin: 0;
     padding: 0;
 }
-
 header {
     background-color: #333;
     color: #fff;
@@ -28,7 +27,7 @@ header {
 }
 
 .catalog img {
-    width: 200px;
+    width: 400px;
     height: auto;
 }
 
@@ -38,7 +37,7 @@ header {
 }
 
 .product img {
-    width: 300px;
+    width: 500px;
     height: auto;
 }
 
@@ -58,10 +57,26 @@ label {
 }
 
 input {
-    padding: 5px;
-    margin-bottom: 10px;
+    padding: 20px;
+    margin-bottom: 40px;
 }
 
 button {
-    padding: 10px 20px;
+    padding: 100px 200px;
+    height: 50px;
+    width: 20px;
+}
+.navigation-button {
+    position: fixed;
+    bottom: 20px;
+    left: 200px;
+}
+
+.navigation-button .btn {
+    display: inline-block;
+    padding: 15px 30px; /* Увеличиваем размер кнопки */
+    background-color: #000; /* Задаем черный фон */
+    color: #fff; /* Задаем белый цвет текста */
+    text-decoration: none;
+    border-radius: 8px; /* Увеличиваем радиус скругления углов */
 }
