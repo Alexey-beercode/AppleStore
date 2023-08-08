@@ -30,7 +30,7 @@ app.UseAuthorization();
 
 app.MapControllerRoute(
     name: "default", 
-    pattern: "{controller=Device}/{action=Catalog}/{type=0}/{id?}");
+    pattern: "{controller=Device}/{action=Catalog}/{type=-1}/{id?}");
 
 logger.Log(LogLevel.Info, "Инициализация программы");
 app.Run();

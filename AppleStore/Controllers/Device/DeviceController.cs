@@ -93,7 +93,11 @@ public class DeviceController : Controller
             _logger.LogError($"Error : {response.Description}");
             return View("Error", response.Description);
         }
-        _logger.LogDebug($"{(DeviceType)type}");
+
+        if (type==-1)
+        {
+            return View(response.Data);
+        }
         IEnumerable<Domain.Entity.Device> devices = response.Data.Where(device=>device.Type==(DeviceType)type).ToList();
         return View(devices);
     }
