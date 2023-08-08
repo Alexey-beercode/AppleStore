@@ -2,22 +2,21 @@
 
 <!DOCTYPE html>
 <html>
-<head>
-    <title>Онлайн магазин телефонов</title>
-    <link rel="stylesheet" href="~/css/style.css"> <!-- Путь к файлу стилей -->
-</head>
 <body>
-    <header>
-        <h1>Онлайн магазин телефонов</h1>
-    </header>
+<div class="top-buttons">
+   <a href="@Url.Action("Catalog", "Device",new {type=1})" class="top-button">Часы</a>
+     <a href="@Url.Action("Catalog", "Device",new {type=0})" class="top-button">Телефоны</a>
+     <a href="@Url.Action("Catalog", "Device",new{type=2})" class="top-button">Планшеты</a>
+     <a href="@Url.Action("Catalog", "Device",new {type=3})" class="top-button">Ноутбуки</a>
+</div>
 <div class="catalog">
     <ul>
-        @foreach (var phone in Model)
+        @foreach (var device in Model)
         {
             <li>
-                <a href="@Url.Action("Details", "Order", new {id=@phone.Id})"> <!-- Переход к странице товара -->
-                    <img src="@phone.ImageUrl">
-                    <p>@phone.Name <br/>@phone.Price  руб</p>
+                <a href="@Url.Action("Details", "Order", new {id=device.Id})"> <!-- Переход к странице товара -->
+                    <img src="@device.ImageUrl">
+                    <p>@device.Name <br/>@device.Price  руб</p>
                 </a>
             </li>
         }

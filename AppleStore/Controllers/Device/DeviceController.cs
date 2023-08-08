@@ -1,4 +1,7 @@
-﻿namespace AppleStore.Controllers.Device;
+﻿using System.Collections;
+using AppleStore.Domain.DeviceType;
+
+namespace AppleStore.Controllers.Device;
 
 public class DeviceController : Controller
 {
@@ -82,7 +85,7 @@ public class DeviceController : Controller
         return RedirectToAction("GetDevices");
     }
 
-    public async Task<IActionResult> Catalog()
+    public async Task<IActionResult> Catalog(int type)
     {
         BaseResponse<IEnumerable<Domain.Entity.Device>> response = await _deviceService.GetDevices();
         if (response.StatusCode!=HttpStatusCode.OK)
@@ -90,6 +93,8 @@ public class DeviceController : Controller
             _logger.LogError($"Error : {response.Description}");
             return View("Error", response.Description);
         }
-        return View(response.Data);
+        _logger.LogDebug($"{(DeviceType)type}");
+        IEnumerable<Domain.Entity.Device> devices = response.Data.Where(device=>device.Type==(DeviceType)type).ToList();
+        return View(devices);
     }
 }

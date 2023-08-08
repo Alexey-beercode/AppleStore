@@ -4,18 +4,14 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>@Model.Name</title>
-    <link rel="stylesheet" href="~/css/style.css"> <!-- Путь к файлу стилей -->
+<title>@Model.Name</title>
 </head>
 <body>
-<header>
-    <h1>Онлайн магазин телефонов</h1>
-</header>
 <div class="product">
     <img src="@Model.ImageUrl" alt="@Model.Name">
     <h2>@Model.Name</h2>
     <p>@Model.Description</p><br/>
-    <p>@Model.Price</p>
+    <p>@Model.Price руб</p>
     <a href="@Url.Action("PlaceOrder", "Order",new {id=@Model.Id})">Заказать</a>
 </div>
 <div class="navigation-button">

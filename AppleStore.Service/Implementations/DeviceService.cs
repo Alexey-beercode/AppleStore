@@ -149,7 +149,7 @@ public class DeviceService : IDeviceService
             var response = new BaseResponse<Device>();
             response.StatusCode = HttpStatusCode.NotFound;
             response.Description = e.Message;
-            _logger.LogCritical("Возникло исключение при получении всех девайсов");
+            
             return response;
         }
     }

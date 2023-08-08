@@ -3,16 +3,13 @@
 <html>
 <head>
     <title>Заказ товара</title>
-    <link rel="stylesheet" href="css/style.css"> <!-- Путь к файлу стилей -->
 </head>
 <body>
-<header>
-    <h1>Онлайн магазин телефонов</h1>
-</header>
 <div class="order">
     <h2>Оформление заказа</h2>
-    <p>Выбранный товар: @Model.Device.Name</p>
+    <p>@Model.Device.Name</p>
     <img src="@Model.Device.ImageUrl" alt="@Model.Device.Name">
+    <p class="catalog">Стоимость заказа :<br/> @Model.Device.Price руб </p>
    <form asp-action="PlaceOrder" asp-controller="Order" method="post">
        <!-- Отправка заказа на сервер -->
       <input type="hidden" asp-for="Device.Id" value="@Model.Device.Id" />
