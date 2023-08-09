@@ -5,7 +5,7 @@ namespace AppleStore.Service.Interfaces;
 
 public interface IDeviceService
 {
-    Task<BaseResponse<IEnumerable<Device>>> GetDevices();
+    Task<BaseResponse<IEnumerable<Device>>> GetDevices(bool useCache);
 
     Task<BaseResponse<Device>> GetById(int id);
 

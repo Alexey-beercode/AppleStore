@@ -4,7 +4,7 @@ namespace AppleStore.Domain.DeviceType;
 
 public enum OrderStatus
 {
-    [Display(Name = "В обработке")] Processing,
-    [Display(Name = "Отправлен")] Sent,
-    [Display(Name = "Завершен")] Completed
+    [Display(Name = "В обработке")] Processing = 0,
+    [Display(Name = "Отправлен")] Sent = 1,
+    [Display(Name = "Завершен")] Completed = 2
 }

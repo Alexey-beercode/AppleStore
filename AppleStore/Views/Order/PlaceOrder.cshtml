@@ -11,9 +11,10 @@
     <img src="@Model.Device.ImageUrl" alt="@Model.Device.Name">
     <p class="catalog">Стоимость заказа :<br/> @Model.Device.Price руб </p>
     <form asp-action="PlaceOrder" asp-controller="Order" method="post">
-        <!-- Отправка заказа на сервер -->
         <input type="hidden" asp-for="Device.Id" value="@Model.Device.Id" />
         <input type="hidden" asp-for="Order.DeviceId[0]" value="@Model.Device.Id" />
+        <input type="hidden" asp-for="Order.Status" value="0" />
+        <input type="hidden" asp-for="Order.Price" value="@Model.Device.Price" />
         <label for="name">Имя:</label>
         <input type="text" id="name" asp-for="Order.Name" required>
         <label for="email">Email:</label>

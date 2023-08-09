@@ -2,6 +2,7 @@
 using System.Linq.Expressions;
 using System.Linq;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.Extensions.Caching.Memory;
 using Microsoft.Extensions.Logging;
 
 namespace AppleStore.Service.Implementations;
@@ -10,11 +11,13 @@ public class DeviceService : IDeviceService
 {
     private readonly DeviceRepository _deviceRepository;
     private readonly ILogger<DeviceService> _logger;
+    private readonly IMemoryCache _cache;
 
-    public DeviceService(DeviceRepository deviceRepository, ILogger<DeviceService> logger)
+    public DeviceService(DeviceRepository deviceRepository, ILogger<DeviceService> logger, IMemoryCache cache)
     {
         _deviceRepository = deviceRepository;
         _logger = logger;
+        _cache = cache;
     }
 
     public async Task<BaseResponse<Device>> GetById(int id)
@@ -91,9 +94,18 @@ public class DeviceService : IDeviceService
         return baseResponse;
     }
 
-    public async Task<BaseResponse<IEnumerable<Device>>> GetDevices()
+    public async Task<BaseResponse<IEnumerable<Device>>> GetDevices(bool useCache)
     {
         var baseResponse = new BaseResponse<IEnumerable<Device>>();
+        
+        if (useCache && _cache.TryGetValue("AllDevices", out IEnumerable<Device>? devicesFromCache))
+        {
+            _logger.LogInformation("Получение всех девайсов из кэша");
+            baseResponse.Data = devicesFromCache;
+            baseResponse.StatusCode = HttpStatusCode.OK;
+            return baseResponse;
+        }
+
         try
         {
             var devices = await _deviceRepository.GetAll();
@@ -107,8 +119,15 @@ public class DeviceService : IDeviceService
 
             baseResponse.Data = devices;
             baseResponse.StatusCode = HttpStatusCode.OK;
-            _logger.LogInformation("Успешное получение девайсов");
+            
+            if (useCache)
+            {
+                _cache.Set("AllDevices", devices,
+                    new MemoryCacheEntryOptions() { AbsoluteExpirationRelativeToNow = TimeSpan.FromMinutes(10) });
+                _logger.LogInformation("Все девайсы добавлены в кэш");
+            }
 
+            _logger.LogInformation("Успешное получение девайсов");
             return baseResponse;
         }
         catch (Exception exception)
@@ -120,6 +139,7 @@ public class DeviceService : IDeviceService
             };
         }
     }
+
 
     public async Task<BaseResponse<Device>> Edit(Device model)
     {

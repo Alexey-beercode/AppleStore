@@ -42,6 +42,7 @@ public class OrderController:Controller
     [HttpPost]
     public async Task<IActionResult> PlaceOrder(DeviceOrderViewModel viewModel)
     {
+        
         if (ModelState.IsValid)
         {
             await _orderService.CreateOrder(viewModel.Order);

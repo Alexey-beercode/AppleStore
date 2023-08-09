@@ -18,7 +18,7 @@ public class DeviceController : Controller
 
     public async Task<IActionResult> GetDevices()
     {
-        BaseResponse<IEnumerable<Domain.Entity.Device>> response = await _deviceService.GetDevices();
+        BaseResponse<IEnumerable<Domain.Entity.Device>> response = await _deviceService.GetDevices(true);
         if (response.StatusCode != HttpStatusCode.OK)
         {
             _logger.LogError($"Error : {response.Description}");
@@ -90,26 +90,23 @@ public class DeviceController : Controller
 
     public async Task<IActionResult> Catalog(int type)
     {
-        _cache.TryGetValue("AllDevices", out IEnumerable<Domain.Entity.Device>? devices);
-        _logger.LogInformation("Получение всех девайсов из кэша");
-        if (devices == null)
-        {
-            BaseResponse<IEnumerable<Domain.Entity.Device>> response = await _deviceService.GetDevices();
-            if (response.StatusCode!=HttpStatusCode.OK)
-            {
-                _logger.LogError($"Error : {response.Description}");
-                return View("Error", response.Description);
-            }
+        bool useCache = true;
 
-            devices = response.Data;
-            _cache.Set("AllDevices", devices,
-                new MemoryCacheEntryOptions() { AbsoluteExpirationRelativeToNow = TimeSpan.FromMinutes(10) });
-            _logger.LogInformation("Все девайсы добавлены в кэш");
+        BaseResponse<IEnumerable<Domain.Entity.Device>> response = await _deviceService.GetDevices(useCache);
+        if (response.StatusCode != HttpStatusCode.OK)
+        {
+            _logger.LogError($"Error : {response.Description}");
+            return View("Error", response.Description);
         }
-        if(type==-1) 
+
+        IEnumerable<Domain.Entity.Device> devices = response.Data;
+
+        if (type == -1)
         {
             return View(devices);
         }
-        return View(devices.Where(device=>device.Type==(DeviceType)type).ToList());
+    
+        return View(devices.Where(device => device.Type == (DeviceType)type).ToList());
     }
+
 }
