@@ -5,6 +5,7 @@ namespace AppleStore.Domain.Entity;
 
 public class Order
 {
+    [Required]
     public  int? Id { get; set; }
     public string? Name { get; set; }
     [Required]

@@ -1,5 +1,6 @@
 ﻿using System.Collections;
 using AppleStore.Domain.DeviceType;
+using Microsoft.Extensions.Caching.Memory;
 
 namespace AppleStore.Controllers.Device;
 
@@ -7,10 +8,12 @@ public class DeviceController : Controller
 {
     private readonly IDeviceService _deviceService;
     private readonly ILogger<DeviceController> _logger;
-    public DeviceController(IDeviceService deviceService, ILogger<DeviceController> logger)
+    private readonly IMemoryCache _cache;
+    public DeviceController(IDeviceService deviceService, ILogger<DeviceController> logger, IMemoryCache cache)
     {
         _deviceService = deviceService;
         _logger = logger;
+        _cache = cache;
     }
 
     public async Task<IActionResult> GetDevices()
@@ -87,18 +90,26 @@ public class DeviceController : Controller
 
     public async Task<IActionResult> Catalog(int type)
     {
-        BaseResponse<IEnumerable<Domain.Entity.Device>> response = await _deviceService.GetDevices();
-        if (response.StatusCode!=HttpStatusCode.OK)
+        _cache.TryGetValue("AllDevices", out IEnumerable<Domain.Entity.Device>? devices);
+        _logger.LogInformation("Получение всех девайсов из кэша");
+        if (devices == null)
         {
-            _logger.LogError($"Error : {response.Description}");
-            return View("Error", response.Description);
-        }
+            BaseResponse<IEnumerable<Domain.Entity.Device>> response = await _deviceService.GetDevices();
+            if (response.StatusCode!=HttpStatusCode.OK)
+            {
+                _logger.LogError($"Error : {response.Description}");
+                return View("Error", response.Description);
+            }
 
-        if (type==-1)
-        {
-            return View(response.Data);
+            devices = response.Data;
+            _cache.Set("AllDevices", devices,
+                new MemoryCacheEntryOptions() { AbsoluteExpirationRelativeToNow = TimeSpan.FromMinutes(10) });
+            _logger.LogInformation("Все девайсы добавлены в кэш");
         }
-        IEnumerable<Domain.Entity.Device> devices = response.Data.Where(device=>device.Type==(DeviceType)type).ToList();
-        return View(devices);
+        if(type==-1) 
+        {
+            return View(devices);
+        }
+        return View(devices.Where(device=>device.Type==(DeviceType)type).ToList());
     }
 }
