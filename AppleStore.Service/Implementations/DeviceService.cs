@@ -126,8 +126,6 @@ public class DeviceService : IDeviceService
                     new MemoryCacheEntryOptions() { AbsoluteExpirationRelativeToNow = TimeSpan.FromMinutes(10) });
                 _logger.LogInformation("Все девайсы добавлены в кэш");
             }
-
-            _logger.LogInformation("Успешное получение девайсов");
             return baseResponse;
         }
         catch (Exception exception)
