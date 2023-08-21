@@ -1,5 +1,4 @@
-﻿using System.Collections;
-using AppleStore.Domain.DeviceType;
+﻿using AppleStore.Domain.DeviceType;
 using Microsoft.Extensions.Caching.Memory;
 
 namespace AppleStore.Controllers.Device;
@@ -8,12 +7,11 @@ public class DeviceController : Controller
 {
     private readonly IDeviceService _deviceService;
     private readonly ILogger<DeviceController> _logger;
-    private readonly IMemoryCache _cache;
+
     public DeviceController(IDeviceService deviceService, ILogger<DeviceController> logger, IMemoryCache cache)
     {
         _deviceService = deviceService;
         _logger = logger;
-        _cache = cache;
     }
 
     public async Task<IActionResult> GetDevices()
@@ -98,7 +96,7 @@ public class DeviceController : Controller
             _logger.LogError($"Error : {response.Description}");
             return View("Error", response.Description);
         }
-
+        
         IEnumerable<Domain.Entity.Device> devices = response.Data;
 
         if (type == -1)

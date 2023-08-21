@@ -1,0 +1,7 @@
+2023-08-21 20:11:49.0400|0|INFO|Program|Инициализация программы |url: |action: |Program.<Main>$| body: 
+2023-08-21 20:11:49.2829|0|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. |url: |action: |Microsoft.Extensions.Hosting.Internal.ConsoleLifetime.OnApplicationStarted| body: 
+2023-08-21 20:11:49.2829|0|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development |url: |action: |Microsoft.Extensions.Hosting.Internal.ConsoleLifetime.OnApplicationStarted| body: 
+2023-08-21 20:11:49.2829|0|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\AProject\AppleStore\AppleStore |url: |action: |Microsoft.Extensions.Hosting.Internal.ApplicationLifetime.NotifyStarted| body: 
+2023-08-21 20:11:50.2927|0|INFO|AppleStore.Service.Implementations.DeviceService|Все девайсы добавлены в кэш |url: https://localhost/|action: Catalog|AppleStore.Service.Implementations.DeviceService.GetDevices| body: 
+2023-08-21 20:11:50.5253|0|INFO|AppleStore.Service.Implementations.DeviceService|Получение всех девайсов из кэша |url: https://localhost/|action: Catalog|AppleStore.Service.Implementations.DeviceService.GetDevices| body: 
+2023-08-21 20:11:54.1586|0|INFO|Microsoft.Hosting.Lifetime|Application is shutting down... |url: |action: |Microsoft.Extensions.Hosting.Internal.ApplicationLifetime.StopApplication| body: 

@@ -1,7 +1,4 @@
 ﻿using AppleStore.DAL.Repositories;
-using System.Linq.Expressions;
-using System.Linq;
-using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Caching.Memory;
 using Microsoft.Extensions.Logging;
 

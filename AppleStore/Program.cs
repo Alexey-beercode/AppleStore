@@ -1,3 +1,4 @@
+using Microsoft.AspNetCore.Authentication.Cookies;
 using LogLevel = NLog.LogLevel;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -12,7 +13,10 @@ builder.Services.AddScoped<IOrderService, OrderService>();
 builder.Services.AddScoped<OrderRepository>();
 builder.Services.AddScoped<DeviceRepository>();
 
-builder.Services.AddResponseCompression(options => options.EnableForHttps = true);
+builder.Services.AddAuthentication(CookieAuthenticationDefaults.AuthenticationScheme)
+    .AddCookie(options => options.LoginPath = "/login");
+builder.Services.AddAuthorization();
+    builder.Services.AddResponseCompression(options => options.EnableForHttps = true);
 builder.Services.AddMemoryCache();
 
 var logger = LogManager.Setup().LoadConfigurationFromAppSettings().GetCurrentClassLogger();
@@ -32,10 +36,10 @@ app.UseResponseCompression();
 
 app.UseHttpsRedirection();
 app.UseStaticFiles();
-
-
 app.UseRouting();
 app.UseAuthorization();
+app.UseAuthentication();
+
 
 app.MapControllerRoute(
     name: "default", 

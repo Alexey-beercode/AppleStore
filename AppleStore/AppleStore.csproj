@@ -24,6 +24,7 @@
 
     <ItemGroup>
       <Folder Include="Areas\Admin" />
+      <Folder Include="Controllers\Account" />
       <Folder Include="Helpers" />
       <Folder Include="Views\Home" />
     </ItemGroup>
