@@ -5,3 +5,286 @@
 2023-08-21 20:11:50.2927|0|INFO|AppleStore.Service.Implementations.DeviceService|Все девайсы добавлены в кэш |url: https://localhost/|action: Catalog|AppleStore.Service.Implementations.DeviceService.GetDevices| body: 
 2023-08-21 20:11:50.5253|0|INFO|AppleStore.Service.Implementations.DeviceService|Получение всех девайсов из кэша |url: https://localhost/|action: Catalog|AppleStore.Service.Implementations.DeviceService.GetDevices| body: 
 2023-08-21 20:11:54.1586|0|INFO|Microsoft.Hosting.Lifetime|Application is shutting down... |url: |action: |Microsoft.Extensions.Hosting.Internal.ApplicationLifetime.StopApplication| body: 
+2023-08-21 20:55:33.8543|0|INFO|Program|Инициализация программы |url: |action: |Program.<Main>$| body: 
+2023-08-21 20:55:34.0336|0|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. |url: |action: |Microsoft.Extensions.Hosting.Internal.ConsoleLifetime.OnApplicationStarted| body: 
+2023-08-21 20:55:34.0336|0|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development |url: |action: |Microsoft.Extensions.Hosting.Internal.ConsoleLifetime.OnApplicationStarted| body: 
+2023-08-21 20:55:34.0336|0|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\AProject\AppleStore\AppleStore |url: |action: |Microsoft.Extensions.Hosting.Internal.ApplicationLifetime.NotifyStarted| body: 
+2023-08-21 20:55:34.9589|0|INFO|AppleStore.Service.Implementations.DeviceService|Все девайсы добавлены в кэш |url: https://localhost/|action: Catalog|AppleStore.Service.Implementations.DeviceService.GetDevices| body: 
+2023-08-21 20:55:35.1879|0|INFO|AppleStore.Service.Implementations.DeviceService|Получение всех девайсов из кэша |url: https://localhost/|action: Catalog|AppleStore.Service.Implementations.DeviceService.GetDevices| body: 
+2023-08-21 21:09:04.2304|0|INFO|Program|Инициализация программы |url: |action: |Program.<Main>$| body: 
+2023-08-21 21:09:04.4636|0|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. |url: |action: |Microsoft.Extensions.Hosting.Internal.ConsoleLifetime.OnApplicationStarted| body: 
+2023-08-21 21:09:04.4636|0|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development |url: |action: |Microsoft.Extensions.Hosting.Internal.ConsoleLifetime.OnApplicationStarted| body: 
+2023-08-21 21:09:04.4636|0|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\AProject\AppleStore\AppleStore |url: |action: |Microsoft.Extensions.Hosting.Internal.ApplicationLifetime.NotifyStarted| body: 
+2023-08-21 21:09:05.3622|0|INFO|AppleStore.Service.Implementations.DeviceService|Все девайсы добавлены в кэш |url: https://localhost/|action: Catalog|AppleStore.Service.Implementations.DeviceService.GetDevices| body: 
+2023-08-21 21:09:05.6798|0|INFO|AppleStore.Service.Implementations.DeviceService|Получение всех девайсов из кэша |url: https://localhost/|action: Catalog|AppleStore.Service.Implementations.DeviceService.GetDevices| body: 
+2023-08-21 21:09:08.2257|0|INFO|AppleStore.Controllers.Order.OrderController|Успешное получение Девайса из базы данных |url: https://localhost/Order/Details/-1/5|action: Details|AppleStore.Controllers.Order.OrderController.Details| body: 
+2023-08-21 21:09:08.3792|0|INFO|AppleStore.Controllers.Order.OrderController|Успешное получение Девайса из базы данных |url: https://localhost/Order/Details/-1/5|action: Details|AppleStore.Controllers.Order.OrderController.Details| body: 
+2023-08-21 21:09:10.5959|0|INFO|AppleStore.Controllers.Order.OrderController|Успешное получение Девайса из базы данных |url: https://localhost/Order/PlaceOrder/-1/5|action: PlaceOrder|AppleStore.Controllers.Order.OrderController.PlaceOrder| body: 
+2023-08-21 21:09:10.7926|0|INFO|AppleStore.Controllers.Order.OrderController|Успешное получение Девайса из базы данных |url: https://localhost/Order/PlaceOrder/-1/5|action: PlaceOrder|AppleStore.Controllers.Order.OrderController.PlaceOrder| body: 
+2023-08-21 21:09:15.8518|0|INFO|AppleStore.Service.Implementations.OrderService|Успешное создание заказа |url: https://localhost/Order/PlaceOrder/-1/5|action: PlaceOrder|AppleStore.Service.Implementations.OrderService.CreateOrder| body: 
+2023-08-21 21:09:15.8518|0|INFO|AppleStore.Controllers.Order.OrderController|Успешное создание заказа |url: https://localhost/Order/PlaceOrder/-1/5|action: PlaceOrder|AppleStore.Controllers.Order.OrderController.PlaceOrder| body: 
+2023-08-21 21:09:15.9856|0|INFO|AppleStore.Controllers.Order.OrderController|Успешное получение Девайса из базы данных |url: https://localhost/Order/PlaceOrder/-1/5|action: PlaceOrder|AppleStore.Controllers.Order.OrderController.PlaceOrder| body: 
+2023-08-21 21:09:16.8398|0|INFO|AppleStore.Service.Implementations.DeviceService|Получение всех девайсов из кэша |url: https://localhost/|action: Catalog|AppleStore.Service.Implementations.DeviceService.GetDevices| body: 
+2023-08-21 21:09:16.9365|0|INFO|AppleStore.Service.Implementations.DeviceService|Получение всех девайсов из кэша |url: https://localhost/|action: Catalog|AppleStore.Service.Implementations.DeviceService.GetDevices| body: 
+2023-08-21 21:09:18.3801|0|INFO|AppleStore.Service.Implementations.DeviceService|Получение всех девайсов из кэша |url: https://localhost/Device/Catalog/3|action: Catalog|AppleStore.Service.Implementations.DeviceService.GetDevices| body: 
+2023-08-21 21:09:18.4944|0|INFO|AppleStore.Service.Implementations.DeviceService|Получение всех девайсов из кэша |url: https://localhost/Device/Catalog/3|action: Catalog|AppleStore.Service.Implementations.DeviceService.GetDevices| body: 
+2023-08-21 21:09:18.8281|0|INFO|AppleStore.Service.Implementations.DeviceService|Получение всех девайсов из кэша |url: https://localhost/Device/Catalog/2|action: Catalog|AppleStore.Service.Implementations.DeviceService.GetDevices| body: 
+2023-08-21 21:09:18.9415|0|INFO|AppleStore.Service.Implementations.DeviceService|Получение всех девайсов из кэша |url: https://localhost/Device/Catalog/2|action: Catalog|AppleStore.Service.Implementations.DeviceService.GetDevices| body: 
+2023-08-21 21:09:19.1816|0|INFO|AppleStore.Service.Implementations.DeviceService|Получение всех девайсов из кэша |url: https://localhost/Device/Catalog/0|action: Catalog|AppleStore.Service.Implementations.DeviceService.GetDevices| body: 
+2023-08-21 21:09:19.2826|0|INFO|AppleStore.Service.Implementations.DeviceService|Получение всех девайсов из кэша |url: https://localhost/Device/Catalog/0|action: Catalog|AppleStore.Service.Implementations.DeviceService.GetDevices| body: 
+2023-08-21 21:09:19.5813|0|INFO|AppleStore.Service.Implementations.DeviceService|Получение всех девайсов из кэша |url: https://localhost/Device/Catalog/1|action: Catalog|AppleStore.Service.Implementations.DeviceService.GetDevices| body: 
+2023-08-21 21:09:19.6858|0|INFO|AppleStore.Service.Implementations.DeviceService|Получение всех девайсов из кэша |url: https://localhost/Device/Catalog/1|action: Catalog|AppleStore.Service.Implementations.DeviceService.GetDevices| body: 
+2023-08-21 21:09:22.1648|0|INFO|Microsoft.Hosting.Lifetime|Application is shutting down... |url: |action: |Microsoft.Extensions.Hosting.Internal.ApplicationLifetime.StopApplication| body: 
+2023-08-21 21:27:06.4159|0|INFO|Program|Инициализация программы |url: |action: |Program.<Main>$| body: 
+2023-08-21 21:28:42.9006|0|INFO|Program|Инициализация программы |url: |action: |Program.<Main>$| body: 
+2023-08-21 21:36:55.3979|0|INFO|Program|Инициализация программы |url: |action: |Program.<Main>$| body: 
+2023-08-21 21:47:36.8802|0|INFO|Program|Инициализация программы |url: |action: |Program.<Main>$| body: 
+2023-08-21 21:59:45.4256|0|INFO|Program|Инициализация программы |url: |action: |Program.<Main>$| body: 
+2023-08-21 21:59:45.6021|0|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. |url: |action: |Microsoft.Extensions.Hosting.Internal.ConsoleLifetime.OnApplicationStarted| body: 
+2023-08-21 21:59:45.6021|0|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development |url: |action: |Microsoft.Extensions.Hosting.Internal.ConsoleLifetime.OnApplicationStarted| body: 
+2023-08-21 21:59:45.6021|0|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\AProject\AppleStore\AppleStore |url: |action: |Microsoft.Extensions.Hosting.Internal.ApplicationLifetime.NotifyStarted| body: 
+2023-08-21 21:59:46.6019|0|INFO|AppleStore.Service.Implementations.DeviceService|Все девайсы добавлены в кэш |url: https://localhost/|action: Catalog|AppleStore.Service.Implementations.DeviceService.GetDevices| body: 
+2023-08-21 21:59:47.0938|0|INFO|AppleStore.Service.Implementations.DeviceService|Получение всех девайсов из кэша |url: https://localhost/|action: Catalog|AppleStore.Service.Implementations.DeviceService.GetDevices| body: 
+2023-08-21 23:41:49.1342|0|INFO|Program|Инициализация программы |url: |action: |Program.<Main>$| body: 
+2023-08-21 23:43:28.0122|0|INFO|Program|Инициализация программы |url: |action: |Program.<Main>$| body: 
+2023-08-21 23:43:28.5178|0|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. |url: |action: |Microsoft.Extensions.Hosting.Internal.ConsoleLifetime.OnApplicationStarted| body: 
+2023-08-21 23:43:28.5178|0|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development |url: |action: |Microsoft.Extensions.Hosting.Internal.ConsoleLifetime.OnApplicationStarted| body: 
+2023-08-21 23:43:28.5178|0|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\AProject\AppleStore\AppleStore |url: |action: |Microsoft.Extensions.Hosting.Internal.ApplicationLifetime.NotifyStarted| body: 
+2023-08-21 23:43:29.4966|0|ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware|An unhandled exception has occurred while executing the request. System.InvalidOperationException: The DbContextOptions passed to the ApplicationDbContext constructor must be a DbContextOptions<ApplicationDbContext>. When registering multiple DbContext types, make sure that the constructor for each context type has a DbContextOptions<TContext> parameter rather than a non-generic DbContextOptions parameter.
+   at Microsoft.EntityFrameworkCore.DbContext..ctor(DbContextOptions options)
+   at Microsoft.AspNetCore.Identity.EntityFrameworkCore.IdentityUserContext`5..ctor(DbContextOptions options)
+   at Microsoft.AspNetCore.Identity.EntityFrameworkCore.IdentityDbContext`8..ctor(DbContextOptions options)
+   at Microsoft.AspNetCore.Identity.EntityFrameworkCore.IdentityDbContext`3..ctor(DbContextOptions options)
+   at Microsoft.AspNetCore.Identity.EntityFrameworkCore.IdentityDbContext`1..ctor(DbContextOptions options)
+   at AppleStore.DAL.ApplicationDbContext..ctor(DbContextOptions`1 options) in C:\AProject\AppleStore\AppleStore.DAL\ApplicationDbContext.cs:line 14
+   at System.RuntimeMethodHandle.InvokeMethod(Object target, Void** arguments, Signature sig, Boolean isConstructor)
+   at System.Reflection.ConstructorInvoker.Invoke(Object obj, IntPtr* args, BindingFlags invokeAttr)
+   at System.Reflection.RuntimeConstructorInfo.Invoke(BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitConstructor(ConstructorCallSite constructorCallSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSiteMain(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitCache(ServiceCallSite callSite, RuntimeResolverContext context, ServiceProviderEngineScope serviceProviderEngine, RuntimeResolverLock lockType)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitScopeCache(ServiceCallSite callSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitConstructor(ConstructorCallSite constructorCallSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSiteMain(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitCache(ServiceCallSite callSite, RuntimeResolverContext context, ServiceProviderEngineScope serviceProviderEngine, RuntimeResolverLock lockType)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitScopeCache(ServiceCallSite callSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitConstructor(ConstructorCallSite constructorCallSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSiteMain(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitCache(ServiceCallSite callSite, RuntimeResolverContext context, ServiceProviderEngineScope serviceProviderEngine, RuntimeResolverLock lockType)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitScopeCache(ServiceCallSite callSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.Resolve(ServiceCallSite callSite, ServiceProviderEngineScope scope)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.DynamicServiceProviderEngine.<>c__DisplayClass2_0.<RealizeService>b__0(ServiceProviderEngineScope scope)
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider.GetService(Type serviceType, ServiceProviderEngineScope serviceProviderEngineScope)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.ServiceProviderEngineScope.GetService(Type serviceType)
+   at lambda_method8(Closure, IServiceProvider, Object[])
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass6_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.ResponseCompression.ResponseCompressionMiddleware.InvokeCore(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)|url: https://localhost/|action: Catalog|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke| body: 
+2023-08-21 23:43:29.9092|0|ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware|An unhandled exception has occurred while executing the request. System.InvalidOperationException: The DbContextOptions passed to the ApplicationDbContext constructor must be a DbContextOptions<ApplicationDbContext>. When registering multiple DbContext types, make sure that the constructor for each context type has a DbContextOptions<TContext> parameter rather than a non-generic DbContextOptions parameter.
+   at Microsoft.EntityFrameworkCore.DbContext..ctor(DbContextOptions options)
+   at Microsoft.AspNetCore.Identity.EntityFrameworkCore.IdentityUserContext`5..ctor(DbContextOptions options)
+   at Microsoft.AspNetCore.Identity.EntityFrameworkCore.IdentityDbContext`8..ctor(DbContextOptions options)
+   at Microsoft.AspNetCore.Identity.EntityFrameworkCore.IdentityDbContext`3..ctor(DbContextOptions options)
+   at Microsoft.AspNetCore.Identity.EntityFrameworkCore.IdentityDbContext`1..ctor(DbContextOptions options)
+   at AppleStore.DAL.ApplicationDbContext..ctor(DbContextOptions`1 options) in C:\AProject\AppleStore\AppleStore.DAL\ApplicationDbContext.cs:line 14
+   at InvokeStub_ApplicationDbContext..ctor(Object, Object, IntPtr*)
+   at System.Reflection.ConstructorInvoker.Invoke(Object obj, IntPtr* args, BindingFlags invokeAttr)
+   at System.Reflection.RuntimeConstructorInfo.Invoke(BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitConstructor(ConstructorCallSite constructorCallSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSiteMain(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitCache(ServiceCallSite callSite, RuntimeResolverContext context, ServiceProviderEngineScope serviceProviderEngine, RuntimeResolverLock lockType)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitScopeCache(ServiceCallSite callSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitConstructor(ConstructorCallSite constructorCallSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSiteMain(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitCache(ServiceCallSite callSite, RuntimeResolverContext context, ServiceProviderEngineScope serviceProviderEngine, RuntimeResolverLock lockType)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitScopeCache(ServiceCallSite callSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitConstructor(ConstructorCallSite constructorCallSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSiteMain(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitCache(ServiceCallSite callSite, RuntimeResolverContext context, ServiceProviderEngineScope serviceProviderEngine, RuntimeResolverLock lockType)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitScopeCache(ServiceCallSite callSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.Resolve(ServiceCallSite callSite, ServiceProviderEngineScope scope)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.DynamicServiceProviderEngine.<>c__DisplayClass2_0.<RealizeService>b__0(ServiceProviderEngineScope scope)
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider.GetService(Type serviceType, ServiceProviderEngineScope serviceProviderEngineScope)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.ServiceProviderEngineScope.GetService(Type serviceType)
+   at lambda_method8(Closure, IServiceProvider, Object[])
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass6_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.ResponseCompression.ResponseCompressionMiddleware.InvokeCore(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)|url: https://localhost/|action: Catalog|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke| body: 
+2023-08-21 23:43:49.9178|0|INFO|Microsoft.Hosting.Lifetime|Application is shutting down... |url: |action: |Microsoft.Extensions.Hosting.Internal.ApplicationLifetime.StopApplication| body: 
+2023-08-21 23:44:59.8876|0|INFO|Program|Инициализация программы |url: |action: |Program.<Main>$| body: 
+2023-08-21 23:45:00.2311|0|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. |url: |action: |Microsoft.Extensions.Hosting.Internal.ConsoleLifetime.OnApplicationStarted| body: 
+2023-08-21 23:45:00.2311|0|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development |url: |action: |Microsoft.Extensions.Hosting.Internal.ConsoleLifetime.OnApplicationStarted| body: 
+2023-08-21 23:45:00.2311|0|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\AProject\AppleStore\AppleStore |url: |action: |Microsoft.Extensions.Hosting.Internal.ApplicationLifetime.NotifyStarted| body: 
+2023-08-21 23:45:02.2462|0|INFO|AppleStore.Service.Implementations.DeviceService|Все девайсы добавлены в кэш |url: https://localhost/|action: Catalog|AppleStore.Service.Implementations.DeviceService.GetDevices| body: 
+2023-08-21 23:45:03.0116|0|INFO|AppleStore.Service.Implementations.DeviceService|Получение всех девайсов из кэша |url: https://localhost/|action: Catalog|AppleStore.Service.Implementations.DeviceService.GetDevices| body: 
+2023-08-21 23:45:59.3208|0|INFO|AppleStore.Controllers.Order.OrderController|Успешное получение Девайса из базы данных |url: https://localhost/Order/Details/-1/4|action: Details|AppleStore.Controllers.Order.OrderController.Details| body: 
+2023-08-21 23:45:59.6517|0|INFO|AppleStore.Controllers.Order.OrderController|Успешное получение Девайса из базы данных |url: https://localhost/Order/Details/-1/4|action: Details|AppleStore.Controllers.Order.OrderController.Details| body: 
+2023-08-21 23:46:01.4321|0|INFO|AppleStore.Controllers.Order.OrderController|Успешное получение Девайса из базы данных |url: https://localhost/Order/PlaceOrder/-1/4|action: PlaceOrder|AppleStore.Controllers.Order.OrderController.PlaceOrder| body: 
+2023-08-21 23:46:01.8240|0|INFO|AppleStore.Controllers.Order.OrderController|Успешное получение Девайса из базы данных |url: https://localhost/Order/PlaceOrder/-1/4|action: PlaceOrder|AppleStore.Controllers.Order.OrderController.PlaceOrder| body: 
+2023-08-21 23:46:07.9218|0|ERROR|Microsoft.EntityFrameworkCore.Database.Command|Failed executing DbCommand (78ms) [Parameters=[@p0='?', @p1='?' (DbType = Object), @p2='?', @p3='?', @p4='?' (DbType = Int32), @p5='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+INSERT INTO "Order" ("Address", "DeviceId", "Email", "Name", "Price", "Status")
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5)
+RETURNING "Id"; |url: https://localhost/Order/PlaceOrder/-1/4|action: PlaceOrder|Microsoft.EntityFrameworkCore.Diagnostics.EventDefinition`6.Log| body: 
+2023-08-21 23:46:07.9749|0|ERROR|Microsoft.EntityFrameworkCore.Update|An exception occurred in the database while saving changes for context type 'AppleStore.DAL.ApplicationDbContext'.
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details.
+ ---> Npgsql.PostgresException (0x80004005): 42P01: отношение "Order" не существует
+
+POSITION: 13
+   at Npgsql.Internal.NpgsqlConnector.ReadMessageLong(Boolean async, DataRowLoadingMode dataRowLoadingMode, Boolean readingNotifications, Boolean isReadingPrependedMessage)
+   at Npgsql.NpgsqlDataReader.NextResult(Boolean async, Boolean isConsuming, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlDataReader.NextResult(Boolean async, Boolean isConsuming, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteReader(CommandBehavior behavior, Boolean async, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteReader(CommandBehavior behavior, Boolean async, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteDbDataReaderAsync(CommandBehavior behavior, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+  Exception data:
+    Severity: ОШИБКА
+    SqlState: 42P01
+    MessageText: отношение "Order" не существует
+    Position: 13
+    File: parse_relation.c
+    Line: 1395
+    Routine: parserOpenTable
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(StateManager stateManager, Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Npgsql.EntityFrameworkCore.PostgreSQL.Storage.Internal.NpgsqlExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken) Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details.
+ ---> Npgsql.PostgresException (0x80004005): 42P01: отношение "Order" не существует
+
+POSITION: 13
+   at Npgsql.Internal.NpgsqlConnector.ReadMessageLong(Boolean async, DataRowLoadingMode dataRowLoadingMode, Boolean readingNotifications, Boolean isReadingPrependedMessage)
+   at Npgsql.NpgsqlDataReader.NextResult(Boolean async, Boolean isConsuming, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlDataReader.NextResult(Boolean async, Boolean isConsuming, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteReader(CommandBehavior behavior, Boolean async, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteReader(CommandBehavior behavior, Boolean async, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteDbDataReaderAsync(CommandBehavior behavior, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+  Exception data:
+    Severity: ОШИБКА
+    SqlState: 42P01
+    MessageText: отношение "Order" не существует
+    Position: 13
+    File: parse_relation.c
+    Line: 1395
+    Routine: parserOpenTable
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(StateManager stateManager, Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Npgsql.EntityFrameworkCore.PostgreSQL.Storage.Internal.NpgsqlExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)|url: https://localhost/Order/PlaceOrder/-1/4|action: PlaceOrder|Microsoft.EntityFrameworkCore.Diagnostics.EventDefinition`3.Log| body: 
+2023-08-21 23:46:07.9943|0|ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware|An unhandled exception has occurred while executing the request. Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details.
+ ---> Npgsql.PostgresException (0x80004005): 42P01: отношение "Order" не существует
+
+POSITION: 13
+   at Npgsql.Internal.NpgsqlConnector.ReadMessageLong(Boolean async, DataRowLoadingMode dataRowLoadingMode, Boolean readingNotifications, Boolean isReadingPrependedMessage)
+   at Npgsql.NpgsqlDataReader.NextResult(Boolean async, Boolean isConsuming, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlDataReader.NextResult(Boolean async, Boolean isConsuming, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteReader(CommandBehavior behavior, Boolean async, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteReader(CommandBehavior behavior, Boolean async, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteDbDataReaderAsync(CommandBehavior behavior, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+  Exception data:
+    Severity: ОШИБКА
+    SqlState: 42P01
+    MessageText: отношение "Order" не существует
+    Position: 13
+    File: parse_relation.c
+    Line: 1395
+    Routine: parserOpenTable
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(StateManager stateManager, Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Npgsql.EntityFrameworkCore.PostgreSQL.Storage.Internal.NpgsqlExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at AppleStore.DAL.Repositories.OrderRepository.Create(Order entity) in C:\AProject\AppleStore\AppleStore.DAL\Repositories\OrderRepository.cs:line 18
+   at AppleStore.Service.Implementations.OrderService.CreateOrder(Order orderModel) in C:\AProject\AppleStore\AppleStore.Service\Implementations\OrderDevice.cs:line 67
+   at AppleStore.Controllers.Order.OrderController.PlaceOrder(DeviceOrderViewModel viewModel) in C:\AProject\AppleStore\AppleStore\Controllers\Order\OrderController.cs:line 48
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Logged|12_1(ControllerActionInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.ResponseCompression.ResponseCompressionMiddleware.InvokeCore(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)|url: https://localhost/Order/PlaceOrder/-1/4|action: PlaceOrder|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke| body: 
+2023-08-21 23:46:08.3358|0|INFO|AppleStore.Controllers.Order.OrderController|Успешное получение Девайса из базы данных |url: https://localhost/Order/PlaceOrder/-1/4|action: PlaceOrder|AppleStore.Controllers.Order.OrderController.PlaceOrder| body: 
+2023-08-21 23:46:17.2125|0|INFO|Microsoft.Hosting.Lifetime|Application is shutting down... |url: |action: |Microsoft.Extensions.Hosting.Internal.ApplicationLifetime.StopApplication| body: 
+2023-08-21 23:54:38.5851|0|INFO|Program|Инициализация программы |url: |action: |Program.<Main>$| body: 
+2023-08-21 23:54:39.0129|0|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. |url: |action: |Microsoft.Extensions.Hosting.Internal.ConsoleLifetime.OnApplicationStarted| body: 
+2023-08-21 23:54:39.0129|0|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development |url: |action: |Microsoft.Extensions.Hosting.Internal.ConsoleLifetime.OnApplicationStarted| body: 
+2023-08-21 23:54:39.0129|0|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\AProject\AppleStore\AppleStore |url: |action: |Microsoft.Extensions.Hosting.Internal.ApplicationLifetime.NotifyStarted| body: 
+2023-08-21 23:54:41.5559|0|ERROR|AppleStore.Service.Implementations.DeviceService|Ошибка : девайсы не найдены |url: https://localhost/|action: Catalog|AppleStore.Service.Implementations.DeviceService.GetDevices| body: 
+2023-08-21 23:54:41.5715|0|ERROR|AppleStore.Controllers.Device.DeviceController|Error : Найдено 0 элементов |url: https://localhost/|action: Catalog|AppleStore.Controllers.Device.DeviceController.Catalog| body: 
+2023-08-21 23:54:42.2767|0|ERROR|AppleStore.Service.Implementations.DeviceService|Ошибка : девайсы не найдены |url: https://localhost/|action: Catalog|AppleStore.Service.Implementations.DeviceService.GetDevices| body: 
+2023-08-21 23:54:42.2767|0|ERROR|AppleStore.Controllers.Device.DeviceController|Error : Найдено 0 элементов |url: https://localhost/|action: Catalog|AppleStore.Controllers.Device.DeviceController.Catalog| body: 
+2023-08-21 23:54:49.8933|0|INFO|Microsoft.Hosting.Lifetime|Application is shutting down... |url: |action: |Microsoft.Extensions.Hosting.Internal.ApplicationLifetime.StopApplication| body: 
+2023-08-21 23:57:41.6249|0|INFO|Program|Инициализация программы |url: |action: |Program.<Main>$| body: 
+2023-08-21 23:57:42.0087|0|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. |url: |action: |Microsoft.Extensions.Hosting.Internal.ConsoleLifetime.OnApplicationStarted| body: 
+2023-08-21 23:57:42.0087|0|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development |url: |action: |Microsoft.Extensions.Hosting.Internal.ConsoleLifetime.OnApplicationStarted| body: 
+2023-08-21 23:57:42.0087|0|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\AProject\AppleStore\AppleStore |url: |action: |Microsoft.Extensions.Hosting.Internal.ApplicationLifetime.NotifyStarted| body: 
+2023-08-21 23:57:43.5571|0|ERROR|AppleStore.Service.Implementations.DeviceService|Ошибка : девайсы не найдены |url: https://localhost/|action: Catalog|AppleStore.Service.Implementations.DeviceService.GetDevices| body: 
+2023-08-21 23:57:43.5571|0|ERROR|AppleStore.Controllers.Device.DeviceController|Error : Найдено 0 элементов |url: https://localhost/|action: Catalog|AppleStore.Controllers.Device.DeviceController.Catalog| body: 
+2023-08-21 23:57:44.2273|0|ERROR|AppleStore.Service.Implementations.DeviceService|Ошибка : девайсы не найдены |url: https://localhost/|action: Catalog|AppleStore.Service.Implementations.DeviceService.GetDevices| body: 
+2023-08-21 23:57:44.2273|0|ERROR|AppleStore.Controllers.Device.DeviceController|Error : Найдено 0 элементов |url: https://localhost/|action: Catalog|AppleStore.Controllers.Device.DeviceController.Catalog| body: 
+2023-08-21 23:57:51.4101|0|INFO|Microsoft.Hosting.Lifetime|Application is shutting down... |url: |action: |Microsoft.Extensions.Hosting.Internal.ApplicationLifetime.StopApplication| body: 

@@ -5,9 +5,9 @@ namespace AppleStore.DAL.Repositories;
 
 public class OrderRepository 
 {
-    public readonly OrderDbContext db;
+    public readonly ApplicationDbContext db;
 
-    public OrderRepository(OrderDbContext db)
+    public OrderRepository(ApplicationDbContext db)
     {
         this.db = db;
     }
@@ -18,7 +18,7 @@ public class OrderRepository
         await db.SaveChangesAsync();
     }
 
-    public Task<List<Order?>> GetAll()
+    public Task<List<Order>> GetAll()
     {
         return db.Order.ToListAsync();
     }

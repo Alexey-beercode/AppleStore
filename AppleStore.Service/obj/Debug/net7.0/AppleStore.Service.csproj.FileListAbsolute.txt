@@ -32,3 +32,5 @@ C:\AProject\AppleStore\AppleStore.Service\obj\Debug\net7.0\AppleStore.Service.dl
 C:\AProject\AppleStore\AppleStore.Service\obj\Debug\net7.0\refint\AppleStore.Service.dll
 C:\AProject\AppleStore\AppleStore.Service\obj\Debug\net7.0\AppleStore.Service.pdb
 C:\AProject\AppleStore\AppleStore.Service\obj\Debug\net7.0\ref\AppleStore.Service.dll
+C:\AProject\AppleStore\AppleStore.Service\bin\Debug\net7.0\AppleStore.Service.runtimeconfig.json
+C:\AProject\AppleStore\AppleStore.Service\obj\Debug\net7.0\AppleStore.Service.genruntimeconfig.cache

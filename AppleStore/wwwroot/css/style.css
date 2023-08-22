@@ -148,3 +148,17 @@ button {
     background-color: #333;
 }
 
+/* Стили для кнопок авторизации и регистрации */
+.btn-auth {
+    color: #aabbcb;
+    background-color: #f8f9fa;
+    border-color: #f8f9fa;
+}
+
+.btn-auth:hover {
+    color: #fff;
+    background-color: #1b6ec2;
+    border-color: #1861ac;
+}
+
+

@@ -5,9 +5,9 @@ namespace AppleStore.DAL.Repositories;
 
 public class DeviceRepository
 {
-    public readonly DeviceDbContext db;
+    public readonly ApplicationDbContext db;
 
-    public DeviceRepository(DeviceDbContext db)
+    public DeviceRepository(ApplicationDbContext db)
     {
         this.db = db;
     }

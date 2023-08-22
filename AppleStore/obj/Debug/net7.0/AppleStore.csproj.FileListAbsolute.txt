@@ -124,3 +124,13 @@ C:\AProject\AppleStore\AppleStore\bin\Debug\net7.0\nlog.config
 C:\AProject\AppleStore\AppleStore\bin\Debug\net7.0\NLog.dll
 C:\AProject\AppleStore\AppleStore\bin\Debug\net7.0\NLog.Extensions.Logging.dll
 C:\AProject\AppleStore\AppleStore\bin\Debug\net7.0\NLog.Web.AspNetCore.dll
+C:\AProject\AppleStore\AppleStore\bin\Debug\net7.0\Humanizer.dll
+C:\AProject\AppleStore\AppleStore\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Design.dll
+C:\AProject\AppleStore\AppleStore\bin\Debug\net7.0\Microsoft.Extensions.DependencyModel.dll
+C:\AProject\AppleStore\AppleStore\bin\Debug\net7.0\Mono.TextTemplating.dll
+C:\AProject\AppleStore\AppleStore\bin\Debug\net7.0\System.CodeDom.dll
+C:\AProject\AppleStore\AppleStore\bin\Debug\net7.0\Microsoft.AspNetCore.Cryptography.Internal.dll
+C:\AProject\AppleStore\AppleStore\bin\Debug\net7.0\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+C:\AProject\AppleStore\AppleStore\bin\Debug\net7.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+C:\AProject\AppleStore\AppleStore\bin\Debug\net7.0\Microsoft.Extensions.Identity.Core.dll
+C:\AProject\AppleStore\AppleStore\bin\Debug\net7.0\Microsoft.Extensions.Identity.Stores.dll
