@@ -19,7 +19,6 @@ public class AccountController : Controller
     [AllowAnonymous]
     public IActionResult Login()
     {
-        //ViewBag.ReturnUrl = returnUrl;
         return View(new LoginViewModel());
     }
 
@@ -27,23 +26,22 @@ public class AccountController : Controller
     [AllowAnonymous]
     public async Task<IActionResult> Login(LoginViewModel model)
     {
-        _logger.LogInformation("Хуйня дошла");
         if (ModelState.IsValid)
         {
-            _logger.LogInformation("Все норм");
             IdentityUser user = await _userManager.FindByNameAsync(model.UserName);
             if (user != null)
             {
                 await _signInManager.SignOutAsync();
                 Microsoft.AspNetCore.Identity.SignInResult result =
-                    await _signInManager.PasswordSignInAsync(user, model.Password, false, false);
+                    await _signInManager.PasswordSignInAsync(user, model.Password, model.RememberMe, false);
                 if (result.Succeeded)
                 {
-                    //return Redirect(returnUrl ?? "/");
-                    return RedirectToAction("Catalog","Device");
+                    _logger.LogInformation($"Пользователь {model.UserName} Авторизовался успешно");
+                    return View("Successful","Успешная Авторизация");
                 }
             }
-            _logger.LogInformation("Все не норм");
+            _logger.LogInformation("Авторизация прошла не успешно : пользователя не найдено");
+            return View("Error", "Пользователь не найден");
         }
 
         return View("Error","Неверный логин или пароль");
@@ -52,7 +50,6 @@ public class AccountController : Controller
     [AllowAnonymous]
     public IActionResult Register()
     {
-        //ViewBag.ReturnUrl = returnUrl;
         return View(new LoginViewModel());
     }
 
@@ -72,8 +69,7 @@ public class AccountController : Controller
             {
                 _logger.LogInformation("Зареган");
                 await _signInManager.SignInAsync(newUser, isPersistent: false); // Log in the user
-                //return Redirect(returnUrl ?? "/");
-                return RedirectToAction("Catalog", "Device");
+                return View("Successful","Успешная Регистрация");
             }
            
         }
@@ -86,6 +82,6 @@ public class AccountController : Controller
         if (!User.Identity.IsAuthenticated)
             return View("Error", "Вы не вошли в аккаунт");
             await _signInManager.SignOutAsync();
-            return RedirectToAction("Catalog", "Device");
+            return View("Successful","Вы вышли из аккаунта");
     }
 }

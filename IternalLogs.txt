@@ -1338,3 +1338,214 @@
 2023-08-22 04:24:03.9938 Info Configuration initialized.
 2023-08-22 04:24:04.0526 Info Validating config: TargetNames=allfile, console, ownFile-web, ConfigItems=69, FilePath=C:\AProject\AppleStore\AppleStore\nlog.config
 2023-08-22 04:24:05.1802 Info NLogRequestPostedBodyMiddleware is not yet initialized, which is required by aspnet-request-posted-body.
+2023-08-22 10:52:45.5935 Info Registered target NLog.Targets.FileTarget(Name=allfile)
+2023-08-22 10:52:45.6040 Info Registered target NLog.Targets.FileTarget(Name=ownFile-web)
+2023-08-22 10:52:45.6040 Info Registered target NLog.Targets.ConsoleTarget(Name=console)
+2023-08-22 10:52:45.6040 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target 'lifetimeConsole' not found for logging rule: Microsoft.Hosting.Lifetime.
+2023-08-22 10:52:45.6144 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.3.1999. Product version: 5.2.3+a5ddef92a8afb22508450803e37c001f4a3ba52a. GlobalAssemblyCache: False
+2023-08-22 10:52:45.6278 Info Validating config: TargetNames=allfile, console, ownFile-web, ConfigItems=69, FilePath=C:\AProject\AppleStore\AppleStore\nlog.config
+2023-08-22 10:52:45.6539 Info Configuration initialized.
+2023-08-22 10:52:45.8171 Info Validating config: TargetNames=allfile, console, ownFile-web, ConfigItems=69, FilePath=C:\AProject\AppleStore\AppleStore\nlog.config
+2023-08-22 10:52:49.0759 Info NLogRequestPostedBodyMiddleware is not yet initialized, which is required by aspnet-request-posted-body.
+2023-08-22 11:00:31.2651 Info Registered target NLog.Targets.FileTarget(Name=allfile)
+2023-08-22 11:00:31.2762 Info Registered target NLog.Targets.FileTarget(Name=ownFile-web)
+2023-08-22 11:00:31.2762 Info Registered target NLog.Targets.ConsoleTarget(Name=console)
+2023-08-22 11:00:31.2762 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target 'lifetimeConsole' not found for logging rule: Microsoft.Hosting.Lifetime.
+2023-08-22 11:00:31.2762 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.3.1999. Product version: 5.2.3+a5ddef92a8afb22508450803e37c001f4a3ba52a. GlobalAssemblyCache: False
+2023-08-22 11:00:31.2971 Info Validating config: TargetNames=allfile, console, ownFile-web, ConfigItems=69, FilePath=C:\AProject\AppleStore\AppleStore\nlog.config
+2023-08-22 11:00:31.3088 Info Configuration initialized.
+2023-08-22 11:00:31.4227 Info Validating config: TargetNames=allfile, console, ownFile-web, ConfigItems=69, FilePath=C:\AProject\AppleStore\AppleStore\nlog.config
+2023-08-22 11:00:33.4120 Info NLogRequestPostedBodyMiddleware is not yet initialized, which is required by aspnet-request-posted-body.
+2023-08-22 11:01:47.2621 Info Registered target NLog.Targets.FileTarget(Name=allfile)
+2023-08-22 11:01:47.2674 Info Registered target NLog.Targets.FileTarget(Name=ownFile-web)
+2023-08-22 11:01:47.2674 Info Registered target NLog.Targets.ConsoleTarget(Name=console)
+2023-08-22 11:01:47.2674 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target 'lifetimeConsole' not found for logging rule: Microsoft.Hosting.Lifetime.
+2023-08-22 11:01:47.2674 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.3.1999. Product version: 5.2.3+a5ddef92a8afb22508450803e37c001f4a3ba52a. GlobalAssemblyCache: False
+2023-08-22 11:01:47.2901 Info Validating config: TargetNames=allfile, console, ownFile-web, ConfigItems=69, FilePath=C:\AProject\AppleStore\AppleStore\nlog.config
+2023-08-22 11:01:47.3143 Info Configuration initialized.
+2023-08-22 11:01:47.4927 Info Validating config: TargetNames=allfile, console, ownFile-web, ConfigItems=69, FilePath=C:\AProject\AppleStore\AppleStore\nlog.config
+2023-08-22 11:01:49.3944 Info NLogRequestPostedBodyMiddleware is not yet initialized, which is required by aspnet-request-posted-body.
+2023-08-22 11:20:20.8019 Info Registered target NLog.Targets.FileTarget(Name=allfile)
+2023-08-22 11:20:20.8166 Info Registered target NLog.Targets.FileTarget(Name=ownFile-web)
+2023-08-22 11:20:20.8166 Info Registered target NLog.Targets.ConsoleTarget(Name=console)
+2023-08-22 11:20:20.8343 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target 'lifetimeConsole' not found for logging rule: Microsoft.Hosting.Lifetime.
+2023-08-22 11:20:20.8439 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.3.1999. Product version: 5.2.3+a5ddef92a8afb22508450803e37c001f4a3ba52a. GlobalAssemblyCache: False
+2023-08-22 11:20:20.8725 Info Validating config: TargetNames=allfile, console, ownFile-web, ConfigItems=69, FilePath=C:\AProject\AppleStore\AppleStore\nlog.config
+2023-08-22 11:20:20.9035 Info Configuration initialized.
+2023-08-22 11:20:21.0384 Info Validating config: TargetNames=allfile, console, ownFile-web, ConfigItems=69, FilePath=C:\AProject\AppleStore\AppleStore\nlog.config
+2023-08-22 11:20:23.1973 Info NLogRequestPostedBodyMiddleware is not yet initialized, which is required by aspnet-request-posted-body.
+2023-08-22 11:24:12.3893 Warn Exception in NLog.LayoutRenderers.ExceptionLayoutRenderer.AppendToString(): System.TypeLoadException. Exception: System.TypeLoadException: Could not load type 'AspNetCoreGeneratedDocument.Views_Account_Login+<ExecuteAsync>d__17#1' from assembly 'AppleStore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null'.
+   at System.Reflection.CustomAttribute._CreateCaObject(RuntimeModule pModule, RuntimeType type, IRuntimeMethodInfo pCtor, Byte** ppBlob, Byte* pEndBlob, Int32* pcNamedArgs)
+   at System.Reflection.CustomAttribute.AddCustomAttributes(ListBuilder`1& attributes, RuntimeModule decoratedModule, Int32 decoratedMetadataToken, RuntimeType attributeFilterType, Boolean mustBeInheritable, ListBuilder`1 derivedAttributes)
+   at System.Reflection.CustomAttribute.GetCustomAttributes(RuntimeModule decoratedModule, Int32 decoratedMetadataToken, Int32 pcaCount, RuntimeType attributeFilterType)
+   at System.Reflection.CustomAttribute.GetCustomAttributes(RuntimeMethodInfo method, RuntimeType caType, Boolean inherit)
+   at System.Attribute.GetCustomAttributes(MemberInfo element, Type attributeType, Boolean inherit)
+   at System.Diagnostics.StackTrace.TryResolveStateMachineMethod(MethodBase& method, Type& declaringType)
+   at System.Diagnostics.StackTrace.ToString(TraceFormat traceFormat, StringBuilder sb)
+   at System.Diagnostics.StackTrace.ToString(TraceFormat traceFormat)
+   at System.Exception.get_StackTrace()
+   at System.Exception.ToString()
+   at NLog.LayoutRenderers.ExceptionLayoutRenderer.AppendToString(StringBuilder sb, Exception ex)
+2023-08-22 11:24:12.3893 Warn Exception in layout renderer. Exception: System.TypeLoadException: Could not load type 'AspNetCoreGeneratedDocument.Views_Account_Login+<ExecuteAsync>d__17#1' from assembly 'AppleStore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null'.
+   at System.Reflection.CustomAttribute._CreateCaObject(RuntimeModule pModule, RuntimeType type, IRuntimeMethodInfo pCtor, Byte** ppBlob, Byte* pEndBlob, Int32* pcNamedArgs)
+   at System.Reflection.CustomAttribute.AddCustomAttributes(ListBuilder`1& attributes, RuntimeModule decoratedModule, Int32 decoratedMetadataToken, RuntimeType attributeFilterType, Boolean mustBeInheritable, ListBuilder`1 derivedAttributes)
+   at System.Reflection.CustomAttribute.GetCustomAttributes(RuntimeModule decoratedModule, Int32 decoratedMetadataToken, Int32 pcaCount, RuntimeType attributeFilterType)
+   at System.Reflection.CustomAttribute.GetCustomAttributes(RuntimeMethodInfo method, RuntimeType caType, Boolean inherit)
+   at System.Attribute.GetCustomAttributes(MemberInfo element, Type attributeType, Boolean inherit)
+   at System.Diagnostics.StackTrace.TryResolveStateMachineMethod(MethodBase& method, Type& declaringType)
+   at System.Diagnostics.StackTrace.ToString(TraceFormat traceFormat, StringBuilder sb)
+   at System.Diagnostics.StackTrace.ToString(TraceFormat traceFormat)
+   at System.Exception.get_StackTrace()
+   at System.Exception.ToString()
+   at NLog.LayoutRenderers.MessageLayoutRenderer.Append(StringBuilder builder, LogEventInfo logEvent)
+   at NLog.LayoutRenderers.LayoutRenderer.RenderAppendBuilder(LogEventInfo logEvent, StringBuilder builder)
+2023-08-22 11:24:12.3893 Warn Exception in NLog.LayoutRenderers.ExceptionLayoutRenderer.AppendToString(): System.TypeLoadException. Exception: System.TypeLoadException: Could not load type 'AspNetCoreGeneratedDocument.Views_Account_Login+<ExecuteAsync>d__17#1' from assembly 'AppleStore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null'.
+   at System.Reflection.CustomAttribute._CreateCaObject(RuntimeModule pModule, RuntimeType type, IRuntimeMethodInfo pCtor, Byte** ppBlob, Byte* pEndBlob, Int32* pcNamedArgs)
+   at System.Reflection.CustomAttribute.AddCustomAttributes(ListBuilder`1& attributes, RuntimeModule decoratedModule, Int32 decoratedMetadataToken, RuntimeType attributeFilterType, Boolean mustBeInheritable, ListBuilder`1 derivedAttributes)
+   at System.Reflection.CustomAttribute.GetCustomAttributes(RuntimeModule decoratedModule, Int32 decoratedMetadataToken, Int32 pcaCount, RuntimeType attributeFilterType)
+   at System.Reflection.CustomAttribute.GetCustomAttributes(RuntimeMethodInfo method, RuntimeType caType, Boolean inherit)
+   at System.Attribute.GetCustomAttributes(MemberInfo element, Type attributeType, Boolean inherit)
+   at System.Diagnostics.StackTrace.TryResolveStateMachineMethod(MethodBase& method, Type& declaringType)
+   at System.Diagnostics.StackTrace.ToString(TraceFormat traceFormat, StringBuilder sb)
+   at System.Diagnostics.StackTrace.ToString(TraceFormat traceFormat)
+   at System.Exception.get_StackTrace()
+   at System.Exception.ToString()
+   at NLog.LayoutRenderers.ExceptionLayoutRenderer.AppendToString(StringBuilder sb, Exception ex)
+2023-08-22 11:24:12.3997 Warn Exception in NLog.LayoutRenderers.ExceptionLayoutRenderer.AppendToString(): System.TypeLoadException. Exception: System.TypeLoadException: Could not load type 'AspNetCoreGeneratedDocument.Views_Account_Login+<ExecuteAsync>d__17#1' from assembly 'AppleStore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null'.
+   at System.Reflection.CustomAttribute._CreateCaObject(RuntimeModule pModule, RuntimeType type, IRuntimeMethodInfo pCtor, Byte** ppBlob, Byte* pEndBlob, Int32* pcNamedArgs)
+   at System.Reflection.CustomAttribute.AddCustomAttributes(ListBuilder`1& attributes, RuntimeModule decoratedModule, Int32 decoratedMetadataToken, RuntimeType attributeFilterType, Boolean mustBeInheritable, ListBuilder`1 derivedAttributes)
+   at System.Reflection.CustomAttribute.GetCustomAttributes(RuntimeModule decoratedModule, Int32 decoratedMetadataToken, Int32 pcaCount, RuntimeType attributeFilterType)
+   at System.Reflection.CustomAttribute.GetCustomAttributes(RuntimeMethodInfo method, RuntimeType caType, Boolean inherit)
+   at System.Attribute.GetCustomAttributes(MemberInfo element, Type attributeType, Boolean inherit)
+   at System.Diagnostics.StackTrace.TryResolveStateMachineMethod(MethodBase& method, Type& declaringType)
+   at System.Diagnostics.StackTrace.ToString(TraceFormat traceFormat, StringBuilder sb)
+   at System.Diagnostics.StackTrace.ToString(TraceFormat traceFormat)
+   at System.Exception.get_StackTrace()
+   at System.Exception.ToString()
+   at NLog.LayoutRenderers.ExceptionLayoutRenderer.AppendToString(StringBuilder sb, Exception ex)
+2023-08-22 11:24:12.3997 Warn Exception in layout renderer. Exception: System.TypeLoadException: Could not load type 'AspNetCoreGeneratedDocument.Views_Account_Login+<ExecuteAsync>d__17#1' from assembly 'AppleStore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null'.
+   at System.Reflection.CustomAttribute._CreateCaObject(RuntimeModule pModule, RuntimeType type, IRuntimeMethodInfo pCtor, Byte** ppBlob, Byte* pEndBlob, Int32* pcNamedArgs)
+   at System.Reflection.CustomAttribute.AddCustomAttributes(ListBuilder`1& attributes, RuntimeModule decoratedModule, Int32 decoratedMetadataToken, RuntimeType attributeFilterType, Boolean mustBeInheritable, ListBuilder`1 derivedAttributes)
+   at System.Reflection.CustomAttribute.GetCustomAttributes(RuntimeModule decoratedModule, Int32 decoratedMetadataToken, Int32 pcaCount, RuntimeType attributeFilterType)
+   at System.Reflection.CustomAttribute.GetCustomAttributes(RuntimeMethodInfo method, RuntimeType caType, Boolean inherit)
+   at System.Attribute.GetCustomAttributes(MemberInfo element, Type attributeType, Boolean inherit)
+   at System.Diagnostics.StackTrace.TryResolveStateMachineMethod(MethodBase& method, Type& declaringType)
+   at System.Diagnostics.StackTrace.ToString(TraceFormat traceFormat, StringBuilder sb)
+   at System.Diagnostics.StackTrace.ToString(TraceFormat traceFormat)
+   at System.Exception.get_StackTrace()
+   at System.Exception.ToString()
+   at NLog.LayoutRenderers.MessageLayoutRenderer.Append(StringBuilder builder, LogEventInfo logEvent)
+   at NLog.LayoutRenderers.LayoutRenderer.RenderAppendBuilder(LogEventInfo logEvent, StringBuilder builder)
+2023-08-22 11:24:12.3997 Warn Exception in NLog.LayoutRenderers.ExceptionLayoutRenderer.AppendToString(): System.TypeLoadException. Exception: System.TypeLoadException: Could not load type 'AspNetCoreGeneratedDocument.Views_Account_Login+<ExecuteAsync>d__17#1' from assembly 'AppleStore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null'.
+   at System.Reflection.CustomAttribute._CreateCaObject(RuntimeModule pModule, RuntimeType type, IRuntimeMethodInfo pCtor, Byte** ppBlob, Byte* pEndBlob, Int32* pcNamedArgs)
+   at System.Reflection.CustomAttribute.AddCustomAttributes(ListBuilder`1& attributes, RuntimeModule decoratedModule, Int32 decoratedMetadataToken, RuntimeType attributeFilterType, Boolean mustBeInheritable, ListBuilder`1 derivedAttributes)
+   at System.Reflection.CustomAttribute.GetCustomAttributes(RuntimeModule decoratedModule, Int32 decoratedMetadataToken, Int32 pcaCount, RuntimeType attributeFilterType)
+   at System.Reflection.CustomAttribute.GetCustomAttributes(RuntimeMethodInfo method, RuntimeType caType, Boolean inherit)
+   at System.Attribute.GetCustomAttributes(MemberInfo element, Type attributeType, Boolean inherit)
+   at System.Diagnostics.StackTrace.TryResolveStateMachineMethod(MethodBase& method, Type& declaringType)
+   at System.Diagnostics.StackTrace.ToString(TraceFormat traceFormat, StringBuilder sb)
+   at System.Diagnostics.StackTrace.ToString(TraceFormat traceFormat)
+   at System.Exception.get_StackTrace()
+   at System.Exception.ToString()
+   at NLog.LayoutRenderers.ExceptionLayoutRenderer.AppendToString(StringBuilder sb, Exception ex)
+2023-08-22 11:24:35.4457 Warn Exception in NLog.LayoutRenderers.ExceptionLayoutRenderer.AppendToString(): System.TypeLoadException. Exception: System.TypeLoadException: Could not load type 'AspNetCoreGeneratedDocument.Views_Account_Login+<ExecuteAsync>d__17#1' from assembly 'AppleStore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null'.
+   at System.Reflection.CustomAttribute._CreateCaObject(RuntimeModule pModule, RuntimeType type, IRuntimeMethodInfo pCtor, Byte** ppBlob, Byte* pEndBlob, Int32* pcNamedArgs)
+   at System.Reflection.CustomAttribute.AddCustomAttributes(ListBuilder`1& attributes, RuntimeModule decoratedModule, Int32 decoratedMetadataToken, RuntimeType attributeFilterType, Boolean mustBeInheritable, ListBuilder`1 derivedAttributes)
+   at System.Reflection.CustomAttribute.GetCustomAttributes(RuntimeModule decoratedModule, Int32 decoratedMetadataToken, Int32 pcaCount, RuntimeType attributeFilterType)
+   at System.Reflection.CustomAttribute.GetCustomAttributes(RuntimeMethodInfo method, RuntimeType caType, Boolean inherit)
+   at System.Attribute.GetCustomAttributes(MemberInfo element, Type attributeType, Boolean inherit)
+   at System.Diagnostics.StackTrace.TryResolveStateMachineMethod(MethodBase& method, Type& declaringType)
+   at System.Diagnostics.StackTrace.ToString(TraceFormat traceFormat, StringBuilder sb)
+   at System.Diagnostics.StackTrace.ToString(TraceFormat traceFormat)
+   at System.Exception.get_StackTrace()
+   at System.Exception.ToString()
+   at NLog.LayoutRenderers.ExceptionLayoutRenderer.AppendToString(StringBuilder sb, Exception ex)
+2023-08-22 11:24:35.4457 Warn Exception in layout renderer. Exception: System.TypeLoadException: Could not load type 'AspNetCoreGeneratedDocument.Views_Account_Login+<ExecuteAsync>d__17#1' from assembly 'AppleStore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null'.
+   at System.Reflection.CustomAttribute._CreateCaObject(RuntimeModule pModule, RuntimeType type, IRuntimeMethodInfo pCtor, Byte** ppBlob, Byte* pEndBlob, Int32* pcNamedArgs)
+   at System.Reflection.CustomAttribute.AddCustomAttributes(ListBuilder`1& attributes, RuntimeModule decoratedModule, Int32 decoratedMetadataToken, RuntimeType attributeFilterType, Boolean mustBeInheritable, ListBuilder`1 derivedAttributes)
+   at System.Reflection.CustomAttribute.GetCustomAttributes(RuntimeModule decoratedModule, Int32 decoratedMetadataToken, Int32 pcaCount, RuntimeType attributeFilterType)
+   at System.Reflection.CustomAttribute.GetCustomAttributes(RuntimeMethodInfo method, RuntimeType caType, Boolean inherit)
+   at System.Attribute.GetCustomAttributes(MemberInfo element, Type attributeType, Boolean inherit)
+   at System.Diagnostics.StackTrace.TryResolveStateMachineMethod(MethodBase& method, Type& declaringType)
+   at System.Diagnostics.StackTrace.ToString(TraceFormat traceFormat, StringBuilder sb)
+   at System.Diagnostics.StackTrace.ToString(TraceFormat traceFormat)
+   at System.Exception.get_StackTrace()
+   at System.Exception.ToString()
+   at NLog.LayoutRenderers.MessageLayoutRenderer.Append(StringBuilder builder, LogEventInfo logEvent)
+   at NLog.LayoutRenderers.LayoutRenderer.RenderAppendBuilder(LogEventInfo logEvent, StringBuilder builder)
+2023-08-22 11:24:35.4457 Warn Exception in NLog.LayoutRenderers.ExceptionLayoutRenderer.AppendToString(): System.TypeLoadException. Exception: System.TypeLoadException: Could not load type 'AspNetCoreGeneratedDocument.Views_Account_Login+<ExecuteAsync>d__17#1' from assembly 'AppleStore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null'.
+   at System.Reflection.CustomAttribute._CreateCaObject(RuntimeModule pModule, RuntimeType type, IRuntimeMethodInfo pCtor, Byte** ppBlob, Byte* pEndBlob, Int32* pcNamedArgs)
+   at System.Reflection.CustomAttribute.AddCustomAttributes(ListBuilder`1& attributes, RuntimeModule decoratedModule, Int32 decoratedMetadataToken, RuntimeType attributeFilterType, Boolean mustBeInheritable, ListBuilder`1 derivedAttributes)
+   at System.Reflection.CustomAttribute.GetCustomAttributes(RuntimeModule decoratedModule, Int32 decoratedMetadataToken, Int32 pcaCount, RuntimeType attributeFilterType)
+   at System.Reflection.CustomAttribute.GetCustomAttributes(RuntimeMethodInfo method, RuntimeType caType, Boolean inherit)
+   at System.Attribute.GetCustomAttributes(MemberInfo element, Type attributeType, Boolean inherit)
+   at System.Diagnostics.StackTrace.TryResolveStateMachineMethod(MethodBase& method, Type& declaringType)
+   at System.Diagnostics.StackTrace.ToString(TraceFormat traceFormat, StringBuilder sb)
+   at System.Diagnostics.StackTrace.ToString(TraceFormat traceFormat)
+   at System.Exception.get_StackTrace()
+   at System.Exception.ToString()
+   at NLog.LayoutRenderers.ExceptionLayoutRenderer.AppendToString(StringBuilder sb, Exception ex)
+2023-08-22 11:24:35.4457 Warn Exception in NLog.LayoutRenderers.ExceptionLayoutRenderer.AppendToString(): System.TypeLoadException. Exception: System.TypeLoadException: Could not load type 'AspNetCoreGeneratedDocument.Views_Account_Login+<ExecuteAsync>d__17#1' from assembly 'AppleStore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null'.
+   at System.Reflection.CustomAttribute._CreateCaObject(RuntimeModule pModule, RuntimeType type, IRuntimeMethodInfo pCtor, Byte** ppBlob, Byte* pEndBlob, Int32* pcNamedArgs)
+   at System.Reflection.CustomAttribute.AddCustomAttributes(ListBuilder`1& attributes, RuntimeModule decoratedModule, Int32 decoratedMetadataToken, RuntimeType attributeFilterType, Boolean mustBeInheritable, ListBuilder`1 derivedAttributes)
+   at System.Reflection.CustomAttribute.GetCustomAttributes(RuntimeModule decoratedModule, Int32 decoratedMetadataToken, Int32 pcaCount, RuntimeType attributeFilterType)
+   at System.Reflection.CustomAttribute.GetCustomAttributes(RuntimeMethodInfo method, RuntimeType caType, Boolean inherit)
+   at System.Attribute.GetCustomAttributes(MemberInfo element, Type attributeType, Boolean inherit)
+   at System.Diagnostics.StackTrace.TryResolveStateMachineMethod(MethodBase& method, Type& declaringType)
+   at System.Diagnostics.StackTrace.ToString(TraceFormat traceFormat, StringBuilder sb)
+   at System.Diagnostics.StackTrace.ToString(TraceFormat traceFormat)
+   at System.Exception.get_StackTrace()
+   at System.Exception.ToString()
+   at NLog.LayoutRenderers.ExceptionLayoutRenderer.AppendToString(StringBuilder sb, Exception ex)
+2023-08-22 11:24:35.4457 Warn Exception in layout renderer. Exception: System.TypeLoadException: Could not load type 'AspNetCoreGeneratedDocument.Views_Account_Login+<ExecuteAsync>d__17#1' from assembly 'AppleStore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null'.
+   at System.Reflection.CustomAttribute._CreateCaObject(RuntimeModule pModule, RuntimeType type, IRuntimeMethodInfo pCtor, Byte** ppBlob, Byte* pEndBlob, Int32* pcNamedArgs)
+   at System.Reflection.CustomAttribute.AddCustomAttributes(ListBuilder`1& attributes, RuntimeModule decoratedModule, Int32 decoratedMetadataToken, RuntimeType attributeFilterType, Boolean mustBeInheritable, ListBuilder`1 derivedAttributes)
+   at System.Reflection.CustomAttribute.GetCustomAttributes(RuntimeModule decoratedModule, Int32 decoratedMetadataToken, Int32 pcaCount, RuntimeType attributeFilterType)
+   at System.Reflection.CustomAttribute.GetCustomAttributes(RuntimeMethodInfo method, RuntimeType caType, Boolean inherit)
+   at System.Attribute.GetCustomAttributes(MemberInfo element, Type attributeType, Boolean inherit)
+   at System.Diagnostics.StackTrace.TryResolveStateMachineMethod(MethodBase& method, Type& declaringType)
+   at System.Diagnostics.StackTrace.ToString(TraceFormat traceFormat, StringBuilder sb)
+   at System.Diagnostics.StackTrace.ToString(TraceFormat traceFormat)
+   at System.Exception.get_StackTrace()
+   at System.Exception.ToString()
+   at NLog.LayoutRenderers.MessageLayoutRenderer.Append(StringBuilder builder, LogEventInfo logEvent)
+   at NLog.LayoutRenderers.LayoutRenderer.RenderAppendBuilder(LogEventInfo logEvent, StringBuilder builder)
+2023-08-22 11:24:35.4457 Warn Exception in NLog.LayoutRenderers.ExceptionLayoutRenderer.AppendToString(): System.TypeLoadException. Exception: System.TypeLoadException: Could not load type 'AspNetCoreGeneratedDocument.Views_Account_Login+<ExecuteAsync>d__17#1' from assembly 'AppleStore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null'.
+   at System.Reflection.CustomAttribute._CreateCaObject(RuntimeModule pModule, RuntimeType type, IRuntimeMethodInfo pCtor, Byte** ppBlob, Byte* pEndBlob, Int32* pcNamedArgs)
+   at System.Reflection.CustomAttribute.AddCustomAttributes(ListBuilder`1& attributes, RuntimeModule decoratedModule, Int32 decoratedMetadataToken, RuntimeType attributeFilterType, Boolean mustBeInheritable, ListBuilder`1 derivedAttributes)
+   at System.Reflection.CustomAttribute.GetCustomAttributes(RuntimeModule decoratedModule, Int32 decoratedMetadataToken, Int32 pcaCount, RuntimeType attributeFilterType)
+   at System.Reflection.CustomAttribute.GetCustomAttributes(RuntimeMethodInfo method, RuntimeType caType, Boolean inherit)
+   at System.Attribute.GetCustomAttributes(MemberInfo element, Type attributeType, Boolean inherit)
+   at System.Diagnostics.StackTrace.TryResolveStateMachineMethod(MethodBase& method, Type& declaringType)
+   at System.Diagnostics.StackTrace.ToString(TraceFormat traceFormat, StringBuilder sb)
+   at System.Diagnostics.StackTrace.ToString(TraceFormat traceFormat)
+   at System.Exception.get_StackTrace()
+   at System.Exception.ToString()
+   at NLog.LayoutRenderers.ExceptionLayoutRenderer.AppendToString(StringBuilder sb, Exception ex)
+2023-08-22 11:24:52.1028 Info Registered target NLog.Targets.FileTarget(Name=allfile)
+2023-08-22 11:24:52.1028 Info Registered target NLog.Targets.FileTarget(Name=ownFile-web)
+2023-08-22 11:24:52.1028 Info Registered target NLog.Targets.ConsoleTarget(Name=console)
+2023-08-22 11:24:52.1198 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target 'lifetimeConsole' not found for logging rule: Microsoft.Hosting.Lifetime.
+2023-08-22 11:24:52.1198 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.3.1999. Product version: 5.2.3+a5ddef92a8afb22508450803e37c001f4a3ba52a. GlobalAssemblyCache: False
+2023-08-22 11:24:52.1400 Info Validating config: TargetNames=allfile, console, ownFile-web, ConfigItems=69, FilePath=C:\AProject\AppleStore\AppleStore\nlog.config
+2023-08-22 11:24:52.1627 Info Configuration initialized.
+2023-08-22 11:24:52.3337 Info Validating config: TargetNames=allfile, console, ownFile-web, ConfigItems=69, FilePath=C:\AProject\AppleStore\AppleStore\nlog.config
+2023-08-22 11:24:54.2278 Info NLogRequestPostedBodyMiddleware is not yet initialized, which is required by aspnet-request-posted-body.
+2023-08-22 11:25:47.5694 Info Registered target NLog.Targets.FileTarget(Name=allfile)
+2023-08-22 11:25:47.5854 Info Registered target NLog.Targets.FileTarget(Name=ownFile-web)
+2023-08-22 11:25:47.5872 Info Registered target NLog.Targets.ConsoleTarget(Name=console)
+2023-08-22 11:25:47.5872 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target 'lifetimeConsole' not found for logging rule: Microsoft.Hosting.Lifetime.
+2023-08-22 11:25:47.6090 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.3.1999. Product version: 5.2.3+a5ddef92a8afb22508450803e37c001f4a3ba52a. GlobalAssemblyCache: False
+2023-08-22 11:25:47.6324 Info Validating config: TargetNames=allfile, console, ownFile-web, ConfigItems=69, FilePath=C:\AProject\AppleStore\AppleStore\nlog.config
+2023-08-22 11:25:47.6617 Info Configuration initialized.
+2023-08-22 11:25:47.8478 Info Validating config: TargetNames=allfile, console, ownFile-web, ConfigItems=69, FilePath=C:\AProject\AppleStore\AppleStore\nlog.config
+2023-08-22 11:25:49.9472 Info NLogRequestPostedBodyMiddleware is not yet initialized, which is required by aspnet-request-posted-body.
+2023-08-22 11:27:04.2695 Info Registered target NLog.Targets.FileTarget(Name=allfile)
+2023-08-22 11:27:04.2754 Info Registered target NLog.Targets.FileTarget(Name=ownFile-web)
+2023-08-22 11:27:04.2754 Info Registered target NLog.Targets.ConsoleTarget(Name=console)
+2023-08-22 11:27:04.2754 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target 'lifetimeConsole' not found for logging rule: Microsoft.Hosting.Lifetime.
+2023-08-22 11:27:04.2754 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.3.1999. Product version: 5.2.3+a5ddef92a8afb22508450803e37c001f4a3ba52a. GlobalAssemblyCache: False
+2023-08-22 11:27:04.2972 Info Validating config: TargetNames=allfile, console, ownFile-web, ConfigItems=69, FilePath=C:\AProject\AppleStore\AppleStore\nlog.config
+2023-08-22 11:27:04.3136 Info Configuration initialized.
+2023-08-22 11:27:04.4762 Info Validating config: TargetNames=allfile, console, ownFile-web, ConfigItems=69, FilePath=C:\AProject\AppleStore\AppleStore\nlog.config
+2023-08-22 11:27:06.7590 Info NLogRequestPostedBodyMiddleware is not yet initialized, which is required by aspnet-request-posted-body.

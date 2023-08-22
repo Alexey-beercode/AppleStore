@@ -618,3 +618,119 @@ AppleStore.Controllers.Account.AccountController.Register (AppleStore)
 2023-08-22 04:25:58.7481|0|INFO|AppleStore.Service.Implementations.DeviceService|Получение всех девайсов из кэша |url: https://localhost/|action: Catalog|AppleStore.Service.Implementations.DeviceService.GetDevices| body: 
 2023-08-22 04:25:58.8440|0|INFO|AppleStore.Service.Implementations.DeviceService|Получение всех девайсов из кэша |url: https://localhost/|action: Catalog|AppleStore.Service.Implementations.DeviceService.GetDevices| body: 
 2023-08-22 04:26:05.6908|0|INFO|Microsoft.Hosting.Lifetime|Application is shutting down... |url: |action: |Microsoft.Extensions.Hosting.Internal.ApplicationLifetime.StopApplication| body: 
+2023-08-22 10:52:45.6798|0|INFO|Program|Инициализация программы |url: |action: |Program.<Main>$| body: 
+2023-08-22 10:52:46.1418|0|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. |url: |action: |Microsoft.Extensions.Hosting.Internal.ConsoleLifetime.OnApplicationStarted| body: 
+2023-08-22 10:52:46.1418|0|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development |url: |action: |Microsoft.Extensions.Hosting.Internal.ConsoleLifetime.OnApplicationStarted| body: 
+2023-08-22 10:52:46.1418|0|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\AProject\AppleStore\AppleStore |url: |action: |Microsoft.Extensions.Hosting.Internal.ApplicationLifetime.NotifyStarted| body: 
+2023-08-22 10:52:49.0759|0|INFO|AppleStore.Service.Implementations.DeviceService|Все девайсы добавлены в кэш |url: https://localhost/|action: Catalog|AppleStore.Service.Implementations.DeviceService.GetDevices| body: 
+2023-08-22 10:52:49.9781|0|INFO|AppleStore.Service.Implementations.DeviceService|Получение всех девайсов из кэша |url: https://localhost/|action: Catalog|AppleStore.Service.Implementations.DeviceService.GetDevices| body: 
+2023-08-22 10:53:12.7868|0|INFO|AppleStore.Controllers.Account.AccountController|Хуйня дошла |url: https://localhost/Account/Login|action: Login|AppleStore.Controllers.Account.AccountController.Login| body: 
+2023-08-22 10:53:12.7868|0|INFO|AppleStore.Controllers.Account.AccountController|Все норм |url: https://localhost/Account/Login|action: Login|AppleStore.Controllers.Account.AccountController.Login| body: 
+2023-08-22 10:53:13.0616|0|INFO|AppleStore.Controllers.Account.AccountController|Все не норм |url: https://localhost/Account/Login|action: Login|AppleStore.Controllers.Account.AccountController.Login| body: 
+2023-08-22 10:53:23.3721|0|INFO|AppleStore.Service.Implementations.DeviceService|Получение всех девайсов из кэша |url: https://localhost/Device/Catalog/-1|action: Catalog|AppleStore.Service.Implementations.DeviceService.GetDevices| body: 
+2023-08-22 10:53:23.3832|0|INFO|AppleStore.Service.Implementations.DeviceService|Получение всех девайсов из кэша |url: https://localhost/Device/Catalog/-1|action: Catalog|AppleStore.Service.Implementations.DeviceService.GetDevices| body: 
+2023-08-22 10:53:23.5994|0|INFO|AppleStore.Service.Implementations.DeviceService|Получение всех девайсов из кэша |url: https://localhost/Device/Catalog/-1|action: Catalog|AppleStore.Service.Implementations.DeviceService.GetDevices| body: 
+2023-08-22 10:53:30.7846|0|INFO|AppleStore.Controllers.Account.AccountController|Зареган |url: https://localhost/Account/Register|action: Register|AppleStore.Controllers.Account.AccountController.Register| body: 
+2023-08-22 10:53:31.1330|0|INFO|AppleStore.Service.Implementations.DeviceService|Получение всех девайсов из кэша |url: https://localhost/|action: Catalog|AppleStore.Service.Implementations.DeviceService.GetDevices| body: 
+2023-08-22 10:53:31.2829|0|INFO|AppleStore.Service.Implementations.DeviceService|Получение всех девайсов из кэша |url: https://localhost/|action: Catalog|AppleStore.Service.Implementations.DeviceService.GetDevices| body: 
+2023-08-22 10:53:36.5731|0|INFO|AppleStore.Service.Implementations.DeviceService|Получение всех девайсов из кэша |url: https://localhost/|action: Catalog|AppleStore.Service.Implementations.DeviceService.GetDevices| body: 
+2023-08-22 10:53:36.7930|0|INFO|AppleStore.Service.Implementations.DeviceService|Получение всех девайсов из кэша |url: https://localhost/|action: Catalog|AppleStore.Service.Implementations.DeviceService.GetDevices| body: 
+2023-08-22 10:53:44.3286|0|INFO|AppleStore.Controllers.Account.AccountController|Хуйня дошла |url: https://localhost/Account/Login|action: Login|AppleStore.Controllers.Account.AccountController.Login| body: 
+2023-08-22 10:53:44.3286|0|INFO|AppleStore.Controllers.Account.AccountController|Все норм |url: https://localhost/Account/Login|action: Login|AppleStore.Controllers.Account.AccountController.Login| body: 
+2023-08-22 10:53:44.7504|0|INFO|AppleStore.Service.Implementations.DeviceService|Получение всех девайсов из кэша |url: https://localhost/|action: Catalog|AppleStore.Service.Implementations.DeviceService.GetDevices| body: 
+2023-08-22 10:53:44.8930|0|INFO|AppleStore.Service.Implementations.DeviceService|Получение всех девайсов из кэша |url: https://localhost/|action: Catalog|AppleStore.Service.Implementations.DeviceService.GetDevices| body: 
+2023-08-22 10:54:09.4846|0|INFO|Microsoft.Hosting.Lifetime|Application is shutting down... |url: |action: |Microsoft.Extensions.Hosting.Internal.ApplicationLifetime.StopApplication| body: 
+2023-08-22 11:00:31.3088|0|INFO|Program|Инициализация программы |url: |action: |Program.<Main>$| body: 
+2023-08-22 11:00:31.6722|0|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. |url: |action: |Microsoft.Extensions.Hosting.Internal.ConsoleLifetime.OnApplicationStarted| body: 
+2023-08-22 11:00:31.6722|0|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development |url: |action: |Microsoft.Extensions.Hosting.Internal.ConsoleLifetime.OnApplicationStarted| body: 
+2023-08-22 11:00:31.6722|0|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\AProject\AppleStore\AppleStore |url: |action: |Microsoft.Extensions.Hosting.Internal.ApplicationLifetime.NotifyStarted| body: 
+2023-08-22 11:00:33.4004|0|INFO|AppleStore.Service.Implementations.DeviceService|Все девайсы добавлены в кэш |url: https://localhost/|action: Catalog|AppleStore.Service.Implementations.DeviceService.GetDevices| body: 
+2023-08-22 11:00:34.4666|0|INFO|AppleStore.Service.Implementations.DeviceService|Получение всех девайсов из кэша |url: https://localhost/|action: Catalog|AppleStore.Service.Implementations.DeviceService.GetDevices| body: 
+2023-08-22 11:00:49.3380|0|INFO|AppleStore.Service.Implementations.DeviceService|Получение всех девайсов из кэша |url: https://localhost/|action: Catalog|AppleStore.Service.Implementations.DeviceService.GetDevices| body: 
+2023-08-22 11:00:49.5344|0|INFO|AppleStore.Service.Implementations.DeviceService|Получение всех девайсов из кэша |url: https://localhost/|action: Catalog|AppleStore.Service.Implementations.DeviceService.GetDevices| body: 
+2023-08-22 11:01:15.6710|0|INFO|AppleStore.Service.Implementations.DeviceService|Получение всех девайсов из кэша |url: https://localhost/|action: Catalog|AppleStore.Service.Implementations.DeviceService.GetDevices| body: 
+2023-08-22 11:01:15.9376|0|INFO|AppleStore.Service.Implementations.DeviceService|Получение всех девайсов из кэша |url: https://localhost/|action: Catalog|AppleStore.Service.Implementations.DeviceService.GetDevices| body: 
+2023-08-22 11:01:23.1278|0|INFO|AppleStore.Service.Implementations.DeviceService|Получение всех девайсов из кэша |url: https://localhost/|action: Catalog|AppleStore.Service.Implementations.DeviceService.GetDevices| body: 
+2023-08-22 11:01:23.2852|0|INFO|AppleStore.Service.Implementations.DeviceService|Получение всех девайсов из кэша |url: https://localhost/|action: Catalog|AppleStore.Service.Implementations.DeviceService.GetDevices| body: 
+2023-08-22 11:01:35.4321|0|INFO|AppleStore.Service.Implementations.DeviceService|Получение всех девайсов из кэша |url: https://localhost/|action: Catalog|AppleStore.Service.Implementations.DeviceService.GetDevices| body: 
+2023-08-22 11:01:35.5622|0|INFO|AppleStore.Service.Implementations.DeviceService|Получение всех девайсов из кэша |url: https://localhost/|action: Catalog|AppleStore.Service.Implementations.DeviceService.GetDevices| body: 
+2023-08-22 11:01:38.8413|0|INFO|Microsoft.Hosting.Lifetime|Application is shutting down... |url: |action: |Microsoft.Extensions.Hosting.Internal.ApplicationLifetime.StopApplication| body: 
+2023-08-22 11:01:47.3383|0|INFO|Program|Инициализация программы |url: |action: |Program.<Main>$| body: 
+2023-08-22 11:01:47.6552|0|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. |url: |action: |Microsoft.Extensions.Hosting.Internal.ConsoleLifetime.OnApplicationStarted| body: 
+2023-08-22 11:01:47.6552|0|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development |url: |action: |Microsoft.Extensions.Hosting.Internal.ConsoleLifetime.OnApplicationStarted| body: 
+2023-08-22 11:01:47.6552|0|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\AProject\AppleStore\AppleStore |url: |action: |Microsoft.Extensions.Hosting.Internal.ApplicationLifetime.NotifyStarted| body: 
+2023-08-22 11:01:49.3944|0|INFO|AppleStore.Service.Implementations.DeviceService|Все девайсы добавлены в кэш |url: https://localhost/|action: Catalog|AppleStore.Service.Implementations.DeviceService.GetDevices| body: 
+2023-08-22 11:01:49.9935|0|INFO|AppleStore.Service.Implementations.DeviceService|Получение всех девайсов из кэша |url: https://localhost/|action: Catalog|AppleStore.Service.Implementations.DeviceService.GetDevices| body: 
+2023-08-22 11:01:54.2767|0|INFO|AppleStore.Service.Implementations.DeviceService|Получение всех девайсов из кэша |url: https://localhost/|action: Catalog|AppleStore.Service.Implementations.DeviceService.GetDevices| body: 
+2023-08-22 11:01:54.5014|0|INFO|AppleStore.Service.Implementations.DeviceService|Получение всех девайсов из кэша |url: https://localhost/|action: Catalog|AppleStore.Service.Implementations.DeviceService.GetDevices| body: 
+2023-08-22 11:04:46.0454|0|INFO|Microsoft.Hosting.Lifetime|Application is shutting down... |url: |action: |Microsoft.Extensions.Hosting.Internal.ApplicationLifetime.StopApplication| body: 
+2023-08-22 11:20:20.9189|0|INFO|Program|Инициализация программы |url: |action: |Program.<Main>$| body: 
+2023-08-22 11:20:21.3951|0|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. |url: |action: |Microsoft.Extensions.Hosting.Internal.ConsoleLifetime.OnApplicationStarted| body: 
+2023-08-22 11:20:21.3951|0|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development |url: |action: |Microsoft.Extensions.Hosting.Internal.ConsoleLifetime.OnApplicationStarted| body: 
+2023-08-22 11:20:21.3951|0|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\AProject\AppleStore\AppleStore |url: |action: |Microsoft.Extensions.Hosting.Internal.ApplicationLifetime.NotifyStarted| body: 
+2023-08-22 11:20:23.1973|0|INFO|AppleStore.Service.Implementations.DeviceService|Все девайсы добавлены в кэш |url: https://localhost/|action: Catalog|AppleStore.Service.Implementations.DeviceService.GetDevices| body: 
+2023-08-22 11:20:24.0745|0|INFO|AppleStore.Service.Implementations.DeviceService|Получение всех девайсов из кэша |url: https://localhost/|action: Catalog|AppleStore.Service.Implementations.DeviceService.GetDevices| body: 
+2023-08-22 11:20:38.9966|0|INFO|AppleStore.Service.Implementations.DeviceService|Получение всех девайсов из кэша |url: https://localhost/|action: Catalog|AppleStore.Service.Implementations.DeviceService.GetDevices| body: 
+2023-08-22 11:20:39.1619|0|INFO|AppleStore.Service.Implementations.DeviceService|Получение всех девайсов из кэша |url: https://localhost/|action: Catalog|AppleStore.Service.Implementations.DeviceService.GetDevices| body: 
+2023-08-22 11:24:10.7944|0|INFO|AppleStore.Service.Implementations.DeviceService|Получение всех девайсов из кэша |url: https://localhost/|action: Catalog|AppleStore.Service.Implementations.DeviceService.GetDevices| body: 
+2023-08-22 11:24:11.0246|0|INFO|AppleStore.Service.Implementations.DeviceService|Получение всех девайсов из кэша |url: https://localhost/|action: Catalog|AppleStore.Service.Implementations.DeviceService.GetDevices| body: 
+2023-08-22 11:24:12.3711|0|ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware|An unhandled exception has occurred while executing the request. NLog message: Exception in NLog.LayoutRenderers.ExceptionLayoutRenderer.AppendToString(): System.TypeLoadException.|url: https://localhost/Account/Login|action: Login|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke| body: 
+2023-08-22 11:24:12.3997|0|ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware|An exception was thrown attempting to display the error page. System.TypeLoadException: Could not load type 'AspNetCoreGeneratedDocument.Views_Account_Login+<ExecuteAsync>d__17#1' from assembly 'AppleStore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null'.
+   at System.Reflection.CustomAttribute._CreateCaObject(RuntimeModule pModule, RuntimeType type, IRuntimeMethodInfo pCtor, Byte** ppBlob, Byte* pEndBlob, Int32* pcNamedArgs)
+   at System.Reflection.CustomAttribute.AddCustomAttributes(ListBuilder`1& attributes, RuntimeModule decoratedModule, Int32 decoratedMetadataToken, RuntimeType attributeFilterType, Boolean mustBeInheritable, ListBuilder`1 derivedAttributes)
+   at System.Reflection.CustomAttribute.GetCustomAttributes(RuntimeMethodInfo method, RuntimeType caType, Boolean inherit)
+   at System.Attribute.GetCustomAttributes(MemberInfo element, Type attributeType, Boolean inherit)
+   at System.Reflection.CustomAttributeExtensions.GetCustomAttributes[T](MemberInfo element)
+   at Microsoft.Extensions.StackTrace.Sources.StackTraceHelper.TryResolveStateMachineMethod(MethodBase& method, Type& declaringType)
+   at Microsoft.Extensions.StackTrace.Sources.StackTraceHelper.GetMethodDisplayString(MethodBase method)
+   at Microsoft.Extensions.StackTrace.Sources.StackTraceHelper.GetFrames(Exception exception, AggregateException& error)
+   at Microsoft.Extensions.StackTrace.Sources.ExceptionDetailsProvider.GetStackFrames(Exception original)
+   at Microsoft.Extensions.StackTrace.Sources.ExceptionDetailsProvider.GetDetails(Exception exception)+MoveNext()
+   at Microsoft.AspNetCore.Diagnostics.RazorViews.ErrorPage.ExecuteAsync()
+   at Microsoft.Extensions.RazorViews.BaseView.ExecuteAsync(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)|url: https://localhost/Account/Login|action: Login|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke| body: 
+2023-08-22 11:24:12.3997|0|ERROR|Microsoft.AspNetCore.Server.IIS.Core.IISHttpServer|Connection ID "18374686480476930258", Request ID "400000d3-0000-ff00-b63f-84710c7967bb": An unhandled exception was thrown by the application. NLog message: Exception in NLog.LayoutRenderers.ExceptionLayoutRenderer.AppendToString(): System.TypeLoadException.|url: https://localhost/Account/Login|action: Login|Microsoft.AspNetCore.Server.IIS.Core.IISHttpContext+Log.ApplicationError| body: 
+2023-08-22 11:24:35.4457|0|ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware|An unhandled exception has occurred while executing the request. NLog message: Exception in NLog.LayoutRenderers.ExceptionLayoutRenderer.AppendToString(): System.TypeLoadException.|url: https://localhost/Account/Login|action: Login|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke| body: 
+2023-08-22 11:24:35.4457|0|ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware|An exception was thrown attempting to display the error page. System.TypeLoadException: Could not load type 'AspNetCoreGeneratedDocument.Views_Account_Login+<ExecuteAsync>d__17#1' from assembly 'AppleStore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null'.
+   at System.Reflection.CustomAttribute._CreateCaObject(RuntimeModule pModule, RuntimeType type, IRuntimeMethodInfo pCtor, Byte** ppBlob, Byte* pEndBlob, Int32* pcNamedArgs)
+   at System.Reflection.CustomAttribute.AddCustomAttributes(ListBuilder`1& attributes, RuntimeModule decoratedModule, Int32 decoratedMetadataToken, RuntimeType attributeFilterType, Boolean mustBeInheritable, ListBuilder`1 derivedAttributes)
+   at System.Reflection.CustomAttribute.GetCustomAttributes(RuntimeMethodInfo method, RuntimeType caType, Boolean inherit)
+   at System.Attribute.GetCustomAttributes(MemberInfo element, Type attributeType, Boolean inherit)
+   at System.Reflection.CustomAttributeExtensions.GetCustomAttributes[T](MemberInfo element)
+   at Microsoft.Extensions.StackTrace.Sources.StackTraceHelper.TryResolveStateMachineMethod(MethodBase& method, Type& declaringType)
+   at Microsoft.Extensions.StackTrace.Sources.StackTraceHelper.GetMethodDisplayString(MethodBase method)
+   at Microsoft.Extensions.StackTrace.Sources.StackTraceHelper.GetFrames(Exception exception, AggregateException& error)
+   at Microsoft.Extensions.StackTrace.Sources.ExceptionDetailsProvider.GetStackFrames(Exception original)
+   at Microsoft.Extensions.StackTrace.Sources.ExceptionDetailsProvider.GetDetails(Exception exception)+MoveNext()
+   at Microsoft.AspNetCore.Diagnostics.RazorViews.ErrorPage.ExecuteAsync()
+   at Microsoft.Extensions.RazorViews.BaseView.ExecuteAsync(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)|url: https://localhost/Account/Login|action: Login|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke| body: 
+2023-08-22 11:24:35.4457|0|ERROR|Microsoft.AspNetCore.Server.IIS.Core.IISHttpServer|Connection ID "18230571300991008856", Request ID "40000059-0002-fd00-b63f-84710c7967bb": An unhandled exception was thrown by the application. NLog message: Exception in NLog.LayoutRenderers.ExceptionLayoutRenderer.AppendToString(): System.TypeLoadException.|url: https://localhost/Account/Login|action: Login|Microsoft.AspNetCore.Server.IIS.Core.IISHttpContext+Log.ApplicationError| body: 
+2023-08-22 11:24:39.3426|0|INFO|Microsoft.Hosting.Lifetime|Application is shutting down... |url: |action: |Microsoft.Extensions.Hosting.Internal.ApplicationLifetime.StopApplication| body: 
+2023-08-22 11:24:52.1828|0|INFO|Program|Инициализация программы |url: |action: |Program.<Main>$| body: 
+2023-08-22 11:24:52.5725|0|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. |url: |action: |Microsoft.Extensions.Hosting.Internal.ConsoleLifetime.OnApplicationStarted| body: 
+2023-08-22 11:24:52.5725|0|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development |url: |action: |Microsoft.Extensions.Hosting.Internal.ConsoleLifetime.OnApplicationStarted| body: 
+2023-08-22 11:24:52.5725|0|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\AProject\AppleStore\AppleStore |url: |action: |Microsoft.Extensions.Hosting.Internal.ApplicationLifetime.NotifyStarted| body: 
+2023-08-22 11:24:54.2278|0|INFO|AppleStore.Service.Implementations.DeviceService|Все девайсы добавлены в кэш |url: https://localhost/|action: Catalog|AppleStore.Service.Implementations.DeviceService.GetDevices| body: 
+2023-08-22 11:24:54.9167|0|INFO|AppleStore.Service.Implementations.DeviceService|Получение всех девайсов из кэша |url: https://localhost/|action: Catalog|AppleStore.Service.Implementations.DeviceService.GetDevices| body: 
+2023-08-22 11:25:02.3119|0|INFO|Microsoft.Hosting.Lifetime|Application is shutting down... |url: |action: |Microsoft.Extensions.Hosting.Internal.ApplicationLifetime.StopApplication| body: 
+2023-08-22 11:25:47.6829|0|INFO|Program|Инициализация программы |url: |action: |Program.<Main>$| body: 
+2023-08-22 11:25:48.0671|0|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. |url: |action: |Microsoft.Extensions.Hosting.Internal.ConsoleLifetime.OnApplicationStarted| body: 
+2023-08-22 11:25:48.0671|0|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development |url: |action: |Microsoft.Extensions.Hosting.Internal.ConsoleLifetime.OnApplicationStarted| body: 
+2023-08-22 11:25:48.0671|0|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\AProject\AppleStore\AppleStore |url: |action: |Microsoft.Extensions.Hosting.Internal.ApplicationLifetime.NotifyStarted| body: 
+2023-08-22 11:25:49.9371|0|INFO|AppleStore.Service.Implementations.DeviceService|Все девайсы добавлены в кэш |url: https://localhost/|action: Catalog|AppleStore.Service.Implementations.DeviceService.GetDevices| body: 
+2023-08-22 11:25:50.7272|0|INFO|AppleStore.Service.Implementations.DeviceService|Получение всех девайсов из кэша |url: https://localhost/|action: Catalog|AppleStore.Service.Implementations.DeviceService.GetDevices| body: 
+2023-08-22 11:26:03.4835|0|INFO|AppleStore.Controllers.Account.AccountController|Авторизация прошла не успешно : пользователя не найдено |url: https://localhost/Account/Login|action: Login|AppleStore.Controllers.Account.AccountController.Login| body: 
+2023-08-22 11:26:45.3478|0|INFO|AppleStore.Controllers.Account.AccountController|Пользователь lox12334 Авторизовался успешно |url: https://localhost/Account/Login|action: Login|AppleStore.Controllers.Account.AccountController.Login| body: 
+2023-08-22 11:26:48.3244|0|INFO|AppleStore.Service.Implementations.DeviceService|Получение всех девайсов из кэша |url: https://localhost/Device/Catalog/-1|action: Catalog|AppleStore.Service.Implementations.DeviceService.GetDevices| body: 
+2023-08-22 11:26:48.4687|0|INFO|AppleStore.Service.Implementations.DeviceService|Получение всех девайсов из кэша |url: https://localhost/Device/Catalog/-1|action: Catalog|AppleStore.Service.Implementations.DeviceService.GetDevices| body: 
+2023-08-22 11:26:56.7465|0|INFO|Microsoft.Hosting.Lifetime|Application is shutting down... |url: |action: |Microsoft.Extensions.Hosting.Internal.ApplicationLifetime.StopApplication| body: 
+2023-08-22 11:27:04.3331|0|INFO|Program|Инициализация программы |url: |action: |Program.<Main>$| body: 
+2023-08-22 11:27:04.7299|0|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. |url: |action: |Microsoft.Extensions.Hosting.Internal.ConsoleLifetime.OnApplicationStarted| body: 
+2023-08-22 11:27:04.7299|0|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development |url: |action: |Microsoft.Extensions.Hosting.Internal.ConsoleLifetime.OnApplicationStarted| body: 
+2023-08-22 11:27:04.7299|0|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\AProject\AppleStore\AppleStore |url: |action: |Microsoft.Extensions.Hosting.Internal.ApplicationLifetime.NotifyStarted| body: 
+2023-08-22 11:27:06.7590|0|INFO|AppleStore.Service.Implementations.DeviceService|Все девайсы добавлены в кэш |url: https://localhost/|action: Catalog|AppleStore.Service.Implementations.DeviceService.GetDevices| body: 
+2023-08-22 11:27:07.3362|0|INFO|AppleStore.Service.Implementations.DeviceService|Получение всех девайсов из кэша |url: https://localhost/|action: Catalog|AppleStore.Service.Implementations.DeviceService.GetDevices| body: 
+2023-08-22 11:27:16.4821|0|INFO|AppleStore.Service.Implementations.DeviceService|Получение всех девайсов из кэша |url: https://localhost/Device/Catalog/-1|action: Catalog|AppleStore.Service.Implementations.DeviceService.GetDevices| body: 
+2023-08-22 11:27:16.6343|0|INFO|AppleStore.Service.Implementations.DeviceService|Получение всех девайсов из кэша |url: https://localhost/Device/Catalog/-1|action: Catalog|AppleStore.Service.Implementations.DeviceService.GetDevices| body: 
+2023-08-22 11:27:26.0993|0|INFO|Microsoft.Hosting.Lifetime|Application is shutting down... |url: |action: |Microsoft.Extensions.Hosting.Internal.ApplicationLifetime.StopApplication| body: 

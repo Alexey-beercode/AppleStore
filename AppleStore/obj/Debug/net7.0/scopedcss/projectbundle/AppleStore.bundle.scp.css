@@ -41,3 +41,15 @@ button.accept-policy[b-vxajb9mxso] {
   white-space: nowrap;
   line-height: 60px;
 }
+
+.btn-auth[b-vxajb9mxso] {
+  color: #aabbcb;
+  background-color: #f8f9fa;
+  border-color: #f8f9fa;
+}
+
+.btn-auth:hover[b-vxajb9mxso] {
+  color: #fff;
+  background-color: #1b6ec2;
+  border-color: #1861ac;
+}
