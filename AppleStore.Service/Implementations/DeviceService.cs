@@ -1,4 +1,5 @@
-﻿using AppleStore.DAL.Repositories;
+﻿using AppleStore.DAL;
+using AppleStore.DAL.Repositories;
 using Microsoft.Extensions.Caching.Memory;
 using Microsoft.Extensions.Logging;
 

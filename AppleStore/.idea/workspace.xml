@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="4868a00b-6676-4296-8027-d826384f8dec" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../.idea/.name" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AppleStore.Domain/ViewModels/RegisterViewModel.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.AppleStore.dir/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.AppleStore.dir/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.name" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Properties/PublishProfiles/Deploy.pubxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bin/Debug/net7.0/Newtonsoft.Json.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bin/Debug/net7.0/dotnet-ef.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AppleStore-Own-2023-08-22.log" beforeDir="false" afterPath="$PROJECT_DIR$/../AppleStore-Own-2023-08-22.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AppleStore.DAL/ApplicationDbContext.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../AppleStore.DAL/ApplicationDbContext.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AppleStore.DAL/bin/Debug/net7.0/AppleStore.DAL.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../AppleStore.DAL/bin/Debug/net7.0/AppleStore.DAL.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AppleStore.DAL/bin/Debug/net7.0/AppleStore.DAL.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/../AppleStore.DAL/bin/Debug/net7.0/AppleStore.DAL.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AppleStore.DAL/bin/Debug/net7.0/AppleStore.Domain.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../AppleStore.DAL/bin/Debug/net7.0/AppleStore.Domain.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AppleStore.DAL/bin/Debug/net7.0/AppleStore.Domain.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/../AppleStore.DAL/bin/Debug/net7.0/AppleStore.Domain.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AppleStore.DAL/obj/Debug/net7.0/AppleStore.DAL.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../AppleStore.DAL/obj/Debug/net7.0/AppleStore.DAL.csproj.AssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AppleStore.DAL/obj/Debug/net7.0/AppleStore.DAL.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../AppleStore.DAL/obj/Debug/net7.0/AppleStore.DAL.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AppleStore.DAL/obj/Debug/net7.0/AppleStore.DAL.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/../AppleStore.DAL/obj/Debug/net7.0/AppleStore.DAL.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AppleStore.DAL/obj/Debug/net7.0/ref/AppleStore.DAL.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../AppleStore.DAL/obj/Debug/net7.0/ref/AppleStore.DAL.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AppleStore.DAL/obj/Debug/net7.0/refint/AppleStore.DAL.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../AppleStore.DAL/obj/Debug/net7.0/refint/AppleStore.DAL.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AppleStore.DAL/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/../AppleStore.DAL/obj/rider.project.restore.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AppleStore.Domain/ViewModels/LoginViewModel.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../AppleStore.Domain/ViewModels/LoginViewModel.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AppleStore.Domain/bin/Debug/net7.0/AppleStore.Domain.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../AppleStore.Domain/bin/Debug/net7.0/AppleStore.Domain.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AppleStore.Domain/bin/Debug/net7.0/AppleStore.Domain.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/../AppleStore.Domain/bin/Debug/net7.0/AppleStore.Domain.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AppleStore.Domain/obj/Debug/net7.0/AppleStore.Domain.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../AppleStore.Domain/obj/Debug/net7.0/AppleStore.Domain.csproj.CoreCompileInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AppleStore.Domain/obj/Debug/net7.0/AppleStore.Domain.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../AppleStore.Domain/obj/Debug/net7.0/AppleStore.Domain.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AppleStore.Domain/obj/Debug/net7.0/AppleStore.Domain.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/../AppleStore.Domain/obj/Debug/net7.0/AppleStore.Domain.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AppleStore.Domain/obj/Debug/net7.0/ref/AppleStore.Domain.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../AppleStore.Domain/obj/Debug/net7.0/ref/AppleStore.Domain.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AppleStore.Domain/obj/Debug/net7.0/refint/AppleStore.Domain.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../AppleStore.Domain/obj/Debug/net7.0/refint/AppleStore.Domain.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AppleStore.Domain/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/../AppleStore.Domain/obj/rider.project.restore.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AppleStore.Service/Implementations/DeviceService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../AppleStore.Service/Implementations/DeviceService.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AppleStore.Service/bin/Debug/net7.0/AppleStore.DAL.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../AppleStore.Service/bin/Debug/net7.0/AppleStore.DAL.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AppleStore.Service/bin/Debug/net7.0/AppleStore.DAL.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/../AppleStore.Service/bin/Debug/net7.0/AppleStore.DAL.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AppleStore.Service/bin/Debug/net7.0/AppleStore.Domain.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../AppleStore.Service/bin/Debug/net7.0/AppleStore.Domain.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AppleStore.Service/bin/Debug/net7.0/AppleStore.Domain.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/../AppleStore.Service/bin/Debug/net7.0/AppleStore.Domain.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AppleStore.Service/bin/Debug/net7.0/AppleStore.Service.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../AppleStore.Service/bin/Debug/net7.0/AppleStore.Service.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AppleStore.Service/bin/Debug/net7.0/AppleStore.Service.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/../AppleStore.Service/bin/Debug/net7.0/AppleStore.Service.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AppleStore.Service/obj/Debug/net7.0/AppleStore.Service.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../AppleStore.Service/obj/Debug/net7.0/AppleStore.Service.csproj.AssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AppleStore.Service/obj/Debug/net7.0/AppleStore.Service.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../AppleStore.Service/obj/Debug/net7.0/AppleStore.Service.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AppleStore.Service/obj/Debug/net7.0/AppleStore.Service.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/../AppleStore.Service/obj/Debug/net7.0/AppleStore.Service.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AppleStore.Service/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/../AppleStore.Service/obj/rider.project.restore.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AppleStore.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/AppleStore.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Controllers/Account/AccountController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Controllers/Account/AccountController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Controllers/Order/OrderController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Controllers/Order/OrderController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Program.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Views/Account/Login.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/Views/Account/Login.cshtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Views/Account/Register.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/Views/Account/Register.cshtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Views/Shared/_Layout.cshtml.css" beforeDir="false" afterPath="$PROJECT_DIR$/Views/Shared/_Layout.cshtml.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/appsettings.json" beforeDir="false" afterPath="$PROJECT_DIR$/appsettings.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Debug/net7.0/AppleStore.DAL.dll" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Debug/net7.0/AppleStore.DAL.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Debug/net7.0/AppleStore.DAL.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Debug/net7.0/AppleStore.DAL.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Debug/net7.0/AppleStore.Domain.dll" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Debug/net7.0/AppleStore.Domain.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Debug/net7.0/AppleStore.Domain.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Debug/net7.0/AppleStore.Domain.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Debug/net7.0/AppleStore.Service.dll" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Debug/net7.0/AppleStore.Service.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Debug/net7.0/AppleStore.Service.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Debug/net7.0/AppleStore.Service.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Debug/net7.0/AppleStore.deps.json" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Debug/net7.0/AppleStore.deps.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Debug/net7.0/AppleStore.dll" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Debug/net7.0/AppleStore.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Debug/net7.0/AppleStore.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Debug/net7.0/AppleStore.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Debug/net7.0/appsettings.json" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Debug/net7.0/appsettings.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/AppleStore.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/obj/AppleStore.csproj.nuget.dgspec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/AppleStore.csproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/obj/AppleStore.csproj.nuget.g.props" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/net7.0/AppleStore.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net7.0/AppleStore.assets.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/net7.0/AppleStore.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net7.0/AppleStore.csproj.AssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/net7.0/AppleStore.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net7.0/AppleStore.csproj.CoreCompileInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/net7.0/AppleStore.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net7.0/AppleStore.csproj.FileListAbsolute.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/net7.0/AppleStore.dll" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net7.0/AppleStore.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/net7.0/AppleStore.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net7.0/AppleStore.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/net7.0/ref/AppleStore.dll" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net7.0/ref/AppleStore.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/net7.0/refint/AppleStore.dll" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net7.0/refint/AppleStore.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/net7.0/scopedcss/Views/Shared/_Layout.cshtml.rz.scp.css" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net7.0/scopedcss/Views/Shared/_Layout.cshtml.rz.scp.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/net7.0/scopedcss/bundle/AppleStore.styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net7.0/scopedcss/bundle/AppleStore.styles.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/net7.0/scopedcss/projectbundle/AppleStore.bundle.scp.css" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net7.0/scopedcss/projectbundle/AppleStore.bundle.scp.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/obj/project.assets.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/project.nuget.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/obj/project.packagespec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/obj/rider.project.restore.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wwwroot/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/wwwroot/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AppleStore2023-08-22.log" beforeDir="false" afterPath="$PROJECT_DIR$/../AppleStore2023-08-22.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IternalLogs.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../IternalLogs.txt" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2UL5CV7Wg4Cu12LGftScTXLdBj7" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="4868a00b-6676-4296-8027-d826384f8dec" name="Changes" comment="" />
+      <created>1692705893707</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1692705893707</updated>
+      <workItem from="1692705896588" duration="99000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>

@@ -12,6 +12,6 @@ public class Order
     public string? Email { get; set; }
     public string? Address { get; set; }
     public int[] DeviceId { get; set; }
-    public int Price { get; set; }
+    public decimal Price { get; set; }
     public OrderStatus Status { get; set; }
 }

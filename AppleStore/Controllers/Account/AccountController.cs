@@ -19,6 +19,8 @@ public class AccountController : Controller
     [AllowAnonymous]
     public IActionResult Login()
     {
+        if (User.Identity.IsAuthenticated)
+            return View("Error", "Вы уже вошли в аккаунт");
         return View(new LoginViewModel());
     }
 
@@ -43,18 +45,17 @@ public class AccountController : Controller
             _logger.LogInformation("Авторизация прошла не успешно : пользователя не найдено");
             return View("Error", "Пользователь не найден");
         }
-
         return View("Error","Неверный логин или пароль");
     }
 
     [AllowAnonymous]
     public IActionResult Register()
     {
-        return View(new LoginViewModel());
+        return View(new RegisterViewModel());
     }
 
     [HttpPost]
-    public async Task<IActionResult> Register(LoginViewModel model)
+    public async Task<IActionResult> Register(RegisterViewModel model)
     {
         if (ModelState.IsValid)
         {
@@ -63,7 +64,7 @@ public class AccountController : Controller
             {
                 return View("Error", "Пользователь уже существует");
             }
-            var newUser = new IdentityUser { UserName = model.UserName };
+            var newUser = new IdentityUser { UserName = model.UserName,Email = model.Email};
             var result = await _userManager.CreateAsync(newUser, model.Password);
             if (result.Succeeded)
             {

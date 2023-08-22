@@ -1,5 +1,4 @@
-﻿using AppleStore.Controllers.Device;
-
+﻿
 namespace AppleStore.Controllers.Order;
 
 public class OrderController:Controller
@@ -27,6 +26,7 @@ public class OrderController:Controller
         return View("Details", response.Data);
     }
     
+    [Authorize]
     [HttpGet]
     public async Task<IActionResult> PlaceOrder(int id)
     {
@@ -37,22 +37,20 @@ public class OrderController:Controller
             return View("Error", response.Description);
         }
         _logger.LogInformation("Успешное получение Девайса из базы данных");
-        return View(new DeviceOrderViewModel(){Device = response.Data});
+        DeviceOrderViewModel model = new DeviceOrderViewModel() { Device = response.Data,Order = default};
+        return View(model);
     }
 
     [HttpPost]
     public async Task<IActionResult> PlaceOrder(DeviceOrderViewModel viewModel)
     {
-        
-        if (ModelState.IsValid)
+        if (!ModelState.IsValid)
         {
-            await _orderService.CreateOrder(viewModel.Order);
-        }
-        else
-        {
-            _logger.LogError($"Error : Ошибка валидации данных");
+            _logger.LogError($"Error : Ошибка валидации данных"); 
             return View("Error", "Неправильно введенные данные");
+          
         }
+        await _orderService.CreateOrder(viewModel.Order); 
         _logger.LogInformation("Успешное создание заказа");
         return View("FinishOrder");
     }

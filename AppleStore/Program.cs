@@ -3,8 +3,7 @@ using Microsoft.AspNetCore.Identity;
 using LogLevel = NLog.LogLevel;
 
 var builder = WebApplication.CreateBuilder(args);
-string? deviceConnection = builder.Configuration.GetConnectionString("DeviceConnection");
-string? orderConnection = builder.Configuration.GetConnectionString("OrderConnection");
+string? deviceConnection = builder.Configuration.GetConnectionString("ConnectionString");
 
 builder.Services.AddControllersWithViews(x => x.Conventions.Add(new AdminAreaAuthorization("Admin", "AdminArea")));
 builder.Services.AddDbContext<ApplicationDbContext>(options => options.UseNpgsql(deviceConnection));

@@ -42,13 +42,14 @@ button.accept-policy[b-vxajb9mxso] {
 }
 
 .btn-auth[b-vxajb9mxso] {
-  color: #aabbcb;
-  background-color: #f8f9fa;
-  border-color: #f8f9fa;
+  color: #ffffff; /* Белый цвет текста */
+  background-color: transparent; /* Без заливки */
+  border-color: #ffffff; /* Белая граница */
+  border-width: 2px; /* Толщина границы */
 }
 
 .btn-auth:hover[b-vxajb9mxso] {
-  color: #fff;
-  background-color: #1b6ec2;
-  border-color: #1861ac;
+  color: #ffffff; /* Белый цвет текста при наведении */
+  background-color: #1b6ec2; /* Заливка при наведении */
+  border-color: #1861ac; /* Граница при наведении */
 }

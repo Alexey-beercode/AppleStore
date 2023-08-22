@@ -65,18 +65,6 @@ input {
     margin-bottom: 20px;
 }
 
-button {
-    padding: 30px 60px;
-    height: 20px;
-    width: auto;
-    text-align: center;
-    background-color: #1861ac;
-    color: #e5e5e5;
-    font-size: 20px;
-    line-height: 1;
-    display: flex;
-    align-items: center;
-}
 .navigation-button {
     position: fixed;
     bottom: 20px;
@@ -148,17 +136,48 @@ button {
     background-color: #333;
 }
 
-/* Стили для кнопок авторизации и регистрации */
 .btn-auth {
-    color: #aabbcb;
-    background-color: #f8f9fa;
-    border-color: #f8f9fa;
+    color: #000;
+    background-color: #fff;
+    border: 2px solid #fff;
+    border-radius: 10px;
+    padding: 10px 20px;
+    font-size: 16px;
+    text-decoration: none; /* Убираем подчеркивание */
 }
 
 .btn-auth:hover {
     color: #fff;
     background-color: #1b6ec2;
     border-color: #1861ac;
+    text-decoration: none; /* Убираем подчеркивание */
+}
+button {
+    display: inline-block;
+    padding: 15px 30px;
+    font-size: 20px;
+    text-align: center;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
 }
 
+.button:hover {
+    background-color: #333;
+    color: white;
+    text-decoration: none;
+}
+.catalog-item .button {
+    background-color: #1861ac;
+    color: #e5e5e5;
+    text-decoration: none;
+    margin-top: 0;
+}
 
+.form-button {
+    background-color: #1861ac;
+    color: #e5e5e5;
+    text-decoration: none;
+    margin-top: 0;
+}
