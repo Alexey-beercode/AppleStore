@@ -1,0 +1,29 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\AProject\\AppleStore\\AppleStore\\obj\\Release\\net7.0\\scopedcss\\projectbundle\\AppleStore.bundle.scp.css",
+      "PackagePath": "staticwebassets\\AppleStore.bundle.scp.css"
+    },
+    {
+      "Id": "C:\\AProject\\AppleStore\\AppleStore\\wwwroot\\css\\style.css",
+      "PackagePath": "staticwebassets\\css\\style.css"
+    },
+    {
+      "Id": "obj\\Release\\net7.0\\staticwebassets\\msbuild.AppleStore.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Release\\net7.0\\staticwebassets\\msbuild.build.AppleStore.props",
+      "PackagePath": "build\\AppleStore.props"
+    },
+    {
+      "Id": "obj\\Release\\net7.0\\staticwebassets\\msbuild.buildMultiTargeting.AppleStore.props",
+      "PackagePath": "buildMultiTargeting\\AppleStore.props"
+    },
+    {
+      "Id": "obj\\Release\\net7.0\\staticwebassets\\msbuild.buildTransitive.AppleStore.props",
+      "PackagePath": "buildTransitive\\AppleStore.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

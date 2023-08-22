@@ -1,0 +1,14 @@
+C:\AProject\AppleStore\AppleStore.Domain\bin\Release\net7.0\AppleStore.Domain.deps.json
+C:\AProject\AppleStore\AppleStore.Domain\bin\Release\net7.0\AppleStore.Domain.runtimeconfig.json
+C:\AProject\AppleStore\AppleStore.Domain\bin\Release\net7.0\AppleStore.Domain.dll
+C:\AProject\AppleStore\AppleStore.Domain\bin\Release\net7.0\AppleStore.Domain.pdb
+C:\AProject\AppleStore\AppleStore.Domain\obj\Release\net7.0\AppleStore.Domain.csproj.AssemblyReference.cache
+C:\AProject\AppleStore\AppleStore.Domain\obj\Release\net7.0\AppleStore.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\AProject\AppleStore\AppleStore.Domain\obj\Release\net7.0\AppleStore.Domain.AssemblyInfoInputs.cache
+C:\AProject\AppleStore\AppleStore.Domain\obj\Release\net7.0\AppleStore.Domain.AssemblyInfo.cs
+C:\AProject\AppleStore\AppleStore.Domain\obj\Release\net7.0\AppleStore.Domain.csproj.CoreCompileInputs.cache
+C:\AProject\AppleStore\AppleStore.Domain\obj\Release\net7.0\AppleStore.Domain.dll
+C:\AProject\AppleStore\AppleStore.Domain\obj\Release\net7.0\refint\AppleStore.Domain.dll
+C:\AProject\AppleStore\AppleStore.Domain\obj\Release\net7.0\AppleStore.Domain.pdb
+C:\AProject\AppleStore\AppleStore.Domain\obj\Release\net7.0\AppleStore.Domain.genruntimeconfig.cache
+C:\AProject\AppleStore\AppleStore.Domain\obj\Release\net7.0\ref\AppleStore.Domain.dll
