@@ -15,7 +15,6 @@ public class OrderController:Controller
         _logger = logger;
     }
     
-    [Authorize(Roles = "Admin")]
     public async Task<IActionResult> Details(int id)
     {
         BaseResponse < Domain.Entity.Device > response = await _deviceService.GetById(id);

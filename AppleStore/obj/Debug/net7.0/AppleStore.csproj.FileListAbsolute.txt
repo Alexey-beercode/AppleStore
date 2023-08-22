@@ -134,3 +134,4 @@ C:\AProject\AppleStore\AppleStore\bin\Debug\net7.0\Microsoft.AspNetCore.Cryptogr
 C:\AProject\AppleStore\AppleStore\bin\Debug\net7.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
 C:\AProject\AppleStore\AppleStore\bin\Debug\net7.0\Microsoft.Extensions.Identity.Core.dll
 C:\AProject\AppleStore\AppleStore\bin\Debug\net7.0\Microsoft.Extensions.Identity.Stores.dll
+C:\AProject\AppleStore\AppleStore\obj\Debug\net7.0\AppleStore.MvcApplicationPartsAssemblyInfo.cs

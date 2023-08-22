@@ -13,14 +13,14 @@ builder.Services.AddScoped<IOrderService, OrderService>();
 builder.Services.AddScoped<OrderRepository>();
 builder.Services.AddScoped<DeviceRepository>();
 
-builder.Services.AddIdentity<IdentityUser,IdentityRole>(opts =>
+builder.Services.AddIdentity<IdentityUser,IdentityRole>(options =>
 {
-    opts.User.RequireUniqueEmail = false;
-    opts.Password.RequiredLength = 6;
-    opts.Password.RequireNonAlphanumeric = false;
-    opts.Password.RequireLowercase = false;
-    opts.Password.RequireUppercase = false;
-    opts.Password.RequireDigit = true;
+    options.User.RequireUniqueEmail = false;
+    options.Password.RequiredLength = 6;
+    options.Password.RequireNonAlphanumeric = false;
+    options.Password.RequireLowercase = false;
+    options.Password.RequireUppercase = false;
+    options.Password.RequireDigit = true;
 }).AddEntityFrameworkStores<ApplicationDbContext>().AddDefaultTokenProviders();
 
 builder.Services.AddAuthentication(CookieAuthenticationDefaults.AuthenticationScheme)
@@ -29,7 +29,7 @@ builder.Services.AddAuthentication(CookieAuthenticationDefaults.AuthenticationSc
         options.Cookie.Name = "AppleStoreAuthentication";
         options.Cookie.HttpOnly = true;
         options.LoginPath = "/Account/Login";
-        options.AccessDeniedPath = "/account/accessdenied";
+        options.AccessDeniedPath = "/Account/Error";
         options.SlidingExpiration = true;
     });
 

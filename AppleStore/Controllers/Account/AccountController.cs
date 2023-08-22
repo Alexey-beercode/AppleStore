@@ -19,7 +19,8 @@ public class AccountController : Controller
     [AllowAnonymous]
     public IActionResult Login()
     {
-        return View();
+        //ViewBag.ReturnUrl = returnUrl;
+        return View(new LoginViewModel());
     }
 
     [HttpPost]
@@ -51,7 +52,8 @@ public class AccountController : Controller
     [AllowAnonymous]
     public IActionResult Register()
     {
-        return View();
+        //ViewBag.ReturnUrl = returnUrl;
+        return View(new LoginViewModel());
     }
 
     [HttpPost]
@@ -70,11 +72,20 @@ public class AccountController : Controller
             {
                 _logger.LogInformation("Зареган");
                 await _signInManager.SignInAsync(newUser, isPersistent: false); // Log in the user
+                //return Redirect(returnUrl ?? "/");
                 return RedirectToAction("Catalog", "Device");
             }
            
         }
 
         return View("Error", "Неверный логин или пароль");
+    }
+    
+    public async Task<IActionResult> Logout()
+    {
+        if (!User.Identity.IsAuthenticated)
+            return View("Error", "Вы не вошли в аккаунт");
+            await _signInManager.SignOutAsync();
+            return RedirectToAction("Catalog", "Device");
     }
 }

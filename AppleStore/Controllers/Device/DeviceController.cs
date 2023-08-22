@@ -85,7 +85,6 @@ public class DeviceController : Controller
         
         return RedirectToAction("GetDevices");
     }
-    
     public async Task<IActionResult> Catalog(int type)
     {
         bool useCache = true;
