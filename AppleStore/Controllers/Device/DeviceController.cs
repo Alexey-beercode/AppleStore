@@ -30,10 +30,11 @@ public class DeviceController : Controller
     {
         return View(errorMessage);
     }
+
     public async Task<IActionResult> GetDeviceById(int id)
     {
-        BaseResponse <Domain.Entity.Device> response= await _deviceService.GetById(id);
-        if (response.StatusCode!=HttpStatusCode.OK)
+        BaseResponse<Domain.Entity.Device> response = await _deviceService.GetById(id);
+        if (response.StatusCode != HttpStatusCode.OK)
         {
             _logger.LogError($"Error : {response.Description}");
             return RedirectToAction("Error");
@@ -45,21 +46,22 @@ public class DeviceController : Controller
     [Authorize(Roles = "Admin")]
     public async Task<IActionResult> DeleteDevice(int id)
     {
-        BaseResponse<bool> response= await _deviceService.DeleteDevice(id);
-        if (response.StatusCode!=HttpStatusCode.OK)
+        BaseResponse<bool> response = await _deviceService.DeleteDevice(id);
+        if (response.StatusCode != HttpStatusCode.OK)
         {
             _logger.LogError($"Error : {response.Description}");
             return RedirectToAction("Error");
         }
+
         return RedirectToAction("GetDevices");
     }
 
     [HttpGet]
     public async Task<IActionResult> Save(int id)
     {
-        if (id==0) return View();
-        var response =await _deviceService.GetById(id);
-        if (response.StatusCode!=HttpStatusCode.OK)
+        if (id == 0) return View();
+        var response = await _deviceService.GetById(id);
+        if (response.StatusCode != HttpStatusCode.OK)
         {
             _logger.LogError($"Error : {response.Description}");
             return RedirectToAction("Error");
@@ -73,7 +75,7 @@ public class DeviceController : Controller
     {
         if (ModelState.IsValid)
         {
-            if (model.Id==0)
+            if (model.Id == 0)
             {
                 await _deviceService.CreateDevice(model);
             }
@@ -82,28 +84,20 @@ public class DeviceController : Controller
                 await _deviceService.Edit(model);
             }
         }
-        
+
         return RedirectToAction("GetDevices");
     }
-    public async Task<IActionResult> Catalog(int type)
-    {
-        bool useCache = true;
 
-        BaseResponse<IEnumerable<Domain.Entity.Device>> response = await _deviceService.GetDevices(useCache);
+    public async Task<IActionResult> Details(int id)
+    {
+        BaseResponse<Domain.Entity.Device> response = await _deviceService.GetById(id);
         if (response.StatusCode != HttpStatusCode.OK)
         {
             _logger.LogError($"Error : {response.Description}");
             return View("Error", response.Description);
         }
-        
-        IEnumerable<Domain.Entity.Device> devices = response.Data;
 
-        if (type == -1)
-        {
-            return View(devices);
-        }
-    
-        return View(devices.Where(device => device.Type == (DeviceType)type).ToList());
+        _logger.LogInformation("Успешное получение Девайса из базы данных");
+        return View("Details", response.Data);
     }
-
 }

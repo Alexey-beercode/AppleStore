@@ -1,0 +1,20 @@
+﻿@model IEnumerable<AppleStore.Domain.Entity.Device>?
+
+@{
+    Layout = "CatalogLayout";
+}
+<body>
+<div class="catalog">
+    <ul>
+        @foreach (var device in Model)
+        {
+            <li>
+                <a href="@Url.Action("Details", "Device", new {id=device.Id})"> <!-- Переход к странице товара -->
+                    <img src="@device.ImageUrl">
+                    <p>@device.Name <br/>@device.Price  руб</p>
+                </a>
+            </li>
+        }
+    </ul>
+</div>
+</body>

@@ -1,7 +1,9 @@
 ﻿using AppleStore.Domain.Entity;
 
+namespace AppleStore.Domain.ViewModels;
+
 public class DeviceOrderViewModel
 {
-    public Device Device { get; set; }
+    public List<Device> Devices { get; set; }
     public Order Order { get; set; }
 }

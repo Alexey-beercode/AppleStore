@@ -10,6 +10,7 @@ public class RegisterViewModel
 
     [Required]
     [Display(Name = "Пароль")]
+    [MinLength(5,ErrorMessage = "Слишком короткий пароль : Минимальная длина 5 букв")]
     public string Password { get; set; }
 
     [Required]

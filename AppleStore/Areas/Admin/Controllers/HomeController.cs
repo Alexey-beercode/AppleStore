@@ -1,10 +1,14 @@
-﻿namespace AppleStore.Areas.Admin.Controllers;
-[Area("Admin")]
-[Authorize(Policy = "AdminArea")]
-public class HomeController:Controller
+﻿using ILogger = Microsoft.Extensions.Logging.ILogger;
+
+namespace AppleStore.Areas.Admin.Controllers
 {
-    public IActionResult Index()
+    [Area("Admin")]
+    public class HomeController : Controller
     {
-        return View();
+        public IActionResult Index()
+        {
+            return View();
+        }
+
     }
 }

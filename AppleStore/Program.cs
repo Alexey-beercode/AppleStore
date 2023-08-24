@@ -15,7 +15,7 @@ builder.Services.AddScoped<DeviceRepository>();
 builder.Services.AddIdentity<IdentityUser,IdentityRole>(options =>
 {
     options.User.RequireUniqueEmail = false;
-    options.Password.RequiredLength = 6;
+    options.Password.RequiredLength = 5;
     options.Password.RequireNonAlphanumeric = false;
     options.Password.RequireLowercase = false;
     options.Password.RequireUppercase = false;
@@ -49,6 +49,7 @@ if (!app.Environment.IsDevelopment())
     app.UseHsts();
 }
 
+
 app.UseResponseCompression();
 
 app.UseHttpsRedirection();
@@ -56,7 +57,23 @@ app.UseStaticFiles();
 app.UseRouting();
 app.UseAuthentication();
 app.UseAuthorization();
+app.Use(async (context, next) =>
+{
+    var isIdentity = context.User.Identity.IsAuthenticated;
+    var isAdmin = context.User.IsInRole("Admin");
+    var isAlreadyInAdminArea = context.Request.Path.StartsWithSegments("/Admin", StringComparison.OrdinalIgnoreCase);
 
-app.MapControllerRoute( "default","{controller=Device}/{action=Catalog}/{type=-1}/{id?}");
-app.MapControllerRoute("admin", "{area=Admin}/{controller=Home}/{action=Index}/{id?}");
+    if (isAdmin && isIdentity && !isAlreadyInAdminArea)
+    {
+        context.Response.Redirect("/Admin/Home/Index"); 
+        return;
+    }
+
+    await next();
+});
+app.MapControllerRoute(
+    name: "Admin",
+    pattern: "{area:exists}/{controller=Home}/{action=Index}/{id?}");
+
+app.MapControllerRoute( "default","{controller=Home}/{action=Catalog}/{type=-1}/{id?}");
 app.Run();

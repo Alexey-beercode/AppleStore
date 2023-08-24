@@ -5163,3 +5163,1447 @@
 2023-08-22 16:49:30.8498 Info Configuration initialized.
 2023-08-22 16:49:30.9651 Info Validating config: TargetNames=allfile, console, ownFile-web, ConfigItems=69, FilePath=C:\AProject\AppleStore\AppleStore\nlog.config
 2023-08-22 16:49:32.6164 Info NLogRequestPostedBodyMiddleware is not yet initialized, which is required by aspnet-request-posted-body.
+2023-08-22 16:54:19.8834 Info Registered target NLog.Targets.FileTarget(Name=allfile)
+2023-08-22 16:54:19.8834 Info Registered target NLog.Targets.FileTarget(Name=ownFile-web)
+2023-08-22 16:54:19.8834 Info Registered target NLog.Targets.ConsoleTarget(Name=console)
+2023-08-22 16:54:19.8834 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target 'lifetimeConsole' not found for logging rule: Microsoft.Hosting.Lifetime.
+2023-08-22 16:54:19.8834 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.3.1999. Product version: 5.2.3+a5ddef92a8afb22508450803e37c001f4a3ba52a. GlobalAssemblyCache: False
+2023-08-22 16:54:19.9009 Info Validating config: TargetNames=allfile, console, ownFile-web, ConfigItems=69, FilePath=C:\AProject\AppleStore\AppleStore\nlog.config
+2023-08-22 16:54:19.9009 Info Configuration initialized.
+2023-08-22 16:54:19.9703 Info Validating config: TargetNames=allfile, console, ownFile-web, ConfigItems=69, FilePath=C:\AProject\AppleStore\AppleStore\nlog.config
+2023-08-22 16:54:21.2110 Info NLogRequestPostedBodyMiddleware is not yet initialized, which is required by aspnet-request-posted-body.
+2023-08-22 17:05:29.2321 Info Registered target NLog.Targets.FileTarget(Name=allfile)
+2023-08-22 17:05:29.2321 Info Registered target NLog.Targets.FileTarget(Name=ownFile-web)
+2023-08-22 17:05:29.2321 Info Registered target NLog.Targets.ConsoleTarget(Name=console)
+2023-08-22 17:05:29.2409 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target 'lifetimeConsole' not found for logging rule: Microsoft.Hosting.Lifetime.
+2023-08-22 17:05:29.2409 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.3.1999. Product version: 5.2.3+a5ddef92a8afb22508450803e37c001f4a3ba52a. GlobalAssemblyCache: False
+2023-08-22 17:05:29.2409 Info Validating config: TargetNames=allfile, console, ownFile-web, ConfigItems=69, FilePath=C:\AProject\AppleStore\AppleStore\nlog.config
+2023-08-22 17:05:29.2591 Info Configuration initialized.
+2023-08-22 17:05:29.3341 Info Validating config: TargetNames=allfile, console, ownFile-web, ConfigItems=69, FilePath=C:\AProject\AppleStore\AppleStore\nlog.config
+2023-08-22 17:05:30.4631 Info NLogRequestPostedBodyMiddleware is not yet initialized, which is required by aspnet-request-posted-body.
+2023-08-22 17:06:40.9081 Info Registered target NLog.Targets.FileTarget(Name=allfile)
+2023-08-22 17:06:40.9129 Info Registered target NLog.Targets.FileTarget(Name=ownFile-web)
+2023-08-22 17:06:40.9129 Info Registered target NLog.Targets.ConsoleTarget(Name=console)
+2023-08-22 17:06:40.9129 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target 'lifetimeConsole' not found for logging rule: Microsoft.Hosting.Lifetime.
+2023-08-22 17:06:40.9129 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.3.1999. Product version: 5.2.3+a5ddef92a8afb22508450803e37c001f4a3ba52a. GlobalAssemblyCache: False
+2023-08-22 17:06:40.9129 Info Validating config: TargetNames=allfile, console, ownFile-web, ConfigItems=69, FilePath=C:\AProject\AppleStore\AppleStore\nlog.config
+2023-08-22 17:06:40.9358 Info Configuration initialized.
+2023-08-22 17:06:40.9990 Info Validating config: TargetNames=allfile, console, ownFile-web, ConfigItems=69, FilePath=C:\AProject\AppleStore\AppleStore\nlog.config
+2023-08-22 17:06:42.0849 Info NLogRequestPostedBodyMiddleware is not yet initialized, which is required by aspnet-request-posted-body.
+2023-08-22 20:32:04.1999 Info Registered target NLog.Targets.FileTarget(Name=allfile)
+2023-08-22 20:32:04.2762 Info Registered target NLog.Targets.FileTarget(Name=ownFile-web)
+2023-08-22 20:32:04.2762 Info Registered target NLog.Targets.ConsoleTarget(Name=console)
+2023-08-22 20:32:04.3343 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target 'lifetimeConsole' not found for logging rule: Microsoft.Hosting.Lifetime.
+2023-08-22 20:32:04.3759 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.3.1999. Product version: 5.2.3+a5ddef92a8afb22508450803e37c001f4a3ba52a. GlobalAssemblyCache: False
+2023-08-22 20:32:04.3969 Info Validating config: TargetNames=allfile, console, ownFile-web, ConfigItems=69, FilePath=C:\AProject\AppleStore\AppleStore\nlog.config
+2023-08-22 20:32:04.4275 Info Configuration initialized.
+2023-08-22 20:32:04.7316 Info Validating config: TargetNames=allfile, console, ownFile-web, ConfigItems=69, FilePath=C:\AProject\AppleStore\AppleStore\nlog.config
+2023-08-22 20:32:09.0629 Info NLogRequestPostedBodyMiddleware is not yet initialized, which is required by aspnet-request-posted-body.
+2023-08-22 20:33:31.9013 Info Registered target NLog.Targets.FileTarget(Name=allfile)
+2023-08-22 20:33:31.9013 Info Registered target NLog.Targets.FileTarget(Name=ownFile-web)
+2023-08-22 20:33:31.9013 Info Registered target NLog.Targets.ConsoleTarget(Name=console)
+2023-08-22 20:33:31.9157 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target 'lifetimeConsole' not found for logging rule: Microsoft.Hosting.Lifetime.
+2023-08-22 20:33:31.9157 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.3.1999. Product version: 5.2.3+a5ddef92a8afb22508450803e37c001f4a3ba52a. GlobalAssemblyCache: False
+2023-08-22 20:33:31.9317 Info Validating config: TargetNames=allfile, console, ownFile-web, ConfigItems=69, FilePath=C:\AProject\AppleStore\AppleStore\nlog.config
+2023-08-22 20:33:31.9317 Info Configuration initialized.
+2023-08-22 20:33:32.0129 Info Validating config: TargetNames=allfile, console, ownFile-web, ConfigItems=69, FilePath=C:\AProject\AppleStore\AppleStore\nlog.config
+2023-08-22 20:33:33.2805 Info NLogRequestPostedBodyMiddleware is not yet initialized, which is required by aspnet-request-posted-body.
+2023-08-22 20:51:36.9969 Info Registered target NLog.Targets.FileTarget(Name=allfile)
+2023-08-22 20:51:36.9969 Info Registered target NLog.Targets.FileTarget(Name=ownFile-web)
+2023-08-22 20:51:36.9969 Info Registered target NLog.Targets.ConsoleTarget(Name=console)
+2023-08-22 20:51:37.0079 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target 'lifetimeConsole' not found for logging rule: Microsoft.Hosting.Lifetime.
+2023-08-22 20:51:37.0079 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.3.1999. Product version: 5.2.3+a5ddef92a8afb22508450803e37c001f4a3ba52a. GlobalAssemblyCache: False
+2023-08-22 20:51:37.0079 Info Validating config: TargetNames=allfile, console, ownFile-web, ConfigItems=69, FilePath=C:\AProject\AppleStore\AppleStore\bin\Debug\net7.0\NLog.config
+2023-08-22 20:51:37.0283 Info Configuration initialized.
+2023-08-22 20:51:37.0838 Info Validating config: TargetNames=allfile, console, ownFile-web, ConfigItems=69, FilePath=C:\AProject\AppleStore\AppleStore\bin\Debug\net7.0\NLog.config
+2023-08-23 17:51:26.8810 Info Registered target NLog.Targets.FileTarget(Name=allfile)
+2023-08-23 17:51:26.9296 Info Registered target NLog.Targets.FileTarget(Name=ownFile-web)
+2023-08-23 17:51:26.9296 Info Registered target NLog.Targets.ConsoleTarget(Name=console)
+2023-08-23 17:51:27.0089 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target 'lifetimeConsole' not found for logging rule: Microsoft.Hosting.Lifetime.
+2023-08-23 17:51:27.0775 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.3.1999. Product version: 5.2.3+a5ddef92a8afb22508450803e37c001f4a3ba52a. GlobalAssemblyCache: False
+2023-08-23 17:51:27.1007 Info Validating config: TargetNames=allfile, console, ownFile-web, ConfigItems=69, FilePath=C:\AProject\AppleStore\AppleStore\nlog.config
+2023-08-23 17:51:27.1306 Info Configuration initialized.
+2023-08-23 17:51:27.5801 Info Validating config: TargetNames=allfile, console, ownFile-web, ConfigItems=69, FilePath=C:\AProject\AppleStore\AppleStore\nlog.config
+2023-08-23 17:51:35.4789 Info NLogRequestPostedBodyMiddleware is not yet initialized, which is required by aspnet-request-posted-body.
+2023-08-23 18:05:32.4726 Info Registered target NLog.Targets.FileTarget(Name=allfile)
+2023-08-23 18:05:32.4726 Info Registered target NLog.Targets.FileTarget(Name=ownFile-web)
+2023-08-23 18:05:32.4726 Info Registered target NLog.Targets.ConsoleTarget(Name=console)
+2023-08-23 18:05:32.4726 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target 'lifetimeConsole' not found for logging rule: Microsoft.Hosting.Lifetime.
+2023-08-23 18:05:32.4726 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.3.1999. Product version: 5.2.3+a5ddef92a8afb22508450803e37c001f4a3ba52a. GlobalAssemblyCache: False
+2023-08-23 18:05:32.4895 Info Validating config: TargetNames=allfile, console, ownFile-web, ConfigItems=69, FilePath=C:\AProject\AppleStore\AppleStore\nlog.config
+2023-08-23 18:05:32.4895 Info Configuration initialized.
+2023-08-23 18:05:32.5642 Info Validating config: TargetNames=allfile, console, ownFile-web, ConfigItems=69, FilePath=C:\AProject\AppleStore\AppleStore\nlog.config
+2023-08-23 18:05:33.9304 Info NLogRequestPostedBodyMiddleware is not yet initialized, which is required by aspnet-request-posted-body.
+2023-08-23 18:21:07.1797 Info Registered target NLog.Targets.FileTarget(Name=allfile)
+2023-08-23 18:21:07.1873 Info Registered target NLog.Targets.FileTarget(Name=ownFile-web)
+2023-08-23 18:21:07.1873 Info Registered target NLog.Targets.ConsoleTarget(Name=console)
+2023-08-23 18:21:07.1873 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target 'lifetimeConsole' not found for logging rule: Microsoft.Hosting.Lifetime.
+2023-08-23 18:21:07.1873 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.3.1999. Product version: 5.2.3+a5ddef92a8afb22508450803e37c001f4a3ba52a. GlobalAssemblyCache: False
+2023-08-23 18:21:07.2046 Info Validating config: TargetNames=allfile, console, ownFile-web, ConfigItems=69, FilePath=C:\AProject\AppleStore\AppleStore\nlog.config
+2023-08-23 18:21:07.2202 Info Configuration initialized.
+2023-08-23 18:21:07.2920 Info Validating config: TargetNames=allfile, console, ownFile-web, ConfigItems=69, FilePath=C:\AProject\AppleStore\AppleStore\nlog.config
+2023-08-23 18:21:08.7956 Info NLogRequestPostedBodyMiddleware is not yet initialized, which is required by aspnet-request-posted-body.
+2023-08-23 18:26:23.8196 Info Registered target NLog.Targets.FileTarget(Name=allfile)
+2023-08-23 18:26:23.8256 Info Registered target NLog.Targets.FileTarget(Name=ownFile-web)
+2023-08-23 18:26:23.8256 Info Registered target NLog.Targets.ConsoleTarget(Name=console)
+2023-08-23 18:26:23.8256 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target 'lifetimeConsole' not found for logging rule: Microsoft.Hosting.Lifetime.
+2023-08-23 18:26:23.8256 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.3.1999. Product version: 5.2.3+a5ddef92a8afb22508450803e37c001f4a3ba52a. GlobalAssemblyCache: False
+2023-08-23 18:26:23.8256 Info Validating config: TargetNames=allfile, console, ownFile-web, ConfigItems=69, FilePath=C:\AProject\AppleStore\AppleStore\nlog.config
+2023-08-23 18:26:23.8505 Info Configuration initialized.
+2023-08-23 18:26:23.9168 Info Validating config: TargetNames=allfile, console, ownFile-web, ConfigItems=69, FilePath=C:\AProject\AppleStore\AppleStore\nlog.config
+2023-08-23 18:26:25.1932 Info NLogRequestPostedBodyMiddleware is not yet initialized, which is required by aspnet-request-posted-body.
+2023-08-23 18:34:23.9918 Info Registered target NLog.Targets.FileTarget(Name=allfile)
+2023-08-23 18:34:23.9966 Info Registered target NLog.Targets.FileTarget(Name=ownFile-web)
+2023-08-23 18:34:23.9966 Info Registered target NLog.Targets.ConsoleTarget(Name=console)
+2023-08-23 18:34:23.9966 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target 'lifetimeConsole' not found for logging rule: Microsoft.Hosting.Lifetime.
+2023-08-23 18:34:23.9966 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.3.1999. Product version: 5.2.3+a5ddef92a8afb22508450803e37c001f4a3ba52a. GlobalAssemblyCache: False
+2023-08-23 18:34:24.0103 Info Validating config: TargetNames=allfile, console, ownFile-web, ConfigItems=69, FilePath=C:\AProject\AppleStore\AppleStore\nlog.config
+2023-08-23 18:34:24.0103 Info Configuration initialized.
+2023-08-23 18:34:24.0891 Info Validating config: TargetNames=allfile, console, ownFile-web, ConfigItems=69, FilePath=C:\AProject\AppleStore\AppleStore\nlog.config
+2023-08-23 18:34:25.4965 Info NLogRequestPostedBodyMiddleware is not yet initialized, which is required by aspnet-request-posted-body.
+2023-08-23 18:44:11.8438 Info Registered target NLog.Targets.FileTarget(Name=allfile)
+2023-08-23 18:44:11.8526 Info Registered target NLog.Targets.FileTarget(Name=ownFile-web)
+2023-08-23 18:44:11.8526 Info Registered target NLog.Targets.ConsoleTarget(Name=console)
+2023-08-23 18:44:11.8526 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target 'lifetimeConsole' not found for logging rule: Microsoft.Hosting.Lifetime.
+2023-08-23 18:44:11.8526 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.3.1999. Product version: 5.2.3+a5ddef92a8afb22508450803e37c001f4a3ba52a. GlobalAssemblyCache: False
+2023-08-23 18:44:11.8736 Info Validating config: TargetNames=allfile, console, ownFile-web, ConfigItems=69, FilePath=C:\AProject\AppleStore\AppleStore\nlog.config
+2023-08-23 18:44:11.8917 Info Configuration initialized.
+2023-08-23 18:44:11.9759 Info Validating config: TargetNames=allfile, console, ownFile-web, ConfigItems=69, FilePath=C:\AProject\AppleStore\AppleStore\nlog.config
+2023-08-23 18:44:13.3802 Info NLogRequestPostedBodyMiddleware is not yet initialized, which is required by aspnet-request-posted-body.
+2023-08-23 18:55:08.2265 Info Registered target NLog.Targets.FileTarget(Name=allfile)
+2023-08-23 18:55:08.2322 Info Registered target NLog.Targets.FileTarget(Name=ownFile-web)
+2023-08-23 18:55:08.2322 Info Registered target NLog.Targets.ConsoleTarget(Name=console)
+2023-08-23 18:55:08.2322 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target 'lifetimeConsole' not found for logging rule: Microsoft.Hosting.Lifetime.
+2023-08-23 18:55:08.2322 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.3.1999. Product version: 5.2.3+a5ddef92a8afb22508450803e37c001f4a3ba52a. GlobalAssemblyCache: False
+2023-08-23 18:55:08.2461 Info Validating config: TargetNames=allfile, console, ownFile-web, ConfigItems=69, FilePath=C:\AProject\AppleStore\AppleStore\nlog.config
+2023-08-23 18:55:08.2461 Info Configuration initialized.
+2023-08-23 18:55:08.3219 Info Validating config: TargetNames=allfile, console, ownFile-web, ConfigItems=69, FilePath=C:\AProject\AppleStore\AppleStore\nlog.config
+2023-08-23 18:55:09.6162 Info NLogRequestPostedBodyMiddleware is not yet initialized, which is required by aspnet-request-posted-body.
+2023-08-23 19:07:15.7864 Info Registered target NLog.Targets.FileTarget(Name=allfile)
+2023-08-23 19:07:15.8093 Info Registered target NLog.Targets.FileTarget(Name=ownFile-web)
+2023-08-23 19:07:15.8093 Info Registered target NLog.Targets.ConsoleTarget(Name=console)
+2023-08-23 19:07:15.8305 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target 'lifetimeConsole' not found for logging rule: Microsoft.Hosting.Lifetime.
+2023-08-23 19:07:15.8472 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.3.1999. Product version: 5.2.3+a5ddef92a8afb22508450803e37c001f4a3ba52a. GlobalAssemblyCache: False
+2023-08-23 19:07:15.8582 Info Validating config: TargetNames=allfile, console, ownFile-web, ConfigItems=69, FilePath=C:\AProject\AppleStore\AppleStore\bin\Debug\net7.0\NLog.config
+2023-08-23 19:07:15.8717 Info Configuration initialized.
+2023-08-23 19:07:16.0446 Info Validating config: TargetNames=allfile, console, ownFile-web, ConfigItems=69, FilePath=C:\AProject\AppleStore\AppleStore\bin\Debug\net7.0\NLog.config
+2023-08-23 19:07:20.9826 Info NLogRequestPostedBodyMiddleware is not yet initialized, which is required by aspnet-request-posted-body.
+2023-08-23 19:08:41.9181 Info Registered target NLog.Targets.FileTarget(Name=allfile)
+2023-08-23 19:08:41.9347 Info Registered target NLog.Targets.FileTarget(Name=ownFile-web)
+2023-08-23 19:08:41.9347 Info Registered target NLog.Targets.ConsoleTarget(Name=console)
+2023-08-23 19:08:41.9438 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target 'lifetimeConsole' not found for logging rule: Microsoft.Hosting.Lifetime.
+2023-08-23 19:08:41.9438 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.3.1999. Product version: 5.2.3+a5ddef92a8afb22508450803e37c001f4a3ba52a. GlobalAssemblyCache: False
+2023-08-23 19:08:41.9438 Info Validating config: TargetNames=allfile, console, ownFile-web, ConfigItems=69, FilePath=C:\AProject\AppleStore\AppleStore\nlog.config
+2023-08-23 19:08:41.9648 Info Configuration initialized.
+2023-08-23 19:08:42.0553 Info Validating config: TargetNames=allfile, console, ownFile-web, ConfigItems=69, FilePath=C:\AProject\AppleStore\AppleStore\nlog.config
+2023-08-23 19:08:43.3679 Info NLogRequestPostedBodyMiddleware is not yet initialized, which is required by aspnet-request-posted-body.
+2023-08-23 19:11:05.3740 Info Registered target NLog.Targets.FileTarget(Name=allfile)
+2023-08-23 19:11:05.3740 Info Registered target NLog.Targets.FileTarget(Name=ownFile-web)
+2023-08-23 19:11:05.3740 Info Registered target NLog.Targets.ConsoleTarget(Name=console)
+2023-08-23 19:11:05.3740 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target 'lifetimeConsole' not found for logging rule: Microsoft.Hosting.Lifetime.
+2023-08-23 19:11:05.3740 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.3.1999. Product version: 5.2.3+a5ddef92a8afb22508450803e37c001f4a3ba52a. GlobalAssemblyCache: False
+2023-08-23 19:11:05.3908 Info Validating config: TargetNames=allfile, console, ownFile-web, ConfigItems=69, FilePath=C:\AProject\AppleStore\AppleStore\nlog.config
+2023-08-23 19:11:05.3908 Info Configuration initialized.
+2023-08-23 19:11:05.4636 Info Validating config: TargetNames=allfile, console, ownFile-web, ConfigItems=69, FilePath=C:\AProject\AppleStore\AppleStore\nlog.config
+2023-08-23 19:11:37.4769 Info Registered target NLog.Targets.FileTarget(Name=allfile)
+2023-08-23 19:11:37.4769 Info Registered target NLog.Targets.FileTarget(Name=ownFile-web)
+2023-08-23 19:11:37.4769 Info Registered target NLog.Targets.ConsoleTarget(Name=console)
+2023-08-23 19:11:37.4769 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target 'lifetimeConsole' not found for logging rule: Microsoft.Hosting.Lifetime.
+2023-08-23 19:11:37.4769 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.3.1999. Product version: 5.2.3+a5ddef92a8afb22508450803e37c001f4a3ba52a. GlobalAssemblyCache: False
+2023-08-23 19:11:37.4983 Info Validating config: TargetNames=allfile, console, ownFile-web, ConfigItems=69, FilePath=C:\AProject\AppleStore\AppleStore\nlog.config
+2023-08-23 19:11:37.5079 Info Configuration initialized.
+2023-08-23 19:11:37.5762 Info Validating config: TargetNames=allfile, console, ownFile-web, ConfigItems=69, FilePath=C:\AProject\AppleStore\AppleStore\nlog.config
+2023-08-23 19:12:16.2561 Info Registered target NLog.Targets.FileTarget(Name=allfile)
+2023-08-23 19:12:16.2561 Info Registered target NLog.Targets.FileTarget(Name=ownFile-web)
+2023-08-23 19:12:16.2561 Info Registered target NLog.Targets.ConsoleTarget(Name=console)
+2023-08-23 19:12:16.2561 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target 'lifetimeConsole' not found for logging rule: Microsoft.Hosting.Lifetime.
+2023-08-23 19:12:16.2708 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.3.1999. Product version: 5.2.3+a5ddef92a8afb22508450803e37c001f4a3ba52a. GlobalAssemblyCache: False
+2023-08-23 19:12:16.2708 Info Validating config: TargetNames=allfile, console, ownFile-web, ConfigItems=69, FilePath=C:\AProject\AppleStore\AppleStore\nlog.config
+2023-08-23 19:12:16.2909 Info Configuration initialized.
+2023-08-23 19:12:16.3515 Info Validating config: TargetNames=allfile, console, ownFile-web, ConfigItems=69, FilePath=C:\AProject\AppleStore\AppleStore\nlog.config
+2023-08-23 19:16:24.3015 Info Registered target NLog.Targets.FileTarget(Name=allfile)
+2023-08-23 19:16:24.3062 Info Registered target NLog.Targets.FileTarget(Name=ownFile-web)
+2023-08-23 19:16:24.3062 Info Registered target NLog.Targets.ConsoleTarget(Name=console)
+2023-08-23 19:16:24.3062 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target 'lifetimeConsole' not found for logging rule: Microsoft.Hosting.Lifetime.
+2023-08-23 19:16:24.3062 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.3.1999. Product version: 5.2.3+a5ddef92a8afb22508450803e37c001f4a3ba52a. GlobalAssemblyCache: False
+2023-08-23 19:16:24.3229 Info Validating config: TargetNames=allfile, console, ownFile-web, ConfigItems=69, FilePath=C:\AProject\AppleStore\AppleStore\nlog.config
+2023-08-23 19:16:24.3357 Info Configuration initialized.
+2023-08-23 19:16:24.4014 Info Validating config: TargetNames=allfile, console, ownFile-web, ConfigItems=69, FilePath=C:\AProject\AppleStore\AppleStore\nlog.config
+2023-08-23 19:16:25.8181 Info NLogRequestPostedBodyMiddleware is not yet initialized, which is required by aspnet-request-posted-body.
+2023-08-23 19:19:25.2734 Info Registered target NLog.Targets.FileTarget(Name=allfile)
+2023-08-23 19:19:25.2802 Info Registered target NLog.Targets.FileTarget(Name=ownFile-web)
+2023-08-23 19:19:25.2802 Info Registered target NLog.Targets.ConsoleTarget(Name=console)
+2023-08-23 19:19:25.2802 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target 'lifetimeConsole' not found for logging rule: Microsoft.Hosting.Lifetime.
+2023-08-23 19:19:25.2802 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.3.1999. Product version: 5.2.3+a5ddef92a8afb22508450803e37c001f4a3ba52a. GlobalAssemblyCache: False
+2023-08-23 19:19:25.3011 Info Validating config: TargetNames=allfile, console, ownFile-web, ConfigItems=69, FilePath=C:\AProject\AppleStore\AppleStore\nlog.config
+2023-08-23 19:19:25.3172 Info Configuration initialized.
+2023-08-23 19:19:25.4220 Info Validating config: TargetNames=allfile, console, ownFile-web, ConfigItems=69, FilePath=C:\AProject\AppleStore\AppleStore\nlog.config
+2023-08-23 19:19:26.8361 Info NLogRequestPostedBodyMiddleware is not yet initialized, which is required by aspnet-request-posted-body.
+2023-08-23 19:21:26.9792 Info Registered target NLog.Targets.FileTarget(Name=allfile)
+2023-08-23 19:21:26.9792 Info Registered target NLog.Targets.FileTarget(Name=ownFile-web)
+2023-08-23 19:21:26.9792 Info Registered target NLog.Targets.ConsoleTarget(Name=console)
+2023-08-23 19:21:26.9792 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target 'lifetimeConsole' not found for logging rule: Microsoft.Hosting.Lifetime.
+2023-08-23 19:21:26.9792 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.3.1999. Product version: 5.2.3+a5ddef92a8afb22508450803e37c001f4a3ba52a. GlobalAssemblyCache: False
+2023-08-23 19:21:27.0000 Info Validating config: TargetNames=allfile, console, ownFile-web, ConfigItems=69, FilePath=C:\AProject\AppleStore\AppleStore\nlog.config
+2023-08-23 19:21:27.0000 Info Configuration initialized.
+2023-08-23 19:21:27.0760 Info Validating config: TargetNames=allfile, console, ownFile-web, ConfigItems=69, FilePath=C:\AProject\AppleStore\AppleStore\nlog.config
+2023-08-23 19:21:28.3523 Info NLogRequestPostedBodyMiddleware is not yet initialized, which is required by aspnet-request-posted-body.
+2023-08-23 19:31:31.2938 Info Registered target NLog.Targets.FileTarget(Name=allfile)
+2023-08-23 19:31:31.2938 Info Registered target NLog.Targets.FileTarget(Name=ownFile-web)
+2023-08-23 19:31:31.2938 Info Registered target NLog.Targets.ConsoleTarget(Name=console)
+2023-08-23 19:31:31.2938 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target 'lifetimeConsole' not found for logging rule: Microsoft.Hosting.Lifetime.
+2023-08-23 19:31:31.3095 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.3.1999. Product version: 5.2.3+a5ddef92a8afb22508450803e37c001f4a3ba52a. GlobalAssemblyCache: False
+2023-08-23 19:31:31.3256 Info Validating config: TargetNames=allfile, console, ownFile-web, ConfigItems=69, FilePath=C:\AProject\AppleStore\AppleStore\nlog.config
+2023-08-23 19:31:31.3519 Info Configuration initialized.
+2023-08-23 19:31:31.4679 Info Validating config: TargetNames=allfile, console, ownFile-web, ConfigItems=69, FilePath=C:\AProject\AppleStore\AppleStore\nlog.config
+2023-08-23 19:31:32.8417 Info NLogRequestPostedBodyMiddleware is not yet initialized, which is required by aspnet-request-posted-body.
+2023-08-23 19:40:43.9626 Info Registered target NLog.Targets.FileTarget(Name=allfile)
+2023-08-23 19:40:43.9626 Info Registered target NLog.Targets.FileTarget(Name=ownFile-web)
+2023-08-23 19:40:43.9626 Info Registered target NLog.Targets.ConsoleTarget(Name=console)
+2023-08-23 19:40:43.9754 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target 'lifetimeConsole' not found for logging rule: Microsoft.Hosting.Lifetime.
+2023-08-23 19:40:43.9754 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.3.1999. Product version: 5.2.3+a5ddef92a8afb22508450803e37c001f4a3ba52a. GlobalAssemblyCache: False
+2023-08-23 19:40:43.9891 Info Validating config: TargetNames=allfile, console, ownFile-web, ConfigItems=69, FilePath=C:\AProject\AppleStore\AppleStore\nlog.config
+2023-08-23 19:40:43.9891 Info Configuration initialized.
+2023-08-23 19:40:44.1481 Info Validating config: TargetNames=allfile, console, ownFile-web, ConfigItems=69, FilePath=C:\AProject\AppleStore\AppleStore\nlog.config
+2023-08-23 19:41:09.9377 Info Registered target NLog.Targets.FileTarget(Name=allfile)
+2023-08-23 19:41:09.9377 Info Registered target NLog.Targets.FileTarget(Name=ownFile-web)
+2023-08-23 19:41:09.9377 Info Registered target NLog.Targets.ConsoleTarget(Name=console)
+2023-08-23 19:41:09.9377 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target 'lifetimeConsole' not found for logging rule: Microsoft.Hosting.Lifetime.
+2023-08-23 19:41:09.9545 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.3.1999. Product version: 5.2.3+a5ddef92a8afb22508450803e37c001f4a3ba52a. GlobalAssemblyCache: False
+2023-08-23 19:41:09.9635 Info Validating config: TargetNames=allfile, console, ownFile-web, ConfigItems=69, FilePath=C:\AProject\AppleStore\AppleStore\nlog.config
+2023-08-23 19:41:09.9781 Info Configuration initialized.
+2023-08-23 19:41:10.1032 Info Validating config: TargetNames=allfile, console, ownFile-web, ConfigItems=69, FilePath=C:\AProject\AppleStore\AppleStore\nlog.config
+2023-08-23 19:41:12.2911 Info NLogRequestPostedBodyMiddleware is not yet initialized, which is required by aspnet-request-posted-body.
+2023-08-23 19:45:01.2127 Info Registered target NLog.Targets.FileTarget(Name=allfile)
+2023-08-23 19:45:01.2127 Info Registered target NLog.Targets.FileTarget(Name=ownFile-web)
+2023-08-23 19:45:01.2127 Info Registered target NLog.Targets.ConsoleTarget(Name=console)
+2023-08-23 19:45:01.2239 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target 'lifetimeConsole' not found for logging rule: Microsoft.Hosting.Lifetime.
+2023-08-23 19:45:01.2239 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.3.1999. Product version: 5.2.3+a5ddef92a8afb22508450803e37c001f4a3ba52a. GlobalAssemblyCache: False
+2023-08-23 19:45:01.2360 Info Validating config: TargetNames=allfile, console, ownFile-web, ConfigItems=69, FilePath=C:\AProject\AppleStore\AppleStore\nlog.config
+2023-08-23 19:45:01.2360 Info Configuration initialized.
+2023-08-23 19:45:01.3254 Info Validating config: TargetNames=allfile, console, ownFile-web, ConfigItems=69, FilePath=C:\AProject\AppleStore\AppleStore\nlog.config
+2023-08-23 19:45:03.4082 Info NLogRequestPostedBodyMiddleware is not yet initialized, which is required by aspnet-request-posted-body.
+2023-08-23 19:51:20.9103 Info Registered target NLog.Targets.FileTarget(Name=allfile)
+2023-08-23 19:51:20.9166 Info Registered target NLog.Targets.FileTarget(Name=ownFile-web)
+2023-08-23 19:51:20.9166 Info Registered target NLog.Targets.ConsoleTarget(Name=console)
+2023-08-23 19:51:20.9166 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target 'lifetimeConsole' not found for logging rule: Microsoft.Hosting.Lifetime.
+2023-08-23 19:51:20.9289 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.3.1999. Product version: 5.2.3+a5ddef92a8afb22508450803e37c001f4a3ba52a. GlobalAssemblyCache: False
+2023-08-23 19:51:20.9289 Info Validating config: TargetNames=allfile, console, ownFile-web, ConfigItems=69, FilePath=C:\AProject\AppleStore\AppleStore\nlog.config
+2023-08-23 19:51:20.9501 Info Configuration initialized.
+2023-08-23 19:51:21.0464 Info Validating config: TargetNames=allfile, console, ownFile-web, ConfigItems=69, FilePath=C:\AProject\AppleStore\AppleStore\nlog.config
+2023-08-23 19:51:22.8814 Info NLogRequestPostedBodyMiddleware is not yet initialized, which is required by aspnet-request-posted-body.
+2023-08-23 19:52:42.3465 Info Registered target NLog.Targets.FileTarget(Name=allfile)
+2023-08-23 19:52:42.3522 Info Registered target NLog.Targets.FileTarget(Name=ownFile-web)
+2023-08-23 19:52:42.3522 Info Registered target NLog.Targets.ConsoleTarget(Name=console)
+2023-08-23 19:52:42.3522 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target 'lifetimeConsole' not found for logging rule: Microsoft.Hosting.Lifetime.
+2023-08-23 19:52:42.3522 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.3.1999. Product version: 5.2.3+a5ddef92a8afb22508450803e37c001f4a3ba52a. GlobalAssemblyCache: False
+2023-08-23 19:52:42.3710 Info Validating config: TargetNames=allfile, console, ownFile-web, ConfigItems=69, FilePath=C:\AProject\AppleStore\AppleStore\nlog.config
+2023-08-23 19:52:42.3845 Info Configuration initialized.
+2023-08-23 19:52:42.4721 Info Validating config: TargetNames=allfile, console, ownFile-web, ConfigItems=69, FilePath=C:\AProject\AppleStore\AppleStore\nlog.config
+2023-08-23 19:52:44.2259 Info NLogRequestPostedBodyMiddleware is not yet initialized, which is required by aspnet-request-posted-body.
+2023-08-23 19:55:15.8667 Info Registered target NLog.Targets.FileTarget(Name=allfile)
+2023-08-23 19:55:15.8667 Info Registered target NLog.Targets.FileTarget(Name=ownFile-web)
+2023-08-23 19:55:15.8667 Info Registered target NLog.Targets.ConsoleTarget(Name=console)
+2023-08-23 19:55:15.8667 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target 'lifetimeConsole' not found for logging rule: Microsoft.Hosting.Lifetime.
+2023-08-23 19:55:15.8825 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.3.1999. Product version: 5.2.3+a5ddef92a8afb22508450803e37c001f4a3ba52a. GlobalAssemblyCache: False
+2023-08-23 19:55:15.8825 Info Validating config: TargetNames=allfile, console, ownFile-web, ConfigItems=69, FilePath=C:\AProject\AppleStore\AppleStore\nlog.config
+2023-08-23 19:55:15.9026 Info Configuration initialized.
+2023-08-23 19:55:15.9891 Info Validating config: TargetNames=allfile, console, ownFile-web, ConfigItems=69, FilePath=C:\AProject\AppleStore\AppleStore\nlog.config
+2023-08-23 19:55:18.0843 Info NLogRequestPostedBodyMiddleware is not yet initialized, which is required by aspnet-request-posted-body.
+2023-08-23 19:56:26.1882 Info Registered target NLog.Targets.FileTarget(Name=allfile)
+2023-08-23 19:56:26.1948 Info Registered target NLog.Targets.FileTarget(Name=ownFile-web)
+2023-08-23 19:56:26.1948 Info Registered target NLog.Targets.ConsoleTarget(Name=console)
+2023-08-23 19:56:26.1948 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target 'lifetimeConsole' not found for logging rule: Microsoft.Hosting.Lifetime.
+2023-08-23 19:56:26.1948 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.3.1999. Product version: 5.2.3+a5ddef92a8afb22508450803e37c001f4a3ba52a. GlobalAssemblyCache: False
+2023-08-23 19:56:26.2106 Info Validating config: TargetNames=allfile, console, ownFile-web, ConfigItems=69, FilePath=C:\AProject\AppleStore\AppleStore\nlog.config
+2023-08-23 19:56:26.2106 Info Configuration initialized.
+2023-08-23 19:56:26.3201 Info Validating config: TargetNames=allfile, console, ownFile-web, ConfigItems=69, FilePath=C:\AProject\AppleStore\AppleStore\nlog.config
+2023-08-23 19:56:27.9584 Info NLogRequestPostedBodyMiddleware is not yet initialized, which is required by aspnet-request-posted-body.
+2023-08-23 19:57:22.1600 Info Registered target NLog.Targets.FileTarget(Name=allfile)
+2023-08-23 19:57:22.1667 Info Registered target NLog.Targets.FileTarget(Name=ownFile-web)
+2023-08-23 19:57:22.1667 Info Registered target NLog.Targets.ConsoleTarget(Name=console)
+2023-08-23 19:57:22.1667 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target 'lifetimeConsole' not found for logging rule: Microsoft.Hosting.Lifetime.
+2023-08-23 19:57:22.1667 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.3.1999. Product version: 5.2.3+a5ddef92a8afb22508450803e37c001f4a3ba52a. GlobalAssemblyCache: False
+2023-08-23 19:57:22.1825 Info Validating config: TargetNames=allfile, console, ownFile-web, ConfigItems=69, FilePath=C:\AProject\AppleStore\AppleStore\nlog.config
+2023-08-23 19:57:22.1942 Info Configuration initialized.
+2023-08-23 19:57:22.2797 Info Validating config: TargetNames=allfile, console, ownFile-web, ConfigItems=69, FilePath=C:\AProject\AppleStore\AppleStore\nlog.config
+2023-08-23 19:57:23.9902 Info NLogRequestPostedBodyMiddleware is not yet initialized, which is required by aspnet-request-posted-body.
+2023-08-23 19:59:27.8680 Info Registered target NLog.Targets.FileTarget(Name=allfile)
+2023-08-23 19:59:27.8680 Info Registered target NLog.Targets.FileTarget(Name=ownFile-web)
+2023-08-23 19:59:27.8680 Info Registered target NLog.Targets.ConsoleTarget(Name=console)
+2023-08-23 19:59:27.8680 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target 'lifetimeConsole' not found for logging rule: Microsoft.Hosting.Lifetime.
+2023-08-23 19:59:27.8814 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.3.1999. Product version: 5.2.3+a5ddef92a8afb22508450803e37c001f4a3ba52a. GlobalAssemblyCache: False
+2023-08-23 19:59:27.8814 Info Validating config: TargetNames=allfile, console, ownFile-web, ConfigItems=69, FilePath=C:\AProject\AppleStore\AppleStore\nlog.config
+2023-08-23 19:59:27.8992 Info Configuration initialized.
+2023-08-23 19:59:27.9642 Info Validating config: TargetNames=allfile, console, ownFile-web, ConfigItems=69, FilePath=C:\AProject\AppleStore\AppleStore\nlog.config
+2023-08-23 19:59:29.1785 Info NLogRequestPostedBodyMiddleware is not yet initialized, which is required by aspnet-request-posted-body.
+2023-08-23 20:01:51.4359 Info Registered target NLog.Targets.FileTarget(Name=allfile)
+2023-08-23 20:01:51.4359 Info Registered target NLog.Targets.FileTarget(Name=ownFile-web)
+2023-08-23 20:01:51.4427 Info Registered target NLog.Targets.ConsoleTarget(Name=console)
+2023-08-23 20:01:51.4427 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target 'lifetimeConsole' not found for logging rule: Microsoft.Hosting.Lifetime.
+2023-08-23 20:01:51.4427 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.3.1999. Product version: 5.2.3+a5ddef92a8afb22508450803e37c001f4a3ba52a. GlobalAssemblyCache: False
+2023-08-23 20:01:51.4591 Info Validating config: TargetNames=allfile, console, ownFile-web, ConfigItems=69, FilePath=C:\AProject\AppleStore\AppleStore\nlog.config
+2023-08-23 20:01:51.4591 Info Configuration initialized.
+2023-08-23 20:01:51.5546 Info Validating config: TargetNames=allfile, console, ownFile-web, ConfigItems=69, FilePath=C:\AProject\AppleStore\AppleStore\nlog.config
+2023-08-23 20:01:52.8344 Info NLogRequestPostedBodyMiddleware is not yet initialized, which is required by aspnet-request-posted-body.
+2023-08-23 20:03:44.0731 Info Registered target NLog.Targets.FileTarget(Name=allfile)
+2023-08-23 20:03:44.0731 Info Registered target NLog.Targets.FileTarget(Name=ownFile-web)
+2023-08-23 20:03:44.0731 Info Registered target NLog.Targets.ConsoleTarget(Name=console)
+2023-08-23 20:03:44.0839 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target 'lifetimeConsole' not found for logging rule: Microsoft.Hosting.Lifetime.
+2023-08-23 20:03:44.0839 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.3.1999. Product version: 5.2.3+a5ddef92a8afb22508450803e37c001f4a3ba52a. GlobalAssemblyCache: False
+2023-08-23 20:03:44.0839 Info Validating config: TargetNames=allfile, console, ownFile-web, ConfigItems=69, FilePath=C:\AProject\AppleStore\AppleStore\nlog.config
+2023-08-23 20:03:44.1014 Info Configuration initialized.
+2023-08-23 20:03:44.1593 Info Validating config: TargetNames=allfile, console, ownFile-web, ConfigItems=69, FilePath=C:\AProject\AppleStore\AppleStore\nlog.config
+2023-08-23 20:03:45.3040 Info NLogRequestPostedBodyMiddleware is not yet initialized, which is required by aspnet-request-posted-body.
+2023-08-23 20:05:11.4642 Info Registered target NLog.Targets.FileTarget(Name=allfile)
+2023-08-23 20:05:11.4642 Info Registered target NLog.Targets.FileTarget(Name=ownFile-web)
+2023-08-23 20:05:11.4642 Info Registered target NLog.Targets.ConsoleTarget(Name=console)
+2023-08-23 20:05:11.4642 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target 'lifetimeConsole' not found for logging rule: Microsoft.Hosting.Lifetime.
+2023-08-23 20:05:11.4757 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.3.1999. Product version: 5.2.3+a5ddef92a8afb22508450803e37c001f4a3ba52a. GlobalAssemblyCache: False
+2023-08-23 20:05:11.4757 Info Validating config: TargetNames=allfile, console, ownFile-web, ConfigItems=69, FilePath=C:\AProject\AppleStore\AppleStore\nlog.config
+2023-08-23 20:05:11.4920 Info Configuration initialized.
+2023-08-23 20:05:11.5585 Info Validating config: TargetNames=allfile, console, ownFile-web, ConfigItems=69, FilePath=C:\AProject\AppleStore\AppleStore\nlog.config
+2023-08-23 20:05:12.7239 Info NLogRequestPostedBodyMiddleware is not yet initialized, which is required by aspnet-request-posted-body.
+2023-08-23 20:13:07.0361 Info Registered target NLog.Targets.FileTarget(Name=allfile)
+2023-08-23 20:13:07.0406 Info Registered target NLog.Targets.FileTarget(Name=ownFile-web)
+2023-08-23 20:13:07.0406 Info Registered target NLog.Targets.ConsoleTarget(Name=console)
+2023-08-23 20:13:07.0406 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target 'lifetimeConsole' not found for logging rule: Microsoft.Hosting.Lifetime.
+2023-08-23 20:13:07.0406 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.3.1999. Product version: 5.2.3+a5ddef92a8afb22508450803e37c001f4a3ba52a. GlobalAssemblyCache: False
+2023-08-23 20:13:07.0547 Info Validating config: TargetNames=allfile, console, ownFile-web, ConfigItems=69, FilePath=C:\AProject\AppleStore\AppleStore\nlog.config
+2023-08-23 20:13:07.0547 Info Configuration initialized.
+2023-08-23 20:13:07.1229 Info Validating config: TargetNames=allfile, console, ownFile-web, ConfigItems=69, FilePath=C:\AProject\AppleStore\AppleStore\nlog.config
+2023-08-23 20:13:08.3345 Info NLogRequestPostedBodyMiddleware is not yet initialized, which is required by aspnet-request-posted-body.
+2023-08-23 20:16:43.5681 Info Registered target NLog.Targets.FileTarget(Name=allfile)
+2023-08-23 20:16:43.5743 Info Registered target NLog.Targets.FileTarget(Name=ownFile-web)
+2023-08-23 20:16:43.5743 Info Registered target NLog.Targets.ConsoleTarget(Name=console)
+2023-08-23 20:16:43.5743 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target 'lifetimeConsole' not found for logging rule: Microsoft.Hosting.Lifetime.
+2023-08-23 20:16:43.5743 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.3.1999. Product version: 5.2.3+a5ddef92a8afb22508450803e37c001f4a3ba52a. GlobalAssemblyCache: False
+2023-08-23 20:16:43.5868 Info Validating config: TargetNames=allfile, console, ownFile-web, ConfigItems=69, FilePath=C:\AProject\AppleStore\AppleStore\nlog.config
+2023-08-23 20:16:43.5868 Info Configuration initialized.
+2023-08-23 20:16:43.6534 Info Validating config: TargetNames=allfile, console, ownFile-web, ConfigItems=69, FilePath=C:\AProject\AppleStore\AppleStore\nlog.config
+2023-08-23 20:16:44.7724 Info NLogRequestPostedBodyMiddleware is not yet initialized, which is required by aspnet-request-posted-body.
+2023-08-23 20:20:41.2796 Info Registered target NLog.Targets.FileTarget(Name=allfile)
+2023-08-23 20:20:41.2796 Info Registered target NLog.Targets.FileTarget(Name=ownFile-web)
+2023-08-23 20:20:41.2796 Info Registered target NLog.Targets.ConsoleTarget(Name=console)
+2023-08-23 20:20:41.2882 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target 'lifetimeConsole' not found for logging rule: Microsoft.Hosting.Lifetime.
+2023-08-23 20:20:41.2882 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.3.1999. Product version: 5.2.3+a5ddef92a8afb22508450803e37c001f4a3ba52a. GlobalAssemblyCache: False
+2023-08-23 20:20:41.2882 Info Validating config: TargetNames=allfile, console, ownFile-web, ConfigItems=69, FilePath=C:\AProject\AppleStore\AppleStore\nlog.config
+2023-08-23 20:20:41.3070 Info Configuration initialized.
+2023-08-23 20:20:41.3695 Info Validating config: TargetNames=allfile, console, ownFile-web, ConfigItems=69, FilePath=C:\AProject\AppleStore\AppleStore\nlog.config
+2023-08-23 20:20:42.5060 Info NLogRequestPostedBodyMiddleware is not yet initialized, which is required by aspnet-request-posted-body.
+2023-08-23 20:25:22.9851 Info Registered target NLog.Targets.FileTarget(Name=allfile)
+2023-08-23 20:25:22.9851 Info Registered target NLog.Targets.FileTarget(Name=ownFile-web)
+2023-08-23 20:25:22.9900 Info Registered target NLog.Targets.ConsoleTarget(Name=console)
+2023-08-23 20:25:22.9900 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target 'lifetimeConsole' not found for logging rule: Microsoft.Hosting.Lifetime.
+2023-08-23 20:25:22.9900 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.3.1999. Product version: 5.2.3+a5ddef92a8afb22508450803e37c001f4a3ba52a. GlobalAssemblyCache: False
+2023-08-23 20:25:22.9900 Info Validating config: TargetNames=allfile, console, ownFile-web, ConfigItems=69, FilePath=C:\AProject\AppleStore\AppleStore\nlog.config
+2023-08-23 20:25:23.0099 Info Configuration initialized.
+2023-08-23 20:25:23.0745 Info Validating config: TargetNames=allfile, console, ownFile-web, ConfigItems=69, FilePath=C:\AProject\AppleStore\AppleStore\nlog.config
+2023-08-23 20:25:24.3021 Info NLogRequestPostedBodyMiddleware is not yet initialized, which is required by aspnet-request-posted-body.
+2023-08-23 20:26:07.2233 Info Registered target NLog.Targets.FileTarget(Name=allfile)
+2023-08-23 20:26:07.2277 Info Registered target NLog.Targets.FileTarget(Name=ownFile-web)
+2023-08-23 20:26:07.2277 Info Registered target NLog.Targets.ConsoleTarget(Name=console)
+2023-08-23 20:26:07.2277 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target 'lifetimeConsole' not found for logging rule: Microsoft.Hosting.Lifetime.
+2023-08-23 20:26:07.2277 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.3.1999. Product version: 5.2.3+a5ddef92a8afb22508450803e37c001f4a3ba52a. GlobalAssemblyCache: False
+2023-08-23 20:26:07.2426 Info Validating config: TargetNames=allfile, console, ownFile-web, ConfigItems=69, FilePath=C:\AProject\AppleStore\AppleStore\nlog.config
+2023-08-23 20:26:07.2426 Info Configuration initialized.
+2023-08-23 20:26:07.3150 Info Validating config: TargetNames=allfile, console, ownFile-web, ConfigItems=69, FilePath=C:\AProject\AppleStore\AppleStore\nlog.config
+2023-08-23 20:26:08.5409 Info NLogRequestPostedBodyMiddleware is not yet initialized, which is required by aspnet-request-posted-body.
+2023-08-23 20:26:24.0754 Info Registered target NLog.Targets.FileTarget(Name=allfile)
+2023-08-23 20:26:24.1001 Info Registered target NLog.Targets.FileTarget(Name=ownFile-web)
+2023-08-23 20:26:24.1001 Info Registered target NLog.Targets.ConsoleTarget(Name=console)
+2023-08-23 20:26:24.1001 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target 'lifetimeConsole' not found for logging rule: Microsoft.Hosting.Lifetime.
+2023-08-23 20:26:24.1243 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.3.1999. Product version: 5.2.3+a5ddef92a8afb22508450803e37c001f4a3ba52a. GlobalAssemblyCache: False
+2023-08-23 20:26:24.1328 Info Validating config: TargetNames=allfile, console, ownFile-web, ConfigItems=69, FilePath=C:\AProject\AppleStore\AppleStore\nlog.config
+2023-08-23 20:26:24.1328 Info Configuration initialized.
+2023-08-23 20:26:24.2519 Info Validating config: TargetNames=allfile, console, ownFile-web, ConfigItems=69, FilePath=C:\AProject\AppleStore\AppleStore\nlog.config
+2023-08-23 20:30:10.3832 Info Registered target NLog.Targets.FileTarget(Name=allfile)
+2023-08-23 20:30:10.4041 Info Registered target NLog.Targets.FileTarget(Name=ownFile-web)
+2023-08-23 20:30:10.4041 Info Registered target NLog.Targets.ConsoleTarget(Name=console)
+2023-08-23 20:30:10.4170 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target 'lifetimeConsole' not found for logging rule: Microsoft.Hosting.Lifetime.
+2023-08-23 20:30:10.4307 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.3.1999. Product version: 5.2.3+a5ddef92a8afb22508450803e37c001f4a3ba52a. GlobalAssemblyCache: False
+2023-08-23 20:30:10.4307 Info Validating config: TargetNames=allfile, console, ownFile-web, ConfigItems=69, FilePath=C:\AProject\AppleStore\AppleStore\nlog.config
+2023-08-23 20:30:10.4484 Info Configuration initialized.
+2023-08-23 20:30:10.5441 Info Validating config: TargetNames=allfile, console, ownFile-web, ConfigItems=69, FilePath=C:\AProject\AppleStore\AppleStore\nlog.config
+2023-08-23 20:30:12.4586 Info NLogRequestPostedBodyMiddleware is not yet initialized, which is required by aspnet-request-posted-body.
+2023-08-23 20:31:57.3641 Info Registered target NLog.Targets.FileTarget(Name=allfile)
+2023-08-23 20:31:57.3855 Info Registered target NLog.Targets.FileTarget(Name=ownFile-web)
+2023-08-23 20:31:57.3855 Info Registered target NLog.Targets.ConsoleTarget(Name=console)
+2023-08-23 20:31:57.3976 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target 'lifetimeConsole' not found for logging rule: Microsoft.Hosting.Lifetime.
+2023-08-23 20:31:57.3976 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.3.1999. Product version: 5.2.3+a5ddef92a8afb22508450803e37c001f4a3ba52a. GlobalAssemblyCache: False
+2023-08-23 20:31:57.4182 Info Validating config: TargetNames=allfile, console, ownFile-web, ConfigItems=69, FilePath=C:\AProject\AppleStore\AppleStore\nlog.config
+2023-08-23 20:31:57.4292 Info Configuration initialized.
+2023-08-23 20:31:57.5469 Info Validating config: TargetNames=allfile, console, ownFile-web, ConfigItems=69, FilePath=C:\AProject\AppleStore\AppleStore\nlog.config
+2023-08-23 20:32:16.6145 Info NLogRequestPostedBodyMiddleware is not yet initialized, which is required by aspnet-request-posted-body.
+2023-08-23 20:32:52.4472 Info Registered target NLog.Targets.FileTarget(Name=allfile)
+2023-08-23 20:32:52.4685 Info Registered target NLog.Targets.FileTarget(Name=ownFile-web)
+2023-08-23 20:32:52.4685 Info Registered target NLog.Targets.ConsoleTarget(Name=console)
+2023-08-23 20:32:52.4804 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target 'lifetimeConsole' not found for logging rule: Microsoft.Hosting.Lifetime.
+2023-08-23 20:32:52.4922 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.3.1999. Product version: 5.2.3+a5ddef92a8afb22508450803e37c001f4a3ba52a. GlobalAssemblyCache: False
+2023-08-23 20:32:52.4922 Info Validating config: TargetNames=allfile, console, ownFile-web, ConfigItems=69, FilePath=C:\AProject\AppleStore\AppleStore\nlog.config
+2023-08-23 20:32:52.5120 Info Configuration initialized.
+2023-08-23 20:32:52.6248 Info Validating config: TargetNames=allfile, console, ownFile-web, ConfigItems=69, FilePath=C:\AProject\AppleStore\AppleStore\nlog.config
+2023-08-23 20:33:46.3519 Info Registered target NLog.Targets.FileTarget(Name=allfile)
+2023-08-23 20:33:46.3519 Info Registered target NLog.Targets.FileTarget(Name=ownFile-web)
+2023-08-23 20:33:46.3519 Info Registered target NLog.Targets.ConsoleTarget(Name=console)
+2023-08-23 20:33:46.3519 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target 'lifetimeConsole' not found for logging rule: Microsoft.Hosting.Lifetime.
+2023-08-23 20:33:46.3659 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.3.1999. Product version: 5.2.3+a5ddef92a8afb22508450803e37c001f4a3ba52a. GlobalAssemblyCache: False
+2023-08-23 20:33:46.3659 Info Validating config: TargetNames=allfile, console, ownFile-web, ConfigItems=69, FilePath=C:\AProject\AppleStore\AppleStore\nlog.config
+2023-08-23 20:33:46.3842 Info Configuration initialized.
+2023-08-23 20:33:46.4574 Info Validating config: TargetNames=allfile, console, ownFile-web, ConfigItems=69, FilePath=C:\AProject\AppleStore\AppleStore\nlog.config
+2023-08-23 20:34:07.0373 Info Registered target NLog.Targets.FileTarget(Name=allfile)
+2023-08-23 20:34:07.0614 Info Registered target NLog.Targets.FileTarget(Name=ownFile-web)
+2023-08-23 20:34:07.0614 Info Registered target NLog.Targets.ConsoleTarget(Name=console)
+2023-08-23 20:34:07.0754 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target 'lifetimeConsole' not found for logging rule: Microsoft.Hosting.Lifetime.
+2023-08-23 20:34:07.0895 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.3.1999. Product version: 5.2.3+a5ddef92a8afb22508450803e37c001f4a3ba52a. GlobalAssemblyCache: False
+2023-08-23 20:34:07.1011 Info Validating config: TargetNames=allfile, console, ownFile-web, ConfigItems=69, FilePath=C:\AProject\AppleStore\AppleStore\nlog.config
+2023-08-23 20:34:07.1011 Info Configuration initialized.
+2023-08-23 20:34:07.2360 Info Validating config: TargetNames=allfile, console, ownFile-web, ConfigItems=69, FilePath=C:\AProject\AppleStore\AppleStore\nlog.config
+2023-08-23 20:35:25.7001 Info Registered target NLog.Targets.FileTarget(Name=allfile)
+2023-08-23 20:35:25.7001 Info Registered target NLog.Targets.FileTarget(Name=ownFile-web)
+2023-08-23 20:35:25.7001 Info Registered target NLog.Targets.ConsoleTarget(Name=console)
+2023-08-23 20:35:25.7001 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target 'lifetimeConsole' not found for logging rule: Microsoft.Hosting.Lifetime.
+2023-08-23 20:35:25.7109 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.3.1999. Product version: 5.2.3+a5ddef92a8afb22508450803e37c001f4a3ba52a. GlobalAssemblyCache: False
+2023-08-23 20:35:25.7109 Info Validating config: TargetNames=allfile, console, ownFile-web, ConfigItems=69, FilePath=C:\AProject\AppleStore\AppleStore\nlog.config
+2023-08-23 20:35:25.7272 Info Configuration initialized.
+2023-08-23 20:35:25.7918 Info Validating config: TargetNames=allfile, console, ownFile-web, ConfigItems=69, FilePath=C:\AProject\AppleStore\AppleStore\nlog.config
+2023-08-23 20:37:55.0492 Info Registered target NLog.Targets.FileTarget(Name=allfile)
+2023-08-23 20:37:55.0550 Info Registered target NLog.Targets.FileTarget(Name=ownFile-web)
+2023-08-23 20:37:55.0550 Info Registered target NLog.Targets.ConsoleTarget(Name=console)
+2023-08-23 20:37:55.0550 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target 'lifetimeConsole' not found for logging rule: Microsoft.Hosting.Lifetime.
+2023-08-23 20:37:55.0550 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.3.1999. Product version: 5.2.3+a5ddef92a8afb22508450803e37c001f4a3ba52a. GlobalAssemblyCache: False
+2023-08-23 20:37:55.0550 Info Validating config: TargetNames=allfile, console, ownFile-web, ConfigItems=69, FilePath=C:\AProject\AppleStore\AppleStore\nlog.config
+2023-08-23 20:37:55.0765 Info Configuration initialized.
+2023-08-23 20:37:55.1403 Info Validating config: TargetNames=allfile, console, ownFile-web, ConfigItems=69, FilePath=C:\AProject\AppleStore\AppleStore\nlog.config
+2023-08-23 20:37:56.3191 Info NLogRequestPostedBodyMiddleware is not yet initialized, which is required by aspnet-request-posted-body.
+2023-08-23 20:39:21.7376 Info Registered target NLog.Targets.FileTarget(Name=allfile)
+2023-08-23 20:39:21.7420 Info Registered target NLog.Targets.FileTarget(Name=ownFile-web)
+2023-08-23 20:39:21.7420 Info Registered target NLog.Targets.ConsoleTarget(Name=console)
+2023-08-23 20:39:21.7420 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target 'lifetimeConsole' not found for logging rule: Microsoft.Hosting.Lifetime.
+2023-08-23 20:39:21.7420 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.3.1999. Product version: 5.2.3+a5ddef92a8afb22508450803e37c001f4a3ba52a. GlobalAssemblyCache: False
+2023-08-23 20:39:21.7559 Info Validating config: TargetNames=allfile, console, ownFile-web, ConfigItems=69, FilePath=C:\AProject\AppleStore\AppleStore\nlog.config
+2023-08-23 20:39:21.7559 Info Configuration initialized.
+2023-08-23 20:39:21.8321 Info Validating config: TargetNames=allfile, console, ownFile-web, ConfigItems=69, FilePath=C:\AProject\AppleStore\AppleStore\nlog.config
+2023-08-23 20:39:23.1362 Info NLogRequestPostedBodyMiddleware is not yet initialized, which is required by aspnet-request-posted-body.
+2023-08-23 20:44:25.1973 Info Registered target NLog.Targets.FileTarget(Name=allfile)
+2023-08-23 20:44:25.1973 Info Registered target NLog.Targets.FileTarget(Name=ownFile-web)
+2023-08-23 20:44:25.1973 Info Registered target NLog.Targets.ConsoleTarget(Name=console)
+2023-08-23 20:44:25.1973 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target 'lifetimeConsole' not found for logging rule: Microsoft.Hosting.Lifetime.
+2023-08-23 20:44:25.1973 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.3.1999. Product version: 5.2.3+a5ddef92a8afb22508450803e37c001f4a3ba52a. GlobalAssemblyCache: False
+2023-08-23 20:44:25.2146 Info Validating config: TargetNames=allfile, console, ownFile-web, ConfigItems=69, FilePath=C:\AProject\AppleStore\AppleStore\nlog.config
+2023-08-23 20:44:25.2146 Info Configuration initialized.
+2023-08-23 20:44:25.2804 Info Validating config: TargetNames=allfile, console, ownFile-web, ConfigItems=69, FilePath=C:\AProject\AppleStore\AppleStore\nlog.config
+2023-08-23 20:44:26.4424 Info NLogRequestPostedBodyMiddleware is not yet initialized, which is required by aspnet-request-posted-body.
+2023-08-23 20:49:45.4921 Info Registered target NLog.Targets.FileTarget(Name=allfile)
+2023-08-23 20:49:45.4921 Info Registered target NLog.Targets.FileTarget(Name=ownFile-web)
+2023-08-23 20:49:45.4921 Info Registered target NLog.Targets.ConsoleTarget(Name=console)
+2023-08-23 20:49:45.4921 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target 'lifetimeConsole' not found for logging rule: Microsoft.Hosting.Lifetime.
+2023-08-23 20:49:45.5059 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.3.1999. Product version: 5.2.3+a5ddef92a8afb22508450803e37c001f4a3ba52a. GlobalAssemblyCache: False
+2023-08-23 20:49:45.5059 Info Validating config: TargetNames=allfile, console, ownFile-web, ConfigItems=69, FilePath=C:\AProject\AppleStore\AppleStore\nlog.config
+2023-08-23 20:49:45.5059 Info Configuration initialized.
+2023-08-23 20:49:45.5803 Info Validating config: TargetNames=allfile, console, ownFile-web, ConfigItems=69, FilePath=C:\AProject\AppleStore\AppleStore\nlog.config
+2023-08-23 20:49:46.9274 Info NLogRequestPostedBodyMiddleware is not yet initialized, which is required by aspnet-request-posted-body.
+2023-08-23 20:52:53.8493 Info Registered target NLog.Targets.FileTarget(Name=allfile)
+2023-08-23 20:52:53.8541 Info Registered target NLog.Targets.FileTarget(Name=ownFile-web)
+2023-08-23 20:52:53.8541 Info Registered target NLog.Targets.ConsoleTarget(Name=console)
+2023-08-23 20:52:53.8541 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target 'lifetimeConsole' not found for logging rule: Microsoft.Hosting.Lifetime.
+2023-08-23 20:52:53.8541 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.3.1999. Product version: 5.2.3+a5ddef92a8afb22508450803e37c001f4a3ba52a. GlobalAssemblyCache: False
+2023-08-23 20:52:53.8683 Info Validating config: TargetNames=allfile, console, ownFile-web, ConfigItems=69, FilePath=C:\AProject\AppleStore\AppleStore\nlog.config
+2023-08-23 20:52:53.8683 Info Configuration initialized.
+2023-08-23 20:52:53.9451 Info Validating config: TargetNames=allfile, console, ownFile-web, ConfigItems=69, FilePath=C:\AProject\AppleStore\AppleStore\nlog.config
+2023-08-23 20:52:55.1814 Info NLogRequestPostedBodyMiddleware is not yet initialized, which is required by aspnet-request-posted-body.
+2023-08-23 20:53:19.3841 Info Registered target NLog.Targets.FileTarget(Name=allfile)
+2023-08-23 20:53:19.3841 Info Registered target NLog.Targets.FileTarget(Name=ownFile-web)
+2023-08-23 20:53:19.3841 Info Registered target NLog.Targets.ConsoleTarget(Name=console)
+2023-08-23 20:53:19.3841 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target 'lifetimeConsole' not found for logging rule: Microsoft.Hosting.Lifetime.
+2023-08-23 20:53:19.3841 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.3.1999. Product version: 5.2.3+a5ddef92a8afb22508450803e37c001f4a3ba52a. GlobalAssemblyCache: False
+2023-08-23 20:53:19.4011 Info Validating config: TargetNames=allfile, console, ownFile-web, ConfigItems=69, FilePath=C:\AProject\AppleStore\AppleStore\nlog.config
+2023-08-23 20:53:19.4011 Info Configuration initialized.
+2023-08-23 20:53:19.4675 Info Validating config: TargetNames=allfile, console, ownFile-web, ConfigItems=69, FilePath=C:\AProject\AppleStore\AppleStore\nlog.config
+2023-08-23 20:53:20.8507 Info NLogRequestPostedBodyMiddleware is not yet initialized, which is required by aspnet-request-posted-body.
+2023-08-23 20:58:08.3517 Info Registered target NLog.Targets.FileTarget(Name=allfile)
+2023-08-23 20:58:08.3517 Info Registered target NLog.Targets.FileTarget(Name=ownFile-web)
+2023-08-23 20:58:08.3517 Info Registered target NLog.Targets.ConsoleTarget(Name=console)
+2023-08-23 20:58:08.3517 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target 'lifetimeConsole' not found for logging rule: Microsoft.Hosting.Lifetime.
+2023-08-23 20:58:08.3517 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.3.1999. Product version: 5.2.3+a5ddef92a8afb22508450803e37c001f4a3ba52a. GlobalAssemblyCache: False
+2023-08-23 20:58:08.3721 Info Validating config: TargetNames=allfile, console, ownFile-web, ConfigItems=69, FilePath=C:\AProject\AppleStore\AppleStore\nlog.config
+2023-08-23 20:58:08.3831 Info Configuration initialized.
+2023-08-23 20:58:08.4500 Info Validating config: TargetNames=allfile, console, ownFile-web, ConfigItems=69, FilePath=C:\AProject\AppleStore\AppleStore\nlog.config
+2023-08-23 20:58:09.6929 Info NLogRequestPostedBodyMiddleware is not yet initialized, which is required by aspnet-request-posted-body.
+2023-08-23 21:00:02.0740 Info Registered target NLog.Targets.FileTarget(Name=allfile)
+2023-08-23 21:00:02.0740 Info Registered target NLog.Targets.FileTarget(Name=ownFile-web)
+2023-08-23 21:00:02.0740 Info Registered target NLog.Targets.ConsoleTarget(Name=console)
+2023-08-23 21:00:02.0740 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target 'lifetimeConsole' not found for logging rule: Microsoft.Hosting.Lifetime.
+2023-08-23 21:00:02.0853 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.3.1999. Product version: 5.2.3+a5ddef92a8afb22508450803e37c001f4a3ba52a. GlobalAssemblyCache: False
+2023-08-23 21:00:02.0853 Info Validating config: TargetNames=allfile, console, ownFile-web, ConfigItems=69, FilePath=C:\AProject\AppleStore\AppleStore\nlog.config
+2023-08-23 21:00:02.1007 Info Configuration initialized.
+2023-08-23 21:00:02.1622 Info Validating config: TargetNames=allfile, console, ownFile-web, ConfigItems=69, FilePath=C:\AProject\AppleStore\AppleStore\nlog.config
+2023-08-23 21:00:03.3343 Info NLogRequestPostedBodyMiddleware is not yet initialized, which is required by aspnet-request-posted-body.
+2023-08-23 21:10:11.9014 Info Registered target NLog.Targets.FileTarget(Name=allfile)
+2023-08-23 21:10:11.9014 Info Registered target NLog.Targets.FileTarget(Name=ownFile-web)
+2023-08-23 21:10:11.9014 Info Registered target NLog.Targets.ConsoleTarget(Name=console)
+2023-08-23 21:10:11.9154 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target 'lifetimeConsole' not found for logging rule: Microsoft.Hosting.Lifetime.
+2023-08-23 21:10:11.9154 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.3.1999. Product version: 5.2.3+a5ddef92a8afb22508450803e37c001f4a3ba52a. GlobalAssemblyCache: False
+2023-08-23 21:10:11.9298 Info Validating config: TargetNames=allfile, console, ownFile-web, ConfigItems=69, FilePath=C:\AProject\AppleStore\AppleStore\nlog.config
+2023-08-23 21:10:11.9440 Info Configuration initialized.
+2023-08-23 21:10:12.0124 Info Validating config: TargetNames=allfile, console, ownFile-web, ConfigItems=69, FilePath=C:\AProject\AppleStore\AppleStore\nlog.config
+2023-08-23 21:10:13.3037 Info NLogRequestPostedBodyMiddleware is not yet initialized, which is required by aspnet-request-posted-body.
+2023-08-23 21:24:38.8069 Info Registered target NLog.Targets.FileTarget(Name=allfile)
+2023-08-23 21:24:38.8069 Info Registered target NLog.Targets.FileTarget(Name=ownFile-web)
+2023-08-23 21:24:38.8069 Info Registered target NLog.Targets.ConsoleTarget(Name=console)
+2023-08-23 21:24:38.8069 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target 'lifetimeConsole' not found for logging rule: Microsoft.Hosting.Lifetime.
+2023-08-23 21:24:38.8197 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.3.1999. Product version: 5.2.3+a5ddef92a8afb22508450803e37c001f4a3ba52a. GlobalAssemblyCache: False
+2023-08-23 21:24:38.8197 Info Validating config: TargetNames=allfile, console, ownFile-web, ConfigItems=69, FilePath=C:\AProject\AppleStore\AppleStore\nlog.config
+2023-08-23 21:24:38.8341 Info Configuration initialized.
+2023-08-23 21:24:38.8951 Info Validating config: TargetNames=allfile, console, ownFile-web, ConfigItems=69, FilePath=C:\AProject\AppleStore\AppleStore\nlog.config
+2023-08-23 21:24:40.0831 Info NLogRequestPostedBodyMiddleware is not yet initialized, which is required by aspnet-request-posted-body.
+2023-08-23 21:26:30.2176 Info Registered target NLog.Targets.FileTarget(Name=allfile)
+2023-08-23 21:26:30.2176 Info Registered target NLog.Targets.FileTarget(Name=ownFile-web)
+2023-08-23 21:26:30.2176 Info Registered target NLog.Targets.ConsoleTarget(Name=console)
+2023-08-23 21:26:30.2264 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target 'lifetimeConsole' not found for logging rule: Microsoft.Hosting.Lifetime.
+2023-08-23 21:26:30.2264 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.3.1999. Product version: 5.2.3+a5ddef92a8afb22508450803e37c001f4a3ba52a. GlobalAssemblyCache: False
+2023-08-23 21:26:30.2264 Info Validating config: TargetNames=allfile, console, ownFile-web, ConfigItems=69, FilePath=C:\AProject\AppleStore\AppleStore\nlog.config
+2023-08-23 21:26:30.2445 Info Configuration initialized.
+2023-08-23 21:26:30.3026 Info Validating config: TargetNames=allfile, console, ownFile-web, ConfigItems=69, FilePath=C:\AProject\AppleStore\AppleStore\nlog.config
+2023-08-23 21:26:31.6149 Info NLogRequestPostedBodyMiddleware is not yet initialized, which is required by aspnet-request-posted-body.
+2023-08-23 21:27:33.0178 Info Registered target NLog.Targets.FileTarget(Name=allfile)
+2023-08-23 21:27:33.0233 Info Registered target NLog.Targets.FileTarget(Name=ownFile-web)
+2023-08-23 21:27:33.0233 Info Registered target NLog.Targets.ConsoleTarget(Name=console)
+2023-08-23 21:27:33.0233 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target 'lifetimeConsole' not found for logging rule: Microsoft.Hosting.Lifetime.
+2023-08-23 21:27:33.0233 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.3.1999. Product version: 5.2.3+a5ddef92a8afb22508450803e37c001f4a3ba52a. GlobalAssemblyCache: False
+2023-08-23 21:27:33.0233 Info Validating config: TargetNames=allfile, console, ownFile-web, ConfigItems=69, FilePath=C:\AProject\AppleStore\AppleStore\nlog.config
+2023-08-23 21:27:33.0455 Info Configuration initialized.
+2023-08-23 21:27:33.1040 Info Validating config: TargetNames=allfile, console, ownFile-web, ConfigItems=69, FilePath=C:\AProject\AppleStore\AppleStore\nlog.config
+2023-08-23 21:27:34.7270 Info NLogRequestPostedBodyMiddleware is not yet initialized, which is required by aspnet-request-posted-body.
+2023-08-23 21:28:42.0922 Info Registered target NLog.Targets.FileTarget(Name=allfile)
+2023-08-23 21:28:42.0922 Info Registered target NLog.Targets.FileTarget(Name=ownFile-web)
+2023-08-23 21:28:42.0922 Info Registered target NLog.Targets.ConsoleTarget(Name=console)
+2023-08-23 21:28:42.1019 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target 'lifetimeConsole' not found for logging rule: Microsoft.Hosting.Lifetime.
+2023-08-23 21:28:42.1019 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.3.1999. Product version: 5.2.3+a5ddef92a8afb22508450803e37c001f4a3ba52a. GlobalAssemblyCache: False
+2023-08-23 21:28:42.1019 Info Validating config: TargetNames=allfile, console, ownFile-web, ConfigItems=69, FilePath=C:\AProject\AppleStore\AppleStore\nlog.config
+2023-08-23 21:28:42.1195 Info Configuration initialized.
+2023-08-23 21:28:42.1817 Info Validating config: TargetNames=allfile, console, ownFile-web, ConfigItems=69, FilePath=C:\AProject\AppleStore\AppleStore\nlog.config
+2023-08-23 21:28:43.3557 Info NLogRequestPostedBodyMiddleware is not yet initialized, which is required by aspnet-request-posted-body.
+2023-08-23 21:29:23.8419 Info Registered target NLog.Targets.FileTarget(Name=allfile)
+2023-08-23 21:29:23.8638 Info Registered target NLog.Targets.FileTarget(Name=ownFile-web)
+2023-08-23 21:29:23.8638 Info Registered target NLog.Targets.ConsoleTarget(Name=console)
+2023-08-23 21:29:23.8776 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target 'lifetimeConsole' not found for logging rule: Microsoft.Hosting.Lifetime.
+2023-08-23 21:29:23.8888 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.3.1999. Product version: 5.2.3+a5ddef92a8afb22508450803e37c001f4a3ba52a. GlobalAssemblyCache: False
+2023-08-23 21:29:23.8965 Info Validating config: TargetNames=allfile, console, ownFile-web, ConfigItems=69, FilePath=C:\AProject\AppleStore\AppleStore\nlog.config
+2023-08-23 21:29:23.8965 Info Configuration initialized.
+2023-08-23 21:29:24.0067 Info Validating config: TargetNames=allfile, console, ownFile-web, ConfigItems=69, FilePath=C:\AProject\AppleStore\AppleStore\nlog.config
+2023-08-23 21:29:25.8347 Info NLogRequestPostedBodyMiddleware is not yet initialized, which is required by aspnet-request-posted-body.
+2023-08-23 21:30:14.1663 Info Registered target NLog.Targets.FileTarget(Name=allfile)
+2023-08-23 21:30:14.1663 Info Registered target NLog.Targets.FileTarget(Name=ownFile-web)
+2023-08-23 21:30:14.1663 Info Registered target NLog.Targets.ConsoleTarget(Name=console)
+2023-08-23 21:30:14.1663 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target 'lifetimeConsole' not found for logging rule: Microsoft.Hosting.Lifetime.
+2023-08-23 21:30:14.1787 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.3.1999. Product version: 5.2.3+a5ddef92a8afb22508450803e37c001f4a3ba52a. GlobalAssemblyCache: False
+2023-08-23 21:30:14.1787 Info Validating config: TargetNames=allfile, console, ownFile-web, ConfigItems=69, FilePath=C:\AProject\AppleStore\AppleStore\nlog.config
+2023-08-23 21:30:14.2002 Info Configuration initialized.
+2023-08-23 21:30:14.2714 Info Validating config: TargetNames=allfile, console, ownFile-web, ConfigItems=69, FilePath=C:\AProject\AppleStore\AppleStore\nlog.config
+2023-08-23 21:30:15.9118 Info NLogRequestPostedBodyMiddleware is not yet initialized, which is required by aspnet-request-posted-body.
+2023-08-23 21:36:09.1157 Info Registered target NLog.Targets.FileTarget(Name=allfile)
+2023-08-23 21:36:09.1157 Info Registered target NLog.Targets.FileTarget(Name=ownFile-web)
+2023-08-23 21:36:09.1157 Info Registered target NLog.Targets.ConsoleTarget(Name=console)
+2023-08-23 21:36:09.1157 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target 'lifetimeConsole' not found for logging rule: Microsoft.Hosting.Lifetime.
+2023-08-23 21:36:09.1157 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.3.1999. Product version: 5.2.3+a5ddef92a8afb22508450803e37c001f4a3ba52a. GlobalAssemblyCache: False
+2023-08-23 21:36:09.1330 Info Validating config: TargetNames=allfile, console, ownFile-web, ConfigItems=69, FilePath=C:\AProject\AppleStore\AppleStore\nlog.config
+2023-08-23 21:36:09.1330 Info Configuration initialized.
+2023-08-23 21:36:09.2028 Info Validating config: TargetNames=allfile, console, ownFile-web, ConfigItems=69, FilePath=C:\AProject\AppleStore\AppleStore\nlog.config
+2023-08-23 21:36:10.3840 Info NLogRequestPostedBodyMiddleware is not yet initialized, which is required by aspnet-request-posted-body.
+2023-08-23 21:38:40.5822 Info Registered target NLog.Targets.FileTarget(Name=allfile)
+2023-08-23 21:38:40.5867 Info Registered target NLog.Targets.FileTarget(Name=ownFile-web)
+2023-08-23 21:38:40.5867 Info Registered target NLog.Targets.ConsoleTarget(Name=console)
+2023-08-23 21:38:40.5867 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target 'lifetimeConsole' not found for logging rule: Microsoft.Hosting.Lifetime.
+2023-08-23 21:38:40.5867 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.3.1999. Product version: 5.2.3+a5ddef92a8afb22508450803e37c001f4a3ba52a. GlobalAssemblyCache: False
+2023-08-23 21:38:40.6003 Info Validating config: TargetNames=allfile, console, ownFile-web, ConfigItems=69, FilePath=C:\AProject\AppleStore\AppleStore\nlog.config
+2023-08-23 21:38:40.6003 Info Configuration initialized.
+2023-08-23 21:38:40.6718 Info Validating config: TargetNames=allfile, console, ownFile-web, ConfigItems=69, FilePath=C:\AProject\AppleStore\AppleStore\nlog.config
+2023-08-23 21:38:41.8337 Info NLogRequestPostedBodyMiddleware is not yet initialized, which is required by aspnet-request-posted-body.
+2023-08-23 21:43:17.0422 Info Registered target NLog.Targets.FileTarget(Name=allfile)
+2023-08-23 21:43:17.0422 Info Registered target NLog.Targets.FileTarget(Name=ownFile-web)
+2023-08-23 21:43:17.0422 Info Registered target NLog.Targets.ConsoleTarget(Name=console)
+2023-08-23 21:43:17.0422 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target 'lifetimeConsole' not found for logging rule: Microsoft.Hosting.Lifetime.
+2023-08-23 21:43:17.0534 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.3.1999. Product version: 5.2.3+a5ddef92a8afb22508450803e37c001f4a3ba52a. GlobalAssemblyCache: False
+2023-08-23 21:43:17.0534 Info Validating config: TargetNames=allfile, console, ownFile-web, ConfigItems=69, FilePath=C:\AProject\AppleStore\AppleStore\nlog.config
+2023-08-23 21:43:17.0534 Info Configuration initialized.
+2023-08-23 21:43:17.1273 Info Validating config: TargetNames=allfile, console, ownFile-web, ConfigItems=69, FilePath=C:\AProject\AppleStore\AppleStore\nlog.config
+2023-08-23 21:43:18.2403 Info NLogRequestPostedBodyMiddleware is not yet initialized, which is required by aspnet-request-posted-body.
+2023-08-23 21:51:53.1391 Info Registered target NLog.Targets.FileTarget(Name=allfile)
+2023-08-23 21:51:53.1613 Info Registered target NLog.Targets.FileTarget(Name=ownFile-web)
+2023-08-23 21:51:53.1636 Info Registered target NLog.Targets.ConsoleTarget(Name=console)
+2023-08-23 21:51:53.1636 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target 'lifetimeConsole' not found for logging rule: Microsoft.Hosting.Lifetime.
+2023-08-23 21:51:53.1872 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.3.1999. Product version: 5.2.3+a5ddef92a8afb22508450803e37c001f4a3ba52a. GlobalAssemblyCache: False
+2023-08-23 21:51:53.1950 Info Validating config: TargetNames=allfile, console, ownFile-web, ConfigItems=69, FilePath=C:\AProject\AppleStore\AppleStore\nlog.config
+2023-08-23 21:51:53.1950 Info Configuration initialized.
+2023-08-23 21:51:53.3028 Info Validating config: TargetNames=allfile, console, ownFile-web, ConfigItems=69, FilePath=C:\AProject\AppleStore\AppleStore\nlog.config
+2023-08-23 21:51:55.0847 Info NLogRequestPostedBodyMiddleware is not yet initialized, which is required by aspnet-request-posted-body.
+2023-08-23 21:54:47.2630 Info Registered target NLog.Targets.FileTarget(Name=allfile)
+2023-08-23 21:54:47.2842 Info Registered target NLog.Targets.FileTarget(Name=ownFile-web)
+2023-08-23 21:54:47.2842 Info Registered target NLog.Targets.ConsoleTarget(Name=console)
+2023-08-23 21:54:47.2973 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target 'lifetimeConsole' not found for logging rule: Microsoft.Hosting.Lifetime.
+2023-08-23 21:54:47.3089 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.3.1999. Product version: 5.2.3+a5ddef92a8afb22508450803e37c001f4a3ba52a. GlobalAssemblyCache: False
+2023-08-23 21:54:47.3089 Info Validating config: TargetNames=allfile, console, ownFile-web, ConfigItems=69, FilePath=C:\AProject\AppleStore\AppleStore\nlog.config
+2023-08-23 21:54:47.3268 Info Configuration initialized.
+2023-08-23 21:54:47.4270 Info Validating config: TargetNames=allfile, console, ownFile-web, ConfigItems=69, FilePath=C:\AProject\AppleStore\AppleStore\nlog.config
+2023-08-23 21:54:49.2410 Info NLogRequestPostedBodyMiddleware is not yet initialized, which is required by aspnet-request-posted-body.
+2023-08-23 21:55:04.4332 Info Registered target NLog.Targets.FileTarget(Name=allfile)
+2023-08-23 21:55:04.4332 Info Registered target NLog.Targets.FileTarget(Name=ownFile-web)
+2023-08-23 21:55:04.4332 Info Registered target NLog.Targets.ConsoleTarget(Name=console)
+2023-08-23 21:55:04.4332 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target 'lifetimeConsole' not found for logging rule: Microsoft.Hosting.Lifetime.
+2023-08-23 21:55:04.4443 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.3.1999. Product version: 5.2.3+a5ddef92a8afb22508450803e37c001f4a3ba52a. GlobalAssemblyCache: False
+2023-08-23 21:55:04.4443 Info Validating config: TargetNames=allfile, console, ownFile-web, ConfigItems=69, FilePath=C:\AProject\AppleStore\AppleStore\nlog.config
+2023-08-23 21:55:04.4590 Info Configuration initialized.
+2023-08-23 21:55:04.5179 Info Validating config: TargetNames=allfile, console, ownFile-web, ConfigItems=69, FilePath=C:\AProject\AppleStore\AppleStore\nlog.config
+2023-08-23 21:55:05.9296 Info NLogRequestPostedBodyMiddleware is not yet initialized, which is required by aspnet-request-posted-body.
+2023-08-23 21:56:18.7185 Info Registered target NLog.Targets.FileTarget(Name=allfile)
+2023-08-23 21:56:18.7185 Info Registered target NLog.Targets.FileTarget(Name=ownFile-web)
+2023-08-23 21:56:18.7244 Info Registered target NLog.Targets.ConsoleTarget(Name=console)
+2023-08-23 21:56:18.7244 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target 'lifetimeConsole' not found for logging rule: Microsoft.Hosting.Lifetime.
+2023-08-23 21:56:18.7244 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.3.1999. Product version: 5.2.3+a5ddef92a8afb22508450803e37c001f4a3ba52a. GlobalAssemblyCache: False
+2023-08-23 21:56:18.7244 Info Validating config: TargetNames=allfile, console, ownFile-web, ConfigItems=69, FilePath=C:\AProject\AppleStore\AppleStore\nlog.config
+2023-08-23 21:56:18.7477 Info Configuration initialized.
+2023-08-23 21:56:18.8073 Info Validating config: TargetNames=allfile, console, ownFile-web, ConfigItems=69, FilePath=C:\AProject\AppleStore\AppleStore\nlog.config
+2023-08-23 21:56:19.9598 Info NLogRequestPostedBodyMiddleware is not yet initialized, which is required by aspnet-request-posted-body.
+2023-08-23 21:58:58.0563 Info Registered target NLog.Targets.FileTarget(Name=allfile)
+2023-08-23 21:58:58.0563 Info Registered target NLog.Targets.FileTarget(Name=ownFile-web)
+2023-08-23 21:58:58.0563 Info Registered target NLog.Targets.ConsoleTarget(Name=console)
+2023-08-23 21:58:58.0563 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target 'lifetimeConsole' not found for logging rule: Microsoft.Hosting.Lifetime.
+2023-08-23 21:58:58.0563 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.3.1999. Product version: 5.2.3+a5ddef92a8afb22508450803e37c001f4a3ba52a. GlobalAssemblyCache: False
+2023-08-23 21:58:58.0739 Info Validating config: TargetNames=allfile, console, ownFile-web, ConfigItems=69, FilePath=C:\AProject\AppleStore\AppleStore\nlog.config
+2023-08-23 21:58:58.0739 Info Configuration initialized.
+2023-08-23 21:58:58.1403 Info Validating config: TargetNames=allfile, console, ownFile-web, ConfigItems=69, FilePath=C:\AProject\AppleStore\AppleStore\nlog.config
+2023-08-23 21:58:59.4272 Info NLogRequestPostedBodyMiddleware is not yet initialized, which is required by aspnet-request-posted-body.
+2023-08-23 22:02:06.0126 Info Registered target NLog.Targets.FileTarget(Name=allfile)
+2023-08-23 22:02:06.0126 Info Registered target NLog.Targets.FileTarget(Name=ownFile-web)
+2023-08-23 22:02:06.0126 Info Registered target NLog.Targets.ConsoleTarget(Name=console)
+2023-08-23 22:02:06.0221 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target 'lifetimeConsole' not found for logging rule: Microsoft.Hosting.Lifetime.
+2023-08-23 22:02:06.0221 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.3.1999. Product version: 5.2.3+a5ddef92a8afb22508450803e37c001f4a3ba52a. GlobalAssemblyCache: False
+2023-08-23 22:02:06.0221 Info Validating config: TargetNames=allfile, console, ownFile-web, ConfigItems=69, FilePath=C:\AProject\AppleStore\AppleStore\nlog.config
+2023-08-23 22:02:06.0432 Info Configuration initialized.
+2023-08-23 22:02:06.1015 Info Validating config: TargetNames=allfile, console, ownFile-web, ConfigItems=69, FilePath=C:\AProject\AppleStore\AppleStore\nlog.config
+2023-08-23 22:02:07.2110 Info NLogRequestPostedBodyMiddleware is not yet initialized, which is required by aspnet-request-posted-body.
+2023-08-23 22:03:41.2239 Info Registered target NLog.Targets.FileTarget(Name=allfile)
+2023-08-23 22:03:41.2239 Info Registered target NLog.Targets.FileTarget(Name=ownFile-web)
+2023-08-23 22:03:41.2239 Info Registered target NLog.Targets.ConsoleTarget(Name=console)
+2023-08-23 22:03:41.2239 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target 'lifetimeConsole' not found for logging rule: Microsoft.Hosting.Lifetime.
+2023-08-23 22:03:41.2239 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.3.1999. Product version: 5.2.3+a5ddef92a8afb22508450803e37c001f4a3ba52a. GlobalAssemblyCache: False
+2023-08-23 22:03:41.2409 Info Validating config: TargetNames=allfile, console, ownFile-web, ConfigItems=69, FilePath=C:\AProject\AppleStore\AppleStore\nlog.config
+2023-08-23 22:03:41.2409 Info Configuration initialized.
+2023-08-23 22:03:41.3167 Info Validating config: TargetNames=allfile, console, ownFile-web, ConfigItems=69, FilePath=C:\AProject\AppleStore\AppleStore\nlog.config
+2023-08-23 22:03:42.7122 Info NLogRequestPostedBodyMiddleware is not yet initialized, which is required by aspnet-request-posted-body.
+2023-08-23 22:04:22.3126 Info Registered target NLog.Targets.FileTarget(Name=allfile)
+2023-08-23 22:04:22.3126 Info Registered target NLog.Targets.FileTarget(Name=ownFile-web)
+2023-08-23 22:04:22.3126 Info Registered target NLog.Targets.ConsoleTarget(Name=console)
+2023-08-23 22:04:22.3206 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target 'lifetimeConsole' not found for logging rule: Microsoft.Hosting.Lifetime.
+2023-08-23 22:04:22.3206 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.3.1999. Product version: 5.2.3+a5ddef92a8afb22508450803e37c001f4a3ba52a. GlobalAssemblyCache: False
+2023-08-23 22:04:22.3206 Info Validating config: TargetNames=allfile, console, ownFile-web, ConfigItems=69, FilePath=C:\AProject\AppleStore\AppleStore\nlog.config
+2023-08-23 22:04:22.3379 Info Configuration initialized.
+2023-08-23 22:04:22.3952 Info Validating config: TargetNames=allfile, console, ownFile-web, ConfigItems=69, FilePath=C:\AProject\AppleStore\AppleStore\nlog.config
+2023-08-23 22:04:23.7255 Info NLogRequestPostedBodyMiddleware is not yet initialized, which is required by aspnet-request-posted-body.
+2023-08-23 22:06:53.1863 Info Registered target NLog.Targets.FileTarget(Name=allfile)
+2023-08-23 22:06:53.1863 Info Registered target NLog.Targets.FileTarget(Name=ownFile-web)
+2023-08-23 22:06:53.1863 Info Registered target NLog.Targets.ConsoleTarget(Name=console)
+2023-08-23 22:06:53.1946 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target 'lifetimeConsole' not found for logging rule: Microsoft.Hosting.Lifetime.
+2023-08-23 22:06:53.1946 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.3.1999. Product version: 5.2.3+a5ddef92a8afb22508450803e37c001f4a3ba52a. GlobalAssemblyCache: False
+2023-08-23 22:06:53.1946 Info Validating config: TargetNames=allfile, console, ownFile-web, ConfigItems=69, FilePath=C:\AProject\AppleStore\AppleStore\nlog.config
+2023-08-23 22:06:53.2111 Info Configuration initialized.
+2023-08-23 22:06:53.2700 Info Validating config: TargetNames=allfile, console, ownFile-web, ConfigItems=69, FilePath=C:\AProject\AppleStore\AppleStore\nlog.config
+2023-08-23 22:06:54.4432 Info NLogRequestPostedBodyMiddleware is not yet initialized, which is required by aspnet-request-posted-body.
+2023-08-23 22:08:33.5359 Info Registered target NLog.Targets.FileTarget(Name=allfile)
+2023-08-23 22:08:33.5411 Info Registered target NLog.Targets.FileTarget(Name=ownFile-web)
+2023-08-23 22:08:33.5411 Info Registered target NLog.Targets.ConsoleTarget(Name=console)
+2023-08-23 22:08:33.5411 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target 'lifetimeConsole' not found for logging rule: Microsoft.Hosting.Lifetime.
+2023-08-23 22:08:33.5411 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.3.1999. Product version: 5.2.3+a5ddef92a8afb22508450803e37c001f4a3ba52a. GlobalAssemblyCache: False
+2023-08-23 22:08:33.5537 Info Validating config: TargetNames=allfile, console, ownFile-web, ConfigItems=69, FilePath=C:\AProject\AppleStore\AppleStore\nlog.config
+2023-08-23 22:08:33.5537 Info Configuration initialized.
+2023-08-23 22:08:33.6202 Info Validating config: TargetNames=allfile, console, ownFile-web, ConfigItems=69, FilePath=C:\AProject\AppleStore\AppleStore\nlog.config
+2023-08-23 22:08:50.1460 Info NLogRequestPostedBodyMiddleware is not yet initialized, which is required by aspnet-request-posted-body.
+2023-08-23 22:24:00.4314 Info Registered target NLog.Targets.FileTarget(Name=allfile)
+2023-08-23 22:24:00.4314 Info Registered target NLog.Targets.FileTarget(Name=ownFile-web)
+2023-08-23 22:24:00.4314 Info Registered target NLog.Targets.ConsoleTarget(Name=console)
+2023-08-23 22:24:00.4428 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target 'lifetimeConsole' not found for logging rule: Microsoft.Hosting.Lifetime.
+2023-08-23 22:24:00.4428 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.3.1999. Product version: 5.2.3+a5ddef92a8afb22508450803e37c001f4a3ba52a. GlobalAssemblyCache: False
+2023-08-23 22:24:00.4428 Info Validating config: TargetNames=allfile, console, ownFile-web, ConfigItems=69, FilePath=C:\AProject\AppleStore\AppleStore\nlog.config
+2023-08-23 22:24:00.4651 Info Configuration initialized.
+2023-08-23 22:24:00.5300 Info Validating config: TargetNames=allfile, console, ownFile-web, ConfigItems=69, FilePath=C:\AProject\AppleStore\AppleStore\nlog.config
+2023-08-23 22:24:56.1197 Info NLogRequestPostedBodyMiddleware is not yet initialized, which is required by aspnet-request-posted-body.
+2023-08-23 22:26:55.6184 Info Registered target NLog.Targets.FileTarget(Name=allfile)
+2023-08-23 22:26:55.6184 Info Registered target NLog.Targets.FileTarget(Name=ownFile-web)
+2023-08-23 22:26:55.6184 Info Registered target NLog.Targets.ConsoleTarget(Name=console)
+2023-08-23 22:26:55.6184 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target 'lifetimeConsole' not found for logging rule: Microsoft.Hosting.Lifetime.
+2023-08-23 22:26:55.6300 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.3.1999. Product version: 5.2.3+a5ddef92a8afb22508450803e37c001f4a3ba52a. GlobalAssemblyCache: False
+2023-08-23 22:26:55.6300 Info Validating config: TargetNames=allfile, console, ownFile-web, ConfigItems=69, FilePath=C:\AProject\AppleStore\AppleStore\nlog.config
+2023-08-23 22:26:55.6300 Info Configuration initialized.
+2023-08-23 22:26:55.7041 Info Validating config: TargetNames=allfile, console, ownFile-web, ConfigItems=69, FilePath=C:\AProject\AppleStore\AppleStore\nlog.config
+2023-08-23 22:26:56.8387 Info NLogRequestPostedBodyMiddleware is not yet initialized, which is required by aspnet-request-posted-body.
+2023-08-23 22:29:30.3304 Info Registered target NLog.Targets.FileTarget(Name=allfile)
+2023-08-23 22:29:30.3372 Info Registered target NLog.Targets.FileTarget(Name=ownFile-web)
+2023-08-23 22:29:30.3372 Info Registered target NLog.Targets.ConsoleTarget(Name=console)
+2023-08-23 22:29:30.3372 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target 'lifetimeConsole' not found for logging rule: Microsoft.Hosting.Lifetime.
+2023-08-23 22:29:30.3372 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.3.1999. Product version: 5.2.3+a5ddef92a8afb22508450803e37c001f4a3ba52a. GlobalAssemblyCache: False
+2023-08-23 22:29:30.3512 Info Validating config: TargetNames=allfile, console, ownFile-web, ConfigItems=69, FilePath=C:\AProject\AppleStore\AppleStore\nlog.config
+2023-08-23 22:29:30.3512 Info Configuration initialized.
+2023-08-23 22:29:30.4213 Info Validating config: TargetNames=allfile, console, ownFile-web, ConfigItems=69, FilePath=C:\AProject\AppleStore\AppleStore\nlog.config
+2023-08-23 22:29:36.6834 Info NLogRequestPostedBodyMiddleware is not yet initialized, which is required by aspnet-request-posted-body.
+2023-08-24 00:28:34.9271 Info Registered target NLog.Targets.FileTarget(Name=allfile)
+2023-08-24 00:28:35.0017 Info Registered target NLog.Targets.FileTarget(Name=ownFile-web)
+2023-08-24 00:28:35.0017 Info Registered target NLog.Targets.ConsoleTarget(Name=console)
+2023-08-24 00:28:35.0679 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target 'lifetimeConsole' not found for logging rule: Microsoft.Hosting.Lifetime.
+2023-08-24 00:28:35.1223 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.3.1999. Product version: 5.2.3+a5ddef92a8afb22508450803e37c001f4a3ba52a. GlobalAssemblyCache: False
+2023-08-24 00:28:35.1223 Info Validating config: TargetNames=allfile, console, ownFile-web, ConfigItems=69, FilePath=C:\AProject\AppleStore\AppleStore\nlog.config
+2023-08-24 00:28:35.1537 Info Configuration initialized.
+2023-08-24 00:28:35.4917 Info Validating config: TargetNames=allfile, console, ownFile-web, ConfigItems=69, FilePath=C:\AProject\AppleStore\AppleStore\nlog.config
+2023-08-24 00:28:53.5440 Info NLogRequestPostedBodyMiddleware is not yet initialized, which is required by aspnet-request-posted-body.
+2023-08-24 00:34:35.6433 Info Registered target NLog.Targets.FileTarget(Name=allfile)
+2023-08-24 00:34:35.6500 Info Registered target NLog.Targets.FileTarget(Name=ownFile-web)
+2023-08-24 00:34:35.6500 Info Registered target NLog.Targets.ConsoleTarget(Name=console)
+2023-08-24 00:34:35.6500 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target 'lifetimeConsole' not found for logging rule: Microsoft.Hosting.Lifetime.
+2023-08-24 00:34:35.6500 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.3.1999. Product version: 5.2.3+a5ddef92a8afb22508450803e37c001f4a3ba52a. GlobalAssemblyCache: False
+2023-08-24 00:34:35.6690 Info Validating config: TargetNames=allfile, console, ownFile-web, ConfigItems=69, FilePath=C:\AProject\AppleStore\AppleStore\nlog.config
+2023-08-24 00:34:35.6827 Info Configuration initialized.
+2023-08-24 00:34:35.8364 Info Validating config: TargetNames=allfile, console, ownFile-web, ConfigItems=69, FilePath=C:\AProject\AppleStore\AppleStore\nlog.config
+2023-08-24 00:34:39.0694 Info NLogRequestPostedBodyMiddleware is not yet initialized, which is required by aspnet-request-posted-body.
+2023-08-24 00:35:50.9865 Info Registered target NLog.Targets.FileTarget(Name=allfile)
+2023-08-24 00:35:50.9933 Info Registered target NLog.Targets.FileTarget(Name=ownFile-web)
+2023-08-24 00:35:50.9933 Info Registered target NLog.Targets.ConsoleTarget(Name=console)
+2023-08-24 00:35:50.9933 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target 'lifetimeConsole' not found for logging rule: Microsoft.Hosting.Lifetime.
+2023-08-24 00:35:50.9933 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.3.1999. Product version: 5.2.3+a5ddef92a8afb22508450803e37c001f4a3ba52a. GlobalAssemblyCache: False
+2023-08-24 00:35:51.0101 Info Validating config: TargetNames=allfile, console, ownFile-web, ConfigItems=69, FilePath=C:\AProject\AppleStore\AppleStore\nlog.config
+2023-08-24 00:35:51.0101 Info Configuration initialized.
+2023-08-24 00:35:51.0987 Info Validating config: TargetNames=allfile, console, ownFile-web, ConfigItems=69, FilePath=C:\AProject\AppleStore\AppleStore\nlog.config
+2023-08-24 00:35:54.3842 Info NLogRequestPostedBodyMiddleware is not yet initialized, which is required by aspnet-request-posted-body.
+2023-08-24 00:52:44.9784 Info Registered target NLog.Targets.FileTarget(Name=allfile)
+2023-08-24 00:52:45.0139 Info Registered target NLog.Targets.FileTarget(Name=ownFile-web)
+2023-08-24 00:52:45.0139 Info Registered target NLog.Targets.ConsoleTarget(Name=console)
+2023-08-24 00:52:45.0350 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target 'lifetimeConsole' not found for logging rule: Microsoft.Hosting.Lifetime.
+2023-08-24 00:52:45.0535 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.3.1999. Product version: 5.2.3+a5ddef92a8afb22508450803e37c001f4a3ba52a. GlobalAssemblyCache: False
+2023-08-24 00:52:45.0535 Info Validating config: TargetNames=allfile, console, ownFile-web, ConfigItems=69, FilePath=C:\AProject\AppleStore\AppleStore\nlog.config
+2023-08-24 00:52:45.0721 Info Configuration initialized.
+2023-08-24 00:52:45.2284 Info Validating config: TargetNames=allfile, console, ownFile-web, ConfigItems=69, FilePath=C:\AProject\AppleStore\AppleStore\nlog.config
+2023-08-24 00:52:48.9996 Info NLogRequestPostedBodyMiddleware is not yet initialized, which is required by aspnet-request-posted-body.
+2023-08-24 00:59:13.8998 Info Registered target NLog.Targets.FileTarget(Name=allfile)
+2023-08-24 00:59:13.9212 Info Registered target NLog.Targets.FileTarget(Name=ownFile-web)
+2023-08-24 00:59:13.9212 Info Registered target NLog.Targets.ConsoleTarget(Name=console)
+2023-08-24 00:59:13.9329 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target 'lifetimeConsole' not found for logging rule: Microsoft.Hosting.Lifetime.
+2023-08-24 00:59:13.9329 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.3.1999. Product version: 5.2.3+a5ddef92a8afb22508450803e37c001f4a3ba52a. GlobalAssemblyCache: False
+2023-08-24 00:59:13.9494 Info Validating config: TargetNames=allfile, console, ownFile-web, ConfigItems=69, FilePath=C:\AProject\AppleStore\AppleStore\nlog.config
+2023-08-24 00:59:13.9624 Info Configuration initialized.
+2023-08-24 00:59:14.0610 Info Validating config: TargetNames=allfile, console, ownFile-web, ConfigItems=69, FilePath=C:\AProject\AppleStore\AppleStore\nlog.config
+2023-08-24 00:59:16.0395 Info NLogRequestPostedBodyMiddleware is not yet initialized, which is required by aspnet-request-posted-body.
+2023-08-24 01:05:37.5811 Info Registered target NLog.Targets.FileTarget(Name=allfile)
+2023-08-24 01:05:37.5863 Info Registered target NLog.Targets.FileTarget(Name=ownFile-web)
+2023-08-24 01:05:37.5863 Info Registered target NLog.Targets.ConsoleTarget(Name=console)
+2023-08-24 01:05:37.5863 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target 'lifetimeConsole' not found for logging rule: Microsoft.Hosting.Lifetime.
+2023-08-24 01:05:37.5863 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.3.1999. Product version: 5.2.3+a5ddef92a8afb22508450803e37c001f4a3ba52a. GlobalAssemblyCache: False
+2023-08-24 01:05:37.6047 Info Validating config: TargetNames=allfile, console, ownFile-web, ConfigItems=69, FilePath=C:\AProject\AppleStore\AppleStore\nlog.config
+2023-08-24 01:05:37.6047 Info Configuration initialized.
+2023-08-24 01:05:37.6889 Info Validating config: TargetNames=allfile, console, ownFile-web, ConfigItems=69, FilePath=C:\AProject\AppleStore\AppleStore\nlog.config
+2023-08-24 01:05:43.7755 Info NLogRequestPostedBodyMiddleware is not yet initialized, which is required by aspnet-request-posted-body.
+2023-08-24 03:48:52.9593 Info Registered target NLog.Targets.FileTarget(Name=allfile)
+2023-08-24 03:48:52.9593 Info Registered target NLog.Targets.FileTarget(Name=ownFile-web)
+2023-08-24 03:48:52.9593 Info Registered target NLog.Targets.ConsoleTarget(Name=console)
+2023-08-24 03:48:52.9593 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target 'lifetimeConsole' not found for logging rule: Microsoft.Hosting.Lifetime.
+2023-08-24 03:48:52.9755 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.3.1999. Product version: 5.2.3+a5ddef92a8afb22508450803e37c001f4a3ba52a. GlobalAssemblyCache: False
+2023-08-24 03:48:52.9755 Info Validating config: TargetNames=allfile, console, ownFile-web, ConfigItems=69, FilePath=C:\AProject\AppleStore\AppleStore\nlog.config
+2023-08-24 03:48:52.9996 Info Configuration initialized.
+2023-08-24 03:48:53.0809 Info Validating config: TargetNames=allfile, console, ownFile-web, ConfigItems=69, FilePath=C:\AProject\AppleStore\AppleStore\nlog.config
+2023-08-24 03:48:56.3090 Info NLogRequestPostedBodyMiddleware is not yet initialized, which is required by aspnet-request-posted-body.
+2023-08-24 03:53:05.4153 Warn Exception in NLog.LayoutRenderers.ExceptionLayoutRenderer.AppendToString(): System.TypeLoadException. Exception: System.TypeLoadException: Could not load type 'AspNetCoreGeneratedDocument.Areas_Admin_Views_Device_Edit+<ExecuteAsync>d__15#2' from assembly 'AppleStore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null'.
+   at System.Reflection.CustomAttribute._CreateCaObject(RuntimeModule pModule, RuntimeType type, IRuntimeMethodInfo pCtor, Byte** ppBlob, Byte* pEndBlob, Int32* pcNamedArgs)
+   at System.Reflection.CustomAttribute.AddCustomAttributes(ListBuilder`1& attributes, RuntimeModule decoratedModule, Int32 decoratedMetadataToken, RuntimeType attributeFilterType, Boolean mustBeInheritable, ListBuilder`1 derivedAttributes)
+   at System.Reflection.CustomAttribute.GetCustomAttributes(RuntimeModule decoratedModule, Int32 decoratedMetadataToken, Int32 pcaCount, RuntimeType attributeFilterType)
+   at System.Reflection.CustomAttribute.GetCustomAttributes(RuntimeMethodInfo method, RuntimeType caType, Boolean inherit)
+   at System.Attribute.GetCustomAttributes(MemberInfo element, Type attributeType, Boolean inherit)
+   at System.Diagnostics.StackTrace.TryResolveStateMachineMethod(MethodBase& method, Type& declaringType)
+   at System.Diagnostics.StackTrace.ToString(TraceFormat traceFormat, StringBuilder sb)
+   at System.Diagnostics.StackTrace.ToString(TraceFormat traceFormat)
+   at System.Exception.get_StackTrace()
+   at System.Exception.ToString()
+   at NLog.LayoutRenderers.ExceptionLayoutRenderer.AppendToString(StringBuilder sb, Exception ex)
+2023-08-24 03:53:05.4176 Warn Exception in layout renderer. Exception: System.TypeLoadException: Could not load type 'AspNetCoreGeneratedDocument.Areas_Admin_Views_Device_Edit+<ExecuteAsync>d__15#2' from assembly 'AppleStore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null'.
+   at System.Reflection.CustomAttribute._CreateCaObject(RuntimeModule pModule, RuntimeType type, IRuntimeMethodInfo pCtor, Byte** ppBlob, Byte* pEndBlob, Int32* pcNamedArgs)
+   at System.Reflection.CustomAttribute.AddCustomAttributes(ListBuilder`1& attributes, RuntimeModule decoratedModule, Int32 decoratedMetadataToken, RuntimeType attributeFilterType, Boolean mustBeInheritable, ListBuilder`1 derivedAttributes)
+   at System.Reflection.CustomAttribute.GetCustomAttributes(RuntimeModule decoratedModule, Int32 decoratedMetadataToken, Int32 pcaCount, RuntimeType attributeFilterType)
+   at System.Reflection.CustomAttribute.GetCustomAttributes(RuntimeMethodInfo method, RuntimeType caType, Boolean inherit)
+   at System.Attribute.GetCustomAttributes(MemberInfo element, Type attributeType, Boolean inherit)
+   at System.Diagnostics.StackTrace.TryResolveStateMachineMethod(MethodBase& method, Type& declaringType)
+   at System.Diagnostics.StackTrace.ToString(TraceFormat traceFormat, StringBuilder sb)
+   at System.Diagnostics.StackTrace.ToString(TraceFormat traceFormat)
+   at System.Exception.get_StackTrace()
+   at System.Exception.ToString()
+   at NLog.LayoutRenderers.MessageLayoutRenderer.Append(StringBuilder builder, LogEventInfo logEvent)
+   at NLog.LayoutRenderers.LayoutRenderer.RenderAppendBuilder(LogEventInfo logEvent, StringBuilder builder)
+2023-08-24 03:53:05.4176 Warn Exception in NLog.LayoutRenderers.ExceptionLayoutRenderer.AppendToString(): System.TypeLoadException. Exception: System.TypeLoadException: Could not load type 'AspNetCoreGeneratedDocument.Areas_Admin_Views_Device_Edit+<ExecuteAsync>d__15#2' from assembly 'AppleStore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null'.
+   at System.Reflection.CustomAttribute._CreateCaObject(RuntimeModule pModule, RuntimeType type, IRuntimeMethodInfo pCtor, Byte** ppBlob, Byte* pEndBlob, Int32* pcNamedArgs)
+   at System.Reflection.CustomAttribute.AddCustomAttributes(ListBuilder`1& attributes, RuntimeModule decoratedModule, Int32 decoratedMetadataToken, RuntimeType attributeFilterType, Boolean mustBeInheritable, ListBuilder`1 derivedAttributes)
+   at System.Reflection.CustomAttribute.GetCustomAttributes(RuntimeModule decoratedModule, Int32 decoratedMetadataToken, Int32 pcaCount, RuntimeType attributeFilterType)
+   at System.Reflection.CustomAttribute.GetCustomAttributes(RuntimeMethodInfo method, RuntimeType caType, Boolean inherit)
+   at System.Attribute.GetCustomAttributes(MemberInfo element, Type attributeType, Boolean inherit)
+   at System.Diagnostics.StackTrace.TryResolveStateMachineMethod(MethodBase& method, Type& declaringType)
+   at System.Diagnostics.StackTrace.ToString(TraceFormat traceFormat, StringBuilder sb)
+   at System.Diagnostics.StackTrace.ToString(TraceFormat traceFormat)
+   at System.Exception.get_StackTrace()
+   at System.Exception.ToString()
+   at NLog.LayoutRenderers.ExceptionLayoutRenderer.AppendToString(StringBuilder sb, Exception ex)
+2023-08-24 03:53:05.4176 Warn Exception in NLog.LayoutRenderers.ExceptionLayoutRenderer.AppendToString(): System.TypeLoadException. Exception: System.TypeLoadException: Could not load type 'AspNetCoreGeneratedDocument.Areas_Admin_Views_Device_Edit+<ExecuteAsync>d__15#2' from assembly 'AppleStore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null'.
+   at System.Reflection.CustomAttribute._CreateCaObject(RuntimeModule pModule, RuntimeType type, IRuntimeMethodInfo pCtor, Byte** ppBlob, Byte* pEndBlob, Int32* pcNamedArgs)
+   at System.Reflection.CustomAttribute.AddCustomAttributes(ListBuilder`1& attributes, RuntimeModule decoratedModule, Int32 decoratedMetadataToken, RuntimeType attributeFilterType, Boolean mustBeInheritable, ListBuilder`1 derivedAttributes)
+   at System.Reflection.CustomAttribute.GetCustomAttributes(RuntimeModule decoratedModule, Int32 decoratedMetadataToken, Int32 pcaCount, RuntimeType attributeFilterType)
+   at System.Reflection.CustomAttribute.GetCustomAttributes(RuntimeMethodInfo method, RuntimeType caType, Boolean inherit)
+   at System.Attribute.GetCustomAttributes(MemberInfo element, Type attributeType, Boolean inherit)
+   at System.Diagnostics.StackTrace.TryResolveStateMachineMethod(MethodBase& method, Type& declaringType)
+   at System.Diagnostics.StackTrace.ToString(TraceFormat traceFormat, StringBuilder sb)
+   at System.Diagnostics.StackTrace.ToString(TraceFormat traceFormat)
+   at System.Exception.get_StackTrace()
+   at System.Exception.ToString()
+   at NLog.LayoutRenderers.ExceptionLayoutRenderer.AppendToString(StringBuilder sb, Exception ex)
+2023-08-24 03:53:05.4176 Warn Exception in layout renderer. Exception: System.TypeLoadException: Could not load type 'AspNetCoreGeneratedDocument.Areas_Admin_Views_Device_Edit+<ExecuteAsync>d__15#2' from assembly 'AppleStore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null'.
+   at System.Reflection.CustomAttribute._CreateCaObject(RuntimeModule pModule, RuntimeType type, IRuntimeMethodInfo pCtor, Byte** ppBlob, Byte* pEndBlob, Int32* pcNamedArgs)
+   at System.Reflection.CustomAttribute.AddCustomAttributes(ListBuilder`1& attributes, RuntimeModule decoratedModule, Int32 decoratedMetadataToken, RuntimeType attributeFilterType, Boolean mustBeInheritable, ListBuilder`1 derivedAttributes)
+   at System.Reflection.CustomAttribute.GetCustomAttributes(RuntimeModule decoratedModule, Int32 decoratedMetadataToken, Int32 pcaCount, RuntimeType attributeFilterType)
+   at System.Reflection.CustomAttribute.GetCustomAttributes(RuntimeMethodInfo method, RuntimeType caType, Boolean inherit)
+   at System.Attribute.GetCustomAttributes(MemberInfo element, Type attributeType, Boolean inherit)
+   at System.Diagnostics.StackTrace.TryResolveStateMachineMethod(MethodBase& method, Type& declaringType)
+   at System.Diagnostics.StackTrace.ToString(TraceFormat traceFormat, StringBuilder sb)
+   at System.Diagnostics.StackTrace.ToString(TraceFormat traceFormat)
+   at System.Exception.get_StackTrace()
+   at System.Exception.ToString()
+   at NLog.LayoutRenderers.MessageLayoutRenderer.Append(StringBuilder builder, LogEventInfo logEvent)
+   at NLog.LayoutRenderers.LayoutRenderer.RenderAppendBuilder(LogEventInfo logEvent, StringBuilder builder)
+2023-08-24 03:53:05.4176 Warn Exception in NLog.LayoutRenderers.ExceptionLayoutRenderer.AppendToString(): System.TypeLoadException. Exception: System.TypeLoadException: Could not load type 'AspNetCoreGeneratedDocument.Areas_Admin_Views_Device_Edit+<ExecuteAsync>d__15#2' from assembly 'AppleStore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null'.
+   at System.Reflection.CustomAttribute._CreateCaObject(RuntimeModule pModule, RuntimeType type, IRuntimeMethodInfo pCtor, Byte** ppBlob, Byte* pEndBlob, Int32* pcNamedArgs)
+   at System.Reflection.CustomAttribute.AddCustomAttributes(ListBuilder`1& attributes, RuntimeModule decoratedModule, Int32 decoratedMetadataToken, RuntimeType attributeFilterType, Boolean mustBeInheritable, ListBuilder`1 derivedAttributes)
+   at System.Reflection.CustomAttribute.GetCustomAttributes(RuntimeModule decoratedModule, Int32 decoratedMetadataToken, Int32 pcaCount, RuntimeType attributeFilterType)
+   at System.Reflection.CustomAttribute.GetCustomAttributes(RuntimeMethodInfo method, RuntimeType caType, Boolean inherit)
+   at System.Attribute.GetCustomAttributes(MemberInfo element, Type attributeType, Boolean inherit)
+   at System.Diagnostics.StackTrace.TryResolveStateMachineMethod(MethodBase& method, Type& declaringType)
+   at System.Diagnostics.StackTrace.ToString(TraceFormat traceFormat, StringBuilder sb)
+   at System.Diagnostics.StackTrace.ToString(TraceFormat traceFormat)
+   at System.Exception.get_StackTrace()
+   at System.Exception.ToString()
+   at NLog.LayoutRenderers.ExceptionLayoutRenderer.AppendToString(StringBuilder sb, Exception ex)
+2023-08-24 03:53:55.5176 Info Registered target NLog.Targets.FileTarget(Name=allfile)
+2023-08-24 03:53:55.5399 Info Registered target NLog.Targets.FileTarget(Name=ownFile-web)
+2023-08-24 03:53:55.5407 Info Registered target NLog.Targets.ConsoleTarget(Name=console)
+2023-08-24 03:53:55.5407 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target 'lifetimeConsole' not found for logging rule: Microsoft.Hosting.Lifetime.
+2023-08-24 03:53:55.5631 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.3.1999. Product version: 5.2.3+a5ddef92a8afb22508450803e37c001f4a3ba52a. GlobalAssemblyCache: False
+2023-08-24 03:53:55.5631 Info Validating config: TargetNames=allfile, console, ownFile-web, ConfigItems=69, FilePath=C:\AProject\AppleStore\AppleStore\nlog.config
+2023-08-24 03:53:55.5848 Info Configuration initialized.
+2023-08-24 03:53:55.6858 Info Validating config: TargetNames=allfile, console, ownFile-web, ConfigItems=69, FilePath=C:\AProject\AppleStore\AppleStore\nlog.config
+2023-08-24 03:54:05.4922 Info NLogRequestPostedBodyMiddleware is not yet initialized, which is required by aspnet-request-posted-body.
+2023-08-24 03:57:15.3648 Info Registered target NLog.Targets.FileTarget(Name=allfile)
+2023-08-24 03:57:15.3697 Info Registered target NLog.Targets.FileTarget(Name=ownFile-web)
+2023-08-24 03:57:15.3697 Info Registered target NLog.Targets.ConsoleTarget(Name=console)
+2023-08-24 03:57:15.3697 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target 'lifetimeConsole' not found for logging rule: Microsoft.Hosting.Lifetime.
+2023-08-24 03:57:15.3697 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.3.1999. Product version: 5.2.3+a5ddef92a8afb22508450803e37c001f4a3ba52a. GlobalAssemblyCache: False
+2023-08-24 03:57:15.3827 Info Validating config: TargetNames=allfile, console, ownFile-web, ConfigItems=69, FilePath=C:\AProject\AppleStore\AppleStore\nlog.config
+2023-08-24 03:57:15.3827 Info Configuration initialized.
+2023-08-24 03:57:15.4878 Info Validating config: TargetNames=allfile, console, ownFile-web, ConfigItems=69, FilePath=C:\AProject\AppleStore\AppleStore\nlog.config
+2023-08-24 03:57:17.9646 Info NLogRequestPostedBodyMiddleware is not yet initialized, which is required by aspnet-request-posted-body.
+2023-08-24 14:11:13.0249 Info Registered target NLog.Targets.FileTarget(Name=allfile)
+2023-08-24 14:11:13.1941 Info Registered target NLog.Targets.FileTarget(Name=ownFile-web)
+2023-08-24 14:11:13.1941 Info Registered target NLog.Targets.ConsoleTarget(Name=console)
+2023-08-24 14:11:13.3034 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target 'lifetimeConsole' not found for logging rule: Microsoft.Hosting.Lifetime.
+2023-08-24 14:11:13.3779 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.3.1999. Product version: 5.2.3+a5ddef92a8afb22508450803e37c001f4a3ba52a. GlobalAssemblyCache: False
+2023-08-24 14:11:13.4064 Info Validating config: TargetNames=allfile, console, ownFile-web, ConfigItems=69, FilePath=C:\AProject\AppleStore\AppleStore\nlog.config
+2023-08-24 14:11:13.4483 Info Configuration initialized.
+2023-08-24 14:11:13.9349 Info Validating config: TargetNames=allfile, console, ownFile-web, ConfigItems=69, FilePath=C:\AProject\AppleStore\AppleStore\nlog.config
+2023-08-24 14:11:25.1613 Info NLogRequestPostedBodyMiddleware is not yet initialized, which is required by aspnet-request-posted-body.
+2023-08-24 14:23:35.6616 Info Registered target NLog.Targets.FileTarget(Name=allfile)
+2023-08-24 14:23:35.6677 Info Registered target NLog.Targets.FileTarget(Name=ownFile-web)
+2023-08-24 14:23:35.6677 Info Registered target NLog.Targets.ConsoleTarget(Name=console)
+2023-08-24 14:23:35.6677 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target 'lifetimeConsole' not found for logging rule: Microsoft.Hosting.Lifetime.
+2023-08-24 14:23:35.6677 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.3.1999. Product version: 5.2.3+a5ddef92a8afb22508450803e37c001f4a3ba52a. GlobalAssemblyCache: False
+2023-08-24 14:23:35.6827 Info Validating config: TargetNames=allfile, console, ownFile-web, ConfigItems=69, FilePath=C:\AProject\AppleStore\AppleStore\nlog.config
+2023-08-24 14:23:35.6827 Info Configuration initialized.
+2023-08-24 14:23:35.7648 Info Validating config: TargetNames=allfile, console, ownFile-web, ConfigItems=69, FilePath=C:\AProject\AppleStore\AppleStore\nlog.config
+2023-08-24 14:23:40.7160 Info NLogRequestPostedBodyMiddleware is not yet initialized, which is required by aspnet-request-posted-body.
+2023-08-24 14:26:47.9018 Info Registered target NLog.Targets.FileTarget(Name=allfile)
+2023-08-24 14:26:47.9095 Info Registered target NLog.Targets.FileTarget(Name=ownFile-web)
+2023-08-24 14:26:47.9095 Info Registered target NLog.Targets.ConsoleTarget(Name=console)
+2023-08-24 14:26:47.9095 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target 'lifetimeConsole' not found for logging rule: Microsoft.Hosting.Lifetime.
+2023-08-24 14:26:47.9095 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.3.1999. Product version: 5.2.3+a5ddef92a8afb22508450803e37c001f4a3ba52a. GlobalAssemblyCache: False
+2023-08-24 14:26:47.9282 Info Validating config: TargetNames=allfile, console, ownFile-web, ConfigItems=69, FilePath=C:\AProject\AppleStore\AppleStore\nlog.config
+2023-08-24 14:26:47.9420 Info Configuration initialized.
+2023-08-24 14:26:48.0456 Info Validating config: TargetNames=allfile, console, ownFile-web, ConfigItems=69, FilePath=C:\AProject\AppleStore\AppleStore\nlog.config
+2023-08-24 14:26:51.0614 Info NLogRequestPostedBodyMiddleware is not yet initialized, which is required by aspnet-request-posted-body.
+2023-08-24 14:32:16.8707 Info Registered target NLog.Targets.FileTarget(Name=allfile)
+2023-08-24 14:32:16.8707 Info Registered target NLog.Targets.FileTarget(Name=ownFile-web)
+2023-08-24 14:32:16.8707 Info Registered target NLog.Targets.ConsoleTarget(Name=console)
+2023-08-24 14:32:16.8806 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target 'lifetimeConsole' not found for logging rule: Microsoft.Hosting.Lifetime.
+2023-08-24 14:32:16.8806 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.3.1999. Product version: 5.2.3+a5ddef92a8afb22508450803e37c001f4a3ba52a. GlobalAssemblyCache: False
+2023-08-24 14:32:16.8806 Info Validating config: TargetNames=allfile, console, ownFile-web, ConfigItems=69, FilePath=C:\AProject\AppleStore\AppleStore\nlog.config
+2023-08-24 14:32:16.9051 Info Configuration initialized.
+2023-08-24 14:32:16.9867 Info Validating config: TargetNames=allfile, console, ownFile-web, ConfigItems=69, FilePath=C:\AProject\AppleStore\AppleStore\nlog.config
+2023-08-24 14:32:20.1147 Info NLogRequestPostedBodyMiddleware is not yet initialized, which is required by aspnet-request-posted-body.
+2023-08-24 14:37:06.0142 Info Registered target NLog.Targets.FileTarget(Name=allfile)
+2023-08-24 14:37:06.0488 Info Registered target NLog.Targets.FileTarget(Name=ownFile-web)
+2023-08-24 14:37:06.0488 Info Registered target NLog.Targets.ConsoleTarget(Name=console)
+2023-08-24 14:37:06.0651 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target 'lifetimeConsole' not found for logging rule: Microsoft.Hosting.Lifetime.
+2023-08-24 14:37:06.0797 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.3.1999. Product version: 5.2.3+a5ddef92a8afb22508450803e37c001f4a3ba52a. GlobalAssemblyCache: False
+2023-08-24 14:37:06.0884 Info Validating config: TargetNames=allfile, console, ownFile-web, ConfigItems=69, FilePath=C:\AProject\AppleStore\AppleStore\nlog.config
+2023-08-24 14:37:06.1000 Info Configuration initialized.
+2023-08-24 14:37:06.2565 Info Validating config: TargetNames=allfile, console, ownFile-web, ConfigItems=69, FilePath=C:\AProject\AppleStore\AppleStore\nlog.config
+2023-08-24 14:37:18.5768 Info NLogRequestPostedBodyMiddleware is not yet initialized, which is required by aspnet-request-posted-body.
+2023-08-24 14:39:45.9327 Info Registered target NLog.Targets.FileTarget(Name=allfile)
+2023-08-24 14:39:45.9327 Info Registered target NLog.Targets.FileTarget(Name=ownFile-web)
+2023-08-24 14:39:45.9327 Info Registered target NLog.Targets.ConsoleTarget(Name=console)
+2023-08-24 14:39:45.9485 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target 'lifetimeConsole' not found for logging rule: Microsoft.Hosting.Lifetime.
+2023-08-24 14:39:45.9485 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.3.1999. Product version: 5.2.3+a5ddef92a8afb22508450803e37c001f4a3ba52a. GlobalAssemblyCache: False
+2023-08-24 14:39:45.9646 Info Validating config: TargetNames=allfile, console, ownFile-web, ConfigItems=69, FilePath=C:\AProject\AppleStore\AppleStore\nlog.config
+2023-08-24 14:39:45.9784 Info Configuration initialized.
+2023-08-24 14:39:46.0646 Info Validating config: TargetNames=allfile, console, ownFile-web, ConfigItems=69, FilePath=C:\AProject\AppleStore\AppleStore\nlog.config
+2023-08-24 14:41:57.6638 Info NLogRequestPostedBodyMiddleware is not yet initialized, which is required by aspnet-request-posted-body.
+2023-08-24 14:45:27.6625 Info Registered target NLog.Targets.FileTarget(Name=allfile)
+2023-08-24 14:45:27.6625 Info Registered target NLog.Targets.FileTarget(Name=ownFile-web)
+2023-08-24 14:45:27.6625 Info Registered target NLog.Targets.ConsoleTarget(Name=console)
+2023-08-24 14:45:27.6625 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target 'lifetimeConsole' not found for logging rule: Microsoft.Hosting.Lifetime.
+2023-08-24 14:45:27.6625 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.3.1999. Product version: 5.2.3+a5ddef92a8afb22508450803e37c001f4a3ba52a. GlobalAssemblyCache: False
+2023-08-24 14:45:27.6855 Info Validating config: TargetNames=allfile, console, ownFile-web, ConfigItems=69, FilePath=C:\AProject\AppleStore\AppleStore\nlog.config
+2023-08-24 14:45:27.7018 Info Configuration initialized.
+2023-08-24 14:45:27.7775 Info Validating config: TargetNames=allfile, console, ownFile-web, ConfigItems=69, FilePath=C:\AProject\AppleStore\AppleStore\nlog.config
+2023-08-24 14:45:31.0401 Info NLogRequestPostedBodyMiddleware is not yet initialized, which is required by aspnet-request-posted-body.
+2023-08-24 14:50:50.2023 Info Registered target NLog.Targets.FileTarget(Name=allfile)
+2023-08-24 14:50:50.2023 Info Registered target NLog.Targets.FileTarget(Name=ownFile-web)
+2023-08-24 14:50:50.2082 Info Registered target NLog.Targets.ConsoleTarget(Name=console)
+2023-08-24 14:50:50.2082 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target 'lifetimeConsole' not found for logging rule: Microsoft.Hosting.Lifetime.
+2023-08-24 14:50:50.2082 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.3.1999. Product version: 5.2.3+a5ddef92a8afb22508450803e37c001f4a3ba52a. GlobalAssemblyCache: False
+2023-08-24 14:50:50.2082 Info Validating config: TargetNames=allfile, console, ownFile-web, ConfigItems=69, FilePath=C:\AProject\AppleStore\AppleStore\nlog.config
+2023-08-24 14:50:50.2291 Info Configuration initialized.
+2023-08-24 14:50:50.2937 Info Validating config: TargetNames=allfile, console, ownFile-web, ConfigItems=69, FilePath=C:\AProject\AppleStore\AppleStore\nlog.config
+2023-08-24 14:51:01.4502 Info NLogRequestPostedBodyMiddleware is not yet initialized, which is required by aspnet-request-posted-body.
+2023-08-24 14:52:44.8525 Info Registered target NLog.Targets.FileTarget(Name=allfile)
+2023-08-24 14:52:44.8812 Info Registered target NLog.Targets.FileTarget(Name=ownFile-web)
+2023-08-24 14:52:44.8812 Info Registered target NLog.Targets.ConsoleTarget(Name=console)
+2023-08-24 14:52:44.8999 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target 'lifetimeConsole' not found for logging rule: Microsoft.Hosting.Lifetime.
+2023-08-24 14:52:44.9216 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.3.1999. Product version: 5.2.3+a5ddef92a8afb22508450803e37c001f4a3ba52a. GlobalAssemblyCache: False
+2023-08-24 14:52:44.9351 Info Validating config: TargetNames=allfile, console, ownFile-web, ConfigItems=69, FilePath=C:\AProject\AppleStore\AppleStore\nlog.config
+2023-08-24 14:52:44.9512 Info Configuration initialized.
+2023-08-24 14:52:45.1003 Info Validating config: TargetNames=allfile, console, ownFile-web, ConfigItems=69, FilePath=C:\AProject\AppleStore\AppleStore\nlog.config
+2023-08-24 14:52:49.6824 Info NLogRequestPostedBodyMiddleware is not yet initialized, which is required by aspnet-request-posted-body.
+2023-08-24 14:54:56.6744 Info Registered target NLog.Targets.FileTarget(Name=allfile)
+2023-08-24 14:54:56.6799 Info Registered target NLog.Targets.FileTarget(Name=ownFile-web)
+2023-08-24 14:54:56.6799 Info Registered target NLog.Targets.ConsoleTarget(Name=console)
+2023-08-24 14:54:56.6799 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target 'lifetimeConsole' not found for logging rule: Microsoft.Hosting.Lifetime.
+2023-08-24 14:54:56.6799 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.3.1999. Product version: 5.2.3+a5ddef92a8afb22508450803e37c001f4a3ba52a. GlobalAssemblyCache: False
+2023-08-24 14:54:56.6980 Info Validating config: TargetNames=allfile, console, ownFile-web, ConfigItems=69, FilePath=C:\AProject\AppleStore\AppleStore\nlog.config
+2023-08-24 14:54:56.7099 Info Configuration initialized.
+2023-08-24 14:54:56.7795 Info Validating config: TargetNames=allfile, console, ownFile-web, ConfigItems=69, FilePath=C:\AProject\AppleStore\AppleStore\nlog.config
+2023-08-24 14:55:02.7124 Info NLogRequestPostedBodyMiddleware is not yet initialized, which is required by aspnet-request-posted-body.
+2023-08-24 14:55:52.3891 Info Registered target NLog.Targets.FileTarget(Name=allfile)
+2023-08-24 14:55:52.4101 Info Registered target NLog.Targets.FileTarget(Name=ownFile-web)
+2023-08-24 14:55:52.4101 Info Registered target NLog.Targets.ConsoleTarget(Name=console)
+2023-08-24 14:55:52.4247 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target 'lifetimeConsole' not found for logging rule: Microsoft.Hosting.Lifetime.
+2023-08-24 14:55:52.4366 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.3.1999. Product version: 5.2.3+a5ddef92a8afb22508450803e37c001f4a3ba52a. GlobalAssemblyCache: False
+2023-08-24 14:55:52.4477 Info Validating config: TargetNames=allfile, console, ownFile-web, ConfigItems=69, FilePath=C:\AProject\AppleStore\AppleStore\nlog.config
+2023-08-24 14:55:52.4630 Info Configuration initialized.
+2023-08-24 14:55:52.5786 Info Validating config: TargetNames=allfile, console, ownFile-web, ConfigItems=69, FilePath=C:\AProject\AppleStore\AppleStore\nlog.config
+2023-08-24 14:55:55.8821 Info NLogRequestPostedBodyMiddleware is not yet initialized, which is required by aspnet-request-posted-body.
+2023-08-24 14:56:36.9109 Info Registered target NLog.Targets.FileTarget(Name=allfile)
+2023-08-24 14:56:36.9158 Info Registered target NLog.Targets.FileTarget(Name=ownFile-web)
+2023-08-24 14:56:36.9158 Info Registered target NLog.Targets.ConsoleTarget(Name=console)
+2023-08-24 14:56:36.9158 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target 'lifetimeConsole' not found for logging rule: Microsoft.Hosting.Lifetime.
+2023-08-24 14:56:36.9158 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.3.1999. Product version: 5.2.3+a5ddef92a8afb22508450803e37c001f4a3ba52a. GlobalAssemblyCache: False
+2023-08-24 14:56:36.9283 Info Validating config: TargetNames=allfile, console, ownFile-web, ConfigItems=69, FilePath=C:\AProject\AppleStore\AppleStore\nlog.config
+2023-08-24 14:56:36.9283 Info Configuration initialized.
+2023-08-24 14:56:37.0024 Info Validating config: TargetNames=allfile, console, ownFile-web, ConfigItems=69, FilePath=C:\AProject\AppleStore\AppleStore\nlog.config
+2023-08-24 14:56:40.1930 Info NLogRequestPostedBodyMiddleware is not yet initialized, which is required by aspnet-request-posted-body.
+2023-08-24 14:57:00.6316 Info Registered target NLog.Targets.FileTarget(Name=allfile)
+2023-08-24 14:57:00.6316 Info Registered target NLog.Targets.FileTarget(Name=ownFile-web)
+2023-08-24 14:57:00.6316 Info Registered target NLog.Targets.ConsoleTarget(Name=console)
+2023-08-24 14:57:00.6316 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target 'lifetimeConsole' not found for logging rule: Microsoft.Hosting.Lifetime.
+2023-08-24 14:57:00.6316 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.3.1999. Product version: 5.2.3+a5ddef92a8afb22508450803e37c001f4a3ba52a. GlobalAssemblyCache: False
+2023-08-24 14:57:00.6484 Info Validating config: TargetNames=allfile, console, ownFile-web, ConfigItems=69, FilePath=C:\AProject\AppleStore\AppleStore\nlog.config
+2023-08-24 14:57:00.6484 Info Configuration initialized.
+2023-08-24 14:57:00.7199 Info Validating config: TargetNames=allfile, console, ownFile-web, ConfigItems=69, FilePath=C:\AProject\AppleStore\AppleStore\nlog.config
+2023-08-24 14:57:03.8655 Info NLogRequestPostedBodyMiddleware is not yet initialized, which is required by aspnet-request-posted-body.
+2023-08-24 15:25:12.7685 Info Registered target NLog.Targets.FileTarget(Name=allfile)
+2023-08-24 15:25:12.7757 Info Registered target NLog.Targets.FileTarget(Name=ownFile-web)
+2023-08-24 15:25:12.7757 Info Registered target NLog.Targets.ConsoleTarget(Name=console)
+2023-08-24 15:25:12.7757 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target 'lifetimeConsole' not found for logging rule: Microsoft.Hosting.Lifetime.
+2023-08-24 15:25:12.7757 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.3.1999. Product version: 5.2.3+a5ddef92a8afb22508450803e37c001f4a3ba52a. GlobalAssemblyCache: False
+2023-08-24 15:25:12.7930 Info Validating config: TargetNames=allfile, console, ownFile-web, ConfigItems=69, FilePath=C:\AProject\AppleStore\AppleStore\nlog.config
+2023-08-24 15:25:12.8035 Info Configuration initialized.
+2023-08-24 15:25:12.8918 Info Validating config: TargetNames=allfile, console, ownFile-web, ConfigItems=69, FilePath=C:\AProject\AppleStore\AppleStore\nlog.config
+2023-08-24 15:26:57.9821 Info Registered target NLog.Targets.FileTarget(Name=allfile)
+2023-08-24 15:26:57.9821 Info Registered target NLog.Targets.FileTarget(Name=ownFile-web)
+2023-08-24 15:26:57.9821 Info Registered target NLog.Targets.ConsoleTarget(Name=console)
+2023-08-24 15:26:57.9908 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target 'lifetimeConsole' not found for logging rule: Microsoft.Hosting.Lifetime.
+2023-08-24 15:26:57.9908 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.3.1999. Product version: 5.2.3+a5ddef92a8afb22508450803e37c001f4a3ba52a. GlobalAssemblyCache: False
+2023-08-24 15:26:57.9908 Info Validating config: TargetNames=allfile, console, ownFile-web, ConfigItems=69, FilePath=C:\AProject\AppleStore\AppleStore\nlog.config
+2023-08-24 15:26:58.0077 Info Configuration initialized.
+2023-08-24 15:26:58.0772 Info Validating config: TargetNames=allfile, console, ownFile-web, ConfigItems=69, FilePath=C:\AProject\AppleStore\AppleStore\nlog.config
+2023-08-24 15:27:00.7248 Info NLogRequestPostedBodyMiddleware is not yet initialized, which is required by aspnet-request-posted-body.
+2023-08-24 15:29:00.8226 Info Registered target NLog.Targets.FileTarget(Name=allfile)
+2023-08-24 15:29:00.8563 Info Registered target NLog.Targets.FileTarget(Name=ownFile-web)
+2023-08-24 15:29:00.8563 Info Registered target NLog.Targets.ConsoleTarget(Name=console)
+2023-08-24 15:29:00.8759 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target 'lifetimeConsole' not found for logging rule: Microsoft.Hosting.Lifetime.
+2023-08-24 15:29:00.8971 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.3.1999. Product version: 5.2.3+a5ddef92a8afb22508450803e37c001f4a3ba52a. GlobalAssemblyCache: False
+2023-08-24 15:29:00.8971 Info Validating config: TargetNames=allfile, console, ownFile-web, ConfigItems=69, FilePath=C:\AProject\AppleStore\AppleStore\nlog.config
+2023-08-24 15:29:00.9236 Info Configuration initialized.
+2023-08-24 15:29:01.0746 Info Validating config: TargetNames=allfile, console, ownFile-web, ConfigItems=69, FilePath=C:\AProject\AppleStore\AppleStore\nlog.config
+2023-08-24 15:29:56.4765 Info NLogRequestPostedBodyMiddleware is not yet initialized, which is required by aspnet-request-posted-body.
+2023-08-24 15:30:39.8775 Info Registered target NLog.Targets.FileTarget(Name=allfile)
+2023-08-24 15:30:39.9153 Info Registered target NLog.Targets.FileTarget(Name=ownFile-web)
+2023-08-24 15:30:39.9153 Info Registered target NLog.Targets.ConsoleTarget(Name=console)
+2023-08-24 15:30:39.9354 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target 'lifetimeConsole' not found for logging rule: Microsoft.Hosting.Lifetime.
+2023-08-24 15:30:39.9535 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.3.1999. Product version: 5.2.3+a5ddef92a8afb22508450803e37c001f4a3ba52a. GlobalAssemblyCache: False
+2023-08-24 15:30:39.9626 Info Validating config: TargetNames=allfile, console, ownFile-web, ConfigItems=69, FilePath=C:\AProject\AppleStore\AppleStore\nlog.config
+2023-08-24 15:30:39.9773 Info Configuration initialized.
+2023-08-24 15:30:40.1619 Info Validating config: TargetNames=allfile, console, ownFile-web, ConfigItems=69, FilePath=C:\AProject\AppleStore\AppleStore\nlog.config
+2023-08-24 15:31:46.1331 Info Registered target NLog.Targets.FileTarget(Name=allfile)
+2023-08-24 15:31:46.1331 Info Registered target NLog.Targets.FileTarget(Name=ownFile-web)
+2023-08-24 15:31:46.1331 Info Registered target NLog.Targets.ConsoleTarget(Name=console)
+2023-08-24 15:31:46.1331 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target 'lifetimeConsole' not found for logging rule: Microsoft.Hosting.Lifetime.
+2023-08-24 15:31:46.1465 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.3.1999. Product version: 5.2.3+a5ddef92a8afb22508450803e37c001f4a3ba52a. GlobalAssemblyCache: False
+2023-08-24 15:31:46.1465 Info Validating config: TargetNames=allfile, console, ownFile-web, ConfigItems=69, FilePath=C:\AProject\AppleStore\AppleStore\nlog.config
+2023-08-24 15:31:46.1638 Info Configuration initialized.
+2023-08-24 15:31:46.2309 Info Validating config: TargetNames=allfile, console, ownFile-web, ConfigItems=69, FilePath=C:\AProject\AppleStore\AppleStore\nlog.config
+2023-08-24 15:32:25.3986 Info Registered target NLog.Targets.FileTarget(Name=allfile)
+2023-08-24 15:32:25.4339 Info Registered target NLog.Targets.FileTarget(Name=ownFile-web)
+2023-08-24 15:32:25.4339 Info Registered target NLog.Targets.ConsoleTarget(Name=console)
+2023-08-24 15:32:25.4528 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target 'lifetimeConsole' not found for logging rule: Microsoft.Hosting.Lifetime.
+2023-08-24 15:32:25.4697 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.3.1999. Product version: 5.2.3+a5ddef92a8afb22508450803e37c001f4a3ba52a. GlobalAssemblyCache: False
+2023-08-24 15:32:25.4797 Info Validating config: TargetNames=allfile, console, ownFile-web, ConfigItems=69, FilePath=C:\AProject\AppleStore\AppleStore\nlog.config
+2023-08-24 15:32:25.4955 Info Configuration initialized.
+2023-08-24 15:32:25.6369 Info Validating config: TargetNames=allfile, console, ownFile-web, ConfigItems=69, FilePath=C:\AProject\AppleStore\AppleStore\nlog.config
+2023-08-24 15:37:07.4258 Info Registered target NLog.Targets.FileTarget(Name=allfile)
+2023-08-24 15:37:07.4326 Info Registered target NLog.Targets.FileTarget(Name=ownFile-web)
+2023-08-24 15:37:07.4326 Info Registered target NLog.Targets.ConsoleTarget(Name=console)
+2023-08-24 15:37:07.4326 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target 'lifetimeConsole' not found for logging rule: Microsoft.Hosting.Lifetime.
+2023-08-24 15:37:07.4326 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.3.1999. Product version: 5.2.3+a5ddef92a8afb22508450803e37c001f4a3ba52a. GlobalAssemblyCache: False
+2023-08-24 15:37:07.4497 Info Validating config: TargetNames=allfile, console, ownFile-web, ConfigItems=69, FilePath=C:\AProject\AppleStore\AppleStore\nlog.config
+2023-08-24 15:37:07.4612 Info Configuration initialized.
+2023-08-24 15:37:07.5258 Info Validating config: TargetNames=allfile, console, ownFile-web, ConfigItems=69, FilePath=C:\AProject\AppleStore\AppleStore\nlog.config
+2023-08-24 15:37:29.9597 Info NLogRequestPostedBodyMiddleware is not yet initialized, which is required by aspnet-request-posted-body.
+2023-08-24 15:38:31.0967 Info Registered target NLog.Targets.FileTarget(Name=allfile)
+2023-08-24 15:38:31.1053 Info Registered target NLog.Targets.FileTarget(Name=ownFile-web)
+2023-08-24 15:38:31.1053 Info Registered target NLog.Targets.ConsoleTarget(Name=console)
+2023-08-24 15:38:31.1053 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target 'lifetimeConsole' not found for logging rule: Microsoft.Hosting.Lifetime.
+2023-08-24 15:38:31.1053 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.3.1999. Product version: 5.2.3+a5ddef92a8afb22508450803e37c001f4a3ba52a. GlobalAssemblyCache: False
+2023-08-24 15:38:31.1240 Info Validating config: TargetNames=allfile, console, ownFile-web, ConfigItems=69, FilePath=C:\AProject\AppleStore\AppleStore\nlog.config
+2023-08-24 15:38:31.1354 Info Configuration initialized.
+2023-08-24 15:38:31.2084 Info Validating config: TargetNames=allfile, console, ownFile-web, ConfigItems=69, FilePath=C:\AProject\AppleStore\AppleStore\nlog.config
+2023-08-24 15:38:41.2902 Info NLogRequestPostedBodyMiddleware is not yet initialized, which is required by aspnet-request-posted-body.
+2023-08-24 16:35:14.2077 Info Registered target NLog.Targets.FileTarget(Name=allfile)
+2023-08-24 16:35:14.2142 Info Registered target NLog.Targets.FileTarget(Name=ownFile-web)
+2023-08-24 16:35:14.2142 Info Registered target NLog.Targets.ConsoleTarget(Name=console)
+2023-08-24 16:35:14.2142 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target 'lifetimeConsole' not found for logging rule: Microsoft.Hosting.Lifetime.
+2023-08-24 16:35:14.2248 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.3.1999. Product version: 5.2.3+a5ddef92a8afb22508450803e37c001f4a3ba52a. GlobalAssemblyCache: False
+2023-08-24 16:35:14.2248 Info Validating config: TargetNames=allfile, console, ownFile-web, ConfigItems=69, FilePath=C:\AProject\AppleStore\AppleStore\nlog.config
+2023-08-24 16:35:14.2541 Info Configuration initialized.
+2023-08-24 16:35:14.3525 Info Validating config: TargetNames=allfile, console, ownFile-web, ConfigItems=69, FilePath=C:\AProject\AppleStore\AppleStore\nlog.config
+2023-08-24 16:35:26.3726 Info NLogRequestPostedBodyMiddleware is not yet initialized, which is required by aspnet-request-posted-body.
+2023-08-24 16:36:58.9973 Info Registered target NLog.Targets.FileTarget(Name=allfile)
+2023-08-24 16:36:59.0308 Info Registered target NLog.Targets.FileTarget(Name=ownFile-web)
+2023-08-24 16:36:59.0308 Info Registered target NLog.Targets.ConsoleTarget(Name=console)
+2023-08-24 16:36:59.0503 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target 'lifetimeConsole' not found for logging rule: Microsoft.Hosting.Lifetime.
+2023-08-24 16:36:59.0752 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.3.1999. Product version: 5.2.3+a5ddef92a8afb22508450803e37c001f4a3ba52a. GlobalAssemblyCache: False
+2023-08-24 16:36:59.0863 Info Validating config: TargetNames=allfile, console, ownFile-web, ConfigItems=69, FilePath=C:\AProject\AppleStore\AppleStore\nlog.config
+2023-08-24 16:36:59.1020 Info Configuration initialized.
+2023-08-24 16:36:59.2572 Info Validating config: TargetNames=allfile, console, ownFile-web, ConfigItems=69, FilePath=C:\AProject\AppleStore\AppleStore\nlog.config
+2023-08-24 16:37:06.1312 Info NLogRequestPostedBodyMiddleware is not yet initialized, which is required by aspnet-request-posted-body.
+2023-08-24 16:39:28.6624 Info Registered target NLog.Targets.FileTarget(Name=allfile)
+2023-08-24 16:39:28.6624 Info Registered target NLog.Targets.FileTarget(Name=ownFile-web)
+2023-08-24 16:39:28.6624 Info Registered target NLog.Targets.ConsoleTarget(Name=console)
+2023-08-24 16:39:28.6624 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target 'lifetimeConsole' not found for logging rule: Microsoft.Hosting.Lifetime.
+2023-08-24 16:39:28.6795 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.3.1999. Product version: 5.2.3+a5ddef92a8afb22508450803e37c001f4a3ba52a. GlobalAssemblyCache: False
+2023-08-24 16:39:28.6795 Info Validating config: TargetNames=allfile, console, ownFile-web, ConfigItems=69, FilePath=C:\AProject\AppleStore\AppleStore\nlog.config
+2023-08-24 16:39:28.7074 Info Configuration initialized.
+2023-08-24 16:39:28.7896 Info Validating config: TargetNames=allfile, console, ownFile-web, ConfigItems=69, FilePath=C:\AProject\AppleStore\AppleStore\nlog.config
+2023-08-24 16:39:32.8980 Info NLogRequestPostedBodyMiddleware is not yet initialized, which is required by aspnet-request-posted-body.
+2023-08-24 16:40:20.5971 Info Registered target NLog.Targets.FileTarget(Name=allfile)
+2023-08-24 16:40:20.6294 Info Registered target NLog.Targets.FileTarget(Name=ownFile-web)
+2023-08-24 16:40:20.6304 Info Registered target NLog.Targets.ConsoleTarget(Name=console)
+2023-08-24 16:40:20.6536 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target 'lifetimeConsole' not found for logging rule: Microsoft.Hosting.Lifetime.
+2023-08-24 16:40:20.6737 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.3.1999. Product version: 5.2.3+a5ddef92a8afb22508450803e37c001f4a3ba52a. GlobalAssemblyCache: False
+2023-08-24 16:40:20.6868 Info Validating config: TargetNames=allfile, console, ownFile-web, ConfigItems=69, FilePath=C:\AProject\AppleStore\AppleStore\nlog.config
+2023-08-24 16:40:20.7040 Info Configuration initialized.
+2023-08-24 16:40:20.8653 Info Validating config: TargetNames=allfile, console, ownFile-web, ConfigItems=69, FilePath=C:\AProject\AppleStore\AppleStore\nlog.config
+2023-08-24 16:40:26.6815 Info NLogRequestPostedBodyMiddleware is not yet initialized, which is required by aspnet-request-posted-body.
+2023-08-24 16:41:10.4812 Info Registered target NLog.Targets.FileTarget(Name=allfile)
+2023-08-24 16:41:10.5203 Info Registered target NLog.Targets.FileTarget(Name=ownFile-web)
+2023-08-24 16:41:10.5218 Info Registered target NLog.Targets.ConsoleTarget(Name=console)
+2023-08-24 16:41:10.5481 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target 'lifetimeConsole' not found for logging rule: Microsoft.Hosting.Lifetime.
+2023-08-24 16:41:10.5719 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.3.1999. Product version: 5.2.3+a5ddef92a8afb22508450803e37c001f4a3ba52a. GlobalAssemblyCache: False
+2023-08-24 16:41:10.5908 Info Validating config: TargetNames=allfile, console, ownFile-web, ConfigItems=69, FilePath=C:\AProject\AppleStore\AppleStore\nlog.config
+2023-08-24 16:41:10.6083 Info Configuration initialized.
+2023-08-24 16:41:10.7487 Info Validating config: TargetNames=allfile, console, ownFile-web, ConfigItems=69, FilePath=C:\AProject\AppleStore\AppleStore\nlog.config
+2023-08-24 16:41:17.5845 Info NLogRequestPostedBodyMiddleware is not yet initialized, which is required by aspnet-request-posted-body.
+2023-08-24 16:43:43.8652 Info Registered target NLog.Targets.FileTarget(Name=allfile)
+2023-08-24 16:43:43.8963 Info Registered target NLog.Targets.FileTarget(Name=ownFile-web)
+2023-08-24 16:43:43.8963 Info Registered target NLog.Targets.ConsoleTarget(Name=console)
+2023-08-24 16:43:43.9170 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target 'lifetimeConsole' not found for logging rule: Microsoft.Hosting.Lifetime.
+2023-08-24 16:43:43.9388 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.3.1999. Product version: 5.2.3+a5ddef92a8afb22508450803e37c001f4a3ba52a. GlobalAssemblyCache: False
+2023-08-24 16:43:43.9508 Info Validating config: TargetNames=allfile, console, ownFile-web, ConfigItems=69, FilePath=C:\AProject\AppleStore\AppleStore\nlog.config
+2023-08-24 16:43:43.9669 Info Configuration initialized.
+2023-08-24 16:43:44.1065 Info Validating config: TargetNames=allfile, console, ownFile-web, ConfigItems=69, FilePath=C:\AProject\AppleStore\AppleStore\nlog.config
+2023-08-24 16:43:49.2719 Info NLogRequestPostedBodyMiddleware is not yet initialized, which is required by aspnet-request-posted-body.
+2023-08-24 16:45:42.6571 Info Registered target NLog.Targets.FileTarget(Name=allfile)
+2023-08-24 16:45:42.6643 Info Registered target NLog.Targets.FileTarget(Name=ownFile-web)
+2023-08-24 16:45:42.6643 Info Registered target NLog.Targets.ConsoleTarget(Name=console)
+2023-08-24 16:45:42.6643 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target 'lifetimeConsole' not found for logging rule: Microsoft.Hosting.Lifetime.
+2023-08-24 16:45:42.6643 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.3.1999. Product version: 5.2.3+a5ddef92a8afb22508450803e37c001f4a3ba52a. GlobalAssemblyCache: False
+2023-08-24 16:45:42.6851 Info Validating config: TargetNames=allfile, console, ownFile-web, ConfigItems=69, FilePath=C:\AProject\AppleStore\AppleStore\nlog.config
+2023-08-24 16:45:42.7031 Info Configuration initialized.
+2023-08-24 16:45:42.8035 Info Validating config: TargetNames=allfile, console, ownFile-web, ConfigItems=69, FilePath=C:\AProject\AppleStore\AppleStore\nlog.config
+2023-08-24 16:45:46.4116 Info NLogRequestPostedBodyMiddleware is not yet initialized, which is required by aspnet-request-posted-body.
+2023-08-24 16:46:49.4187 Info Registered target NLog.Targets.FileTarget(Name=allfile)
+2023-08-24 16:46:49.4558 Info Registered target NLog.Targets.FileTarget(Name=ownFile-web)
+2023-08-24 16:46:49.4558 Info Registered target NLog.Targets.ConsoleTarget(Name=console)
+2023-08-24 16:46:49.4736 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target 'lifetimeConsole' not found for logging rule: Microsoft.Hosting.Lifetime.
+2023-08-24 16:46:49.5031 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.3.1999. Product version: 5.2.3+a5ddef92a8afb22508450803e37c001f4a3ba52a. GlobalAssemblyCache: False
+2023-08-24 16:46:49.5165 Info Validating config: TargetNames=allfile, console, ownFile-web, ConfigItems=69, FilePath=C:\AProject\AppleStore\AppleStore\nlog.config
+2023-08-24 16:46:49.5308 Info Configuration initialized.
+2023-08-24 16:46:49.6979 Info Validating config: TargetNames=allfile, console, ownFile-web, ConfigItems=69, FilePath=C:\AProject\AppleStore\AppleStore\nlog.config
+2023-08-24 16:46:55.3550 Info NLogRequestPostedBodyMiddleware is not yet initialized, which is required by aspnet-request-posted-body.
+2023-08-24 16:48:09.2390 Info Registered target NLog.Targets.FileTarget(Name=allfile)
+2023-08-24 16:48:09.2490 Info Registered target NLog.Targets.FileTarget(Name=ownFile-web)
+2023-08-24 16:48:09.2490 Info Registered target NLog.Targets.ConsoleTarget(Name=console)
+2023-08-24 16:48:09.2562 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target 'lifetimeConsole' not found for logging rule: Microsoft.Hosting.Lifetime.
+2023-08-24 16:48:09.2562 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.3.1999. Product version: 5.2.3+a5ddef92a8afb22508450803e37c001f4a3ba52a. GlobalAssemblyCache: False
+2023-08-24 16:48:09.2562 Info Validating config: TargetNames=allfile, console, ownFile-web, ConfigItems=69, FilePath=C:\AProject\AppleStore\AppleStore\nlog.config
+2023-08-24 16:48:09.2814 Info Configuration initialized.
+2023-08-24 16:48:09.3713 Info Validating config: TargetNames=allfile, console, ownFile-web, ConfigItems=69, FilePath=C:\AProject\AppleStore\AppleStore\nlog.config
+2023-08-24 16:48:22.6644 Info NLogRequestPostedBodyMiddleware is not yet initialized, which is required by aspnet-request-posted-body.
+2023-08-24 16:59:08.8520 Info Registered target NLog.Targets.FileTarget(Name=allfile)
+2023-08-24 16:59:08.8520 Info Registered target NLog.Targets.FileTarget(Name=ownFile-web)
+2023-08-24 16:59:08.8520 Info Registered target NLog.Targets.ConsoleTarget(Name=console)
+2023-08-24 16:59:08.8520 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target 'lifetimeConsole' not found for logging rule: Microsoft.Hosting.Lifetime.
+2023-08-24 16:59:08.8647 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.3.1999. Product version: 5.2.3+a5ddef92a8afb22508450803e37c001f4a3ba52a. GlobalAssemblyCache: False
+2023-08-24 16:59:08.8647 Info Validating config: TargetNames=allfile, console, ownFile-web, ConfigItems=69, FilePath=C:\AProject\AppleStore\AppleStore\nlog.config
+2023-08-24 16:59:08.8647 Info Configuration initialized.
+2023-08-24 16:59:08.9356 Info Validating config: TargetNames=allfile, console, ownFile-web, ConfigItems=69, FilePath=C:\AProject\AppleStore\AppleStore\nlog.config
+2023-08-24 16:59:12.9129 Info NLogRequestPostedBodyMiddleware is not yet initialized, which is required by aspnet-request-posted-body.
+2023-08-24 17:01:23.6767 Info Registered target NLog.Targets.FileTarget(Name=allfile)
+2023-08-24 17:01:23.6809 Info Registered target NLog.Targets.FileTarget(Name=ownFile-web)
+2023-08-24 17:01:23.6809 Info Registered target NLog.Targets.ConsoleTarget(Name=console)
+2023-08-24 17:01:23.6809 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target 'lifetimeConsole' not found for logging rule: Microsoft.Hosting.Lifetime.
+2023-08-24 17:01:23.6809 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.3.1999. Product version: 5.2.3+a5ddef92a8afb22508450803e37c001f4a3ba52a. GlobalAssemblyCache: False
+2023-08-24 17:01:23.6940 Info Validating config: TargetNames=allfile, console, ownFile-web, ConfigItems=69, FilePath=C:\AProject\AppleStore\AppleStore\nlog.config
+2023-08-24 17:01:23.6940 Info Configuration initialized.
+2023-08-24 17:01:23.7599 Info Validating config: TargetNames=allfile, console, ownFile-web, ConfigItems=69, FilePath=C:\AProject\AppleStore\AppleStore\nlog.config
+2023-08-24 17:01:36.5871 Info NLogRequestPostedBodyMiddleware is not yet initialized, which is required by aspnet-request-posted-body.
+2023-08-24 17:05:15.4425 Info Registered target NLog.Targets.FileTarget(Name=allfile)
+2023-08-24 17:05:15.4638 Info Registered target NLog.Targets.FileTarget(Name=ownFile-web)
+2023-08-24 17:05:15.4638 Info Registered target NLog.Targets.ConsoleTarget(Name=console)
+2023-08-24 17:05:15.4768 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target 'lifetimeConsole' not found for logging rule: Microsoft.Hosting.Lifetime.
+2023-08-24 17:05:15.4768 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.3.1999. Product version: 5.2.3+a5ddef92a8afb22508450803e37c001f4a3ba52a. GlobalAssemblyCache: False
+2023-08-24 17:05:15.4979 Info Validating config: TargetNames=allfile, console, ownFile-web, ConfigItems=69, FilePath=C:\AProject\AppleStore\AppleStore\nlog.config
+2023-08-24 17:05:15.5131 Info Configuration initialized.
+2023-08-24 17:05:15.6289 Info Validating config: TargetNames=allfile, console, ownFile-web, ConfigItems=69, FilePath=C:\AProject\AppleStore\AppleStore\nlog.config
+2023-08-24 17:05:56.6490 Info NLogRequestPostedBodyMiddleware is not yet initialized, which is required by aspnet-request-posted-body.
+2023-08-24 17:10:25.3070 Info Registered target NLog.Targets.FileTarget(Name=allfile)
+2023-08-24 17:10:25.3070 Info Registered target NLog.Targets.FileTarget(Name=ownFile-web)
+2023-08-24 17:10:25.3070 Info Registered target NLog.Targets.ConsoleTarget(Name=console)
+2023-08-24 17:10:25.3070 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target 'lifetimeConsole' not found for logging rule: Microsoft.Hosting.Lifetime.
+2023-08-24 17:10:25.3070 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.3.1999. Product version: 5.2.3+a5ddef92a8afb22508450803e37c001f4a3ba52a. GlobalAssemblyCache: False
+2023-08-24 17:10:25.3235 Info Validating config: TargetNames=allfile, console, ownFile-web, ConfigItems=69, FilePath=C:\AProject\AppleStore\AppleStore\nlog.config
+2023-08-24 17:10:25.3235 Info Configuration initialized.
+2023-08-24 17:10:25.3878 Info Validating config: TargetNames=allfile, console, ownFile-web, ConfigItems=69, FilePath=C:\AProject\AppleStore\AppleStore\nlog.config
+2023-08-24 17:10:29.9751 Info NLogRequestPostedBodyMiddleware is not yet initialized, which is required by aspnet-request-posted-body.
+2023-08-24 17:14:04.7871 Info Registered target NLog.Targets.FileTarget(Name=allfile)
+2023-08-24 17:14:04.7871 Info Registered target NLog.Targets.FileTarget(Name=ownFile-web)
+2023-08-24 17:14:04.7871 Info Registered target NLog.Targets.ConsoleTarget(Name=console)
+2023-08-24 17:14:04.7871 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target 'lifetimeConsole' not found for logging rule: Microsoft.Hosting.Lifetime.
+2023-08-24 17:14:04.7871 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.3.1999. Product version: 5.2.3+a5ddef92a8afb22508450803e37c001f4a3ba52a. GlobalAssemblyCache: False
+2023-08-24 17:14:04.8057 Info Validating config: TargetNames=allfile, console, ownFile-web, ConfigItems=69, FilePath=C:\AProject\AppleStore\AppleStore\nlog.config
+2023-08-24 17:14:04.8057 Info Configuration initialized.
+2023-08-24 17:14:04.8808 Info Validating config: TargetNames=allfile, console, ownFile-web, ConfigItems=69, FilePath=C:\AProject\AppleStore\AppleStore\nlog.config
+2023-08-24 17:14:08.2247 Info NLogRequestPostedBodyMiddleware is not yet initialized, which is required by aspnet-request-posted-body.
+2023-08-24 17:15:08.1184 Info Registered target NLog.Targets.FileTarget(Name=allfile)
+2023-08-24 17:15:08.1392 Info Registered target NLog.Targets.FileTarget(Name=ownFile-web)
+2023-08-24 17:15:08.1392 Info Registered target NLog.Targets.ConsoleTarget(Name=console)
+2023-08-24 17:15:08.1527 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target 'lifetimeConsole' not found for logging rule: Microsoft.Hosting.Lifetime.
+2023-08-24 17:15:08.1642 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.3.1999. Product version: 5.2.3+a5ddef92a8afb22508450803e37c001f4a3ba52a. GlobalAssemblyCache: False
+2023-08-24 17:15:08.1642 Info Validating config: TargetNames=allfile, console, ownFile-web, ConfigItems=69, FilePath=C:\AProject\AppleStore\AppleStore\nlog.config
+2023-08-24 17:15:08.1834 Info Configuration initialized.
+2023-08-24 17:15:08.2835 Info Validating config: TargetNames=allfile, console, ownFile-web, ConfigItems=69, FilePath=C:\AProject\AppleStore\AppleStore\nlog.config
+2023-08-24 17:15:20.7706 Info NLogRequestPostedBodyMiddleware is not yet initialized, which is required by aspnet-request-posted-body.
+2023-08-24 17:15:38.6285 Info Registered target NLog.Targets.FileTarget(Name=allfile)
+2023-08-24 17:15:38.6466 Info Registered target NLog.Targets.FileTarget(Name=ownFile-web)
+2023-08-24 17:15:38.6466 Info Registered target NLog.Targets.ConsoleTarget(Name=console)
+2023-08-24 17:15:38.6466 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target 'lifetimeConsole' not found for logging rule: Microsoft.Hosting.Lifetime.
+2023-08-24 17:15:38.6715 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.3.1999. Product version: 5.2.3+a5ddef92a8afb22508450803e37c001f4a3ba52a. GlobalAssemblyCache: False
+2023-08-24 17:15:38.6802 Info Validating config: TargetNames=allfile, console, ownFile-web, ConfigItems=69, FilePath=C:\AProject\AppleStore\AppleStore\nlog.config
+2023-08-24 17:15:38.6802 Info Configuration initialized.
+2023-08-24 17:15:38.7879 Info Validating config: TargetNames=allfile, console, ownFile-web, ConfigItems=69, FilePath=C:\AProject\AppleStore\AppleStore\nlog.config
+2023-08-24 17:15:44.4603 Info NLogRequestPostedBodyMiddleware is not yet initialized, which is required by aspnet-request-posted-body.
+2023-08-24 17:16:43.1181 Info Registered target NLog.Targets.FileTarget(Name=allfile)
+2023-08-24 17:16:43.1376 Info Registered target NLog.Targets.FileTarget(Name=ownFile-web)
+2023-08-24 17:16:43.1376 Info Registered target NLog.Targets.ConsoleTarget(Name=console)
+2023-08-24 17:16:43.1503 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target 'lifetimeConsole' not found for logging rule: Microsoft.Hosting.Lifetime.
+2023-08-24 17:16:43.1624 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.3.1999. Product version: 5.2.3+a5ddef92a8afb22508450803e37c001f4a3ba52a. GlobalAssemblyCache: False
+2023-08-24 17:16:43.1624 Info Validating config: TargetNames=allfile, console, ownFile-web, ConfigItems=69, FilePath=C:\AProject\AppleStore\AppleStore\nlog.config
+2023-08-24 17:16:43.1820 Info Configuration initialized.
+2023-08-24 17:16:43.2813 Info Validating config: TargetNames=allfile, console, ownFile-web, ConfigItems=69, FilePath=C:\AProject\AppleStore\AppleStore\nlog.config
+2023-08-24 17:16:55.8492 Info NLogRequestPostedBodyMiddleware is not yet initialized, which is required by aspnet-request-posted-body.
+2023-08-24 17:21:14.6892 Info Registered target NLog.Targets.FileTarget(Name=allfile)
+2023-08-24 17:21:14.7143 Info Registered target NLog.Targets.FileTarget(Name=ownFile-web)
+2023-08-24 17:21:14.7143 Info Registered target NLog.Targets.ConsoleTarget(Name=console)
+2023-08-24 17:21:14.7275 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target 'lifetimeConsole' not found for logging rule: Microsoft.Hosting.Lifetime.
+2023-08-24 17:21:14.7399 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.3.1999. Product version: 5.2.3+a5ddef92a8afb22508450803e37c001f4a3ba52a. GlobalAssemblyCache: False
+2023-08-24 17:21:14.7399 Info Validating config: TargetNames=allfile, console, ownFile-web, ConfigItems=69, FilePath=C:\AProject\AppleStore\AppleStore\nlog.config
+2023-08-24 17:21:14.7615 Info Configuration initialized.
+2023-08-24 17:21:14.8699 Info Validating config: TargetNames=allfile, console, ownFile-web, ConfigItems=69, FilePath=C:\AProject\AppleStore\AppleStore\nlog.config
+2023-08-24 17:22:07.9097 Info NLogRequestPostedBodyMiddleware is not yet initialized, which is required by aspnet-request-posted-body.
+2023-08-24 17:24:21.9987 Info Registered target NLog.Targets.FileTarget(Name=allfile)
+2023-08-24 17:24:22.0178 Info Registered target NLog.Targets.FileTarget(Name=ownFile-web)
+2023-08-24 17:24:22.0178 Info Registered target NLog.Targets.ConsoleTarget(Name=console)
+2023-08-24 17:24:22.0303 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target 'lifetimeConsole' not found for logging rule: Microsoft.Hosting.Lifetime.
+2023-08-24 17:24:22.0424 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.3.1999. Product version: 5.2.3+a5ddef92a8afb22508450803e37c001f4a3ba52a. GlobalAssemblyCache: False
+2023-08-24 17:24:22.0424 Info Validating config: TargetNames=allfile, console, ownFile-web, ConfigItems=69, FilePath=C:\AProject\AppleStore\AppleStore\nlog.config
+2023-08-24 17:24:22.0620 Info Configuration initialized.
+2023-08-24 17:24:22.1566 Info Validating config: TargetNames=allfile, console, ownFile-web, ConfigItems=69, FilePath=C:\AProject\AppleStore\AppleStore\nlog.config
+2023-08-24 17:24:25.0676 Info NLogRequestPostedBodyMiddleware is not yet initialized, which is required by aspnet-request-posted-body.
+2023-08-24 17:31:37.1654 Info Registered target NLog.Targets.FileTarget(Name=allfile)
+2023-08-24 17:31:37.1871 Info Registered target NLog.Targets.FileTarget(Name=ownFile-web)
+2023-08-24 17:31:37.1871 Info Registered target NLog.Targets.ConsoleTarget(Name=console)
+2023-08-24 17:31:37.1996 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target 'lifetimeConsole' not found for logging rule: Microsoft.Hosting.Lifetime.
+2023-08-24 17:31:37.2118 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.3.1999. Product version: 5.2.3+a5ddef92a8afb22508450803e37c001f4a3ba52a. GlobalAssemblyCache: False
+2023-08-24 17:31:37.2118 Info Validating config: TargetNames=allfile, console, ownFile-web, ConfigItems=69, FilePath=C:\AProject\AppleStore\AppleStore\nlog.config
+2023-08-24 17:31:37.2360 Info Configuration initialized.
+2023-08-24 17:31:37.3306 Info Validating config: TargetNames=allfile, console, ownFile-web, ConfigItems=69, FilePath=C:\AProject\AppleStore\AppleStore\nlog.config
+2023-08-24 17:31:41.1015 Info NLogRequestPostedBodyMiddleware is not yet initialized, which is required by aspnet-request-posted-body.
+2023-08-24 17:32:51.6418 Info Registered target NLog.Targets.FileTarget(Name=allfile)
+2023-08-24 17:32:51.6587 Info Registered target NLog.Targets.FileTarget(Name=ownFile-web)
+2023-08-24 17:32:51.6587 Info Registered target NLog.Targets.ConsoleTarget(Name=console)
+2023-08-24 17:32:51.6708 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target 'lifetimeConsole' not found for logging rule: Microsoft.Hosting.Lifetime.
+2023-08-24 17:32:51.6841 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.3.1999. Product version: 5.2.3+a5ddef92a8afb22508450803e37c001f4a3ba52a. GlobalAssemblyCache: False
+2023-08-24 17:32:51.6841 Info Validating config: TargetNames=allfile, console, ownFile-web, ConfigItems=69, FilePath=C:\AProject\AppleStore\AppleStore\nlog.config
+2023-08-24 17:32:51.7042 Info Configuration initialized.
+2023-08-24 17:32:51.8075 Info Validating config: TargetNames=allfile, console, ownFile-web, ConfigItems=69, FilePath=C:\AProject\AppleStore\AppleStore\nlog.config
+2023-08-24 17:33:52.8515 Info Registered target NLog.Targets.FileTarget(Name=allfile)
+2023-08-24 17:33:52.8515 Info Registered target NLog.Targets.FileTarget(Name=ownFile-web)
+2023-08-24 17:33:52.8515 Info Registered target NLog.Targets.ConsoleTarget(Name=console)
+2023-08-24 17:33:52.8515 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target 'lifetimeConsole' not found for logging rule: Microsoft.Hosting.Lifetime.
+2023-08-24 17:33:52.8515 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.3.1999. Product version: 5.2.3+a5ddef92a8afb22508450803e37c001f4a3ba52a. GlobalAssemblyCache: False
+2023-08-24 17:33:52.8685 Info Validating config: TargetNames=allfile, console, ownFile-web, ConfigItems=69, FilePath=C:\AProject\AppleStore\AppleStore\nlog.config
+2023-08-24 17:33:52.8685 Info Configuration initialized.
+2023-08-24 17:33:52.9364 Info Validating config: TargetNames=allfile, console, ownFile-web, ConfigItems=69, FilePath=C:\AProject\AppleStore\AppleStore\nlog.config
+2023-08-24 17:33:56.9134 Info NLogRequestPostedBodyMiddleware is not yet initialized, which is required by aspnet-request-posted-body.
+2023-08-24 17:34:19.0099 Info Registered target NLog.Targets.FileTarget(Name=allfile)
+2023-08-24 17:34:19.0312 Info Registered target NLog.Targets.FileTarget(Name=ownFile-web)
+2023-08-24 17:34:19.0312 Info Registered target NLog.Targets.ConsoleTarget(Name=console)
+2023-08-24 17:34:19.0443 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target 'lifetimeConsole' not found for logging rule: Microsoft.Hosting.Lifetime.
+2023-08-24 17:34:19.0560 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.3.1999. Product version: 5.2.3+a5ddef92a8afb22508450803e37c001f4a3ba52a. GlobalAssemblyCache: False
+2023-08-24 17:34:19.0560 Info Validating config: TargetNames=allfile, console, ownFile-web, ConfigItems=69, FilePath=C:\AProject\AppleStore\AppleStore\nlog.config
+2023-08-24 17:34:19.0810 Info Configuration initialized.
+2023-08-24 17:34:19.1972 Info Validating config: TargetNames=allfile, console, ownFile-web, ConfigItems=69, FilePath=C:\AProject\AppleStore\AppleStore\nlog.config
+2023-08-24 17:34:21.7088 Info NLogRequestPostedBodyMiddleware is not yet initialized, which is required by aspnet-request-posted-body.
+2023-08-24 17:36:43.5707 Info Registered target NLog.Targets.FileTarget(Name=allfile)
+2023-08-24 17:36:43.5907 Info Registered target NLog.Targets.FileTarget(Name=ownFile-web)
+2023-08-24 17:36:43.5907 Info Registered target NLog.Targets.ConsoleTarget(Name=console)
+2023-08-24 17:36:43.6020 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target 'lifetimeConsole' not found for logging rule: Microsoft.Hosting.Lifetime.
+2023-08-24 17:36:43.6020 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.3.1999. Product version: 5.2.3+a5ddef92a8afb22508450803e37c001f4a3ba52a. GlobalAssemblyCache: False
+2023-08-24 17:36:43.6198 Info Validating config: TargetNames=allfile, console, ownFile-web, ConfigItems=69, FilePath=C:\AProject\AppleStore\AppleStore\nlog.config
+2023-08-24 17:36:43.6198 Info Configuration initialized.
+2023-08-24 17:36:43.7294 Info Validating config: TargetNames=allfile, console, ownFile-web, ConfigItems=69, FilePath=C:\AProject\AppleStore\AppleStore\nlog.config
+2023-08-24 17:36:53.9283 Info NLogRequestPostedBodyMiddleware is not yet initialized, which is required by aspnet-request-posted-body.
+2023-08-24 17:39:00.8460 Info Registered target NLog.Targets.FileTarget(Name=allfile)
+2023-08-24 17:39:00.8502 Info Registered target NLog.Targets.FileTarget(Name=ownFile-web)
+2023-08-24 17:39:00.8502 Info Registered target NLog.Targets.ConsoleTarget(Name=console)
+2023-08-24 17:39:00.8502 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target 'lifetimeConsole' not found for logging rule: Microsoft.Hosting.Lifetime.
+2023-08-24 17:39:00.8502 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.3.1999. Product version: 5.2.3+a5ddef92a8afb22508450803e37c001f4a3ba52a. GlobalAssemblyCache: False
+2023-08-24 17:39:00.8502 Info Validating config: TargetNames=allfile, console, ownFile-web, ConfigItems=69, FilePath=C:\AProject\AppleStore\AppleStore\nlog.config
+2023-08-24 17:39:00.8718 Info Configuration initialized.
+2023-08-24 17:39:00.9301 Info Validating config: TargetNames=allfile, console, ownFile-web, ConfigItems=69, FilePath=C:\AProject\AppleStore\AppleStore\nlog.config
+2023-08-24 17:39:04.2108 Info NLogRequestPostedBodyMiddleware is not yet initialized, which is required by aspnet-request-posted-body.
+2023-08-24 17:42:29.6662 Info Registered target NLog.Targets.FileTarget(Name=allfile)
+2023-08-24 17:42:29.6958 Info Registered target NLog.Targets.FileTarget(Name=ownFile-web)
+2023-08-24 17:42:29.6958 Info Registered target NLog.Targets.ConsoleTarget(Name=console)
+2023-08-24 17:42:29.7220 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target 'lifetimeConsole' not found for logging rule: Microsoft.Hosting.Lifetime.
+2023-08-24 17:42:29.7441 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.3.1999. Product version: 5.2.3+a5ddef92a8afb22508450803e37c001f4a3ba52a. GlobalAssemblyCache: False
+2023-08-24 17:42:29.7441 Info Validating config: TargetNames=allfile, console, ownFile-web, ConfigItems=69, FilePath=C:\AProject\AppleStore\AppleStore\nlog.config
+2023-08-24 17:42:29.7592 Info Configuration initialized.
+2023-08-24 17:42:29.9021 Info Validating config: TargetNames=allfile, console, ownFile-web, ConfigItems=69, FilePath=C:\AProject\AppleStore\AppleStore\nlog.config
+2023-08-24 17:44:29.8167 Info Registered target NLog.Targets.FileTarget(Name=allfile)
+2023-08-24 17:44:29.8211 Info Registered target NLog.Targets.FileTarget(Name=ownFile-web)
+2023-08-24 17:44:29.8211 Info Registered target NLog.Targets.ConsoleTarget(Name=console)
+2023-08-24 17:44:29.8211 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target 'lifetimeConsole' not found for logging rule: Microsoft.Hosting.Lifetime.
+2023-08-24 17:44:29.8211 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.3.1999. Product version: 5.2.3+a5ddef92a8afb22508450803e37c001f4a3ba52a. GlobalAssemblyCache: False
+2023-08-24 17:44:29.8353 Info Validating config: TargetNames=allfile, console, ownFile-web, ConfigItems=69, FilePath=C:\AProject\AppleStore\AppleStore\nlog.config
+2023-08-24 17:44:29.8353 Info Configuration initialized.
+2023-08-24 17:44:29.9051 Info Validating config: TargetNames=allfile, console, ownFile-web, ConfigItems=69, FilePath=C:\AProject\AppleStore\AppleStore\nlog.config
+2023-08-24 17:44:35.4433 Info NLogRequestPostedBodyMiddleware is not yet initialized, which is required by aspnet-request-posted-body.
+2023-08-24 17:47:02.6034 Info Registered target NLog.Targets.FileTarget(Name=allfile)
+2023-08-24 17:47:02.6034 Info Registered target NLog.Targets.FileTarget(Name=ownFile-web)
+2023-08-24 17:47:02.6034 Info Registered target NLog.Targets.ConsoleTarget(Name=console)
+2023-08-24 17:47:02.6034 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target 'lifetimeConsole' not found for logging rule: Microsoft.Hosting.Lifetime.
+2023-08-24 17:47:02.6147 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.3.1999. Product version: 5.2.3+a5ddef92a8afb22508450803e37c001f4a3ba52a. GlobalAssemblyCache: False
+2023-08-24 17:47:02.6147 Info Validating config: TargetNames=allfile, console, ownFile-web, ConfigItems=69, FilePath=C:\AProject\AppleStore\AppleStore\nlog.config
+2023-08-24 17:47:02.6304 Info Configuration initialized.
+2023-08-24 17:47:02.6983 Info Validating config: TargetNames=allfile, console, ownFile-web, ConfigItems=69, FilePath=C:\AProject\AppleStore\AppleStore\nlog.config
+2023-08-24 17:47:05.8671 Info NLogRequestPostedBodyMiddleware is not yet initialized, which is required by aspnet-request-posted-body.
+2023-08-24 17:47:43.5169 Info Registered target NLog.Targets.FileTarget(Name=allfile)
+2023-08-24 17:47:43.5366 Info Registered target NLog.Targets.FileTarget(Name=ownFile-web)
+2023-08-24 17:47:43.5372 Info Registered target NLog.Targets.ConsoleTarget(Name=console)
+2023-08-24 17:47:43.5372 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target 'lifetimeConsole' not found for logging rule: Microsoft.Hosting.Lifetime.
+2023-08-24 17:47:43.5600 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.3.1999. Product version: 5.2.3+a5ddef92a8afb22508450803e37c001f4a3ba52a. GlobalAssemblyCache: False
+2023-08-24 17:47:43.5600 Info Validating config: TargetNames=allfile, console, ownFile-web, ConfigItems=69, FilePath=C:\AProject\AppleStore\AppleStore\nlog.config
+2023-08-24 17:47:43.5774 Info Configuration initialized.
+2023-08-24 17:47:43.6738 Info Validating config: TargetNames=allfile, console, ownFile-web, ConfigItems=69, FilePath=C:\AProject\AppleStore\AppleStore\nlog.config
+2023-08-24 17:48:09.2087 Info NLogRequestPostedBodyMiddleware is not yet initialized, which is required by aspnet-request-posted-body.
+2023-08-24 17:51:28.1165 Info Registered target NLog.Targets.FileTarget(Name=allfile)
+2023-08-24 17:51:28.1165 Info Registered target NLog.Targets.FileTarget(Name=ownFile-web)
+2023-08-24 17:51:28.1165 Info Registered target NLog.Targets.ConsoleTarget(Name=console)
+2023-08-24 17:51:28.1165 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target 'lifetimeConsole' not found for logging rule: Microsoft.Hosting.Lifetime.
+2023-08-24 17:51:28.1165 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.3.1999. Product version: 5.2.3+a5ddef92a8afb22508450803e37c001f4a3ba52a. GlobalAssemblyCache: False
+2023-08-24 17:51:28.1342 Info Validating config: TargetNames=allfile, console, ownFile-web, ConfigItems=69, FilePath=C:\AProject\AppleStore\AppleStore\nlog.config
+2023-08-24 17:51:28.1342 Info Configuration initialized.
+2023-08-24 17:51:28.2009 Info Validating config: TargetNames=allfile, console, ownFile-web, ConfigItems=69, FilePath=C:\AProject\AppleStore\AppleStore\nlog.config
+2023-08-24 17:51:31.4430 Info NLogRequestPostedBodyMiddleware is not yet initialized, which is required by aspnet-request-posted-body.
+2023-08-24 17:51:50.5032 Info Registered target NLog.Targets.FileTarget(Name=allfile)
+2023-08-24 17:51:50.5210 Info Registered target NLog.Targets.FileTarget(Name=ownFile-web)
+2023-08-24 17:51:50.5216 Info Registered target NLog.Targets.ConsoleTarget(Name=console)
+2023-08-24 17:51:50.5216 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target 'lifetimeConsole' not found for logging rule: Microsoft.Hosting.Lifetime.
+2023-08-24 17:51:50.5423 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.3.1999. Product version: 5.2.3+a5ddef92a8afb22508450803e37c001f4a3ba52a. GlobalAssemblyCache: False
+2023-08-24 17:51:50.5423 Info Validating config: TargetNames=allfile, console, ownFile-web, ConfigItems=69, FilePath=C:\AProject\AppleStore\AppleStore\nlog.config
+2023-08-24 17:51:50.5619 Info Configuration initialized.
+2023-08-24 17:51:50.6583 Info Validating config: TargetNames=allfile, console, ownFile-web, ConfigItems=69, FilePath=C:\AProject\AppleStore\AppleStore\nlog.config
+2023-08-24 17:52:54.6773 Info NLogRequestPostedBodyMiddleware is not yet initialized, which is required by aspnet-request-posted-body.
+2023-08-24 17:54:03.8382 Info Registered target NLog.Targets.FileTarget(Name=allfile)
+2023-08-24 17:54:03.8382 Info Registered target NLog.Targets.FileTarget(Name=ownFile-web)
+2023-08-24 17:54:03.8382 Info Registered target NLog.Targets.ConsoleTarget(Name=console)
+2023-08-24 17:54:03.8382 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target 'lifetimeConsole' not found for logging rule: Microsoft.Hosting.Lifetime.
+2023-08-24 17:54:03.8382 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.3.1999. Product version: 5.2.3+a5ddef92a8afb22508450803e37c001f4a3ba52a. GlobalAssemblyCache: False
+2023-08-24 17:54:03.8552 Info Validating config: TargetNames=allfile, console, ownFile-web, ConfigItems=69, FilePath=C:\AProject\AppleStore\AppleStore\nlog.config
+2023-08-24 17:54:03.8552 Info Configuration initialized.
+2023-08-24 17:54:03.9197 Info Validating config: TargetNames=allfile, console, ownFile-web, ConfigItems=69, FilePath=C:\AProject\AppleStore\AppleStore\nlog.config
+2023-08-24 17:54:06.3503 Info NLogRequestPostedBodyMiddleware is not yet initialized, which is required by aspnet-request-posted-body.
+2023-08-24 17:54:30.4840 Info Registered target NLog.Targets.FileTarget(Name=allfile)
+2023-08-24 17:54:30.5034 Info Registered target NLog.Targets.FileTarget(Name=ownFile-web)
+2023-08-24 17:54:30.5034 Info Registered target NLog.Targets.ConsoleTarget(Name=console)
+2023-08-24 17:54:30.5177 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target 'lifetimeConsole' not found for logging rule: Microsoft.Hosting.Lifetime.
+2023-08-24 17:54:30.5287 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.3.1999. Product version: 5.2.3+a5ddef92a8afb22508450803e37c001f4a3ba52a. GlobalAssemblyCache: False
+2023-08-24 17:54:30.5287 Info Validating config: TargetNames=allfile, console, ownFile-web, ConfigItems=69, FilePath=C:\AProject\AppleStore\AppleStore\nlog.config
+2023-08-24 17:54:30.5466 Info Configuration initialized.
+2023-08-24 17:54:30.6460 Info Validating config: TargetNames=allfile, console, ownFile-web, ConfigItems=69, FilePath=C:\AProject\AppleStore\AppleStore\nlog.config
+2023-08-24 17:54:35.5058 Info NLogRequestPostedBodyMiddleware is not yet initialized, which is required by aspnet-request-posted-body.
+2023-08-24 17:59:59.4137 Info Registered target NLog.Targets.FileTarget(Name=allfile)
+2023-08-24 17:59:59.4137 Info Registered target NLog.Targets.FileTarget(Name=ownFile-web)
+2023-08-24 17:59:59.4137 Info Registered target NLog.Targets.ConsoleTarget(Name=console)
+2023-08-24 17:59:59.4137 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target 'lifetimeConsole' not found for logging rule: Microsoft.Hosting.Lifetime.
+2023-08-24 17:59:59.4137 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.3.1999. Product version: 5.2.3+a5ddef92a8afb22508450803e37c001f4a3ba52a. GlobalAssemblyCache: False
+2023-08-24 17:59:59.4329 Info Validating config: TargetNames=allfile, console, ownFile-web, ConfigItems=69, FilePath=C:\AProject\AppleStore\AppleStore\nlog.config
+2023-08-24 17:59:59.4329 Info Configuration initialized.
+2023-08-24 17:59:59.4980 Info Validating config: TargetNames=allfile, console, ownFile-web, ConfigItems=69, FilePath=C:\AProject\AppleStore\AppleStore\nlog.config
+2023-08-24 18:00:05.5221 Info NLogRequestPostedBodyMiddleware is not yet initialized, which is required by aspnet-request-posted-body.
+2023-08-24 18:00:22.5779 Info Registered target NLog.Targets.FileTarget(Name=allfile)
+2023-08-24 18:00:22.5974 Info Registered target NLog.Targets.FileTarget(Name=ownFile-web)
+2023-08-24 18:00:22.5974 Info Registered target NLog.Targets.ConsoleTarget(Name=console)
+2023-08-24 18:00:22.6098 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target 'lifetimeConsole' not found for logging rule: Microsoft.Hosting.Lifetime.
+2023-08-24 18:00:22.6211 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.3.1999. Product version: 5.2.3+a5ddef92a8afb22508450803e37c001f4a3ba52a. GlobalAssemblyCache: False
+2023-08-24 18:00:22.6211 Info Validating config: TargetNames=allfile, console, ownFile-web, ConfigItems=69, FilePath=C:\AProject\AppleStore\AppleStore\nlog.config
+2023-08-24 18:00:22.6384 Info Configuration initialized.
+2023-08-24 18:00:22.7445 Info Validating config: TargetNames=allfile, console, ownFile-web, ConfigItems=69, FilePath=C:\AProject\AppleStore\AppleStore\nlog.config
+2023-08-24 18:00:31.7090 Info NLogRequestPostedBodyMiddleware is not yet initialized, which is required by aspnet-request-posted-body.
+2023-08-24 18:06:33.8143 Info Registered target NLog.Targets.FileTarget(Name=allfile)
+2023-08-24 18:06:33.8187 Info Registered target NLog.Targets.FileTarget(Name=ownFile-web)
+2023-08-24 18:06:33.8187 Info Registered target NLog.Targets.ConsoleTarget(Name=console)
+2023-08-24 18:06:33.8187 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target 'lifetimeConsole' not found for logging rule: Microsoft.Hosting.Lifetime.
+2023-08-24 18:06:33.8187 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.3.1999. Product version: 5.2.3+a5ddef92a8afb22508450803e37c001f4a3ba52a. GlobalAssemblyCache: False
+2023-08-24 18:06:33.8362 Info Validating config: TargetNames=allfile, console, ownFile-web, ConfigItems=69, FilePath=C:\AProject\AppleStore\AppleStore\nlog.config
+2023-08-24 18:06:33.8362 Info Configuration initialized.
+2023-08-24 18:06:33.9231 Info Validating config: TargetNames=allfile, console, ownFile-web, ConfigItems=69, FilePath=C:\AProject\AppleStore\AppleStore\nlog.config
+2023-08-24 18:06:37.0674 Info NLogRequestPostedBodyMiddleware is not yet initialized, which is required by aspnet-request-posted-body.
+2023-08-24 18:08:15.0816 Info Registered target NLog.Targets.FileTarget(Name=allfile)
+2023-08-24 18:08:15.1026 Info Registered target NLog.Targets.FileTarget(Name=ownFile-web)
+2023-08-24 18:08:15.1026 Info Registered target NLog.Targets.ConsoleTarget(Name=console)
+2023-08-24 18:08:15.1164 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target 'lifetimeConsole' not found for logging rule: Microsoft.Hosting.Lifetime.
+2023-08-24 18:08:15.1164 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.3.1999. Product version: 5.2.3+a5ddef92a8afb22508450803e37c001f4a3ba52a. GlobalAssemblyCache: False
+2023-08-24 18:08:15.1390 Info Validating config: TargetNames=allfile, console, ownFile-web, ConfigItems=69, FilePath=C:\AProject\AppleStore\AppleStore\nlog.config
+2023-08-24 18:08:15.1552 Info Configuration initialized.
+2023-08-24 18:08:15.2619 Info Validating config: TargetNames=allfile, console, ownFile-web, ConfigItems=69, FilePath=C:\AProject\AppleStore\AppleStore\nlog.config
+2023-08-24 18:08:28.4268 Info NLogRequestPostedBodyMiddleware is not yet initialized, which is required by aspnet-request-posted-body.
+2023-08-24 18:13:29.2136 Info Registered target NLog.Targets.FileTarget(Name=allfile)
+2023-08-24 18:13:29.2319 Info Registered target NLog.Targets.FileTarget(Name=ownFile-web)
+2023-08-24 18:13:29.2319 Info Registered target NLog.Targets.ConsoleTarget(Name=console)
+2023-08-24 18:13:29.2439 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target 'lifetimeConsole' not found for logging rule: Microsoft.Hosting.Lifetime.
+2023-08-24 18:13:29.2550 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.3.1999. Product version: 5.2.3+a5ddef92a8afb22508450803e37c001f4a3ba52a. GlobalAssemblyCache: False
+2023-08-24 18:13:29.2550 Info Validating config: TargetNames=allfile, console, ownFile-web, ConfigItems=69, FilePath=C:\AProject\AppleStore\AppleStore\nlog.config
+2023-08-24 18:13:29.2745 Info Configuration initialized.
+2023-08-24 18:13:29.3686 Info Validating config: TargetNames=allfile, console, ownFile-web, ConfigItems=69, FilePath=C:\AProject\AppleStore\AppleStore\nlog.config
+2023-08-24 18:13:34.3187 Info NLogRequestPostedBodyMiddleware is not yet initialized, which is required by aspnet-request-posted-body.
+2023-08-24 18:14:38.0550 Info Registered target NLog.Targets.FileTarget(Name=allfile)
+2023-08-24 18:14:38.0749 Info Registered target NLog.Targets.FileTarget(Name=ownFile-web)
+2023-08-24 18:14:38.0749 Info Registered target NLog.Targets.ConsoleTarget(Name=console)
+2023-08-24 18:14:38.0864 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target 'lifetimeConsole' not found for logging rule: Microsoft.Hosting.Lifetime.
+2023-08-24 18:14:38.0864 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.3.1999. Product version: 5.2.3+a5ddef92a8afb22508450803e37c001f4a3ba52a. GlobalAssemblyCache: False
+2023-08-24 18:14:38.1046 Info Validating config: TargetNames=allfile, console, ownFile-web, ConfigItems=69, FilePath=C:\AProject\AppleStore\AppleStore\nlog.config
+2023-08-24 18:14:38.1153 Info Configuration initialized.
+2023-08-24 18:14:38.2086 Info Validating config: TargetNames=allfile, console, ownFile-web, ConfigItems=69, FilePath=C:\AProject\AppleStore\AppleStore\nlog.config
+2023-08-24 18:14:41.9597 Info NLogRequestPostedBodyMiddleware is not yet initialized, which is required by aspnet-request-posted-body.
+2023-08-24 18:16:26.4239 Info Registered target NLog.Targets.FileTarget(Name=allfile)
+2023-08-24 18:16:26.4285 Info Registered target NLog.Targets.FileTarget(Name=ownFile-web)
+2023-08-24 18:16:26.4285 Info Registered target NLog.Targets.ConsoleTarget(Name=console)
+2023-08-24 18:16:26.4285 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target 'lifetimeConsole' not found for logging rule: Microsoft.Hosting.Lifetime.
+2023-08-24 18:16:26.4285 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.3.1999. Product version: 5.2.3+a5ddef92a8afb22508450803e37c001f4a3ba52a. GlobalAssemblyCache: False
+2023-08-24 18:16:26.4285 Info Validating config: TargetNames=allfile, console, ownFile-web, ConfigItems=69, FilePath=C:\AProject\AppleStore\AppleStore\nlog.config
+2023-08-24 18:16:26.4497 Info Configuration initialized.
+2023-08-24 18:16:26.5077 Info Validating config: TargetNames=allfile, console, ownFile-web, ConfigItems=69, FilePath=C:\AProject\AppleStore\AppleStore\nlog.config
+2023-08-24 18:16:31.9626 Info NLogRequestPostedBodyMiddleware is not yet initialized, which is required by aspnet-request-posted-body.
+2023-08-24 18:16:53.1644 Info Registered target NLog.Targets.FileTarget(Name=allfile)
+2023-08-24 18:16:53.1835 Info Registered target NLog.Targets.FileTarget(Name=ownFile-web)
+2023-08-24 18:16:53.1835 Info Registered target NLog.Targets.ConsoleTarget(Name=console)
+2023-08-24 18:16:53.1965 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target 'lifetimeConsole' not found for logging rule: Microsoft.Hosting.Lifetime.
+2023-08-24 18:16:53.1965 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.3.1999. Product version: 5.2.3+a5ddef92a8afb22508450803e37c001f4a3ba52a. GlobalAssemblyCache: False
+2023-08-24 18:16:53.2138 Info Validating config: TargetNames=allfile, console, ownFile-web, ConfigItems=69, FilePath=C:\AProject\AppleStore\AppleStore\nlog.config
+2023-08-24 18:16:53.2255 Info Configuration initialized.
+2023-08-24 18:16:53.3290 Info Validating config: TargetNames=allfile, console, ownFile-web, ConfigItems=69, FilePath=C:\AProject\AppleStore\AppleStore\nlog.config
+2023-08-24 18:16:56.8356 Info NLogRequestPostedBodyMiddleware is not yet initialized, which is required by aspnet-request-posted-body.
+2023-08-24 18:20:04.3336 Info Registered target NLog.Targets.FileTarget(Name=allfile)
+2023-08-24 18:20:04.3526 Info Registered target NLog.Targets.FileTarget(Name=ownFile-web)
+2023-08-24 18:20:04.3526 Info Registered target NLog.Targets.ConsoleTarget(Name=console)
+2023-08-24 18:20:04.3664 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target 'lifetimeConsole' not found for logging rule: Microsoft.Hosting.Lifetime.
+2023-08-24 18:20:04.3664 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.3.1999. Product version: 5.2.3+a5ddef92a8afb22508450803e37c001f4a3ba52a. GlobalAssemblyCache: False
+2023-08-24 18:20:04.3836 Info Validating config: TargetNames=allfile, console, ownFile-web, ConfigItems=69, FilePath=C:\AProject\AppleStore\AppleStore\nlog.config
+2023-08-24 18:20:04.3836 Info Configuration initialized.
+2023-08-24 18:20:04.4896 Info Validating config: TargetNames=allfile, console, ownFile-web, ConfigItems=69, FilePath=C:\AProject\AppleStore\AppleStore\nlog.config
+2023-08-24 18:20:08.1772 Info NLogRequestPostedBodyMiddleware is not yet initialized, which is required by aspnet-request-posted-body.
+2023-08-24 18:21:56.3051 Info Registered target NLog.Targets.FileTarget(Name=allfile)
+2023-08-24 18:21:56.3137 Info Registered target NLog.Targets.FileTarget(Name=ownFile-web)
+2023-08-24 18:21:56.3137 Info Registered target NLog.Targets.ConsoleTarget(Name=console)
+2023-08-24 18:21:56.3225 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target 'lifetimeConsole' not found for logging rule: Microsoft.Hosting.Lifetime.
+2023-08-24 18:21:56.3225 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.3.1999. Product version: 5.2.3+a5ddef92a8afb22508450803e37c001f4a3ba52a. GlobalAssemblyCache: False
+2023-08-24 18:21:56.3389 Info Validating config: TargetNames=allfile, console, ownFile-web, ConfigItems=69, FilePath=C:\AProject\AppleStore\AppleStore\nlog.config
+2023-08-24 18:21:56.3537 Info Configuration initialized.
+2023-08-24 18:21:56.4590 Info Validating config: TargetNames=allfile, console, ownFile-web, ConfigItems=69, FilePath=C:\AProject\AppleStore\AppleStore\nlog.config
+2023-08-24 18:22:03.5685 Info NLogRequestPostedBodyMiddleware is not yet initialized, which is required by aspnet-request-posted-body.
+2023-08-24 18:26:46.6237 Info Registered target NLog.Targets.FileTarget(Name=allfile)
+2023-08-24 18:26:46.6237 Info Registered target NLog.Targets.FileTarget(Name=ownFile-web)
+2023-08-24 18:26:46.6237 Info Registered target NLog.Targets.ConsoleTarget(Name=console)
+2023-08-24 18:26:46.6334 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target 'lifetimeConsole' not found for logging rule: Microsoft.Hosting.Lifetime.
+2023-08-24 18:26:46.6334 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.3.1999. Product version: 5.2.3+a5ddef92a8afb22508450803e37c001f4a3ba52a. GlobalAssemblyCache: False
+2023-08-24 18:26:46.6334 Info Validating config: TargetNames=allfile, console, ownFile-web, ConfigItems=69, FilePath=C:\AProject\AppleStore\AppleStore\nlog.config
+2023-08-24 18:26:46.6528 Info Configuration initialized.
+2023-08-24 18:26:46.7207 Info Validating config: TargetNames=allfile, console, ownFile-web, ConfigItems=69, FilePath=C:\AProject\AppleStore\AppleStore\nlog.config
+2023-08-24 18:26:51.3805 Info NLogRequestPostedBodyMiddleware is not yet initialized, which is required by aspnet-request-posted-body.
+2023-08-24 18:38:48.4715 Info Registered target NLog.Targets.FileTarget(Name=allfile)
+2023-08-24 18:38:48.4760 Info Registered target NLog.Targets.FileTarget(Name=ownFile-web)
+2023-08-24 18:38:48.4760 Info Registered target NLog.Targets.ConsoleTarget(Name=console)
+2023-08-24 18:38:48.4760 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target 'lifetimeConsole' not found for logging rule: Microsoft.Hosting.Lifetime.
+2023-08-24 18:38:48.4760 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.3.1999. Product version: 5.2.3+a5ddef92a8afb22508450803e37c001f4a3ba52a. GlobalAssemblyCache: False
+2023-08-24 18:38:48.4760 Info Validating config: TargetNames=allfile, console, ownFile-web, ConfigItems=69, FilePath=C:\AProject\AppleStore\AppleStore\nlog.config
+2023-08-24 18:38:48.4965 Info Configuration initialized.
+2023-08-24 18:38:48.5602 Info Validating config: TargetNames=allfile, console, ownFile-web, ConfigItems=69, FilePath=C:\AProject\AppleStore\AppleStore\nlog.config
+2023-08-24 18:38:51.4136 Info NLogRequestPostedBodyMiddleware is not yet initialized, which is required by aspnet-request-posted-body.
+2023-08-24 18:40:51.2951 Info Registered target NLog.Targets.FileTarget(Name=allfile)
+2023-08-24 18:40:51.2951 Info Registered target NLog.Targets.FileTarget(Name=ownFile-web)
+2023-08-24 18:40:51.2951 Info Registered target NLog.Targets.ConsoleTarget(Name=console)
+2023-08-24 18:40:51.3031 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target 'lifetimeConsole' not found for logging rule: Microsoft.Hosting.Lifetime.
+2023-08-24 18:40:51.3031 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.3.1999. Product version: 5.2.3+a5ddef92a8afb22508450803e37c001f4a3ba52a. GlobalAssemblyCache: False
+2023-08-24 18:40:51.3031 Info Validating config: TargetNames=allfile, console, ownFile-web, ConfigItems=69, FilePath=C:\AProject\AppleStore\AppleStore\nlog.config
+2023-08-24 18:40:51.3199 Info Configuration initialized.
+2023-08-24 18:40:51.3766 Info Validating config: TargetNames=allfile, console, ownFile-web, ConfigItems=69, FilePath=C:\AProject\AppleStore\AppleStore\nlog.config
+2023-08-24 18:41:14.7251 Info NLogRequestPostedBodyMiddleware is not yet initialized, which is required by aspnet-request-posted-body.
+2023-08-24 18:47:13.6595 Info Registered target NLog.Targets.FileTarget(Name=allfile)
+2023-08-24 18:47:13.6640 Info Registered target NLog.Targets.FileTarget(Name=ownFile-web)
+2023-08-24 18:47:13.6640 Info Registered target NLog.Targets.ConsoleTarget(Name=console)
+2023-08-24 18:47:13.6640 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target 'lifetimeConsole' not found for logging rule: Microsoft.Hosting.Lifetime.
+2023-08-24 18:47:13.6640 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.3.1999. Product version: 5.2.3+a5ddef92a8afb22508450803e37c001f4a3ba52a. GlobalAssemblyCache: False
+2023-08-24 18:47:13.6640 Info Validating config: TargetNames=allfile, console, ownFile-web, ConfigItems=69, FilePath=C:\AProject\AppleStore\AppleStore\nlog.config
+2023-08-24 18:47:13.6860 Info Configuration initialized.
+2023-08-24 18:47:13.7487 Info Validating config: TargetNames=allfile, console, ownFile-web, ConfigItems=69, FilePath=C:\AProject\AppleStore\AppleStore\nlog.config
+2023-08-24 18:47:25.4583 Info NLogRequestPostedBodyMiddleware is not yet initialized, which is required by aspnet-request-posted-body.

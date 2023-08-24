@@ -63,7 +63,8 @@ public class DeviceService : IDeviceService
             Name = model.Name,
             Description = model.Description,
             Price = model.Price,
-            Type = (DeviceType)Convert.ToInt32(model.Type)
+            Type = (DeviceType)Convert.ToInt32(model.Type),
+            ImageUrl = model.ImageUrl
         };
         await _deviceRepository.Create(device);
         baseResponse.StatusCode = HttpStatusCode.OK;
@@ -154,6 +155,7 @@ public class DeviceService : IDeviceService
             device.Description = model.Description;
             device.Name = model.Name;
             device.Price = model.Price;
+            device.ImageUrl = model.ImageUrl;
             device.Type = (DeviceType)Convert.ToInt32(model.Type);
             await _deviceRepository.Update(device);
             baseResponse.StatusCode = HttpStatusCode.OK;

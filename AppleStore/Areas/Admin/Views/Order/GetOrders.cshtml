@@ -1,0 +1,43 @@
+﻿@using AppleStore.Extensions
+@model IEnumerable<AppleStore.Domain.Entity.Order>?
+
+@{
+    Layout = "AdminLayout";
+}
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Order List</title>
+</head>
+<body>
+<h2>Список заказов</h2>
+<div class="container">
+<table style="width: 100%;">
+    <thead>
+    <tr>
+        <th>Имя</th>
+        <th>Email</th>
+        <th>Адрес</th>
+        <th>Цена</th>
+        <th>Статус</th>
+        <th></th>
+    </tr>
+    </thead>
+    <tbody>
+    @foreach (var order in Model)
+    {
+        <tr>
+            <td>@order.Name</td>
+            <td>@order.Email</td>
+            <td>@order.Address</td>
+            <td>@order.Price руб</td>
+            <td>@order.Status.DisplayName()</td>
+            <td><a class="edit-button" href="@Url.Action("Edit", "Order", new { id = order.Id, area="Admin" })">Редактировать</a></td>
+        </tr>
+    }
+    </tbody>
+</table>
+</div>
+</body>
+</html>

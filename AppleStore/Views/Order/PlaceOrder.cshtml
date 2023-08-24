@@ -1,4 +1,8 @@
-﻿@model DeviceOrderViewModel
+﻿@model AppleStore.Domain.ViewModels.DeviceOrderViewModel
+@using System.Linq
+@{
+    decimal? orderCost = Model.Devices.Sum(device => device.Price);
+}
 <!DOCTYPE html>
 <html>
 <head>
@@ -7,14 +11,18 @@
 <body>
 <div class="order">
     <h2>Оформление заказа</h2>
-    <p>@Model.Device.Name</p>
-    <img src="@Model.Device.ImageUrl" alt="@Model.Device.Name">
-    <p class="catalog">Стоимость заказа :<br/> @Model.Device.Price руб </p>
+    @foreach (var device in @Model.Devices)
+    {
+        <p>@device.Name</p>
+        <img src="@device.ImageUrl" alt="@device.Name">
+    }
+    <p class="catalog">Стоимость заказа :<br/> @orderCost руб </p>
     <form asp-action="PlaceOrder" asp-controller="Order" method="post">
-        <input type="hidden" asp-for="@Model.Device.Id" value="@Model.Device.Id" />
-        <input type="hidden" asp-for="@Model.Order.DeviceId[0]" value="@Model.Device.Id" />
-        <input type="hidden" asp-for="@Model.Order.Status" value="0" />
-        <input type="hidden" asp-for="@Model.Order.Price" value="@Model.Device.Price" />
+        <input type="hidden" asp-for="Order.DevicesId"/>
+        <input type="hidden" asp-for="@Model.Order.DevicesId" />
+        <input type="hidden" asp-for="@Model.Devices[0].Id" value="@Model.Devices[0].Id"/>
+        <input type="hidden" asp-for="@Model.Order.Status" value="0"/>
+        <input type="hidden" asp-for="@Model.Order.Price" value="@orderCost"/>
         <label for="name">Имя:</label>
         <input type="text" id="name" asp-for="Order.Name" required>
         <label for="email">Email:</label>
@@ -25,7 +33,7 @@
     </form>
 </div>
 <div class="navigation-button">
-    <a href="@Url.Action("Catalog", "Device",new {type=-1})" class="btn">Вернуться в каталог</a>
+    <a href="@Url.Action("Catalog", "Home",new {type=-1})" class="btn">Вернуться в каталог</a>
 </div>
 </body>
 </html>

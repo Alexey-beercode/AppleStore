@@ -1,4 +1,5 @@
 ﻿using AppleStore.DAL.Repositories;
+using Microsoft.Extensions.Caching.Memory;
 using Microsoft.Extensions.Logging;
 
 namespace AppleStore.Service.Implementations;
@@ -7,18 +8,20 @@ public class OrderService : IOrderService
 {
     private readonly OrderRepository _orderRepository;
     private readonly ILogger<OrderService> _logger;
+    private readonly IMemoryCache _cache;
 
-    public OrderService(OrderRepository orderRepository, ILogger<OrderService> logger)
+    public OrderService(OrderRepository orderRepository, ILogger<OrderService> logger, IMemoryCache cache)
     {
         _orderRepository = orderRepository;
         _logger = logger;
+        _cache = cache;
     }
 
     public async Task<BaseResponse<Order>> GetById(int id)
     {
         var baseResponse = new BaseResponse<Order>();
 
-        var order = (await _orderRepository.GetAll()).FirstOrDefault(x=>x.Id==id);
+        var order = (await _orderRepository.GetAll()).FirstOrDefault(x => x.Id == id);
         if (order == null)
         {
             baseResponse.Description = "Заказ не найден";
@@ -37,7 +40,7 @@ public class OrderService : IOrderService
     {
         var baseResponse = new BaseResponse<Order>();
 
-        var order = (await _orderRepository.GetAll()).FirstOrDefault(x=>x.Name==name);
+        var order = (await _orderRepository.GetAll()).FirstOrDefault(x => x.Name == name);
         if (order == null)
         {
             baseResponse.Description = "Заказ не найден";
@@ -58,7 +61,7 @@ public class OrderService : IOrderService
         var order = new Order()
         {
             Name = orderModel.Name,
-            DeviceId = orderModel.DeviceId,
+            DevicesId = orderModel.DevicesId,
             Email = orderModel.Email,
             Address = orderModel.Address,
             Price = orderModel.Price,
@@ -75,7 +78,7 @@ public class OrderService : IOrderService
     {
         var baseResponse = new BaseResponse<bool>();
 
-        var order = (await _orderRepository.GetAll()).FirstOrDefault(x=>x.Id==id);
+        var order = (await _orderRepository.GetAll()).FirstOrDefault(x => x.Id == id);
         if (order == null)
         {
             baseResponse.Description = "Заказ не найден";
@@ -91,9 +94,18 @@ public class OrderService : IOrderService
         return baseResponse;
     }
 
-    public async Task<BaseResponse<IEnumerable<Order>>> GetOrders()
+    public async Task<BaseResponse<IEnumerable<Order>>> GetOrders(bool useCache)
     {
         var baseResponse = new BaseResponse<IEnumerable<Order>>();
+
+        if (useCache && _cache.TryGetValue("AllOrders", out IEnumerable<Order>? ordersFromCache))
+        {
+            _logger.LogInformation("Получение всех девайсов из кэша");
+            baseResponse.Data = ordersFromCache;
+            baseResponse.StatusCode = HttpStatusCode.OK;
+            return baseResponse;
+        }
+
         try
         {
             var orders = await _orderRepository.GetAll();
@@ -101,21 +113,28 @@ public class OrderService : IOrderService
             {
                 baseResponse.Description = "Найдено 0 элементов";
                 baseResponse.StatusCode = HttpStatusCode.NoContent;
-                _logger.LogError("Ошибка получения заказов");
+                _logger.LogError("Ошибка : заказы не найдены");
                 return baseResponse;
             }
 
             baseResponse.Data = orders;
             baseResponse.StatusCode = HttpStatusCode.OK;
-            _logger.LogInformation("Успешное получение заказов");
+
+            if (useCache)
+            {
+                _cache.Set("AllOrders", orders,
+                    new MemoryCacheEntryOptions() { AbsoluteExpirationRelativeToNow = TimeSpan.FromMinutes(10) });
+                _logger.LogInformation("Все заказы добавлены в кэш");
+            }
+
             return baseResponse;
         }
         catch (Exception exception)
         {
-            _logger.LogCritical("Возникло исключение при попытке получения заказов");
+            _logger.LogCritical("Возникло исключение при получении всех заказов");
             return new BaseResponse<IEnumerable<Order>>()
             {
-                Description = $"[GetOrders] : {exception.Message}"
+                Description = $"[GetDevices] : {exception.Message}"
             };
         }
     }
@@ -125,7 +144,7 @@ public class OrderService : IOrderService
         var baseResponse = new BaseResponse<Order>();
         try
         {
-            var order = (await _orderRepository.GetAll()).FirstOrDefault(x=>x.Id==model.Id);
+            var order = (await _orderRepository.GetAll()).FirstOrDefault(x => x.Id == model.Id);
             if (order == null)
             {
                 baseResponse.Description = "Заказ не найден";
@@ -135,12 +154,12 @@ public class OrderService : IOrderService
             }
 
             order.Name = model.Name;
-            order.DeviceId = model.DeviceId;
+            order.DevicesId = model.DevicesId;
             order.Email = model.Email;
             order.Address = model.Address;
             order.Price = model.Price;
             order.Status = model.Status;
-            
+
             await _orderRepository.Update(order);
             baseResponse.StatusCode = HttpStatusCode.OK;
             _logger.LogInformation("Успешное редактирование заказа");

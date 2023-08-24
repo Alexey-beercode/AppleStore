@@ -2,7 +2,7 @@
 
 public interface IOrderService
 {
-    Task<BaseResponse<IEnumerable<Order>>> GetOrders();
+    Task<BaseResponse<IEnumerable<Order>>> GetOrders(bool useCache);
 
     Task<BaseResponse<Order>> GetById(int id);
 

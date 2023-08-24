@@ -1,35 +1,37 @@
-﻿namespace AppleStore.Controllers.Home;
+﻿using AppleStore.Domain.DeviceType;
+
+namespace AppleStore.Controllers.Home;
 
 public class HomeController : Controller
 {
-    private readonly IOrderService _orderService;
+    private readonly IDeviceService _deviceService;
+    private readonly ILogger<HomeController> _logger;
 
-    public HomeController(IOrderService orderService)
+    public HomeController(ILogger<HomeController> logger, IDeviceService deviceService)
     {
-        _orderService = orderService;
+        _logger = logger;
+        _deviceService = deviceService;
     }
 
-    public IActionResult Index()
+    public async Task<IActionResult> Catalog(int type)
     {
-        return Redirect("Device/Save");
-    }
+        bool useCache = false;
 
-
-    [HttpPost]
-    public async Task<IActionResult> GetOrder(Domain.Entity.Order order)
-    {
-        if (ModelState.IsValid)
+        BaseResponse<IEnumerable<Domain.Entity.Device>> response = await _deviceService.GetDevices(useCache);
+        if (response.StatusCode != HttpStatusCode.OK)
         {
-            if (order.Id == 0)
-            {
-                await _orderService.CreateOrder(order);
-            }
-            else
-            {
-                await _orderService.Edit(order);
-            }
+            _logger.LogError($"Error : {response.Description}");
+            return View("Error", response.Description);
         }
+        
+        IEnumerable<Domain.Entity.Device> devices = response.Data;
 
-        return RedirectToRoute("Device/Save");
+        if (type == -1)
+        {
+            return View(devices);
+        }
+    
+        return View(devices.Where(device => device.Type == (DeviceType)type).ToList());
     }
+    
 }

@@ -1,5 +1,7 @@
 ﻿using AppleStore.Domain.ViewModels;
 using Microsoft.AspNetCore.Identity;
+using Microsoft.AspNetCore.Mvc.ModelBinding;
+using Microsoft.EntityFrameworkCore.Metadata.Internal;
 
 namespace AppleStore.Controllers.Account;
 
@@ -9,7 +11,7 @@ public class AccountController : Controller
     private readonly SignInManager<IdentityUser> _signInManager;
     private readonly ILogger<AccountController> _logger;
 
-    public AccountController(ILogger<AccountController> logger, SignInManager<IdentityUser> signInManager, UserManager<IdentityUser> userManager)
+    public AccountController(ILogger<AccountController> logger, SignInManager<IdentityUser> signInManager, UserManager<IdentityUser> userManager, RoleManager<IdentityRole> roleManager)
     {
         _logger = logger;
         _signInManager = signInManager;
@@ -33,19 +35,31 @@ public class AccountController : Controller
             IdentityUser user = await _userManager.FindByNameAsync(model.UserName);
             if (user != null)
             {
+                var roles=await _userManager.GetRolesAsync(user);
                 await _signInManager.SignOutAsync();
                 Microsoft.AspNetCore.Identity.SignInResult result =
-                    await _signInManager.PasswordSignInAsync(user, model.Password, model.RememberMe, false);
+                    await _signInManager.PasswordSignInAsync(user, model.Password, false, false);
                 if (result.Succeeded)
                 {
                     _logger.LogInformation($"Пользователь {model.UserName} Авторизовался успешно");
+                    if (roles.Contains("Admin"))
+                    {
+                        return RedirectToRoute("Admin",new{area="Admin", controller="Home",action="Index"});
+                    }
                     return View("Successful","Успешная Авторизация");
                 }
+                else if (!result.IsLockedOut && !result.IsNotAllowed && !result.RequiresTwoFactor)
+                {
+                    _logger.LogInformation("Авторизация прошла неуспешно : неверный пароль");
+                    return View("Error", "Неверный пароль");
+                }
+                
             }
-            _logger.LogInformation("Авторизация прошла не успешно : пользователя не найдено");
+            _logger.LogError("Авторизация прошла неуспешно : пользователь не найден");
             return View("Error", "Пользователь не найден");
         }
-        return View("Error","Неверный логин или пароль");
+            
+        return View("Error","Некорректный логин или пароль");
     }
 
     [AllowAnonymous]
@@ -72,17 +86,28 @@ public class AccountController : Controller
                 await _signInManager.SignInAsync(newUser, isPersistent: false); // Log in the user
                 return View("Successful","Успешная Регистрация");
             }
-           
         }
-
-        return View("Error", "Неверный логин или пароль");
+        foreach (var key in ModelState.Keys)
+        {
+            var fieldState = ModelState[key];
+            if (fieldState.ValidationState == ModelValidationState.Invalid)
+            {
+                var errors = fieldState.Errors;
+                foreach (var error in errors)
+                {
+                    var errorMessage = error.ErrorMessage;
+                    _logger.LogError(errorMessage);
+                }
+            }
+        }
+        return View("Error", "Некорректный логин или пароль");
     }
     
     public async Task<IActionResult> Logout()
     {
         if (!User.Identity.IsAuthenticated)
             return View("Error", "Вы не вошли в аккаунт");
-            await _signInManager.SignOutAsync();
-            return View("Successful","Вы вышли из аккаунта");
+        await _signInManager.SignOutAsync(); 
+        return View("Successful","Вы вышли из аккаунта");
     }
 }

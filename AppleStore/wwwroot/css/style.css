@@ -181,3 +181,46 @@ button {
     text-decoration: none;
     margin-top: 0;
 }
+/* Стили для кнопки "Редактировать" */
+.edit-button {
+    background-color: #3498db;
+    border: none;
+    color: white;
+    padding: 8px 12px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+}
+
+.edit-button:hover {
+    background-color: #2980b9;
+}
+.center-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 10vh; 
+}
+
+.center-button {
+    text-align: center;
+    background-color: #3498db;
+    border: none;
+    color: white;
+    padding: 8px 12px;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+    align-items: center;
+}
+.center-button:hover{
+    background-color: #2980b9;
+}
+

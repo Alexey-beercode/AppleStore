@@ -16,8 +16,36 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = C:\AProject\AppleStore\AppleStore
 build_property._RazorSourceGeneratorDebug = 
 
+[C:/AProject/AppleStore/AppleStore/Areas/Admin/Views/Account/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQWNjb3VudFxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/AProject/AppleStore/AppleStore/Areas/Admin/Views/Device/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcRGV2aWNlXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/AProject/AppleStore/AppleStore/Areas/Admin/Views/Device/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcRGV2aWNlXEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/AProject/AppleStore/AppleStore/Areas/Admin/Views/Device/GetDevices.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcRGV2aWNlXEdldERldmljZXMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/AProject/AppleStore/AppleStore/Areas/Admin/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/AProject/AppleStore/AppleStore/Areas/Admin/Views/Order/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcT3JkZXJcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/AProject/AppleStore/AppleStore/Areas/Admin/Views/Order/GetOrders.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcT3JkZXJcR2V0T3JkZXJzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/AProject/AppleStore/AppleStore/Areas/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/AProject/AppleStore/AppleStore/Views/Account/Login.cshtml]
@@ -36,8 +64,8 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxTdWNjZXNzZnVsLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/AProject/AppleStore/AppleStore/Views/Device/Catalog.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGV2aWNlXENhdGFsb2cuY3NodG1s
+[C:/AProject/AppleStore/AppleStore/Views/Device/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGV2aWNlXERldGFpbHMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/AProject/AppleStore/AppleStore/Views/Device/GetDeviceById.cshtml]
@@ -52,8 +80,8 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGV2aWNlXFNhdmUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/AProject/AppleStore/AppleStore/Views/Order/Details.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT3JkZXJcRGV0YWlscy5jc2h0bWw=
+[C:/AProject/AppleStore/AppleStore/Views/Home/Catalog.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxDYXRhbG9nLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/AProject/AppleStore/AppleStore/Views/Order/FinishOrder.cshtml]
@@ -62,6 +90,14 @@ build_metadata.AdditionalFiles.CssScope =
 
 [C:/AProject/AppleStore/AppleStore/Views/Order/PlaceOrder.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT3JkZXJcUGxhY2VPcmRlci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/AProject/AppleStore/AppleStore/Views/Shared/AdminLayout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEFkbWluTGF5b3V0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/AProject/AppleStore/AppleStore/Views/Shared/CatalogLayout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENhdGFsb2dMYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/AProject/AppleStore/AppleStore/Views/Shared/Error.cshtml]

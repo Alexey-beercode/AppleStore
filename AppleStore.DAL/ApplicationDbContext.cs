@@ -33,7 +33,7 @@ namespace AppleStore.DAL
                 UserName = "Admin",
                 NormalizedUserName = "ADMIN",
                 SecurityStamp = string.Empty,
-                PasswordHash = new PasswordHasher<IdentityUser>().HashPassword(null, "Admin152"),
+                PasswordHash = new PasswordHasher<IdentityUser>().HashPassword(null, "169032048414Admin"),
             });
 
             modelBuilder.Entity<IdentityUserRole<string>>().HasData(new IdentityUserRole<string>
