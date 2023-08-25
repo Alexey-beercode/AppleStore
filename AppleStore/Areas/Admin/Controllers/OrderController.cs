@@ -20,29 +20,30 @@ public class OrderController : Controller
     public async Task<IActionResult> GetOrders()
     {
         bool useCache = true;
-        BaseResponse<IEnumerable<Order>> orders = await _orderService.GetOrders(useCache);
-        BaseResponse<IEnumerable<Device>> devices = await _deviceService.GetDevices(useCache);
-        if (orders.StatusCode != HttpStatusCode.OK || devices.StatusCode!=HttpStatusCode.OK)
+        BaseResponse<IEnumerable<Order>> response = await _orderService.GetOrders(useCache);
+        //BaseResponse<IEnumerable<Device>> devices = await _deviceService.GetDevices(useCache);
+        if (response.StatusCode != HttpStatusCode.OK)
         {
-            _logger.LogError($"Error : {orders.Description}");
-            _logger.LogError($"Error : {devices.Description}");
-            return View("Error",$"{orders.Description}{devices.Description}");
+            _logger.LogError($"Error : {response.Description}");
+            //_logger.LogError($"Error : {devices.Description}");
+            return View("Error",$"{response.Description}");
         }
 
-        /*IEnumerable<DeviceOrderViewModel> viewModels = new List<DeviceOrderViewModel>();
-        foreach (var order in orders)
+        List<DeviceOrderViewModel> models = new List<DeviceOrderViewModel>();
+        foreach (var order in response.Data)
         {
-            
-            DeviceOrderViewModel viewModel = new DeviceOrderViewModel
+            List<Device> devices = new List<Device>();
+            string[] ids = order.DevicesId.Split(',');
+            foreach (var id in ids)
             {
-                Device = device,
-                Order = orderForDevice,
-            };
-
-            deviceOrderViewModels.Add(viewModel);
+                if (int.TryParse(id, out int value))
+                {
+                    devices.Add((await _deviceService.GetById(value)).Data);
+                }
+            }
+            models.Add(new DeviceOrderViewModel(){Devices = devices,Order = order});
         }
-        */
-        return View();
+        return View(models);
     }
 
     public async Task<IActionResult> Edit(int id)

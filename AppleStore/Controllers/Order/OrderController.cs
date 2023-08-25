@@ -17,8 +17,6 @@ public class OrderController:Controller
         _logger = logger;
     }
     
-    
-    
     [Authorize]
     [HttpGet]
     public async Task<IActionResult> PlaceOrder(int id)
@@ -32,8 +30,6 @@ public class OrderController:Controller
         _logger.LogInformation("Успешное получение Девайса из базы данных");
         var Devices = new List<Domain.Entity.Device>();
         Devices.Add(response.Data);
-        var device = (await _deviceService.GetById(4)).Data;
-        Devices.Add(device);
         string devicesIds = string.Join(",",Devices.Select(device => device.Id).ToArray());
         DeviceOrderViewModel model = new DeviceOrderViewModel() {Devices = Devices,Order = new Domain.Entity.Order(){DevicesId = devicesIds}};
         return View(model);

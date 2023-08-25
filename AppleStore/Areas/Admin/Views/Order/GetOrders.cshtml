@@ -1,5 +1,5 @@
 ﻿@using AppleStore.Extensions
-@model IEnumerable<AppleStore.Domain.Entity.Order>?
+@model IEnumerable<AppleStore.Domain.ViewModels.DeviceOrderViewModel>
 
 @{
     Layout = "AdminLayout";
@@ -12,32 +12,36 @@
 </head>
 <body>
 <h2>Список заказов</h2>
-<div class="container">
-<table style="width: 100%;">
+<table>
     <thead>
     <tr>
         <th>Имя</th>
         <th>Email</th>
         <th>Адрес</th>
+        <th>Заказанные товары</th>
         <th>Цена</th>
         <th>Статус</th>
         <th></th>
     </tr>
     </thead>
     <tbody>
-    @foreach (var order in Model)
+    @foreach (var viewModel in Model)
     {
         <tr>
-            <td>@order.Name</td>
-            <td>@order.Email</td>
-            <td>@order.Address</td>
-            <td>@order.Price руб</td>
-            <td>@order.Status.DisplayName()</td>
-            <td><a class="edit-button" href="@Url.Action("Edit", "Order", new { id = order.Id, area="Admin" })">Редактировать</a></td>
+            <td>@viewModel.Order.Name</td>
+            <td>@viewModel.Order.Email</td>
+            <td>@viewModel.Order.Address</td>
+            <td>@foreach (var device in viewModel.Devices)
+                {
+                    <span class="bullet">&#8226;</span>@device.Name<br/>
+                }
+                </td>
+            <td>@viewModel.Order.Price руб</td>
+            <td>@viewModel.Order.Status.DisplayName()</td>
+            <td><a class="edit-button" href="@Url.Action("Edit", "Order", new { id = viewModel.Order.Id, area="Admin" })">Редактировать</a></td>
         </tr>
     }
     </tbody>
 </table>
-</div>
 </body>
 </html>
