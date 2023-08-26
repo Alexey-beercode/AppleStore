@@ -16,6 +16,7 @@ public class CartController : Controller
         _logger = logger;
         _deviceService = deviceService;
     }
+
     public async Task<IActionResult> GetCart()
     {
         List<int>? cart = _httpContextAccessor.HttpContext.Session.GetObject<List<int>>("Cart");
@@ -23,14 +24,17 @@ public class CartController : Controller
         {
             BaseResponse<IEnumerable<Domain.Entity.Device>> response = await _deviceService.GetDevices(true);
             List<Domain.Entity.Device> devices = response.Data
-                .SelectMany(device => cart.Contains((int)device.Id) ? Enumerable.Repeat(device, cart.Count(id => id == device.Id)) : Enumerable.Empty<Domain.Entity.Device>())
+                .SelectMany(device =>
+                    cart.Contains((int)device.Id)
+                        ? Enumerable.Repeat(device, cart.Count(id => id == device.Id))
+                        : Enumerable.Empty<Domain.Entity.Device>())
                 .ToList();
             return View(devices);
         }
 
-        return View("Error", "Корзина пуста");
-    }
-
+        return View(new List<Domain.Entity.Device>());
+    } 
+    [Authorize]
     public IActionResult AddToCart(int? id)
     {
         List<int> cart = _httpContextAccessor.HttpContext.Session.GetObject<List<int>>("Cart") ?? new List<int>();

@@ -26,7 +26,7 @@ public class OrderController:Controller
     [HttpGet]
     public async Task<IActionResult> PlaceOrder(List<int> ids)
     {
-        string userId =(await _userManager.GetUserAsync(HttpContext.User)).Id;
+        IdentityUser user =await _userManager.GetUserAsync(HttpContext.User);
         BaseResponse<IEnumerable<Domain.Entity.Device>> response = await _deviceService.GetDevices(true);
         if (response.StatusCode!=HttpStatusCode.OK)
         {
@@ -38,7 +38,7 @@ public class OrderController:Controller
             .SelectMany(device => ids.Contains((int)device.Id) ? Enumerable.Repeat(device, ids.Count(id => id == device.Id)) : Enumerable.Empty<Domain.Entity.Device>())
             .ToList();
         
-        DeviceOrderViewModel model = new DeviceOrderViewModel() {Devices = devices,Order = new Domain.Entity.Order(){DevicesId = string.Join(",",ids.ToArray()),UserId =userId }};
+        DeviceOrderViewModel model = new DeviceOrderViewModel() {Devices = devices,Order = new Domain.Entity.Order(){DevicesId = string.Join(",",ids.ToArray()),UserId =user.Id,Email = user.Email}};
         return View(model);
     }
 
