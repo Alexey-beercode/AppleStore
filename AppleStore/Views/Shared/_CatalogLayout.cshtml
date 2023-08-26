@@ -1,0 +1,22 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title>Apple Store</title>
+    <link rel="stylesheet" href="~/css/style.css"> <!-- Путь к файлу стилей -->
+</head>
+<body>
+<header>
+    <a href="@Url.Action("GetAccountPage", "Account")" class="btn-icon">
+            <img src="~/img/d8d47af9059b6b3f12e47ea6014c966d.png" alt="Корзина">
+             </a>
+    <h1>Apple Store</h1>
+</header>
+<div class="top-buttons">
+   <a href="@Url.Action("Catalog", "Home",new {type=1})" class="top-button">Часы</a>
+     <a href="@Url.Action("Catalog", "Home",new {type=0})" class="top-button">Телефоны</a>
+     <a href="@Url.Action("Catalog", "Home",new{type=2})" class="top-button">Планшеты</a>
+     <a href="@Url.Action("Catalog", "Home",new {type=3})" class="top-button">Ноутбуки</a>
+</div>
+@RenderBody()
+</body>
+</html>

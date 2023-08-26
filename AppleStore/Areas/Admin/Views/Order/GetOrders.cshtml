@@ -2,7 +2,7 @@
 @model IEnumerable<AppleStore.Domain.ViewModels.DeviceOrderViewModel>
 
 @{
-    Layout = "AdminLayout";
+    Layout = "_AdminLayout";
 }
 
 <!DOCTYPE html>
@@ -22,6 +22,7 @@
         <th>Цена</th>
         <th>Статус</th>
         <th></th>
+        <th></th>
     </tr>
     </thead>
     <tbody>
@@ -38,7 +39,8 @@
                 </td>
             <td>@viewModel.Order.Price руб</td>
             <td>@viewModel.Order.Status.DisplayName()</td>
-            <td><a class="edit-button" href="@Url.Action("Edit", "Order", new { id = viewModel.Order.Id, area="Admin" })">Редактировать</a></td>
+            <td><a class="edit-button" href="@Url.Action("Edit", "Order", new { id = viewModel.Order.Id, area="Admin" })">Редактировать заказ</a></td>
+            <td><a class="edit-button" href="@Url.Action("Delete", "Order", new { id = viewModel.Order.Id, area="Admin" })">Удалить заказ</a></td>
         </tr>
     }
     </tbody>

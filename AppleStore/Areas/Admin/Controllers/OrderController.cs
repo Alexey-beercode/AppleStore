@@ -19,13 +19,11 @@ public class OrderController : Controller
 
     public async Task<IActionResult> GetOrders()
     {
-        bool useCache = true;
+        bool useCache = false;
         BaseResponse<IEnumerable<Order>> response = await _orderService.GetOrders(useCache);
-        //BaseResponse<IEnumerable<Device>> devices = await _deviceService.GetDevices(useCache);
         if (response.StatusCode != HttpStatusCode.OK)
         {
             _logger.LogError($"Error : {response.Description}");
-            //_logger.LogError($"Error : {devices.Description}");
             return View("Error",$"{response.Description}");
         }
 
@@ -46,15 +44,38 @@ public class OrderController : Controller
         return View(models);
     }
 
+    public async Task<IActionResult> Delete(int orderId)
+    {
+        BaseResponse < bool > response= await _orderService.DeleteOrder(orderId);
+        if (response.StatusCode != HttpStatusCode.OK)
+        {
+            _logger.LogError($"Error : {response.Description}");
+            return View("Error",$"{response.Description}");
+        }
+        return RedirectToAction("GetOrders");
+    }
+
     public async Task<IActionResult> Edit(int id)
     {
         BaseResponse<Order> response = await _orderService.GetById(id);
         if (response.StatusCode != HttpStatusCode.OK)
         {
             _logger.LogError($"Error : {response.Description}");
-            return View("Error",response.Description);
+            return View("Error",$"{response.Description}");
         }
 
         return View(response.Data);
+    }
+
+    [HttpPost]
+    public async Task<IActionResult> Edit(Order order)
+    {
+        BaseResponse<Order> response = await _orderService.Edit(order);
+        if (response.StatusCode != HttpStatusCode.OK)
+        {
+            _logger.LogError($"Error : {response.Description}");
+            return View("Error",response.Description);
+        }
+        return RedirectToAction("GetOrders");
     }
 }

@@ -49,7 +49,7 @@ public class DeviceController : Controller
             _logger.LogError($"Error : {response.Description}");
             return View("Error",response.Description);
         }
-        return RedirectToAction("Index","Home");
+        return RedirectToAction("GetDevices");
     }
 
     public IActionResult Create()
@@ -66,7 +66,7 @@ public class DeviceController : Controller
             _logger.LogError($"Error : {response.Description}");
             return View("Error",response.Description);
         }
-        return RedirectToAction("Index", "Home");
+        return RedirectToAction("GetDevices");
     }
     
     public async Task<IActionResult> Delete(int id)
@@ -77,6 +77,6 @@ public class DeviceController : Controller
             _logger.LogError($"Error : {response.Description}");
             return View("Error",response.Description);
         }
-        return RedirectToAction("Index", "Home");
+        return RedirectToAction("GetDevices");
     }
 }

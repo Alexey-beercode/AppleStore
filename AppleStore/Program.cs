@@ -35,8 +35,14 @@ builder.Services.AddAuthentication(CookieAuthenticationDefaults.AuthenticationSc
 builder.Services.AddAuthorization(x=>x.AddPolicy("AdminArea",policy=>policy.RequireRole("Admin")));
 builder.Services.AddResponseCompression(options => options.EnableForHttps = true);
 builder.Services.AddMemoryCache();
+builder.Services.AddDistributedMemoryCache();
 
-var logger = LogManager.Setup().LoadConfigurationFromAppSettings().GetCurrentClassLogger();
+builder.Services.AddSession(options =>
+{
+    options.Cookie.IsEssential = true;
+});
+
+    var logger = LogManager.Setup().LoadConfigurationFromAppSettings().GetCurrentClassLogger();
 builder.Logging.ClearProviders();
 builder.Host.UseNLog();
 logger.Log(LogLevel.Info, "Инициализация программы");
@@ -57,6 +63,7 @@ app.UseStaticFiles();
 app.UseRouting();
 app.UseAuthentication();
 app.UseAuthorization();
+app.UseSession();
 app.Use(async (context, next) =>
 {
     var isIdentity = context.User.Identity.IsAuthenticated;

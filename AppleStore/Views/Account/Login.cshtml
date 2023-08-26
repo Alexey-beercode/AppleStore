@@ -1,6 +1,8 @@
 @using Microsoft.AspNetCore.Mvc.TagHelpers
 @model AppleStore.Domain.ViewModels.LoginViewModel
-
+@{
+    Layout = "_LoginRegisterLayout";
+}
 <form asp-controller="Account" asp-action="Login" method="post" >
    <div asp-validation-summary="ModelOnly" class="text-danger"></div>
     <div class="form-group">

@@ -9,6 +9,10 @@
       "PackagePath": "staticwebassets\\css\\style.css"
     },
     {
+      "Id": "C:\\AProject\\AppleStore\\AppleStore\\wwwroot\\img\\d8d47af9059b6b3f12e47ea6014c966d.png",
+      "PackagePath": "staticwebassets\\img\\d8d47af9059b6b3f12e47ea6014c966d.png"
+    },
+    {
       "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.AppleStore.Microsoft.AspNetCore.StaticWebAssets.props",
       "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
     },

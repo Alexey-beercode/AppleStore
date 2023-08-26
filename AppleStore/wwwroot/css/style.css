@@ -144,6 +144,7 @@ input {
     padding: 10px 20px;
     font-size: 16px;
     text-decoration: none; /* Убираем подчеркивание */
+    margin-top: 10px;
 }
 
 .btn-auth:hover {
@@ -237,5 +238,64 @@ th, td {
     vertical-align: middle;
     margin-right: 5px; /* Опционально для добавления отступа между точкой и текстом */
 }
+.btn-icon {
+    float: right;
+    margin-right: 20px;
+    margin-top: 40px;
+}
+
+.btn-icon img {
+    width: 50px;
+    height: 50px;
+    filter: brightness(0);
+}
+.btn-custom {
+    display: inline-block;
+    padding: 15px 30px;
+    background-color: #000;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 8px;
+}
+.center-container {
+    display: flex;
+    flex-direction: column; /* Изменяем направление гибкого контейнера на вертикальное */
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin-top: -250px;
+}
+
+.center-container p {
+    margin-bottom: 10px; /* Добавляем отступ снизу между <p> и <a> */
+    font-weight: bold;
+}
+
+.center-container a {
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
 
 
+.order-cost {
+    font-size: 18px; /* Размер текста в <p> */
+    margin-bottom: 10px; /* Отступ снизу, чтобы создать пространство перед кнопкой */
+}
+
+.bigger-button {
+    font-size: 20px; /* Увеличьте размер текста на кнопке */
+    padding: 12px 24px; /* Увеличьте отступы кнопки, чтобы она стала больше */
+    background-color: #3498db;
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+}
+.bigger-button:hover{
+    background-color: #2980b9;
+}

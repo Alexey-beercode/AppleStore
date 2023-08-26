@@ -46,7 +46,7 @@ public class AccountController : Controller
                     {
                         return RedirectToRoute("Admin",new{area="Admin", controller="Home",action="Index"});
                     }
-                    return View("Successful","Успешная Авторизация");
+                    return RedirectToAction("GetAccountPage");
                 }
                 else if (!result.IsLockedOut && !result.IsNotAllowed && !result.RequiresTwoFactor)
                 {
@@ -84,7 +84,7 @@ public class AccountController : Controller
             {
                 _logger.LogInformation("Зареган");
                 await _signInManager.SignInAsync(newUser, isPersistent: false); // Log in the user
-                return View("Successful","Успешная Регистрация");
+                return RedirectToAction("GetAccountPage");
             }
         }
         foreach (var key in ModelState.Keys)
@@ -109,5 +109,12 @@ public class AccountController : Controller
             return View("Error", "Вы не вошли в аккаунт");
         await _signInManager.SignOutAsync(); 
         return View("Successful","Вы вышли из аккаунта");
+    }
+
+    [Authorize]
+    public async Task<IActionResult> GetAccountPage()
+    {
+        string userId = (await _userManager.GetUserAsync(HttpContext.User)).Id;
+        return View("GetAccountPage",userId);
     }
 }

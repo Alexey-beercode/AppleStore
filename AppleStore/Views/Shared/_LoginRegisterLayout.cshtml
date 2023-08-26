@@ -1,0 +1,17 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title>Личный кабинет</title>
+     <link rel="stylesheet" href="~/css/style.css"> <!-- Путь к файлу стилей -->
+</head>
+<body>
+<header>
+    <h1>Личный кабинет</h1>
+    <div class="auth-buttons">
+        <a class="btn btn-auth" href="/Account/Login">Войти</a>
+        <a class="btn btn-auth" href="/Account/Register">Зарегистрироваться</a>
+    </div>
+</header>
+@RenderBody()
+</body>
+</html>

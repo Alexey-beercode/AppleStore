@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "buMTUmiUH1r20ksVuam17ufynjR8CNBCR3w/xq6eboE=",
+  "Hash": "90kv1ZuHoImKlgu5oXnUYEvlXfNNxWDKkrMnKQJp3mo=",
   "Source": "AppleStore",
   "BasePath": "_content/AppleStore",
   "Mode": "Default",
@@ -66,6 +66,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\style.css"
+    },
+    {
+      "Identity": "C:\\AProject\\AppleStore\\AppleStore\\wwwroot\\img\\d8d47af9059b6b3f12e47ea6014c966d.png",
+      "SourceId": "AppleStore",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\AProject\\AppleStore\\AppleStore\\wwwroot\\",
+      "BasePath": "_content/AppleStore",
+      "RelativePath": "img/d8d47af9059b6b3f12e47ea6014c966d.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\d8d47af9059b6b3f12e47ea6014c966d.png"
     }
   ]
 }

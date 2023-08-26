@@ -1,0 +1,41 @@
+﻿@model List<AppleStore.Domain.Entity.Device>
+
+@{
+    Layout = "_AccountLayout";
+    List<int?> id= Model.Select(device => device.Id).ToList(); 
+    decimal? orderCost = Model.Sum(device => device.Price);
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <title>title</title>
+</head>
+<body>
+<table>
+    <thead>
+    <tr>
+        <th>Название</th>
+        <th></th>
+        <th>Цена</th>
+    </tr>
+    </thead>
+    <tbody>
+    @foreach (var device in Model)
+    {
+        <tr>
+            <td>@device.Name</td>
+            <td><img src="@device.ImageUrl" alt="@device.Name" width="50" height="50"></td>
+            <td>@device.Price руб</td>
+        </tr>
+    }
+    </tbody>
+</table>
+
+<div class="center-container">
+    <p class="order-cost"><br>Стоимость устройств : @orderCost<br/></p>
+    <a class="bigger-button" href="@Url.Action("PlaceOrder", "Order", new { ids = id })">Заказать</a>
+</div>
+</body>
+</html>

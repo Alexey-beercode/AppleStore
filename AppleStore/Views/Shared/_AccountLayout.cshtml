@@ -1,0 +1,21 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title>Apple Store</title>
+    <link rel="stylesheet" href="~/css/style.css"> <!-- Путь к файлу стилей -->
+</head>
+<body>
+<header>
+   <h1>Личный кабинет</h1>
+       <div class="auth-buttons">
+           <a class="btn btn-auth" href="@Url.Action("GetOrdersHistory", "Order",new {userId=Model})">История заказов</a>
+           <a class="btn btn-auth" href="@Url.Action("GetCart", "Cart")">Корзина</a>
+           <a class="btn btn-auth" href="@Url.Action("Logout", "Account")">Выйти из аккаунта</a>
+       </div>
+</header>
+@RenderBody()
+<div class="navigation-button">
+    <a href="@Url.Action("Catalog", "Home",new {type=-1})" class="btn">Вернуться в каталог</a>
+</div>
+</body>
+</html>

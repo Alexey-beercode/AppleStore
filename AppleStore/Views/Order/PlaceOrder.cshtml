@@ -18,9 +18,9 @@
     }
     <p class="catalog">Стоимость заказа :<br/> @orderCost руб </p>
     <form asp-action="PlaceOrder" asp-controller="Order" method="post">
-        <input type="hidden" asp-for="Order.DevicesId"/>
-        <input type="hidden" asp-for="@Model.Order.DevicesId" />
-        <input type="hidden" asp-for="@Model.Devices[0].Id" value="@Model.Devices[0].Id"/>
+        <input type="hidden" asp-for="@Model.Devices" value="@Model.Devices"/>
+        <input type="hidden" asp-for="@Model.Order.UserId"/>
+        <input type="hidden" asp-for="@Model.Order.DevicesId"/>
         <input type="hidden" asp-for="@Model.Order.Status" value="0"/>
         <input type="hidden" asp-for="@Model.Order.Price" value="@orderCost"/>
         <label for="name">Имя:</label>

@@ -6,12 +6,8 @@
 </head>
 <body>
 <header>
-    <h1>Онлайн магазин телефонов</h1>
-    <div class="auth-buttons">
-        <a class="btn btn-auth" href="/Account/Login">Авторизоваться</a>
-        <a class="btn btn-auth" href="/Account/Register">Зарегистрироваться</a>
-        <a class="btn btn-auth" href="/Account/Logout">Выйти</a>
-    </div>
+    @RenderSection("Header", required:false)
+    <h1>Apple Store</h1>
 </header>
 @RenderBody()
 </body>

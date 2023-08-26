@@ -65,7 +65,8 @@ public class OrderService : IOrderService
             Email = orderModel.Email,
             Address = orderModel.Address,
             Price = orderModel.Price,
-            Status = orderModel.Status
+            Status = orderModel.Status,
+            UserId = orderModel.UserId
         };
         await _orderRepository.Create(order);
         baseResponse.StatusCode = HttpStatusCode.OK;
@@ -159,6 +160,7 @@ public class OrderService : IOrderService
             order.Address = model.Address;
             order.Price = model.Price;
             order.Status = model.Status;
+            order.UserId = model.UserId;
 
             await _orderRepository.Update(order);
             baseResponse.StatusCode = HttpStatusCode.OK;
