@@ -36,7 +36,7 @@
         <button type="submit">Обновить заказ</button>
     </form>
     <div class="center-container">
-        <a class="center-button" href="@Url.Action("Delete", "Order",new {area="Admin", id=@Model.Id}) ">Удалить Заказ</a>
+        <a class="center-button" href="@Url.Action("Delete", "Order",new {area="Admin", orderId=@Model.Id}) ">Удалить Заказ</a>
     </div>
 </div>
 </body>

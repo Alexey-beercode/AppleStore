@@ -35,8 +35,14 @@ public class OrderController : Controller
             foreach (var id in ids)
             {
                 if (int.TryParse(id, out int value))
-                {
-                    devices.Add((await _deviceService.GetById(value)).Data);
+                { 
+                    var device = ((await _deviceService.GetById(value)).Data);
+                    if (device != null)
+                    {
+                        devices.Add(device);
+                        break;
+                    }
+                    
                 }
             }
             models.Add(new DeviceOrderViewModel(){Devices = devices,Order = order});
