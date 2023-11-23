@@ -2,60 +2,411 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4868a00b-6676-4296-8027-d826384f8dec" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../.idea/.name" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../AppleStore.Domain/ViewModels/RegisterViewModel.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.AppleStore.dir/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.AppleStore.dir/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.name" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Properties/PublishProfiles/Deploy.pubxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bin/Debug/net7.0/Newtonsoft.Json.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bin/Debug/net7.0/dotnet-ef.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AppleStore-Own-2023-08-22.log" beforeDir="false" afterPath="$PROJECT_DIR$/../AppleStore-Own-2023-08-22.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AppleStore-Own-2023-08-29.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bin/Debug/net7.0/Microsoft.AspNet.Identity.Core.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bin/Debug/net7.0/MongoDB.AspNet.Identity.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bin/Debug/net7.0/MongoDB.Bson.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bin/Debug/net7.0/MongoDB.Driver.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AppleStore2023-08-29.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Tests/Tests.csproj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Tests/Usings.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Tests/bin/Debug/net7.0/AppleStore.DAL.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Tests/bin/Debug/net7.0/AppleStore.DAL.pdb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Tests/bin/Debug/net7.0/AppleStore.Domain.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Tests/bin/Debug/net7.0/AppleStore.Domain.pdb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Tests/bin/Debug/net7.0/AppleStore.Service.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Tests/bin/Debug/net7.0/AppleStore.Service.pdb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Tests/bin/Debug/net7.0/AppleStore.deps.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Tests/bin/Debug/net7.0/AppleStore.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Tests/bin/Debug/net7.0/AppleStore.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Tests/bin/Debug/net7.0/AppleStore.pdb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Tests/bin/Debug/net7.0/AppleStore.runtimeconfig.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Tests/bin/Debug/net7.0/AppleStore.staticwebassets.runtime.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Tests/bin/Debug/net7.0/CoverletSourceRootsMapping" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Tests/bin/Debug/net7.0/Humanizer.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Tests/bin/Debug/net7.0/Microsoft.AspNetCore.Cryptography.Internal.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Tests/bin/Debug/net7.0/Microsoft.AspNetCore.Cryptography.KeyDerivation.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Tests/bin/Debug/net7.0/Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Tests/bin/Debug/net7.0/Microsoft.AspNetCore.Razor.Language.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Tests/bin/Debug/net7.0/Microsoft.Bcl.AsyncInterfaces.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Tests/bin/Debug/net7.0/Microsoft.Build.Framework.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Tests/bin/Debug/net7.0/Microsoft.Build.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Tests/bin/Debug/net7.0/Microsoft.CodeAnalysis.AnalyzerUtilities.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Tests/bin/Debug/net7.0/Microsoft.CodeAnalysis.CSharp.Features.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Tests/bin/Debug/net7.0/Microsoft.CodeAnalysis.CSharp.Workspaces.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Tests/bin/Debug/net7.0/Microsoft.CodeAnalysis.CSharp.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Tests/bin/Debug/net7.0/Microsoft.CodeAnalysis.Elfie.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Tests/bin/Debug/net7.0/Microsoft.CodeAnalysis.Features.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Tests/bin/Debug/net7.0/Microsoft.CodeAnalysis.Razor.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Tests/bin/Debug/net7.0/Microsoft.CodeAnalysis.Scripting.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Tests/bin/Debug/net7.0/Microsoft.CodeAnalysis.Workspaces.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Tests/bin/Debug/net7.0/Microsoft.CodeAnalysis.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Tests/bin/Debug/net7.0/Microsoft.DiaSymReader.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Tests/bin/Debug/net7.0/Microsoft.DotNet.Scaffolding.Shared.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Tests/bin/Debug/net7.0/Microsoft.EntityFrameworkCore.Abstractions.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Tests/bin/Debug/net7.0/Microsoft.EntityFrameworkCore.Relational.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Tests/bin/Debug/net7.0/Microsoft.EntityFrameworkCore.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Tests/bin/Debug/net7.0/Microsoft.Extensions.Caching.Abstractions.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Tests/bin/Debug/net7.0/Microsoft.Extensions.Caching.Memory.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Tests/bin/Debug/net7.0/Microsoft.Extensions.Configuration.Abstractions.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Tests/bin/Debug/net7.0/Microsoft.Extensions.Configuration.FileExtensions.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Tests/bin/Debug/net7.0/Microsoft.Extensions.Configuration.Json.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Tests/bin/Debug/net7.0/Microsoft.Extensions.Configuration.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Tests/bin/Debug/net7.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Tests/bin/Debug/net7.0/Microsoft.Extensions.DependencyInjection.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Tests/bin/Debug/net7.0/Microsoft.Extensions.FileProviders.Abstractions.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Tests/bin/Debug/net7.0/Microsoft.Extensions.FileProviders.Physical.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Tests/bin/Debug/net7.0/Microsoft.Extensions.FileSystemGlobbing.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Tests/bin/Debug/net7.0/Microsoft.Extensions.Identity.Core.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Tests/bin/Debug/net7.0/Microsoft.Extensions.Identity.Stores.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Tests/bin/Debug/net7.0/Microsoft.Extensions.Logging.Abstractions.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Tests/bin/Debug/net7.0/Microsoft.Extensions.Logging.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Tests/bin/Debug/net7.0/Microsoft.Extensions.Options.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Tests/bin/Debug/net7.0/Microsoft.Extensions.Primitives.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Tests/bin/Debug/net7.0/Microsoft.NET.StringTools.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Tests/bin/Debug/net7.0/Microsoft.TestPlatform.CommunicationUtilities.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Tests/bin/Debug/net7.0/Microsoft.TestPlatform.CoreUtilities.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Tests/bin/Debug/net7.0/Microsoft.TestPlatform.CrossPlatEngine.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Tests/bin/Debug/net7.0/Microsoft.TestPlatform.PlatformAbstractions.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Tests/bin/Debug/net7.0/Microsoft.TestPlatform.Utilities.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Tests/bin/Debug/net7.0/Microsoft.VisualStudio.CodeCoverage.Shim.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Tests/bin/Debug/net7.0/Microsoft.VisualStudio.TestPlatform.Common.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Tests/bin/Debug/net7.0/Microsoft.VisualStudio.TestPlatform.ObjectModel.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Tests/bin/Debug/net7.0/Microsoft.VisualStudio.Web.CodeGeneration.Core.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Tests/bin/Debug/net7.0/Microsoft.VisualStudio.Web.CodeGeneration.EntityFrameworkCore.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Tests/bin/Debug/net7.0/Microsoft.VisualStudio.Web.CodeGeneration.Templating.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Tests/bin/Debug/net7.0/Microsoft.VisualStudio.Web.CodeGeneration.Utils.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Tests/bin/Debug/net7.0/Microsoft.VisualStudio.Web.CodeGeneration.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Tests/bin/Debug/net7.0/Microsoft.VisualStudio.Web.CodeGenerators.Mvc.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Tests/bin/Debug/net7.0/Microsoft.Win32.SystemEvents.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Tests/bin/Debug/net7.0/NLog.Extensions.Logging.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Tests/bin/Debug/net7.0/NLog.Web.AspNetCore.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Tests/bin/Debug/net7.0/NLog.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Tests/bin/Debug/net7.0/NUnit3.TestAdapter.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Tests/bin/Debug/net7.0/NUnit3.TestAdapter.pdb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Tests/bin/Debug/net7.0/Newtonsoft.Json.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Tests/bin/Debug/net7.0/Npgsql.EntityFrameworkCore.PostgreSQL.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Tests/bin/Debug/net7.0/Npgsql.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Tests/bin/Debug/net7.0/NuGet.Common.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Tests/bin/Debug/net7.0/NuGet.Configuration.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Tests/bin/Debug/net7.0/NuGet.DependencyResolver.Core.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Tests/bin/Debug/net7.0/NuGet.Frameworks.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Tests/bin/Debug/net7.0/NuGet.LibraryModel.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Tests/bin/Debug/net7.0/NuGet.Packaging.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Tests/bin/Debug/net7.0/NuGet.ProjectModel.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Tests/bin/Debug/net7.0/NuGet.Protocol.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Tests/bin/Debug/net7.0/NuGet.Versioning.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Tests/bin/Debug/net7.0/System.Composition.AttributedModel.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Tests/bin/Debug/net7.0/System.Composition.Convention.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Tests/bin/Debug/net7.0/System.Composition.Hosting.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Tests/bin/Debug/net7.0/System.Composition.Runtime.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Tests/bin/Debug/net7.0/System.Composition.TypedParts.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Tests/bin/Debug/net7.0/System.Configuration.ConfigurationManager.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Tests/bin/Debug/net7.0/System.Drawing.Common.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Tests/bin/Debug/net7.0/System.Reflection.MetadataLoadContext.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Tests/bin/Debug/net7.0/System.Security.Cryptography.ProtectedData.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Tests/bin/Debug/net7.0/System.Security.Permissions.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Tests/bin/Debug/net7.0/System.Text.Encodings.Web.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Tests/bin/Debug/net7.0/System.Text.Json.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Tests/bin/Debug/net7.0/System.Windows.Extensions.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Tests/bin/Debug/net7.0/Tests.deps.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Tests/bin/Debug/net7.0/Tests.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Tests/bin/Debug/net7.0/Tests.pdb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Tests/bin/Debug/net7.0/Tests.runtimeconfig.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Tests/bin/Debug/net7.0/af/Humanizer.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Tests/bin/Debug/net7.0/appsettings.Development.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Tests/bin/Debug/net7.0/appsettings.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Tests/bin/Debug/net7.0/ar/Humanizer.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Tests/bin/Debug/net7.0/az/Humanizer.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Tests/bin/Debug/net7.0/bg/Humanizer.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Tests/bin/Debug/net7.0/bn-BD/Humanizer.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Tests/bin/Debug/net7.0/cs/Humanizer.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Tests/bin/Debug/net7.0/cs/Microsoft.CodeAnalysis.CSharp.Features.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Tests/bin/Debug/net7.0/cs/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Tests/bin/Debug/net7.0/cs/Microsoft.CodeAnalysis.CSharp.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Tests/bin/Debug/net7.0/cs/Microsoft.CodeAnalysis.Features.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Tests/bin/Debug/net7.0/cs/Microsoft.CodeAnalysis.Scripting.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Tests/bin/Debug/net7.0/cs/Microsoft.CodeAnalysis.Workspaces.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Tests/bin/Debug/net7.0/cs/Microsoft.CodeAnalysis.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Tests/bin/Debug/net7.0/cs/Microsoft.TestPlatform.CommunicationUtilities.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Tests/bin/Debug/net7.0/cs/Microsoft.TestPlatform.CoreUtilities.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Tests/bin/Debug/net7.0/cs/Microsoft.TestPlatform.CrossPlatEngine.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Tests/bin/Debug/net7.0/cs/Microsoft.VisualStudio.TestPlatform.Common.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Tests/bin/Debug/net7.0/cs/Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Tests/bin/Debug/net7.0/da/Humanizer.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Tests/bin/Debug/net7.0/de/Humanizer.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Tests/bin/Debug/net7.0/de/Microsoft.CodeAnalysis.CSharp.Features.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Tests/bin/Debug/net7.0/de/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Tests/bin/Debug/net7.0/de/Microsoft.CodeAnalysis.CSharp.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Tests/bin/Debug/net7.0/de/Microsoft.CodeAnalysis.Features.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Tests/bin/Debug/net7.0/de/Microsoft.CodeAnalysis.Scripting.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Tests/bin/Debug/net7.0/de/Microsoft.CodeAnalysis.Workspaces.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Tests/bin/Debug/net7.0/de/Microsoft.CodeAnalysis.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Tests/bin/Debug/net7.0/de/Microsoft.TestPlatform.CommunicationUtilities.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Tests/bin/Debug/net7.0/de/Microsoft.TestPlatform.CoreUtilities.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Tests/bin/Debug/net7.0/de/Microsoft.TestPlatform.CrossPlatEngine.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Tests/bin/Debug/net7.0/de/Microsoft.VisualStudio.TestPlatform.Common.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Tests/bin/Debug/net7.0/de/Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Tests/bin/Debug/net7.0/dotnet-aspnet-codegenerator-design.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Tests/bin/Debug/net7.0/dotnet-ef.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Tests/bin/Debug/net7.0/el/Humanizer.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Tests/bin/Debug/net7.0/es/Humanizer.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Tests/bin/Debug/net7.0/es/Microsoft.CodeAnalysis.CSharp.Features.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Tests/bin/Debug/net7.0/es/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Tests/bin/Debug/net7.0/es/Microsoft.CodeAnalysis.CSharp.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Tests/bin/Debug/net7.0/es/Microsoft.CodeAnalysis.Features.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Tests/bin/Debug/net7.0/es/Microsoft.CodeAnalysis.Scripting.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Tests/bin/Debug/net7.0/es/Microsoft.CodeAnalysis.Workspaces.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Tests/bin/Debug/net7.0/es/Microsoft.CodeAnalysis.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Tests/bin/Debug/net7.0/es/Microsoft.TestPlatform.CommunicationUtilities.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Tests/bin/Debug/net7.0/es/Microsoft.TestPlatform.CoreUtilities.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Tests/bin/Debug/net7.0/es/Microsoft.TestPlatform.CrossPlatEngine.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Tests/bin/Debug/net7.0/es/Microsoft.VisualStudio.TestPlatform.Common.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Tests/bin/Debug/net7.0/es/Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Tests/bin/Debug/net7.0/fa/Humanizer.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Tests/bin/Debug/net7.0/fi-FI/Humanizer.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Tests/bin/Debug/net7.0/fr-BE/Humanizer.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Tests/bin/Debug/net7.0/fr/Humanizer.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Tests/bin/Debug/net7.0/fr/Microsoft.CodeAnalysis.CSharp.Features.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Tests/bin/Debug/net7.0/fr/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Tests/bin/Debug/net7.0/fr/Microsoft.CodeAnalysis.CSharp.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Tests/bin/Debug/net7.0/fr/Microsoft.CodeAnalysis.Features.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Tests/bin/Debug/net7.0/fr/Microsoft.CodeAnalysis.Scripting.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Tests/bin/Debug/net7.0/fr/Microsoft.CodeAnalysis.Workspaces.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Tests/bin/Debug/net7.0/fr/Microsoft.CodeAnalysis.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Tests/bin/Debug/net7.0/fr/Microsoft.TestPlatform.CommunicationUtilities.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Tests/bin/Debug/net7.0/fr/Microsoft.TestPlatform.CoreUtilities.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Tests/bin/Debug/net7.0/fr/Microsoft.TestPlatform.CrossPlatEngine.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Tests/bin/Debug/net7.0/fr/Microsoft.VisualStudio.TestPlatform.Common.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Tests/bin/Debug/net7.0/fr/Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Tests/bin/Debug/net7.0/he/Humanizer.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Tests/bin/Debug/net7.0/hr/Humanizer.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Tests/bin/Debug/net7.0/hu/Humanizer.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Tests/bin/Debug/net7.0/hy/Humanizer.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Tests/bin/Debug/net7.0/id/Humanizer.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Tests/bin/Debug/net7.0/is/Humanizer.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Tests/bin/Debug/net7.0/it/Humanizer.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Tests/bin/Debug/net7.0/it/Microsoft.CodeAnalysis.CSharp.Features.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Tests/bin/Debug/net7.0/it/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Tests/bin/Debug/net7.0/it/Microsoft.CodeAnalysis.CSharp.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Tests/bin/Debug/net7.0/it/Microsoft.CodeAnalysis.Features.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Tests/bin/Debug/net7.0/it/Microsoft.CodeAnalysis.Scripting.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Tests/bin/Debug/net7.0/it/Microsoft.CodeAnalysis.Workspaces.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Tests/bin/Debug/net7.0/it/Microsoft.CodeAnalysis.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Tests/bin/Debug/net7.0/it/Microsoft.TestPlatform.CommunicationUtilities.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Tests/bin/Debug/net7.0/it/Microsoft.TestPlatform.CoreUtilities.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Tests/bin/Debug/net7.0/it/Microsoft.TestPlatform.CrossPlatEngine.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Tests/bin/Debug/net7.0/it/Microsoft.VisualStudio.TestPlatform.Common.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Tests/bin/Debug/net7.0/it/Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Tests/bin/Debug/net7.0/ja/Humanizer.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Tests/bin/Debug/net7.0/ja/Microsoft.CodeAnalysis.CSharp.Features.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Tests/bin/Debug/net7.0/ja/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Tests/bin/Debug/net7.0/ja/Microsoft.CodeAnalysis.CSharp.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Tests/bin/Debug/net7.0/ja/Microsoft.CodeAnalysis.Features.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Tests/bin/Debug/net7.0/ja/Microsoft.CodeAnalysis.Scripting.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Tests/bin/Debug/net7.0/ja/Microsoft.CodeAnalysis.Workspaces.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Tests/bin/Debug/net7.0/ja/Microsoft.CodeAnalysis.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Tests/bin/Debug/net7.0/ja/Microsoft.TestPlatform.CommunicationUtilities.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Tests/bin/Debug/net7.0/ja/Microsoft.TestPlatform.CoreUtilities.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Tests/bin/Debug/net7.0/ja/Microsoft.TestPlatform.CrossPlatEngine.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Tests/bin/Debug/net7.0/ja/Microsoft.VisualStudio.TestPlatform.Common.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Tests/bin/Debug/net7.0/ja/Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Tests/bin/Debug/net7.0/ko-KR/Humanizer.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Tests/bin/Debug/net7.0/ko/Microsoft.CodeAnalysis.CSharp.Features.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Tests/bin/Debug/net7.0/ko/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Tests/bin/Debug/net7.0/ko/Microsoft.CodeAnalysis.CSharp.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Tests/bin/Debug/net7.0/ko/Microsoft.CodeAnalysis.Features.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Tests/bin/Debug/net7.0/ko/Microsoft.CodeAnalysis.Scripting.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Tests/bin/Debug/net7.0/ko/Microsoft.CodeAnalysis.Workspaces.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Tests/bin/Debug/net7.0/ko/Microsoft.CodeAnalysis.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Tests/bin/Debug/net7.0/ko/Microsoft.TestPlatform.CommunicationUtilities.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Tests/bin/Debug/net7.0/ko/Microsoft.TestPlatform.CoreUtilities.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Tests/bin/Debug/net7.0/ko/Microsoft.TestPlatform.CrossPlatEngine.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Tests/bin/Debug/net7.0/ko/Microsoft.VisualStudio.TestPlatform.Common.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Tests/bin/Debug/net7.0/ko/Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Tests/bin/Debug/net7.0/ku/Humanizer.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Tests/bin/Debug/net7.0/lv/Humanizer.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Tests/bin/Debug/net7.0/ms-MY/Humanizer.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Tests/bin/Debug/net7.0/mt/Humanizer.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Tests/bin/Debug/net7.0/nb-NO/Humanizer.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Tests/bin/Debug/net7.0/nb/Humanizer.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Tests/bin/Debug/net7.0/nl/Humanizer.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Tests/bin/Debug/net7.0/nlog.config" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Tests/bin/Debug/net7.0/nunit.engine.api.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Tests/bin/Debug/net7.0/nunit.engine.core.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Tests/bin/Debug/net7.0/nunit.engine.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Tests/bin/Debug/net7.0/nunit.framework.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Tests/bin/Debug/net7.0/pl/Humanizer.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Tests/bin/Debug/net7.0/pl/Microsoft.CodeAnalysis.CSharp.Features.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Tests/bin/Debug/net7.0/pl/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Tests/bin/Debug/net7.0/pl/Microsoft.CodeAnalysis.CSharp.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Tests/bin/Debug/net7.0/pl/Microsoft.CodeAnalysis.Features.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Tests/bin/Debug/net7.0/pl/Microsoft.CodeAnalysis.Scripting.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Tests/bin/Debug/net7.0/pl/Microsoft.CodeAnalysis.Workspaces.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Tests/bin/Debug/net7.0/pl/Microsoft.CodeAnalysis.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Tests/bin/Debug/net7.0/pl/Microsoft.TestPlatform.CommunicationUtilities.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Tests/bin/Debug/net7.0/pl/Microsoft.TestPlatform.CoreUtilities.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Tests/bin/Debug/net7.0/pl/Microsoft.TestPlatform.CrossPlatEngine.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Tests/bin/Debug/net7.0/pl/Microsoft.VisualStudio.TestPlatform.Common.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Tests/bin/Debug/net7.0/pl/Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Tests/bin/Debug/net7.0/pt-BR/Microsoft.CodeAnalysis.CSharp.Features.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Tests/bin/Debug/net7.0/pt-BR/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Tests/bin/Debug/net7.0/pt-BR/Microsoft.CodeAnalysis.CSharp.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Tests/bin/Debug/net7.0/pt-BR/Microsoft.CodeAnalysis.Features.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Tests/bin/Debug/net7.0/pt-BR/Microsoft.CodeAnalysis.Scripting.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Tests/bin/Debug/net7.0/pt-BR/Microsoft.CodeAnalysis.Workspaces.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Tests/bin/Debug/net7.0/pt-BR/Microsoft.CodeAnalysis.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Tests/bin/Debug/net7.0/pt-BR/Microsoft.TestPlatform.CommunicationUtilities.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Tests/bin/Debug/net7.0/pt-BR/Microsoft.TestPlatform.CoreUtilities.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Tests/bin/Debug/net7.0/pt-BR/Microsoft.TestPlatform.CrossPlatEngine.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Tests/bin/Debug/net7.0/pt-BR/Microsoft.VisualStudio.TestPlatform.Common.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Tests/bin/Debug/net7.0/pt-BR/Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Tests/bin/Debug/net7.0/pt/Humanizer.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Tests/bin/Debug/net7.0/ro/Humanizer.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Tests/bin/Debug/net7.0/ru/Humanizer.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Tests/bin/Debug/net7.0/ru/Microsoft.CodeAnalysis.CSharp.Features.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Tests/bin/Debug/net7.0/ru/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Tests/bin/Debug/net7.0/ru/Microsoft.CodeAnalysis.CSharp.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Tests/bin/Debug/net7.0/ru/Microsoft.CodeAnalysis.Features.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Tests/bin/Debug/net7.0/ru/Microsoft.CodeAnalysis.Scripting.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Tests/bin/Debug/net7.0/ru/Microsoft.CodeAnalysis.Workspaces.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Tests/bin/Debug/net7.0/ru/Microsoft.CodeAnalysis.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Tests/bin/Debug/net7.0/ru/Microsoft.TestPlatform.CommunicationUtilities.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Tests/bin/Debug/net7.0/ru/Microsoft.TestPlatform.CoreUtilities.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Tests/bin/Debug/net7.0/ru/Microsoft.TestPlatform.CrossPlatEngine.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Tests/bin/Debug/net7.0/ru/Microsoft.VisualStudio.TestPlatform.Common.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Tests/bin/Debug/net7.0/ru/Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Tests/bin/Debug/net7.0/runtimes/browser/lib/net7.0/System.Text.Encodings.Web.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Tests/bin/Debug/net7.0/runtimes/unix/lib/net6.0/System.Drawing.Common.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Tests/bin/Debug/net7.0/runtimes/win/lib/net6.0/Microsoft.Win32.SystemEvents.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Tests/bin/Debug/net7.0/runtimes/win/lib/net6.0/System.Drawing.Common.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Tests/bin/Debug/net7.0/runtimes/win/lib/net6.0/System.Security.Cryptography.ProtectedData.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Tests/bin/Debug/net7.0/runtimes/win/lib/net6.0/System.Windows.Extensions.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Tests/bin/Debug/net7.0/sk/Humanizer.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Tests/bin/Debug/net7.0/sl/Humanizer.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Tests/bin/Debug/net7.0/sr-Latn/Humanizer.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Tests/bin/Debug/net7.0/sr/Humanizer.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Tests/bin/Debug/net7.0/sv/Humanizer.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Tests/bin/Debug/net7.0/testcentric.engine.metadata.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Tests/bin/Debug/net7.0/testhost.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Tests/bin/Debug/net7.0/testhost.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Tests/bin/Debug/net7.0/th-TH/Humanizer.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Tests/bin/Debug/net7.0/tr/Humanizer.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Tests/bin/Debug/net7.0/tr/Microsoft.CodeAnalysis.CSharp.Features.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Tests/bin/Debug/net7.0/tr/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Tests/bin/Debug/net7.0/tr/Microsoft.CodeAnalysis.CSharp.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Tests/bin/Debug/net7.0/tr/Microsoft.CodeAnalysis.Features.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Tests/bin/Debug/net7.0/tr/Microsoft.CodeAnalysis.Scripting.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Tests/bin/Debug/net7.0/tr/Microsoft.CodeAnalysis.Workspaces.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Tests/bin/Debug/net7.0/tr/Microsoft.CodeAnalysis.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Tests/bin/Debug/net7.0/tr/Microsoft.TestPlatform.CommunicationUtilities.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Tests/bin/Debug/net7.0/tr/Microsoft.TestPlatform.CoreUtilities.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Tests/bin/Debug/net7.0/tr/Microsoft.TestPlatform.CrossPlatEngine.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Tests/bin/Debug/net7.0/tr/Microsoft.VisualStudio.TestPlatform.Common.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Tests/bin/Debug/net7.0/tr/Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Tests/bin/Debug/net7.0/uk/Humanizer.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Tests/bin/Debug/net7.0/uz-Cyrl-UZ/Humanizer.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Tests/bin/Debug/net7.0/uz-Latn-UZ/Humanizer.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Tests/bin/Debug/net7.0/vi/Humanizer.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Tests/bin/Debug/net7.0/xunit.abstractions.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Tests/bin/Debug/net7.0/xunit.assert.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Tests/bin/Debug/net7.0/xunit.core.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Tests/bin/Debug/net7.0/xunit.execution.dotnet.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Tests/bin/Debug/net7.0/zh-CN/Humanizer.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Tests/bin/Debug/net7.0/zh-Hans/Humanizer.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Tests/bin/Debug/net7.0/zh-Hans/Microsoft.CodeAnalysis.CSharp.Features.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Tests/bin/Debug/net7.0/zh-Hans/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Tests/bin/Debug/net7.0/zh-Hans/Microsoft.CodeAnalysis.CSharp.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Tests/bin/Debug/net7.0/zh-Hans/Microsoft.CodeAnalysis.Features.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Tests/bin/Debug/net7.0/zh-Hans/Microsoft.CodeAnalysis.Scripting.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Tests/bin/Debug/net7.0/zh-Hans/Microsoft.CodeAnalysis.Workspaces.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Tests/bin/Debug/net7.0/zh-Hans/Microsoft.CodeAnalysis.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Tests/bin/Debug/net7.0/zh-Hans/Microsoft.TestPlatform.CommunicationUtilities.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Tests/bin/Debug/net7.0/zh-Hans/Microsoft.TestPlatform.CoreUtilities.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Tests/bin/Debug/net7.0/zh-Hans/Microsoft.TestPlatform.CrossPlatEngine.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Tests/bin/Debug/net7.0/zh-Hans/Microsoft.VisualStudio.TestPlatform.Common.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Tests/bin/Debug/net7.0/zh-Hans/Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Tests/bin/Debug/net7.0/zh-Hant/Humanizer.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Tests/bin/Debug/net7.0/zh-Hant/Microsoft.CodeAnalysis.CSharp.Features.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Tests/bin/Debug/net7.0/zh-Hant/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Tests/bin/Debug/net7.0/zh-Hant/Microsoft.CodeAnalysis.CSharp.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Tests/bin/Debug/net7.0/zh-Hant/Microsoft.CodeAnalysis.Features.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Tests/bin/Debug/net7.0/zh-Hant/Microsoft.CodeAnalysis.Scripting.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Tests/bin/Debug/net7.0/zh-Hant/Microsoft.CodeAnalysis.Workspaces.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Tests/bin/Debug/net7.0/zh-Hant/Microsoft.CodeAnalysis.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Tests/bin/Debug/net7.0/zh-Hant/Microsoft.TestPlatform.CommunicationUtilities.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Tests/bin/Debug/net7.0/zh-Hant/Microsoft.TestPlatform.CoreUtilities.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Tests/bin/Debug/net7.0/zh-Hant/Microsoft.TestPlatform.CrossPlatEngine.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Tests/bin/Debug/net7.0/zh-Hant/Microsoft.VisualStudio.TestPlatform.Common.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Tests/bin/Debug/net7.0/zh-Hant/Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Tests/obj/Debug/net7.0/.NETCoreApp,Version=v7.0.AssemblyAttributes.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Tests/obj/Debug/net7.0/Tests.AssemblyInfo.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Tests/obj/Debug/net7.0/Tests.AssemblyInfoInputs.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Tests/obj/Debug/net7.0/Tests.GeneratedMSBuildEditorConfig.editorconfig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Tests/obj/Debug/net7.0/Tests.GlobalUsings.g.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Tests/obj/Debug/net7.0/Tests.assets.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Tests/obj/Debug/net7.0/Tests.csproj.AssemblyReference.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Tests/obj/Debug/net7.0/Tests.csproj.CopyComplete" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Tests/obj/Debug/net7.0/Tests.csproj.CoreCompileInputs.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Tests/obj/Debug/net7.0/Tests.csproj.FileListAbsolute.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Tests/obj/Debug/net7.0/Tests.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Tests/obj/Debug/net7.0/Tests.genruntimeconfig.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Tests/obj/Debug/net7.0/Tests.pdb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Tests/obj/Debug/net7.0/ref/Tests.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Tests/obj/Debug/net7.0/refint/Tests.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Tests/obj/Tests.csproj.nuget.dgspec.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Tests/obj/Tests.csproj.nuget.g.props" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Tests/obj/Tests.csproj.nuget.g.targets" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Tests/obj/project.assets.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Tests/obj/project.nuget.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Tests/obj/project.packagespec.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Tests/obj/rider.project.restore.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AppleStore-Own-2023-08-26.log" beforeDir="false" afterPath="$PROJECT_DIR$/../AppleStore-Own-2023-08-26.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AppleStore.DAL/AppleStore.DAL.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/../AppleStore.DAL/AppleStore.DAL.csproj" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../AppleStore.DAL/ApplicationDbContext.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../AppleStore.DAL/ApplicationDbContext.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AppleStore.DAL/Migrations/20230826175254_Initial.Designer.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../AppleStore.DAL/Migrations/20230826175254_Initial.Designer.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AppleStore.DAL/Migrations/ApplicationDbContextModelSnapshot.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../AppleStore.DAL/Migrations/ApplicationDbContextModelSnapshot.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AppleStore.DAL/Repositories/DeviceRepository.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../AppleStore.DAL/Repositories/DeviceRepository.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AppleStore.DAL/Repositories/OrderRepository.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../AppleStore.DAL/Repositories/OrderRepository.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AppleStore.DAL/bin/Debug/net7.0/AppleStore.DAL.deps.json" beforeDir="false" afterPath="$PROJECT_DIR$/../AppleStore.DAL/bin/Debug/net7.0/AppleStore.DAL.deps.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../AppleStore.DAL/bin/Debug/net7.0/AppleStore.DAL.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../AppleStore.DAL/bin/Debug/net7.0/AppleStore.DAL.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../AppleStore.DAL/bin/Debug/net7.0/AppleStore.DAL.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/../AppleStore.DAL/bin/Debug/net7.0/AppleStore.DAL.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AppleStore.DAL/bin/Debug/net7.0/AppleStore.Domain.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../AppleStore.DAL/bin/Debug/net7.0/AppleStore.Domain.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AppleStore.DAL/bin/Debug/net7.0/AppleStore.Domain.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/../AppleStore.DAL/bin/Debug/net7.0/AppleStore.Domain.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AppleStore.DAL/obj/AppleStore.DAL.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/../AppleStore.DAL/obj/AppleStore.DAL.csproj.nuget.dgspec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AppleStore.DAL/obj/Debug/net7.0/AppleStore.DAL.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../AppleStore.DAL/obj/Debug/net7.0/AppleStore.DAL.assets.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../AppleStore.DAL/obj/Debug/net7.0/AppleStore.DAL.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../AppleStore.DAL/obj/Debug/net7.0/AppleStore.DAL.csproj.AssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AppleStore.DAL/obj/Debug/net7.0/AppleStore.DAL.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../AppleStore.DAL/obj/Debug/net7.0/AppleStore.DAL.csproj.CoreCompileInputs.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../AppleStore.DAL/obj/Debug/net7.0/AppleStore.DAL.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../AppleStore.DAL/obj/Debug/net7.0/AppleStore.DAL.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../AppleStore.DAL/obj/Debug/net7.0/AppleStore.DAL.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/../AppleStore.DAL/obj/Debug/net7.0/AppleStore.DAL.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../AppleStore.DAL/obj/Debug/net7.0/ref/AppleStore.DAL.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../AppleStore.DAL/obj/Debug/net7.0/ref/AppleStore.DAL.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../AppleStore.DAL/obj/Debug/net7.0/refint/AppleStore.DAL.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../AppleStore.DAL/obj/Debug/net7.0/refint/AppleStore.DAL.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AppleStore.DAL/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/../AppleStore.DAL/obj/project.assets.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AppleStore.DAL/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../AppleStore.DAL/obj/project.nuget.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AppleStore.DAL/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/../AppleStore.DAL/obj/project.packagespec.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../AppleStore.DAL/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/../AppleStore.DAL/obj/rider.project.restore.info" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AppleStore.Domain/ViewModels/LoginViewModel.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../AppleStore.Domain/ViewModels/LoginViewModel.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AppleStore.Domain/bin/Debug/net7.0/AppleStore.Domain.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../AppleStore.Domain/bin/Debug/net7.0/AppleStore.Domain.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AppleStore.Domain/bin/Debug/net7.0/AppleStore.Domain.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/../AppleStore.Domain/bin/Debug/net7.0/AppleStore.Domain.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AppleStore.Domain/obj/Debug/net7.0/AppleStore.Domain.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../AppleStore.Domain/obj/Debug/net7.0/AppleStore.Domain.csproj.CoreCompileInputs.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AppleStore.Domain/obj/Debug/net7.0/AppleStore.Domain.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../AppleStore.Domain/obj/Debug/net7.0/AppleStore.Domain.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AppleStore.Domain/obj/Debug/net7.0/AppleStore.Domain.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/../AppleStore.Domain/obj/Debug/net7.0/AppleStore.Domain.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AppleStore.Domain/obj/Debug/net7.0/ref/AppleStore.Domain.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../AppleStore.Domain/obj/Debug/net7.0/ref/AppleStore.Domain.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AppleStore.Domain/obj/Debug/net7.0/refint/AppleStore.Domain.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../AppleStore.Domain/obj/Debug/net7.0/refint/AppleStore.Domain.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../AppleStore.Domain/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/../AppleStore.Domain/obj/rider.project.restore.info" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AppleStore.Service/Implementations/DeviceService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../AppleStore.Service/Implementations/DeviceService.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../AppleStore.Service/bin/Debug/net7.0/AppleStore.DAL.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../AppleStore.Service/bin/Debug/net7.0/AppleStore.DAL.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../AppleStore.Service/bin/Debug/net7.0/AppleStore.DAL.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/../AppleStore.Service/bin/Debug/net7.0/AppleStore.DAL.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AppleStore.Service/bin/Debug/net7.0/AppleStore.Domain.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../AppleStore.Service/bin/Debug/net7.0/AppleStore.Domain.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AppleStore.Service/bin/Debug/net7.0/AppleStore.Domain.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/../AppleStore.Service/bin/Debug/net7.0/AppleStore.Domain.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AppleStore.Service/bin/Debug/net7.0/AppleStore.Service.deps.json" beforeDir="false" afterPath="$PROJECT_DIR$/../AppleStore.Service/bin/Debug/net7.0/AppleStore.Service.deps.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../AppleStore.Service/bin/Debug/net7.0/AppleStore.Service.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../AppleStore.Service/bin/Debug/net7.0/AppleStore.Service.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../AppleStore.Service/bin/Debug/net7.0/AppleStore.Service.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/../AppleStore.Service/bin/Debug/net7.0/AppleStore.Service.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AppleStore.Service/obj/AppleStore.Service.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/../AppleStore.Service/obj/AppleStore.Service.csproj.nuget.dgspec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AppleStore.Service/obj/Debug/net7.0/AppleStore.Service.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../AppleStore.Service/obj/Debug/net7.0/AppleStore.Service.assets.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../AppleStore.Service/obj/Debug/net7.0/AppleStore.Service.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../AppleStore.Service/obj/Debug/net7.0/AppleStore.Service.csproj.AssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AppleStore.Service/obj/Debug/net7.0/AppleStore.Service.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../AppleStore.Service/obj/Debug/net7.0/AppleStore.Service.csproj.CoreCompileInputs.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../AppleStore.Service/obj/Debug/net7.0/AppleStore.Service.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../AppleStore.Service/obj/Debug/net7.0/AppleStore.Service.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../AppleStore.Service/obj/Debug/net7.0/AppleStore.Service.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/../AppleStore.Service/obj/Debug/net7.0/AppleStore.Service.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AppleStore.Service/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/../AppleStore.Service/obj/project.assets.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AppleStore.Service/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../AppleStore.Service/obj/project.nuget.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../AppleStore.Service/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/../AppleStore.Service/obj/rider.project.restore.info" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AppleStore.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/AppleStore.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Controllers/Account/AccountController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Controllers/Account/AccountController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Controllers/Order/OrderController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Controllers/Order/OrderController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AppleStore.sln" beforeDir="false" afterPath="$PROJECT_DIR$/../AppleStore.sln" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Areas/Admin/Controllers/OrderController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Areas/Admin/Controllers/OrderController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Areas/Admin/Views/Order/GetOrders.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/Areas/Admin/Views/Order/GetOrders.cshtml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Program.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Views/Account/Login.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/Views/Account/Login.cshtml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Views/Account/Register.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/Views/Account/Register.cshtml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Views/Shared/_Layout.cshtml.css" beforeDir="false" afterPath="$PROJECT_DIR$/Views/Shared/_Layout.cshtml.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Views/Device/Details.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/Views/Device/Details.cshtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Views/Order/GetOrdersHistory.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/Views/Order/GetOrdersHistory.cshtml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/appsettings.json" beforeDir="false" afterPath="$PROJECT_DIR$/appsettings.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bin/Debug/net7.0/AppleStore.DAL.dll" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Debug/net7.0/AppleStore.DAL.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bin/Debug/net7.0/AppleStore.DAL.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Debug/net7.0/AppleStore.DAL.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/Debug/net7.0/AppleStore.Domain.dll" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Debug/net7.0/AppleStore.Domain.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/Debug/net7.0/AppleStore.Domain.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Debug/net7.0/AppleStore.Domain.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bin/Debug/net7.0/AppleStore.Service.dll" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Debug/net7.0/AppleStore.Service.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bin/Debug/net7.0/AppleStore.Service.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Debug/net7.0/AppleStore.Service.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bin/Debug/net7.0/AppleStore.deps.json" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Debug/net7.0/AppleStore.deps.json" afterDir="false" />
@@ -63,24 +414,16 @@
       <change beforePath="$PROJECT_DIR$/bin/Debug/net7.0/AppleStore.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Debug/net7.0/AppleStore.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bin/Debug/net7.0/appsettings.json" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Debug/net7.0/appsettings.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/obj/AppleStore.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/obj/AppleStore.csproj.nuget.dgspec.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/AppleStore.csproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/obj/AppleStore.csproj.nuget.g.props" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/obj/Debug/net7.0/AppleStore.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net7.0/AppleStore.assets.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/obj/Debug/net7.0/AppleStore.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net7.0/AppleStore.csproj.AssemblyReference.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/obj/Debug/net7.0/AppleStore.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net7.0/AppleStore.csproj.CoreCompileInputs.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/obj/Debug/net7.0/AppleStore.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net7.0/AppleStore.csproj.FileListAbsolute.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/obj/Debug/net7.0/AppleStore.dll" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net7.0/AppleStore.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/obj/Debug/net7.0/AppleStore.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net7.0/AppleStore.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/Debug/net7.0/ref/AppleStore.dll" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net7.0/ref/AppleStore.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/Debug/net7.0/refint/AppleStore.dll" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net7.0/refint/AppleStore.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/Debug/net7.0/scopedcss/Views/Shared/_Layout.cshtml.rz.scp.css" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net7.0/scopedcss/Views/Shared/_Layout.cshtml.rz.scp.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/Debug/net7.0/scopedcss/bundle/AppleStore.styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net7.0/scopedcss/bundle/AppleStore.styles.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/Debug/net7.0/scopedcss/projectbundle/AppleStore.bundle.scp.css" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net7.0/scopedcss/projectbundle/AppleStore.bundle.scp.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/obj/project.assets.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/project.nuget.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/obj/project.packagespec.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/obj/rider.project.restore.info" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wwwroot/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/wwwroot/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AppleStore2023-08-22.log" beforeDir="false" afterPath="$PROJECT_DIR$/../AppleStore2023-08-22.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AppleStore2023-08-26.log" beforeDir="false" afterPath="$PROJECT_DIR$/../AppleStore2023-08-26.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../IternalLogs.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../IternalLogs.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -99,14 +442,14 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -116,6 +459,7 @@
       <option name="presentableId" value="Default" />
       <updated>1692705893707</updated>
       <workItem from="1692705896588" duration="99000" />
+      <workItem from="1693566557363" duration="11000" />
     </task>
     <servers />
   </component>

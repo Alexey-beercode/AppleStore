@@ -40,7 +40,6 @@ public class OrderController : Controller
                     if (device != null)
                     {
                         devices.Add(device);
-                        break;
                     }
                     
                 }

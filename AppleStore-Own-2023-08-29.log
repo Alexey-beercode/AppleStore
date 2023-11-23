@@ -1,0 +1,59 @@
+2023-08-29 03:36:43.9790|0|INFO|Program|Инициализация программы |url: |action: |Program.<Main>$| body: 
+2023-08-29 03:36:44.6050|0|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. |url: |action: |Microsoft.Extensions.Hosting.Internal.ConsoleLifetime.OnApplicationStarted| body: 
+2023-08-29 03:36:44.6050|0|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development |url: |action: |Microsoft.Extensions.Hosting.Internal.ConsoleLifetime.OnApplicationStarted| body: 
+2023-08-29 03:36:44.6050|0|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\AProject\AppleStore\AppleStore |url: |action: |Microsoft.Extensions.Hosting.Internal.ApplicationLifetime.NotifyStarted| body: 
+2023-08-29 03:37:06.5863|0|INFO|AppleStore.Controllers.Device.DeviceController|Успешное получение Девайса из базы данных |url: https://localhost/Device/Details/-1/5|action: Details|AppleStore.Controllers.Device.DeviceController.Details| body: 
+2023-08-29 03:37:06.6625|0|INFO|AppleStore.Controllers.Device.DeviceController|Успешное получение Девайса из базы данных |url: https://localhost/Device/Details/-1/5|action: Details|AppleStore.Controllers.Device.DeviceController.Details| body: 
+2023-08-29 03:37:51.4904|0|ERROR|AppleStore.Controllers.Account.AccountController|Слишком короткий пароль : Минимальная длина 5 букв |url: https://localhost/Account/Register|action: Register|AppleStore.Controllers.Account.AccountController.Register| body: 
+2023-08-29 03:38:51.9163|0|INFO|AppleStore.Controllers.Account.AccountController|Зареган |url: https://localhost/Account/Register|action: Register|AppleStore.Controllers.Account.AccountController.Register| body: 
+2023-08-29 03:39:09.3800|0|INFO|AppleStore.Controllers.Device.DeviceController|Успешное получение Девайса из базы данных |url: https://localhost/Device/Details/-1/8|action: Details|AppleStore.Controllers.Device.DeviceController.Details| body: 
+2023-08-29 03:39:09.4474|0|INFO|AppleStore.Controllers.Device.DeviceController|Успешное получение Девайса из базы данных |url: https://localhost/Device/Details/-1/8|action: Details|AppleStore.Controllers.Device.DeviceController.Details| body: 
+2023-08-29 03:39:14.1006|0|INFO|AppleStore.Controllers.Device.DeviceController|Успешное получение Девайса из базы данных |url: https://localhost/Device/Details/-1/1|action: Details|AppleStore.Controllers.Device.DeviceController.Details| body: 
+2023-08-29 03:39:14.1670|0|INFO|AppleStore.Controllers.Device.DeviceController|Успешное получение Девайса из базы данных |url: https://localhost/Device/Details/-1/1|action: Details|AppleStore.Controllers.Device.DeviceController.Details| body: 
+2023-08-29 03:39:17.8878|0|INFO|AppleStore.Controllers.Device.DeviceController|Успешное получение Девайса из базы данных |url: https://localhost/Device/Details/-1/4|action: Details|AppleStore.Controllers.Device.DeviceController.Details| body: 
+2023-08-29 03:39:17.9515|0|INFO|AppleStore.Controllers.Device.DeviceController|Успешное получение Девайса из базы данных |url: https://localhost/Device/Details/-1/4|action: Details|AppleStore.Controllers.Device.DeviceController.Details| body: 
+2023-08-29 03:39:27.5936|0|INFO|AppleStore.Controllers.Device.DeviceController|Успешное получение Девайса из базы данных |url: https://localhost/Device/Details/-1/22|action: Details|AppleStore.Controllers.Device.DeviceController.Details| body: 
+2023-08-29 03:39:27.6611|0|INFO|AppleStore.Controllers.Device.DeviceController|Успешное получение Девайса из базы данных |url: https://localhost/Device/Details/-1/22|action: Details|AppleStore.Controllers.Device.DeviceController.Details| body: 
+2023-08-29 03:39:31.4116|0|INFO|AppleStore.Service.Implementations.DeviceService|Все девайсы добавлены в кэш |url: https://localhost/Cart/GetCart|action: GetCart|AppleStore.Service.Implementations.DeviceService.GetDevices| body: 
+2023-08-29 03:39:31.4820|0|INFO|AppleStore.Service.Implementations.DeviceService|Получение всех девайсов из кэша |url: https://localhost/Cart/GetCart|action: GetCart|AppleStore.Service.Implementations.DeviceService.GetDevices| body: 
+2023-08-29 03:39:39.6164|0|INFO|AppleStore.Service.Implementations.DeviceService|Получение всех девайсов из кэша |url: https://localhost/Order/PlaceOrder|action: PlaceOrder|AppleStore.Service.Implementations.DeviceService.GetDevices| body: 
+2023-08-29 03:39:39.6164|0|INFO|AppleStore.Controllers.Order.OrderController|Успешное получение Девайса из базы данных |url: https://localhost/Order/PlaceOrder|action: PlaceOrder|AppleStore.Controllers.Order.OrderController.PlaceOrder| body: 
+2023-08-29 03:39:39.7018|0|INFO|AppleStore.Service.Implementations.DeviceService|Получение всех девайсов из кэша |url: https://localhost/Order/PlaceOrder|action: PlaceOrder|AppleStore.Service.Implementations.DeviceService.GetDevices| body: 
+2023-08-29 03:39:39.7018|0|INFO|AppleStore.Controllers.Order.OrderController|Успешное получение Девайса из базы данных |url: https://localhost/Order/PlaceOrder|action: PlaceOrder|AppleStore.Controllers.Order.OrderController.PlaceOrder| body: 
+2023-08-29 03:40:01.8361|0|INFO|AppleStore.Service.Implementations.OrderService|Успешное создание заказа |url: https://localhost/Order/PlaceOrder|action: PlaceOrder|AppleStore.Service.Implementations.OrderService.CreateOrder| body: 
+2023-08-29 03:40:01.8361|0|INFO|AppleStore.Controllers.Order.OrderController|Успешное создание заказа |url: https://localhost/Order/PlaceOrder|action: PlaceOrder|AppleStore.Controllers.Order.OrderController.PlaceOrder| body: 
+2023-08-29 03:40:01.9122|0|INFO|AppleStore.Service.Implementations.DeviceService|Получение всех девайсов из кэша |url: https://localhost/Order/PlaceOrder|action: PlaceOrder|AppleStore.Service.Implementations.DeviceService.GetDevices| body: 
+2023-08-29 03:40:01.9122|0|INFO|AppleStore.Controllers.Order.OrderController|Успешное получение Девайса из базы данных |url: https://localhost/Order/PlaceOrder|action: PlaceOrder|AppleStore.Controllers.Order.OrderController.PlaceOrder| body: 
+2023-08-29 03:40:26.8494|0|INFO|AppleStore.Controllers.Account.AccountController|Пользователь Admin Авторизовался успешно |url: https://localhost/Account/Login|action: Login|AppleStore.Controllers.Account.AccountController.Login| body: 
+2023-08-29 03:40:26.8494|0|ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware|An unhandled exception has occurred while executing the request. System.InvalidOperationException: No route matches the supplied values.
+   at Microsoft.AspNetCore.Mvc.Infrastructure.RedirectToRouteResultExecutor.ExecuteAsync(ActionContext context, RedirectToRouteResult result)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeResultAsync>g__Logged|22_0(ResourceInvoker invoker, IActionResult result)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResultFilterAsync>g__Awaited|30_0[TFilter,TFilterAsync](ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResultExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.ResultNext[TFilter,TFilterAsync](State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeResultFilters()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Program.<>c.<<<Main>$>b__0_7>d.MoveNext() in C:\AProject\AppleStore\AppleStore\Program.cs:line 79
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.ResponseCompression.ResponseCompressionMiddleware.InvokeCore(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)|url: https://localhost/Account/Login|action: Login|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke| body: 
+2023-08-29 03:42:09.4435|0|INFO|Microsoft.Hosting.Lifetime|Application is shutting down... |url: |action: |Microsoft.Extensions.Hosting.Internal.ApplicationLifetime.StopApplication| body: 
+2023-08-29 03:42:18.9787|0|INFO|Program|Инициализация программы |url: |action: |Program.<Main>$| body: 
+2023-08-29 03:42:19.2209|0|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. |url: |action: |Microsoft.Extensions.Hosting.Internal.ConsoleLifetime.OnApplicationStarted| body: 
+2023-08-29 03:42:19.2209|0|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development |url: |action: |Microsoft.Extensions.Hosting.Internal.ConsoleLifetime.OnApplicationStarted| body: 
+2023-08-29 03:42:19.2209|0|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\AProject\AppleStore\AppleStore |url: |action: |Microsoft.Extensions.Hosting.Internal.ApplicationLifetime.NotifyStarted| body: 
+2023-08-29 03:42:25.8049|0|INFO|AppleStore.Controllers.Account.AccountController|Пользователь Admin Авторизовался успешно |url: https://localhost/Account/Login|action: Login|AppleStore.Controllers.Account.AccountController.Login| body: 
+2023-08-29 03:42:46.5053|0|INFO|AppleStore.Service.Implementations.OrderService|Успешное получение заказа |url: https://localhost/Admin/Order/Edit|action: Edit|AppleStore.Service.Implementations.OrderService.GetById| body: 
+2023-08-29 03:42:46.5937|0|INFO|AppleStore.Service.Implementations.OrderService|Успешное получение заказа |url: https://localhost/Admin/Order/Edit|action: Edit|AppleStore.Service.Implementations.OrderService.GetById| body: 
+2023-08-29 03:43:15.2377|0|INFO|Microsoft.Hosting.Lifetime|Application is shutting down... |url: |action: |Microsoft.Extensions.Hosting.Internal.ApplicationLifetime.StopApplication| body: 

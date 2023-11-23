@@ -67,6 +67,10 @@
               "target": "Package",
               "version": "[8.0.0-preview.2.23128.3, )"
             },
+            "MongoDB.AspNet.Identity": {
+              "target": "Package",
+              "version": "[1.0.5, )"
+            },
             "NLog": {
               "target": "Package",
               "version": "[5.2.3, )"

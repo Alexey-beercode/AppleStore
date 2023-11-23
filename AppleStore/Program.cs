@@ -32,7 +32,7 @@ builder.Services.AddAuthentication(CookieAuthenticationDefaults.AuthenticationSc
         options.SlidingExpiration = true;
     });
 
-builder.Services.AddAuthorization(x=>x.AddPolicy("AdminArea",policy=>policy.RequireRole("Admin")));
+builder.Services.AddAuthorization(x => x.AddPolicy("AdminArea", policy => policy.RequireRole("Admin")));
 builder.Services.AddResponseCompression(options => options.EnableForHttps = true);
 builder.Services.AddMemoryCache();
 builder.Services.AddDistributedMemoryCache();
@@ -42,7 +42,7 @@ builder.Services.AddSession(options =>
     options.Cookie.IsEssential = true;
 });
 
-    var logger = LogManager.Setup().LoadConfigurationFromAppSettings().GetCurrentClassLogger();
+var logger = LogManager.Setup().LoadConfigurationFromAppSettings().GetCurrentClassLogger();
 builder.Logging.ClearProviders();
 builder.Host.UseNLog();
 logger.Log(LogLevel.Info, "Инициализация программы");
@@ -54,7 +54,6 @@ if (!app.Environment.IsDevelopment())
     app.UseExceptionHandler("/Home/Error");
     app.UseHsts();
 }
-
 
 app.UseResponseCompression();
 
@@ -78,9 +77,7 @@ app.Use(async (context, next) =>
 
     await next();
 });
-app.MapControllerRoute(
-    name: "Admin",
-    pattern: "{area:exists}/{controller=Home}/{action=Index}/{id?}");
 
+app.MapControllerRoute("Admin", "{area:exists}/{controller=Home}/{action=Index}");
 app.MapControllerRoute( "default","{controller=Home}/{action=Catalog}/{type=-1}/{id?}");
 app.Run();

@@ -14,24 +14,24 @@ public class DeviceRepository
 
     public async Task Create(Device? entity)
     {
-        await db.Device.AddAsync(entity);
+        await db.Devices.AddAsync(entity);
         await db.SaveChangesAsync();
     }
 
     public Task<List<Device?>> GetAll()
     {
-        return db.Device.ToListAsync();
+        return db.Devices.ToListAsync();
     }
 
     public async Task Delete(Device? entity)
     {
-        db.Device.Remove(entity);
+        db.Devices.Remove(entity);
         await db.SaveChangesAsync();
     }
 
     public async Task<Device> Update(Device entity)
     {
-        db.Device.Update(entity);
+        db.Devices.Update(entity);
         await db.SaveChangesAsync();
         return entity;
     }

@@ -27,6 +27,14 @@
           }
         }
       },
+      "Microsoft.AspNet.Identity.Core/1.0.0": {
+        "runtime": {
+          "lib/net45/Microsoft.AspNet.Identity.Core.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.20911.0"
+          }
+        }
+      },
       "Microsoft.AspNetCore.Cryptography.Internal/7.0.10": {
         "runtime": {
           "lib/net7.0/Microsoft.AspNetCore.Cryptography.Internal.dll": {
@@ -318,6 +326,30 @@
           }
         }
       },
+      "mongocsharpdriver/1.8.3": {
+        "runtime": {
+          "lib/net35/MongoDB.Bson.dll": {
+            "assemblyVersion": "1.8.3.9",
+            "fileVersion": "1.8.3.9"
+          },
+          "lib/net35/MongoDB.Driver.dll": {
+            "assemblyVersion": "1.8.3.9",
+            "fileVersion": "1.8.3.9"
+          }
+        }
+      },
+      "MongoDB.AspNet.Identity/1.0.5": {
+        "dependencies": {
+          "Microsoft.AspNet.Identity.Core": "1.0.0",
+          "mongocsharpdriver": "1.8.3"
+        },
+        "runtime": {
+          "lib/net45/MongoDB.AspNet.Identity.dll": {
+            "assemblyVersion": "1.0.5.0",
+            "fileVersion": "1.0.5.0"
+          }
+        }
+      },
       "Mono.TextTemplating/2.2.1": {
         "dependencies": {
           "System.CodeDom": "4.4.0"
@@ -427,6 +459,7 @@
           "Microsoft.AspNetCore.Identity.EntityFrameworkCore": "7.0.10",
           "Microsoft.EntityFrameworkCore": "8.0.0-preview.2.23128.3",
           "Microsoft.Extensions.Configuration.Json": "8.0.0-preview.2.23128.3",
+          "MongoDB.AspNet.Identity": "1.0.5",
           "NLog": "5.2.3",
           "NLog.Web.AspNetCore": "5.3.3",
           "Npgsql.EntityFrameworkCore.PostgreSQL": "8.0.0-preview.2"
@@ -461,6 +494,13 @@
       "sha512": "sha512-lQKvtaTDOXnoVJ20ibTuSIOf2i0uO0MPbDhd1jm238I+U/2ZnRENj0cktKZhtchBMtCUSRQ5v4xBCUbKNmyVMw==",
       "path": "humanizer.core/2.14.1",
       "hashPath": "humanizer.core.2.14.1.nupkg.sha512"
+    },
+    "Microsoft.AspNet.Identity.Core/1.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-W5S4Og5z68sWd75kQ09V4QKcWFjxIHB9oKaqkWPBE5rQ/iJ1/8A2vJRiH4laqn73oNCzVpN6PXMtQQXMfghWAw==",
+      "path": "microsoft.aspnet.identity.core/1.0.0",
+      "hashPath": "microsoft.aspnet.identity.core.1.0.0.nupkg.sha512"
     },
     "Microsoft.AspNetCore.Cryptography.Internal/7.0.10": {
       "type": "package",
@@ -643,6 +683,20 @@
       "sha512": "sha512-8W7bmEvjgV6PmJ+L4AOT1mhYKsmyRNXfS7Ej5PSUvIpozBxTMktlrxPghDPL//zi0FBdfLOaMPADoLb1fqxCLA==",
       "path": "microsoft.extensions.primitives/8.0.0-preview.2.23128.3",
       "hashPath": "microsoft.extensions.primitives.8.0.0-preview.2.23128.3.nupkg.sha512"
+    },
+    "mongocsharpdriver/1.8.3": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-A3s7XUrg0hfWtBvKW+KTl/7EVeB9HzC3a6dEQ0tUxdnckDRDHFqfDIkf56+iL3cClLfSOAFbqWKnIj53kTET+g==",
+      "path": "mongocsharpdriver/1.8.3",
+      "hashPath": "mongocsharpdriver.1.8.3.nupkg.sha512"
+    },
+    "MongoDB.AspNet.Identity/1.0.5": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-XJDWmO7Ey07B9R2TsbW5aIOaMuMv1LDdN+LnfXhxUpgyjt6dcEUV3JmJUEjZAuWxDx/1T7gl3t5RmZXKVCunBg==",
+      "path": "mongodb.aspnet.identity/1.0.5",
+      "hashPath": "mongodb.aspnet.identity.1.0.5.nupkg.sha512"
     },
     "Mono.TextTemplating/2.2.1": {
       "type": "package",

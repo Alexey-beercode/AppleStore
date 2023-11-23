@@ -15,6 +15,19 @@
           }
         }
       },
+      "Microsoft.AspNet.Identity.Core/1.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/net45/Microsoft.AspNet.Identity.Core.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net45/Microsoft.AspNet.Identity.Core.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "Microsoft.AspNetCore.Cryptography.Internal/7.0.10": {
         "type": "package",
         "compile": {
@@ -493,6 +506,38 @@
           "buildTransitive/net6.0/_._": {}
         }
       },
+      "mongocsharpdriver/1.8.3": {
+        "type": "package",
+        "compile": {
+          "lib/net35/MongoDB.Bson.dll": {
+            "related": ".XML"
+          },
+          "lib/net35/MongoDB.Driver.dll": {
+            "related": ".XML"
+          }
+        },
+        "runtime": {
+          "lib/net35/MongoDB.Bson.dll": {
+            "related": ".XML"
+          },
+          "lib/net35/MongoDB.Driver.dll": {
+            "related": ".XML"
+          }
+        }
+      },
+      "MongoDB.AspNet.Identity/1.0.5": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.AspNet.Identity.Core": "1.0.0",
+          "mongocsharpdriver": "1.8.3"
+        },
+        "compile": {
+          "lib/net45/MongoDB.AspNet.Identity.dll": {}
+        },
+        "runtime": {
+          "lib/net45/MongoDB.AspNet.Identity.dll": {}
+        }
+      },
       "Mono.TextTemplating/2.2.1": {
         "type": "package",
         "dependencies": {
@@ -650,6 +695,7 @@
           "Microsoft.AspNetCore.Identity.EntityFrameworkCore": "7.0.10",
           "Microsoft.EntityFrameworkCore": "8.0.0-preview.2.23128.3",
           "Microsoft.Extensions.Configuration.Json": "8.0.0-preview.2.23128.3",
+          "MongoDB.AspNet.Identity": "1.0.5",
           "NLog": "5.2.3",
           "NLog.Web.AspNetCore": "5.3.3",
           "Npgsql.EntityFrameworkCore.PostgreSQL": "8.0.0-preview.2"
@@ -697,6 +743,19 @@
         "lib/netstandard2.0/Humanizer.dll",
         "lib/netstandard2.0/Humanizer.xml",
         "logo.png"
+      ]
+    },
+    "Microsoft.AspNet.Identity.Core/1.0.0": {
+      "sha512": "W5S4Og5z68sWd75kQ09V4QKcWFjxIHB9oKaqkWPBE5rQ/iJ1/8A2vJRiH4laqn73oNCzVpN6PXMtQQXMfghWAw==",
+      "type": "package",
+      "path": "microsoft.aspnet.identity.core/1.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net45/Microsoft.AspNet.Identity.Core.dll",
+        "lib/net45/Microsoft.AspNet.Identity.Core.xml",
+        "microsoft.aspnet.identity.core.1.0.0.nupkg.sha512",
+        "microsoft.aspnet.identity.core.nuspec"
       ]
     },
     "Microsoft.AspNetCore.Cryptography.Internal/7.0.10": {
@@ -1380,6 +1439,34 @@
         "useSharedDesignerContext.txt"
       ]
     },
+    "mongocsharpdriver/1.8.3": {
+      "sha512": "A3s7XUrg0hfWtBvKW+KTl/7EVeB9HzC3a6dEQ0tUxdnckDRDHFqfDIkf56+iL3cClLfSOAFbqWKnIj53kTET+g==",
+      "type": "package",
+      "path": "mongocsharpdriver/1.8.3",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "License.rtf",
+        "lib/net35/MongoDB.Bson.XML",
+        "lib/net35/MongoDB.Bson.dll",
+        "lib/net35/MongoDB.Driver.XML",
+        "lib/net35/MongoDB.Driver.dll",
+        "mongocsharpdriver.1.8.3.nupkg.sha512",
+        "mongocsharpdriver.nuspec"
+      ]
+    },
+    "MongoDB.AspNet.Identity/1.0.5": {
+      "sha512": "XJDWmO7Ey07B9R2TsbW5aIOaMuMv1LDdN+LnfXhxUpgyjt6dcEUV3JmJUEjZAuWxDx/1T7gl3t5RmZXKVCunBg==",
+      "type": "package",
+      "path": "mongodb.aspnet.identity/1.0.5",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net45/MongoDB.AspNet.Identity.dll",
+        "mongodb.aspnet.identity.1.0.5.nupkg.sha512",
+        "mongodb.aspnet.identity.nuspec"
+      ]
+    },
     "Mono.TextTemplating/2.2.1": {
       "sha512": "KZYeKBET/2Z0gY1WlTAK7+RHTl7GSbtvTLDXEZZojUdAPqpQNDL6tHv7VUpqfX5VEOh+uRGKaZXkuD253nEOBQ==",
       "type": "package",
@@ -1747,5 +1834,37 @@
         "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.102\\RuntimeIdentifierGraph.json"
       }
     }
-  }
+  },
+  "logs": [
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'Microsoft.AspNet.Identity.Core 1.0.0' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net7.0'. This package may not be fully compatible with your project.",
+      "libraryId": "Microsoft.AspNet.Identity.Core",
+      "targetGraphs": [
+        "net7.0"
+      ]
+    },
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'mongocsharpdriver 1.8.3' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net7.0'. This package may not be fully compatible with your project.",
+      "libraryId": "mongocsharpdriver",
+      "targetGraphs": [
+        "net7.0"
+      ]
+    },
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'MongoDB.AspNet.Identity 1.0.5' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net7.0'. This package may not be fully compatible with your project.",
+      "libraryId": "MongoDB.AspNet.Identity",
+      "targetGraphs": [
+        "net7.0"
+      ]
+    }
+  ]
 }

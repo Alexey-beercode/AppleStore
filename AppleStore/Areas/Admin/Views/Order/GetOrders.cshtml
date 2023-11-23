@@ -34,7 +34,8 @@
             <td>@viewModel.Order.Address</td>
             <td>@foreach (var device in viewModel.Devices)
                 {
-                    <span class="bullet">&#8226;</span>@device.Name<br/>
+                    <p>@device.Name</p>
+                /*<span class="bullet">&#8226;</span>@device.Name<br/>*/
                 }
                 </td>
             <td>@viewModel.Order.Price руб</td>

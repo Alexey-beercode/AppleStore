@@ -38,7 +38,7 @@
                 </td>
             <td>@viewModel.Order.Price руб</td>
             <td>@viewModel.Order.Status.DisplayName()</td>
-            <td><a class="edit-button" href="@Url.Action("Delete", "Order", new { orderId = viewModel.Order.Id })">Удалить заказ</a></td>
+            <td><a class="edit-button" href="@Url.Action("Delete", "Order", new { orderId = viewModel.Order.Id })">Отменить заказ</a></td>
         </tr>
     }
     </tbody>

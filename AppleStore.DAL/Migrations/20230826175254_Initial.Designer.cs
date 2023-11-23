@@ -50,7 +50,7 @@ namespace AppleStore.DAL.Migrations
 
                     b.HasKey("Id");
 
-                    b.ToTable("Device");
+                    b.ToTable("Devices");
 
                     b.HasData(
                         new
@@ -151,7 +151,7 @@ namespace AppleStore.DAL.Migrations
 
                     b.HasKey("Id");
 
-                    b.ToTable("Order");
+                    b.ToTable("Orders");
                 });
 
             modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityRole", b =>

@@ -14,6 +14,7 @@
         <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
       </PackageReference>
       <PackageReference Include="Microsoft.Extensions.Configuration.Json" Version="8.0.0-preview.2.23128.3" />
+      <PackageReference Include="MongoDB.AspNet.Identity" Version="1.0.5" />
       <PackageReference Include="NLog" Version="5.2.3" />
       <PackageReference Include="NLog.Web.AspNetCore" Version="5.3.3" />
       <PackageReference Include="Npgsql.EntityFrameworkCore.PostgreSQL" Version="8.0.0-preview.2" />

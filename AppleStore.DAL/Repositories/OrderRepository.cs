@@ -14,24 +14,24 @@ public class OrderRepository
 
     public async Task Create(Order? entity)
     {
-        await db.Order.AddAsync(entity);
+        await db.Orders.AddAsync(entity);
         await db.SaveChangesAsync();
     }
 
     public Task<List<Order>> GetAll()
     {
-        return db.Order.ToListAsync();
+        return db.Orders.ToListAsync();
     }
     
     public async Task Delete(Order entity)
     {
-        db.Order.Remove(entity);
+        db.Orders.Remove(entity);
         await db.SaveChangesAsync();
     }
 
     public async Task<Order> Update(Order entity)
     {
-        db.Order.Update(entity);
+        db.Orders.Update(entity);
         await db.SaveChangesAsync();
         return entity;
     }

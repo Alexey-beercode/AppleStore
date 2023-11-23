@@ -17,11 +17,11 @@
     <p>@Model.Description</p><br/>
     <p>@Model.Price руб</p>
     <a href="@Url.Action("PlaceOrder", "Order", new { ids = id })" class="btn-custom">Заказать</a>
-    <a href="@Url.Action("AddToCart", "Cart", new { id = @Model.Id })" class="btn-custom">Добавить в корзину</a>
+    <a href="@Url.Action("AddToCart", "Cart", new { id = Model.Id })" class="btn-custom">Добавить в корзину</a>
 
 </div>
 <div class="navigation-button">
-    <a href="@Url.Action("Catalog", "Home", new { type = -1 })" class="btn">Назад</a>
+    <a href="@Url.Action("Catalog", "Home", new { type = (int)Model.Type })" class="btn">Назад</a>
 </div>
 </body>
 </html>

@@ -1,0 +1,11 @@
+2023-09-15 03:21:33.3182|0|INFO|Program|Инициализация программы |url: |action: |Program.<Main>$| body: 
+2023-09-15 03:21:33.6978|0|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. |url: |action: |Microsoft.Extensions.Hosting.Internal.ConsoleLifetime.OnApplicationStarted| body: 
+2023-09-15 03:21:33.6978|0|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development |url: |action: |Microsoft.Extensions.Hosting.Internal.ConsoleLifetime.OnApplicationStarted| body: 
+2023-09-15 03:21:33.6978|0|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\AProject\AppleStore\AppleStore |url: |action: |Microsoft.Extensions.Hosting.Internal.ApplicationLifetime.NotifyStarted| body: 
+2023-09-15 03:21:44.4839|0|INFO|AppleStore.Controllers.Account.AccountController|Пользователь Admin Авторизовался успешно |url: https://localhost/Account/Login|action: Login|AppleStore.Controllers.Account.AccountController.Login| body: 
+2023-09-15 03:22:03.8666|0|INFO|AppleStore.Controllers.Account.AccountController|Пользователь lox12334 Авторизовался успешно |url: https://localhost/Account/Login|action: Login|AppleStore.Controllers.Account.AccountController.Login| body: 
+2023-09-15 03:22:45.9314|0|INFO|Microsoft.Hosting.Lifetime|Application is shutting down... |url: |action: |Microsoft.Extensions.Hosting.Internal.ApplicationLifetime.StopApplication| body: 
+2023-09-15 16:11:08.9476|0|INFO|Program|Инициализация программы |url: |action: |Program.<Main>$| body: 
+2023-09-15 16:11:11.0806|0|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. |url: |action: |Microsoft.Extensions.Hosting.Internal.ConsoleLifetime.OnApplicationStarted| body: 
+2023-09-15 16:11:11.0806|0|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development |url: |action: |Microsoft.Extensions.Hosting.Internal.ConsoleLifetime.OnApplicationStarted| body: 
+2023-09-15 16:11:11.0806|0|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\AProject\AppleStore\AppleStore |url: |action: |Microsoft.Extensions.Hosting.Internal.ApplicationLifetime.NotifyStarted| body: 

@@ -8,13 +8,10 @@ namespace AppleStore.DAL
 {
     public class ApplicationDbContext : IdentityDbContext<IdentityUser>
     {
-        public DbSet<Device> Device { get; set; } = null!;
-        public DbSet<Order> Order { get; set; } = null!;
+        public DbSet<Device> Devices { get; set; } = null!;
+        public DbSet<Order> Orders { get; set; } = null!;
 
-        public ApplicationDbContext(DbContextOptions<ApplicationDbContext> options) : base(options)
-        {
-            Database.EnsureCreated();
-        }
+        public ApplicationDbContext(DbContextOptions<ApplicationDbContext> options) : base(options) { }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
